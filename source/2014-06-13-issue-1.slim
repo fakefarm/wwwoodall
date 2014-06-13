@@ -8,21 +8,31 @@ layout: issue
 
 .headline
   h1 Issue 1
-  p Blogs are to linear. Let's try a curation.
+  p
+    | I like how
+    =link_to " Tumblr ", 'http://www.tumblr.com', target: '_blank'
+    | has customized different posts with different upload options. But I don't like the linear approach of consumption. I wanted to create a hybrid of reference and blog format. We'll see how it goes.
 
-.section.art.l-main-section
+.section.art.l-main-section#art
   h2.topic Art
   .art-lead
     .image= image_tag 'hayes_painting.jpg'
     h3 When the time is right. You will see the Light.
     p Hayes Trotter painted this. I took the photo.
-.section.business.l-main-section
+.section.business.l-main-section#business
   h2.topic Business
   .business-head
     .image= image_tag 'images/horween.jpg'
     h3= link_to 'The distance', 'https://thedistance.com/', target: '_blank'
     p An online magazine about companies that have been around for 25 years or more
 
-.section.code.l-main-section
+
+.section.code.l-main-section#code
   h2.topic Code
+  .code-head
+    .image= image_tag 'images/choc.png'
+    h3= link_to 'Chocolate Chip UI', 'https://github.com/sourcebitsllc/chocolatechip-ui', target: '_blank'
+    p ChocolateChip-UI is a framework for making mobile Web apps. It has three components: semantic HTML5 markup, CSS and JavaScript. (Free for open source projects.)
+
+
 
