@@ -1,0 +1,11 @@
+#issue-1 {
+  background: #e4e9e7;
+  padding: 1em;
+  .section { @include row(); }
+  .topic {
+    @include span-columns(3);
+    text-align: right;
+  }
+  .topic + div { @include span-columns(9); }
+}
+

@@ -1,17 +1,9 @@
 // Import Base Styles
 @import "base/normalize";
 @import 'bourbon';
-@import 'neat';
-
-
-// Bitters v0.10.0
-// http://bitters.bourbon.io
 
 // Variables
 @import 'base/variables';
-
-// Neat Settings -- uncomment if using Neat -- must be imported before Neat
-// @import 'grid-settings';
 
 // Mixins
 @import 'base/mixins/flash';
@@ -29,5 +21,10 @@
 @import 'base/flashes';
 @import 'base/buttons';
 
+// Neat needs to be installed before bitters.
+@import 'neat';
+
 @import "base/base";
 @import "layout/layout";
+
+@import "issues/1";

@@ -1,0 +1,10 @@
+html
+  head
+    title Art. Business. Code.
+    meta charset= "utf-8"
+    link href="stylesheets/style.css" rel="stylesheet"
+
+  body#issue-1.issue
+    = link_to 'home', '/'
+    = yield
+    = render_partial 'footer'

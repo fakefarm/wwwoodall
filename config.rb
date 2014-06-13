@@ -9,6 +9,8 @@ activate :deploy do |deploy|
   deploy.method = :git
 end
 
+Middleman::Templates.register :slim
+
 
 ###
 # Compass
