@@ -1,4 +1,10 @@
-body#hidden-header
-  = link_to 'home', '/'
-  = yield
+html
+  head
+    title the www | wwwoodall.com
+    meta charset= "utf-8"
+    link href="../stylesheets/style.css" rel="stylesheet"
 
+  body#hidden-header
+    = link_to 'home', '/'
+    = yield
+    = render_partial 'footer'

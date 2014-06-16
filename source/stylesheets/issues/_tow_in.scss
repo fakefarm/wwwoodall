@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Montserrat);
+
+$cond: 'Oswald', sans-serif;
+$fat: 'Montserrat', sans-serif;
+
+h1 {
+  position: relative;
+  z-index: 10;
+  font-family: $cond;
+}
+
+.laird-img {
+  position: relative;
+  z-index: -10;
+  background: url('../../images/laird.jpg') no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  position: relative;
+  z-index: 1;
+}
+
+#contaier {
+  position: relative;
+}
