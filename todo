@@ -1,12 +1,18 @@
 http://middlemanapp.com/basics/getting-started/
 
-☐ github page
-☐ fonts
-☐ blog setup[
 ☐ domain switched over
-☐ figure out how to build and deploy
- https://github.com/karlfreeman/middleman-deploy]
 
 questions:
 ☐ template
-✔ layout @done (14-06-12 18:23)
+
+format:
+  do a layout with with placeholder for each partial "_art.slim"
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ github page @done (14-06-13 06:04)
+ ✔ fonts @done (14-06-13 06:04)
+ ✔ figure out how to build and deploy @done (14-06-13 06:04)
+  https://github.com/karlfreeman/middleman-deploy]
+ ✔ blog setup[ @done (14-06-13 06:04)
+ ✔ layout @done (14-06-12 18:23)
