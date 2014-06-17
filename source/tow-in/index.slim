@@ -4,10 +4,31 @@ date: 2014-06-13 03:32 UTC
 tags:
 layout: hidden-header-footer
 ---
+#tow-in
+  header#header
+    = partial 'laird'
 
-header#header
-  = partial 'laird'
+  section#port
+    = partial 'photos'
 
-container#contaier
-h1 The tow-in
-h2 Men become friends when they do difficult things together.
+  section#star
+    = partial 'tweets'
+
+  section#main
+    #jeff
+      = partial 'jeff'
+
+    #photos
+      = partial 'video'
+
+    #golden-gate
+      = partial 'golden_gate'
+
+    #men
+      = partial 'men'
+
+    #fathers-day
+      = partial 'father_day'
+
+  footer#footer
+    = partial 'footer'
