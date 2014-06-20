@@ -124,7 +124,7 @@ body {
   #port {
     @include row;
     img {
-      @include span-columns(4);
+      @include span-columns(4.15);
       @include omega(3n);
       margin-right: 0;
     }

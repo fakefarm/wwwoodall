@@ -1,0 +1,124 @@
+// Import Base Styles
+@import "base/normalize";
+@import 'bourbon';
+
+// Variables
+@import 'base/variables';
+
+// Mixins
+@import 'base/mixins/flash';
+
+// Extends
+@import 'base/extends/button';
+@import 'base/extends/clearfix';
+@import 'base/extends/hide-text';
+
+// Typography and Elements
+@import 'base/typography';
+@import 'base/forms';
+@import 'base/tables';
+@import 'base/lists';
+@import 'base/flashes';
+@import 'base/buttons';
+
+@import 'lib/animate';
+
+
+// Neat needs to be installed before bitters.
+@import 'neat';
+
+@import "base/base";
+@import "layout/layout";
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+
+body {
+  background: #f7f4e2;
+  @include outer-container();
+  color: #8b1f8b;
+  max-width: 50em;
+}
+
+.container {
+  background: white;
+  padding: 2em 1em;
+
+}
+
+h1, h2, h3, p {
+  font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+}
+
+.team {
+  @include row;
+  h3 {
+    margin-bottom: 1em;
+  }
+}
+.member {
+  @include span-columns(4);
+  .img {
+    width: 100%;
+  }
+  img {
+    border-radius: 145;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1em;
+  }
+}
+
+.main-logo {
+  margin-top: 4em;
+  padding-bottom: 2em;
+  img {
+    width: 20%;
+    margin: 0 auto;
+    margin-left: 40%;
+  }
+}
+
+h2 {
+  border-bottom: 1px solid #8b1f8b;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  border-top: 2px dashed #f7f4e2;
+  padding-top: 1em;
+  margin-top: 1em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 + h3 {
+  border-top: none;
+}
+
+.milestones {
+  @include row;
+  .mile {
+    @include span-columns(4);
+    text-align: center;
+    padding: 1.2em;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+  }
+  .pre  {  background: #ff6666; }
+  .test { background:  #ffcc66; }
+  .full { background:  #9dd244; }
+
+}
+
+.reach {
+  @include row;
+  .dept {
+    @include span-columns(6);
+  }
+}
