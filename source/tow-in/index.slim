@@ -9,21 +9,33 @@ layout: hidden-header-footer
   header#header
     = partial 'laird'
 
+
   section#main
-    #men
-      = partial 'men'
+    = partial 'title'
+    = partial 'college'
+    = partial 'overview'
+    = partial 'reason_one'
+    = partial 'camping'
 
-    section#port
-      = partial 'photos'
+    = partial 'reason_two'
+    = partial 'finding_passion'
 
-    #photos
-      = partial 'video'
+    = partial 'poem'
 
-    #golden-gate
-      = partial 'golden_gate'
+  section#star
+    = partial 'tweets'
 
-    #fathers-day
-      = partial 'father_day'
+  section#port
+    = partial 'photos'
+
+  #golden-gate
+    = partial 'golden_gate'
+
+  #photos
+    = partial 'video'
+
+  #fathers-day
+    = partial 'father_day'
 
   footer#footer
     = partial 'footer'
