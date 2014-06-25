@@ -147,14 +147,17 @@ body {
   text-align: center;
   position: relative;
   height: 640px;
-  color: white;
+  color: rgba(255,255,255,0.9);
   .headline {
+    text-transform: uppercase;
     position: relative;
     z-index: 10;
-    padding-top: 1em;
-    font-size: 8em;
+    padding-top: 0.9em;
+    font-size: 14em;
+    margin-bottom: -0.1em;
   }
   .tagline {
+    text-transform: uppercase;
     position: relative;
     z-index: 10;
     font-size: 4em;
