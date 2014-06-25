@@ -2,12 +2,11 @@ html
   head
     title the www | wwwoodall.com
     meta charset= "utf-8"
-    link href="../stylesheets/issues/tow_in.css" rel="stylesheet"
+    link href="../stylesheets/issues/camping.css" rel="stylesheet"
     = javascript_include_tag "../scripts/lib/jquery.min.js"
     = javascript_include_tag "../scripts/main.js"
 
-
-
   body#hidden-header
+    = partial 'nav'
     = yield
     = render_partial 'footer'

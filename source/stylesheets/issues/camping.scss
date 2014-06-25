@@ -30,8 +30,6 @@
 @import "base/base";
 @import "layout/layout";
 
-@import "issues/1";
-
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Montserrat);
 
 $cond: 'Oswald', sans-serif;
@@ -48,10 +46,34 @@ html {
 
 body {
   background: rgba(255,255,255,0.75);
-  position: relative;
-  z-index: -10;
+  z-index: -100;
   margin: 0;
   padding: 0;
+}
+
+#nav {
+  position: fixed;
+  background: rgba(0,0,0,0.1);
+  z-index: 2000;
+  top: 0;
+  width: 100%;
+  color: white;
+  ul {
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+    margin: 0 0.5em;
+  }
+  a {
+    color: white;
+    display: inline-block;
+    padding: 0.2em 1em;
+    &:hover {
+      @include transition(color 250ms ease-in);
+      color: black;
+    }
+  }
 }
 
 // Laird
@@ -127,22 +149,27 @@ body {
   height: 640px;
   color: white;
   .headline {
+    position: relative;
+    z-index: 10;
     padding-top: 1em;
     font-size: 8em;
   }
   .tagline {
+    position: relative;
+    z-index: 10;
     font-size: 4em;
   }
   .tldr {
+    position: relative;
+    z-index: 10;
     font-size: 2em;
   }
   .hero {
   width: 100%;
   position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: 1;
   img  {
-
     width: 100%;
     overflow: hidden;
     height: 100%;
@@ -175,6 +202,7 @@ body {
 
 // Main
 #main {}
+
 
 #jeff-intro {
   position: relative;
@@ -222,6 +250,14 @@ body {
       @include span-columns(4.15);
       @include omega(3n);
       margin-right: 0;
+      width: 33.33%;
     }
   }
+}
+
+#footer {
+  background: red;
+  padding: 3em;
+  width: 100%;
+  height: 3em;
 }

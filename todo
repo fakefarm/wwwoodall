@@ -1,6 +1,13 @@
 http://middlemanapp.com/basics/getting-started/
 
-☐ domain switched over
+☐ footer
+☐ thanks to hailys blurb / section
+☐ style map
+☐ make sure looks good on mobile.
+☐ clean up images no longer used.
+☐ make sure no more photos to add to collage
+☐ organize photos
+
 
 questions:
 ☐ template
@@ -10,6 +17,10 @@ format:
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ hero image fit properly @done (14-06-24 18:32)
+ ✔ header @done (14-06-24 18:32)
+ ✔ grid image right margin bug @done (14-06-24 18:32)
+ ✔ domain switched over @done (14-06-24 13:03)
  ✔ github page @done (14-06-13 06:04)
  ✔ fonts @done (14-06-13 06:04)
  ✔ figure out how to build and deploy @done (14-06-13 06:04)
