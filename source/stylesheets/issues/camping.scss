@@ -255,6 +255,22 @@ body {
   }
 }
 
+#golden-gate {
+  @include row;
+  max-width: 100%;
+  overflow: hidden;
+  .map {
+    background: #6a8069;
+    overflow: hidden;
+    h1 {
+      padding: 0.4em 0;
+      color: #faffa2;
+      font-size: 6em;
+      text-align: center;
+    }
+  }
+}
+
 #footer {
   background: red;
   padding: 3em;
