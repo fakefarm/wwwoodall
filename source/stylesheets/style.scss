@@ -17,6 +17,7 @@
 @import 'base/typography';
 @import 'base/forms';
 @import 'base/tables';
+@import 'base/grid-settings';
 @import 'base/lists';
 @import 'base/flashes';
 @import 'base/buttons';
@@ -30,5 +31,35 @@
 @import "base/base";
 @import "layout/layout";
 
-@import "issues/1";
-@import "issues/lettucebooks";
+.logo {
+  text-decoration: underline;
+}
+.content {
+  text-align: center;
+  @include media ($medium-screen) {
+    @include row;
+    text-align: left;
+  }
+  .medium {
+    @include media ($medium-screen) {
+      @include span-columns(4);
+    }
+  }
+  .skinny {
+    @include media ($medium-screen) {
+      @include span-columns(2);
+    }
+  }
+  .fat {
+    @include media ($medium-screen) {
+      @include span-columns(6);
+    }
+  }
+}
+
+#footer {
+  background: black;
+  height: 100%;
+  color: white;
+  padding: 2em;
+}
