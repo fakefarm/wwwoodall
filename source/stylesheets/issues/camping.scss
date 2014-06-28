@@ -29,6 +29,7 @@
 
 @import "base/base";
 @import "layout/layout";
+@import "style";
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Montserrat);
 
@@ -272,11 +273,4 @@ body {
       text-align: center;
     }
   }
-}
-
-#footer {
-  background: red;
-  padding: 3em;
-  width: 100%;
-  height: 3em;
 }

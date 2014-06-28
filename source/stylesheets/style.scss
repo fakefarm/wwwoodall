@@ -34,10 +34,24 @@
 
 .logo {
   text-decoration: underline;
+  margin-left: 0.3em;
 }
 
 h1, h2{ font-family: $cond; }
 h3, p, li, a { font-family: $fat; }
+
+a {
+  display: inline-block;
+  width: 100%;
+  padding: 1em 0.25em;
+  margin: 0.005em 0;
+}
+
+a:hover {
+  @include transition(all 100ms ease-in-out);
+  background: #ffcc66;
+  width: 100%;
+}
 
 .landing-title {
   position: relative;
@@ -109,6 +123,22 @@ h3, p, li, a { font-family: $fat; }
   .medium {
     @include media ($medium-screen) {
       @include span-columns(4);
+      &.off:hover {
+        @include transition(all 300ms ease-in-out);
+        background: rgba(255,255,210,0.3);
+        & > .goodbye {
+          display: block;
+        }
+        h2 { float: left;
+          margin-right: 1em;
+        }
+      }
+      .goodbye {
+        color: #ff6666;
+        font-size: 1em;
+        display: none;
+        @include clearfix;
+      }
     }
   }
   .skinny {
@@ -126,7 +156,13 @@ h3, p, li, a { font-family: $fat; }
 #footer {
   margin-top: 2em;
   background: white;
-  height: 100%;
   color: black;
   padding: 2em;
+  min-height: 2em;
+  h2 { font-size: 1.5em;}
+  h3 {
+    font-size: 1em;
+    padding: 0.2em 0;
+    color: #aaa;
+  }
 }
