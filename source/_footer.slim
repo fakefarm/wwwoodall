@@ -2,3 +2,27 @@ footer#footer
   .content
     h2 HTML is the the new English.
     h3 Learn to read and write code so you can say whatever you want.
+  .wrapper
+    .content
+      .medium
+        .animated.fadeInDownBig
+          = image_tag 'fly.png'
+      .skinny
+        h2 Pages
+        ul
+          li= link_to 'camping', '/camping'
+          li= link_to 'startup', '/startup'
+          li= link_to 'portfolio', '/startup'
+          li= link_to 'imgmgmt', ''
+      .fat
+        h2 Links
+        i
+          | (leaves the www)
+        ul
+          li= link_to 'danae', 'http://danae.woodalls.me', target: '_blank'
+          li= link_to 'Music', 'http://www.afterburners.mx', target: '_blank'
+          li= link_to 'Tasks', 'http://www.destroyalltasks.com', target: '_blank'
+          li= link_to 'faith', 'http://dave.woodalls.me', target: '_blank'
+          li= link_to 'for hire', 'http://www.hireDave.me', target: '_blank'
+          li= link_to 'spend time with your toddler & introduce him/her to math with this boardgame.', 'http://www.catmathdo.com', target: '_blank'
+

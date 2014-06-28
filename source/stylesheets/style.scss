@@ -31,9 +31,75 @@
 @import "base/base";
 @import "layout/layout";
 
+
 .logo {
   text-decoration: underline;
 }
+
+h1, h2{ font-family: $cond; }
+h3, p, li, a { font-family: $fat; }
+
+.landing-title {
+  position: relative;
+  &:hover {
+    @include transition(all 300ms ease-in-out);
+    background: #66ccff;
+    cursor: pointer;
+    img {
+      @include transition(all 300ms ease-in-out);
+      opacity: 0.2;
+    }
+    h1, h2{
+      @include transition(all 500ms ease-in-out);
+      color: #ffff00;
+    }
+    .button {
+      @include transition(all 500ms ease-in-out);
+      color: #00ff80;
+      background: #228190;
+    }
+  }
+  text-align: center;
+  position: relative;
+  height: 640px;
+  color: rgba(255,255,255,0.9);
+  .headline {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+    padding-top: 0.4em;
+    font-size: 14em;
+    margin-bottom: -0.1em;
+  }
+  .tagline {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+    font-size: 4em;
+  }
+  .button {
+    position: relative;
+    z-index: 10;
+    font-size: 2em;
+    color: #ff6666;
+    width: 20%;
+    margin: 1em auto 0;
+    padding: 0.4em;
+    border: 5px solid white;
+  }
+  .hero {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  img  {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+  }
+  }
+}
+
 .content {
   text-align: center;
   @include media ($medium-screen) {
@@ -59,8 +125,8 @@
 
 #footer {
   margin-top: 2em;
-  background: black;
+  background: white;
   height: 100%;
-  color: white;
+  color: black;
   padding: 2em;
 }
