@@ -115,7 +115,7 @@ a {
   }
   .medium {
     @include media ($medium-screen) {
-      @include span-columns(3);
+      @include span-columns(4);
       &.off:hover {
         @include transition(all 300ms ease-in-out);
         background: rgba(255,255,210,0.3);
@@ -160,5 +160,12 @@ a {
     @include transition(all 100ms ease-in-out);
     background: #ffcc66;
     width: 100%;
+  }
+
+  .social {
+    @include outer-container;
+    ul { text-align: left; }
+    li { display: inline-block;}
+    a { display: block; padding: 0.25em 1em;}
   }
 }

@@ -4,9 +4,27 @@ footer#footer
       .medium
         .animated.fadeInDownBig
           = image_tag 'fly.png'
+        h2
+          | Welcome to
+          span.logo the www
+        h3 HTML is the the new English.
+        .social
+          ul
+            li= link_to 'http://www.github.com/woodall', target: "_blank" do
+              .fa.fa-github-alt
+            li= link_to 'http://www.dribbble.com/wwwoodall', target: "_blank" do
+              .fa.fa-dribbble
+            li= link_to 'http://www.twitter.com/wwwoodall', target: "_blank" do
+              .fa.fa-twitter
+            li= link_to 'http://www.facebook.com/davewoodall', target: "_blank" do
+              .fa.fa-facebook
+            li= link_to 'http://www.linkedin.com/in/davewoodall/', target: "_blank" do
+              .fa.fa-linkedin-square
+
       .medium
         h2 on the www
         ul
+          li= link_to 'home', '/'
           li= link_to 'camping', '/camping'
           li= link_to 'startup', '/startup'
           li= link_to 'portfolio', '/startup'
@@ -16,22 +34,8 @@ footer#footer
         .goodbye goodbye!
         ul
           li= link_to 'Danae', 'http://danae.woodalls.me', target: '_blank'
-          li= link_to 'Find Music', 'http://www.afterburners.mx', target: '_blank'
-          li= link_to 'Do Tasks', 'http://www.destroyalltasks.com', target: '_blank'
+          li= link_to 'Share Music', 'http://www.afterburners.mx', target: '_blank'
+          li= link_to 'Destroy Tasks', 'http://www.destroyalltasks.com', target: '_blank'
           li= link_to 'My blog', 'http://dave.woodalls.me', target: '_blank'
           li= link_to 'hire Me', 'http://www.hireDave.me', target: '_blank'
           li= link_to 'buy Cat Math Do', 'http://www.catmathdo.com', target: '_blank'
-      .medium.off
-        h2 share the www
-        .goodbye goodbye!
-        ul
-          li= link_to 'twitter', 'http://www.twitter.com/wwwoodall', target: '_blank'
-          li= link_to 'facebook', 'http://www.facebook.com/davewoodall', target: '_blank'
-          li= link_to 'github', 'http://www.github.com/woodall', target: '_blank'
-          li= link_to 'dribbble', 'http://www.dribbble.com/davewoodall', target: '_blank'
-          li= link_to 'linkedIn', 'http://www.linkedin.com/in/davewoodall/', target: '_blank'
-  .content
-      h2
-        | Welcome to
-        span.logo the www
-      h3 HTML is the the new English.
