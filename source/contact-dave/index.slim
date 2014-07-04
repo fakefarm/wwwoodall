@@ -6,14 +6,15 @@ layout: layout
 ---
 
 .l-container
-  h1 Contact
-  p I don't own a cell phone.
+  .contact-header
+    h1 Contact Dave
+    p Sorry, I don't own a cell phone.
   .contact-info
     .label email
     .info= mail_to 'dave@woodalls.me', 'dave@woodalls.me'
     .label voice
     .info 303.416.7032
-    .label facetime
+    .label imessage
     .info dmwoodall@me.com
     .label gchat
     .info dmwoodall@gmail.com
@@ -28,4 +29,14 @@ layout: layout
     .label skype
     .info daveMwoodall
 
+
+  .contact-blurb
+    h2 What is this magic place?
+    p
+      | This is my personal homepage, called 'the www'
+      span.fa.fa-smile-o
+    p
+      | See photos from
+      span= link_to 'camping', '/camping'
+      |on fathers day.
 
