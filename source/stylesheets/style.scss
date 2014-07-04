@@ -32,9 +32,13 @@
 @import "layout/layout";
 
 
-.logo {
-  text-decoration: underline;
-  margin-left: 0.3em;
+.logo { margin-left: 0.3em; }
+
+.signature {
+  border-top: 1px solid #eee;
+  padding-top: 0.25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.05em;
 }
 
 h1, h2{ font-family: $cond; }
@@ -68,31 +72,56 @@ a {
   }
   text-align: center;
   position: relative;
-  height: 640px;
+  @include media ($medium-screen) {
+    height: 640px;
+  }
+  @include media ($large-screen) {
+
+  }
   color: rgba(255,255,255,0.9);
   .headline {
     text-transform: uppercase;
     position: relative;
     z-index: 10;
     padding-top: 0.4em;
-    font-size: 14em;
+    font-size: 3em;
     margin-bottom: -0.1em;
+    @include media ($medium-screen) {
+      font-size: 8em;
+    }
+    @include media ($large-screen) {
+      font-size: 14em;
+    }
   }
   .tagline {
     text-transform: uppercase;
     position: relative;
     z-index: 10;
-    font-size: 4em;
+    font-size: 1em;
+     @include media ($medium-screen) {
+       font-size: 4em;
+     }
+     @include media ($large-screen) {
+       font-size: 6em;
+     }
   }
   .button {
     position: relative;
     z-index: 10;
     font-size: 2em;
+    width: 80%;
     color: #ff6666;
-    width: 20%;
     margin: 1em auto 0;
+    border: 5px solid #aaa;
     padding: 0.4em;
-    border: 5px solid white;
+    @include media ($medium-screen) {
+      width: 50%;
+      margin: 1em auto 0;
+      border: 5px solid white;
+    }
+    @include media ($large-screen) {
+      width: 20%;
+    }
   }
   .hero {
   width: 100%;
@@ -102,8 +131,10 @@ a {
   img  {
     width: 100%;
     overflow: hidden;
-    height: 100%;
-  }
+    @include media ($medium-screen) {
+      height: 100%;
+      }
+    }
   }
 }
 
@@ -115,7 +146,8 @@ a {
   }
   .medium {
     @include media ($medium-screen) {
-      @include span-columns(4);
+      @include span-columns(3);
+      @include shift(1);
       &.off:hover {
         @include transition(all 300ms ease-in-out);
         background: rgba(255,255,210,0.3);
@@ -134,9 +166,9 @@ a {
       }
     }
   }
-  .skinny {
+  .signature-space {
     @include media ($medium-screen) {
-      @include span-columns(2);
+      @include span-columns(4);
     }
   }
   .fat {
@@ -153,7 +185,7 @@ a {
   h2 { font-size: 1.5em;}
   h3 {
     font-size: 1em;
-    padding: 0.2em 0;
+    padding-top: 0.2em;
     color: #aaa;
   }
   a:hover {
@@ -163,9 +195,35 @@ a {
   }
 
   .social {
-    @include outer-container;
-    ul { text-align: left; }
-    li { display: inline-block;}
-    a { display: block; padding: 0.25em 1em;}
+    @include row;
+    ul {
+      text-align: left;
+      @include media($medium-screen) {
+      }
+    }
+    li {
+      @include media ($medium-screen) {
+        display: inline-block;
+      }
+    }
+    a {
+      display: block;
+      padding: 0.25em 1em;
+      margin: 1em 0;
+      text-align: center;
+      &:hover {
+        background: none;
+        color: #66ccff;
+      }
+      @include media ($medium-screen) {
+        text-align: left;
+        margin: 0;
+        padding-left: 2em;
+        padding-right: 1.75em;
+        &:first-child{
+          padding-left: 0;
+        }
+      }
+    }
   }
 }

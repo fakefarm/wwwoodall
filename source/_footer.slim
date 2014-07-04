@@ -1,13 +1,14 @@
 footer#footer
   .wrapper
     .content
-      .medium
+      .signature-space
         .animated.fadeInDownBig
           = image_tag 'fly.png'
         h2
           | Welcome to
           span.logo the www
         h3 HTML is the the new English.
+        p.signature by Dave Woodall
         .social
           ul
             li= link_to 'http://www.github.com/woodall', target: "_blank" do
@@ -24,7 +25,8 @@ footer#footer
       .medium
         h2 on the www
         ul
-          li= link_to 'home', '/'
+          li= link_to '/' do
+            .fa.fa-home
           li= link_to 'camping', '/camping'
           li= link_to 'startup', '/startup'
           li= link_to 'portfolio', '/startup'
