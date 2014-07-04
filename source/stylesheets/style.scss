@@ -169,6 +169,7 @@ a {
     @include shift(1);
   }
   .signature-space {
+    .fly img{ width: 50%; }
     @include media ($medium-screen) {
       @include span-columns(4);
     }
@@ -264,6 +265,7 @@ a {
   }
 }
 .contact-blurb {
+  padding: 2em;
   span {
     margin-left: 0.25em;
     margin-right: 0.5em;
@@ -272,4 +274,5 @@ a {
     display: inline;
     padding: 0;
   }
+  p { margin-bottom: 0; }
 }
