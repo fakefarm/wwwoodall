@@ -147,7 +147,6 @@ a {
   .medium {
     @include media ($medium-screen) {
       @include span-columns(3);
-      @include shift(1);
       &.off:hover {
         @include transition(all 300ms ease-in-out);
         background: rgba(255,255,210,0.3);
@@ -165,6 +164,9 @@ a {
         @include clearfix;
       }
     }
+  }
+  .shift {
+    @include shift(1);
   }
   .signature-space {
     @include media ($medium-screen) {
