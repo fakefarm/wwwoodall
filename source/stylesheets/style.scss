@@ -203,10 +203,6 @@ a {
     background: #ffcc66;
     width: 100%;
   }
-   @include media ($medium-screen) {
-     position: fixed;
-     bottom: 0;
-   }
        
 
   .social {
