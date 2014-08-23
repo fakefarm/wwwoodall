@@ -32,7 +32,35 @@
 @import "layout/layout";
 
 
-.logo { margin-left: 0.3em; }
+.logo { 
+  margin-left: 0.3em;
+  padding: 0;
+  .t,.h,.e{
+    color: #49A86F;
+    font-size: 0.8em;
+  }
+  .w1,.w2,.w3{
+    color: $blue;
+    font-size: 1.3em;
+  }
+  .w2 {
+    color: #39b5bd;
+  }
+  .w1, .w2, .w3 {
+    font-family: $fat;
+  }
+}
+
+.blurb {
+  text-align: center;
+  .intro {
+    font-size: 0.8em;
+    margin-right: 0.2em;
+  }
+  .dave {
+    font-family: $fat;
+  }
+ } 
 
 .signature {
   border-top: 1px solid #eee;
@@ -277,4 +305,28 @@ a {
     padding: 0;
   }
   p { margin-bottom: 0; }
+}
+
+.gist {
+  border-bottom: 1px solid #e4e4e4;
+  &:last-child {
+    border-bottom: none;
+  }
+  .js-file {
+    padding: 1em;
+  }
+  .snippet-title {
+    padding: 0.25em;
+    cursor: pointer;
+    color: $base-accent-color;
+  @include media($medium-screen) {
+    padding: 1em 1.5em;
+  }
+    &:hover {
+      background: $light-gray;
+    }
+  }
+  .snippet {
+    display: none;
+  }
 }
