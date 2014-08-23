@@ -5,10 +5,30 @@ layout: layout
 ---
 
 .l-container
-  h1 Learning JavaScript
-  p A mash up of blog and code snippets that discuss specific aspects.
-
-  h2 Advanced topics for beginners 
+  h1 All things JavaScript
+  .preface
+    p Javascript is my second programming language after Ruby. Since Ruby spoiled me, it's taken me a while to understand what parts of the syntax I am responsible for. This page is a compilation of resources as well some 'Ah ha' moments.
+  
+  .recs
+    h2 Resources
+    p Things that really helped me understand
+    .col
+      h3 Books 
+      =link_to 'eloquent javascript'
+      =link_to 'javascript big book'
+      =link_to 'javascript patterns'
+    .col
+      h3 Videos
+      =link_to 'functions'
+      =link_to 'coffeescript'
+    .col
+      h3 Sites
+      =link_to 'john resig'
+      =link_to 'javascript is sexy'
+      =link_to '...'
+  
+  h2 Gists
+  p Gists are a great way to track progress while I'm learning the nuances of the language. Sometimes, the lesson expands into a mini-blog post.
   
   .gist
     .snippet-title 

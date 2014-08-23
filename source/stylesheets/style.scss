@@ -330,3 +330,23 @@ a {
     display: none;
   }
 }
+
+// javascript page
+
+.preface {
+ @include media($medium-screen){
+  padding: 0.5em;
+  width: 80%;
+  }
+  p {
+    margin: 0;
+  }
+}
+.recs {
+  @include media($medium-screen) {
+    @include row;
+    .col {
+      @include span-columns(4);
+    }
+  }
+}
