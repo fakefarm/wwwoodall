@@ -1,5 +1,7 @@
 .l-container {
   @include outer-container;
+  max-width: 42em;
+  min-height: 25em;
 }
 
 .logo {
