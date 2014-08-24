@@ -33,8 +33,8 @@
 
 
 .logo { 
-  margin-left: 0.3em;
-  padding: 0;
+  background: #6A258E;
+  padding: 0.25em 0;
   .t,.h,.e{
     color: #49A86F;
     font-size: 0.8em;
@@ -50,9 +50,35 @@
     font-family: $fat;
   }
 }
-
+footer .logo {
+  background: none;
+  margin-left: 0.2em;
+}
+.nav {
+  @include media($medium-screen) {
+    margin-bottom: 2em;
+  }
+  ul {
+    @include media($medium-screen) {
+      text-align: center;
+    }
+  }
+  li, a {
+    @include media($medium-screen) {
+      display: inline-block;
+    }
+  }
+  a {
+    @include media($medium-screen) {
+      margin: 0 0.5em;
+    }
+  }
+}
 .blurb {
+  padding: 0.4em 0;
   text-align: center;
+  background: #4becff;
+  color: #477DCA;
   .intro {
     font-size: 0.8em;
     margin-right: 0.2em;
@@ -61,6 +87,7 @@
     font-family: $fat;
     a {
       display: inline;
+      text-decoration: underline;
     }
   }
  } 

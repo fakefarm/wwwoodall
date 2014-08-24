@@ -14,7 +14,10 @@ footer#footer
             span.w2 w
             span.w3 w
         h3 HTML is the the new English.
-        p.signature by Dave Woodall
+        p.signature 
+         | by 
+         = link_to 'Dave Woodall', '/about'
+
         .social
           ul
             li= link_to 'http://www.github.com/woodall', target: "_blank" do
@@ -25,31 +28,6 @@ footer#footer
               .fa.fa-twitter
             li= link_to 'http://www.linkedin.com/in/davewoodall/', target: "_blank" do
               .fa.fa-linkedin-square
-            li= link_to '/contact-dave'
+            li= link_to '/contact'
               .fa.fa-phone
-
-      .medium
-        h2 on the www
-        ul
-          li= link_to '/' do
-            .fa.fa-home
-          li= link_to 'camping trip', '/camping'
-          li= link_to 'javascript blog', '/javascript'
-          li= link_to 'contact dave', '/contact-dave'
-        h3 coming soon...
-        ul.one-day
-          li imgmgmt
-      .medium.off
-        h2 portfolio
-        .goodbye ta ta for now!
-        ul
-          li= link_to "My lovely wife", 'http://danae.woodalls.me', target: '_blank'
-          li= link_to 'Lettucebooks', 'http://www.lettucebooks.com', target: '_blank'
-          li= link_to 'Afterburners', 'http://www.afterburners.mx', target: '_blank'
-          li= link_to 'Cat Math Do', 'http://www.catmathdo.com', target: '_blank'
-          li= link_to 'Destroy all Tasks', 'http://www.destroyalltasks.com', target: '_blank'
-          li= link_to 'blog', 'http://dave.woodalls.me', target: '_blank'
-          li= link_to 'hire Me', 'http://www.hireDave.me', target: '_blank'
-          li= link_to 'Monkey CRUD', 'http://monkeytasks.herokuapp.com/', target: '_blank'
-
 = render_partial 'analytics'

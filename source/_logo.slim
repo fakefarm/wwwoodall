@@ -5,7 +5,15 @@
   span.w1 w
   span.w2 w
   span.w3 w
-
 .blurb
   span.intro A playful site by
   span.dave= link_to 'Dave Woodall', '/about'
+.nav
+  ul
+    li= link_to '/' do
+      .fa.fa-home
+    li= link_to 'camping trip', '/camping'
+    li= link_to 'javascript', '/javascript'
+    li= link_to 'contact', '/contact'
+    li= link_to 'about', '/about'
+    li= link_to 'portfolio', '/portfolio'
