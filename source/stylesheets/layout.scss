@@ -2,7 +2,10 @@
 @import 'modules/nav_overlay';
 
 body {
-  background: $bird-light-green;
+  padding: 0.75em;
+  &.index   { background: $bird-light-green; }
+  &.about   { background: $blue; }
+  &.contact { background: $salmon; }
 }
 
 .bird-logo {
@@ -11,4 +14,30 @@ body {
 
 h1 {
   font-family: $fat;
+  @include media($medium-screen) { font-size: 5em }
+}
+
+p { font-size: 1.3em; }
+
+.about {
+  h1, h2 { color: white; }
+  p { color: $light-yellow; }
+}
+
+.contact {
+  h1, h2, { color: #800000; }
+  p { color: white; }
+  .label {
+    color: #a1ffe1;
+    font-size: 2em;
+    @include media($medium-screen) {
+      float: left;
+    }
+  }
+  .info, .info a {
+    color: yellow;
+    @include media($medium-screen) {
+      font-size: 1.8em;
+    }
+  }
 }
