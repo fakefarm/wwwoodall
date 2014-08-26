@@ -1,10 +1,12 @@
 ---
-title: map magic
+title: Learning javascript's map() and other magic.
 date: 2014-08-25 14:53 UTC
 layout: blog
+tags: javascript
+summary: this is the summary.
 ---
 
-## Learning javascript's map() and other magic.
+
 Map returns the value of an array, as a new array.
 
 In my quest to learn it, I went to [mozialla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and found the explaination unclear. I started playing around with it to learn it.

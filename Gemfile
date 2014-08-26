@@ -9,6 +9,7 @@ gem 'bitters'
 gem "middleman", "~>3.2.0"
 gem "middleman-deploy"
 gem "middleman-blog"
+gem "nokogiri"
 
 gem 'slim'
 gem 'redcarpet'

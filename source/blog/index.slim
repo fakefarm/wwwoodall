@@ -1,0 +1,8 @@
+.l-container
+  h1.fa.fa-pencil-square-o
+  - blog.articles[0...5].each do |article|
+    =link_to article.url do
+      article
+        h1= article.title
+        = article.summary(20)
+        p.tags= article.tags.join(", ")

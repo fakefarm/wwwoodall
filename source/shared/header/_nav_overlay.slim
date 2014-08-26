@@ -10,6 +10,9 @@
       / li= link_to 'camping', '/camping'
       / li= link_to 'javascript', '/javascript'
       / li= link_to 'portfolio', '/portfolio'
-      / li= link_to 'blog', '/blog'
+      li= link_to '/blog' do
+        .fa.fa-pencil-square-o
+      li= link_to blog.articles.first do
+        .fa.fa-star
       li= link_to '/contact' do
         .fa.fa-comments-o

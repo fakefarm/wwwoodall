@@ -11,9 +11,17 @@ html
     link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"
     script src='../scripts/lib/jquery.min.js'
     script src='../scripts/script.js'
+    script src='../scripts/lib/modernizer.js'
+    script src='../scripts/script.js'
     meta name="viewport" content="initial-scale=1.0"
 
+
   body
+    .l-header
+        = render_partial 'shared/header/header'
     .l-container
       = yield
+  script src='../scripts/nav_overlay.js'
+  = render_partial 'analytics'
+
 

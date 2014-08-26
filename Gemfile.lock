@@ -79,6 +79,7 @@ GEM
       sprockets (~> 2.2)
       sprockets-helpers (~> 1.1.0)
       sprockets-sass (~> 1.1.0)
+    mini_portile (0.6.0)
     multi_json (1.10.1)
     neat (1.5.1)
       bourbon (>= 3.1)
@@ -86,6 +87,8 @@ GEM
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
+    nokogiri (1.6.2.1)
+      mini_portile (= 0.6.0)
     ptools (1.2.4)
     rack (1.5.2)
     rack-livereload (0.3.15)
@@ -135,6 +138,7 @@ DEPENDENCIES
   middleman-deploy
   middleman-livereload (~> 3.1.0)
   neat
+  nokogiri
   redcarpet
   slim
   wdm (~> 0.1.0)

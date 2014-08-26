@@ -6,6 +6,7 @@ body {
   &.index   { background: $bird-light-green; }
   &.about   { background: $blue; }
   &.contact { background: $salmon; }
+  &.blog    { background: $paste; }
 }
 
 .bird-logo {
@@ -39,5 +40,32 @@ p { font-size: 1.3em; }
     @include media($medium-screen) {
       font-size: 1.8em;
     }
+  }
+}
+
+.blog {
+  h1 {
+    font-size: 1.25em;
+    line-height: 23px;
+    @include media($medium-screen) {
+      font-size: 3em;
+      line-height: 60px;
+    }
+  }
+  p {
+    font-size: 0.8em;
+    @include media($medium-screen) { font-size: 1.75em; }
+    &.tags {
+      color: #b6b083;
+      float: right;
+      font-size: 1em;
+    }
+  }
+  article {
+    margin: 1em 0;
+    @include media($medium-screen) { padding: 1em 1em;}
+    p { margin-bottom: 0; }
+    &:hover { background: rgba(238, 229, 150, 0.5); }
+    a:hover { color: none; }
   }
 }
