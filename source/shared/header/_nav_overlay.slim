@@ -1,0 +1,13 @@
+.menu-button id="trigger-overlay" class="fa fa-bars"
+.overlay.overlay-scale
+  button.overlay-close type="button"  Close
+  nav
+    ul
+      li= link_to "/" do
+        .fa.fa-home
+      li= link_to 'about', '/about'
+      li= link_to 'camping', '/camping'
+      li= link_to 'javascript', '/javascript'
+      li= link_to 'portfolio', '/portfolio'
+      li= link_to 'blog', '/blog'
+      li= link_to 'contact', '/contact'

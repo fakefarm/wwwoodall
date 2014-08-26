@@ -10,6 +10,7 @@ html
     link href="../stylesheets/layout.css" rel="stylesheet"
     link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"
     script src='../scripts/lib/jquery.min.js'
+    script src='../scripts/lib/modernizer.js'
     script src='../scripts/script.js'
     meta name="viewport" content="initial-scale=1.0"
 
@@ -18,4 +19,5 @@ html
       = render_partial 'shared/header/header'
     = yield
     .l-footer
+  script src='../scripts/nav_overlay.js'
 
