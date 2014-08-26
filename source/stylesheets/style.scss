@@ -1,38 +1,4 @@
-// Import Base Styles', '/about'
-@import "base/normalize";
-@import 'bourbon';
-
-// Variables
-@import 'base/variables';
-
-// Mixins
-@import 'base/mixins/flash';
-
-// Extends
-@import 'base/extends/button';
-@import 'base/extends/clearfix';
-@import 'base/extends/hide-text';
-
-// Typography and Elements
-@import 'base/typography';
-@import 'base/forms';
-@import 'base/tables';
-@import 'base/grid-settings';
-@import 'base/lists';
-@import 'base/flashes';
-@import 'base/buttons';
-
-@import 'lib/animate';
-
-
-// Neat needs to be installed before bitters.
-@import 'neat';
-
-@import "base/base";
-@import "layout/layout";
-
-
-.logo { 
+.logo {
   background: #6A258E;
   padding: 0.25em 0;
   .t,.h,.e{
@@ -90,7 +56,7 @@ footer .logo {
       text-decoration: underline;
     }
   }
- } 
+ }
 
 .signature {
   border-top: 1px solid #eee;
@@ -262,7 +228,7 @@ a {
     background: #ffcc66;
     width: 100%;
   }
-       
+
 
   .social {
     @include row;

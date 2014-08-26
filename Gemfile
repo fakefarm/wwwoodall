@@ -11,8 +11,8 @@ gem "middleman-deploy"
 gem "middleman-blog"
 
 gem 'slim'
+gem 'redcarpet'
 
-gem 'ro'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"

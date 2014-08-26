@@ -1,5 +1,6 @@
 Middleman::Templates.register :slim
 
+
 activate :blog do |blog|
   blog.permalink = "{title}.html"
 end
@@ -11,6 +12,10 @@ end
 
 activate :directory_indexes
 activate :livereload
+activate :syntax, line_numbers: true
+set :markdown_engine, :kramdown
+
+
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
