@@ -5,6 +5,7 @@ source 'http://rubygems.org'
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
+gem 'pry'
 
 gem "middleman", "~>3.2.0"
 gem "middleman-deploy"

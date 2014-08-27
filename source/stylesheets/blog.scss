@@ -6,7 +6,7 @@ body {
   background: #173138;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: $fat;
   color: #56A599;
   @include media($medium-screen) { font-size: 1.5em }
@@ -24,9 +24,13 @@ a {
 }
 
 pre {
-  background: rgba(86, 165, 153, 0.66);
+  background: rgba(255, 255, 255, 0.72);
   padding: 0 1em 1em;
   code {
     color: white;
+  }
+  span.line-numbers {
+    padding-right: 1em;
+    a { color: #aaa; }
   }
 }

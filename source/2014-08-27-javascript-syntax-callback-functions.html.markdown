@@ -55,12 +55,12 @@ There is nothing special about the word `callback`. It's not a keyword, but what
 _I had extra clarity when I realized that adding `()'s` to a number or string would be meaningless._
 
 ~~~javascript
-  // Example 4
-  // You don't use () for anything but functions.
-  // So, any argument expecting something other 
-  // than a function would not append ()
-  'blam'() // Don't treat a string like a function.
-  4() // Craziness.
+// Example 4
+// You don't use () for anything but functions.
+// So, any argument expecting something other 
+// than a function would not append ()
+'blam'() // Don't treat a string like a function.
+4() // Craziness.
 ~~~
 
 ##### A function to use for the callback
@@ -80,9 +80,9 @@ Now, when I use that as part of my callback, I will enter `two` as my argument o
 So, I can write 
 
 ~~~javascript
-  function add(1, two); // use function 'two' but don't add '()' 
-                        // because the add function does so.
-  => 3
+function add(1, two); // use function 'two' but don't add '()' 
+                      // because the add function does so.
+=> 3
 ~~~
 
 It was when and where to add parens that were tripping me up with callbacks. 

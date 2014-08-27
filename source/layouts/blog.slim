@@ -20,6 +20,7 @@ html
     .l-header
         = render_partial 'shared/header/header'
     .l-container
+      = new_post
       = yield
   script src='../scripts/nav_overlay.js'
   = render_partial 'analytics'

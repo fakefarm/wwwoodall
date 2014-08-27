@@ -1,5 +1,12 @@
 Middleman::Templates.register :slim
 
+helpers do
+  def new_post
+    if blog.articles.first.title.downcase == page_classes.split(' ')[0].downcase
+      "<h1 class='fa fa-star'></h1>"
+    end
+  end
+end
 
 activate :blog do |blog|
   blog.permalink = "{title}.html"
@@ -12,7 +19,6 @@ end
 
 activate :directory_indexes
 activate :livereload
-activate :syntax, line_numbers: true
 set :markdown_engine, :kramdown
 
 
