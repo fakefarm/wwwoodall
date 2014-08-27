@@ -1,6 +1,4 @@
-<html><head><title>the www</title><meta charset="utf-8" /><meta content="HTML is the new English." property="og:title" /><meta content="By Dave Woodall" property="og:site_name" /><meta content="http://wwwoodall.com" property="og:url" /><meta content="http://wwwoodall.com/images/fly-219cc477.png" property="og:image" /><meta content="Once you know how to code, you can express your ideas to a greater level. Think of learning to code, like learning a foreign languge. It takes time, but soon you communicate without thinking about the details." property="og:description" /><link href="../stylesheets/blog-61d4d5ee.css" rel="stylesheet" /><link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /><script src="../scripts/lib/jquery.min-afb90752.js"></script><script src="../scripts/script-bac97143.js"></script><script src="../scripts/lib/modernizer-b2be4ef8.js"></script><script src="../scripts/script-bac97143.js"></script><meta content="initial-scale=1.0" name="viewport" /></head><body><div class="l-header"><header><div class="menu-button fa fa-bars" id="trigger-overlay"></div><div class="overlay overlay-scale"><button class="overlay-close" type="button"> Close</button><nav><ul><li><a href="/"><div class="fa fa-home"></div></a></li><li><a href="/about"><div class="fa fa-book"></div></a></li><li><a href="/blog"><div class="fa fa-pencil-square-o"></div></a></li><li><a href="/map-magic/"><div class="fa fa-star"></div></a></li><li><a href="/contact"><div class="fa fa-comments-o"></div></a></li></ul></nav></div></header></div><div class="l-container"><p>Map returns the value of an array, as a new array.</p>
-
-<p>In my quest to learn it, I went to <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">mozialla</a> and found the explaination unclear. I started playing around with it to learn it.</p>
+<html><head><title>the www</title><meta charset="utf-8" /><meta content="HTML is the new English." property="og:title" /><meta content="By Dave Woodall" property="og:site_name" /><meta content="http://wwwoodall.com" property="og:url" /><meta content="http://wwwoodall.com/images/fly-219cc477.png" property="og:image" /><meta content="Once you know how to code, you can express your ideas to a greater level. Think of learning to code, like learning a foreign languge. It takes time, but soon you communicate without thinking about the details." property="og:description" /><link href="../stylesheets/blog-61d4d5ee.css" rel="stylesheet" /><link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /><script src="../scripts/lib/jquery.min-afb90752.js"></script><script src="../scripts/script-bac97143.js"></script><script src="../scripts/lib/modernizer-b2be4ef8.js"></script><script src="../scripts/script-bac97143.js"></script><meta content="initial-scale=1.0" name="viewport" /></head><body><div class="l-header"><header><div class="menu-button fa fa-bars" id="trigger-overlay"></div><div class="overlay overlay-scale"><button class="overlay-close" type="button"> Close</button><nav><ul><li><a href="/"><div class="fa fa-home"></div></a></li><li><a href="/about"><div class="fa fa-book"></div></a></li><li><a href="/blog"><div class="fa fa-pencil-square-o"></div></a></li><li><a href="/intentional-arguments/"><div class="fa fa-star"></div></a></li><li><a href="/contact"><div class="fa fa-comments-o"></div></a></li></ul></nav></div></header></div><div class="l-container"><p>In my quest to learn more about Javascript's map function I went to <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">mozilla</a> and found the explanation unclear. So, I started playing around with it to learn it.</p>
 
 <pre><code class="language-javascript">var pets = ['cat', 'dog', 'mouse', 'bird']
 var more_pets = pets.map(function(value){
@@ -13,9 +11,8 @@ more_pets
 =&gt; ['cat', 'dog', 'mouse', 'bird']
 </code></pre>
 
-<p>Yay, I didn't break anything.</p>
-
-<p>But what did this buy me? Try again with an uppercase.</p>
+<p>Yay, I didn't break anything.
+But what did this buy me? Try again with an uppercase.</p>
 
 <pre><code class="language-javascript">
 var pets = ['cat', 'dog', 'mouse', 'bird'] 
@@ -29,13 +26,12 @@ more_pets
 =&gt; ["CAT", "DOG", "MOUSE", "BIRD"]
 </code></pre>
 
-<p><em>Is that just because I assigned to a new variable, or something else going on?</em></p>
+<p><em>Hmmm. Is that just because I assigned to a new variable, or something else going on?</em></p>
 
-<p>The documentation says <code>map</code>'s callback has use of four arguments</p>
+<h2 id="understanding-the-arguments">Understanding the arguments</h2>
+<p>The documentation says <code>map</code>'s callback has use of four arguments. So let me figure out what those arguments represent;</p>
 
-<pre><code class="language-javascript">var pets = ['cat', 'dog', 'mouse', 'bird']
-
-var pets_info = pets.map(function(first, second, third, fourth){
+<pre><code class="language-javascript">var pets_info = pets.map(function(first, second, third, fourth){
 return [first, second, third, fourth] // put into an array 
 })
 
@@ -47,25 +43,23 @@ pets_info[0]
 
 <p>Oh now it's starting to make sense. For clarity I should change the names of my arguments from; </p>
 
-<pre><code class="language-javascript">// I didn't know what the args did so I just numbered them
-(first, second, third, fourth) 
+<pre><code class="language-javascript">(first, second, third, fourth) 
 </code></pre>
 
 <p>to</p>
 
-<pre><code class="language-javascript">// More accurate naming
-(value, index, original_array, fourth)  
+<pre><code class="language-javascript">(value, index, original_array, fourth)  
 </code></pre>
 
-<p>Ok, <strong>Back to pets_info[0]</strong></p>
+<p><strong>Back to pets_info[0]</strong></p>
 
 <pre><code class="language-javascript">pets_info[0] 
 =&gt; ["cat", 0, Array[4], undefined] 
 </code></pre>
 
-<h3 id="understanding-maps-callback-arguments">Understanding map's callback arguments</h3>
+<h3 id="one-by-one">One by one</h3>
 
-<p>So, Map's callback takes at least 3 arguments.</p>
+<p>So, Map's callback takes at <em>least</em> 3 arguments.</p>
 
 <h4 id="value">Value</h4>
 <p>The first one is the value of the current item being looped over
@@ -80,8 +74,8 @@ so, 'cat' in this situation.</p>
 <h4 id="this-the-fourth">This? (The fourth)</h4>
 <p>It seems like the API is telling me that the fourth argument is <code>this</code> but I am not finding a good use for it. </p>
 
-<h2 id="what-is-magic">What is magic?</h2>
-<p>I am new enough to programming that I am still trying to decipher what's magic and what's my responsibility. If you're still reading, chances are you're on the junior side too. <em>Developers who know about <code>map()</code> have long since moved on to .gif hunting.</em></p>
+<h2 id="intentional-arguments">Intentional Arguments</h2>
+<p>If you're still reading, chances are you're on the junior side too. <em>Developers who know about <code>map()</code> have long since moved on to .gif hunting.</em></p>
 
 <p><img alt="flying gif" src="http://img.ffffound.com/static-data/assets/6/16d2cae8eab49c134dbf0eda6aed315dc4d50d87_m.gif" /></p>
 

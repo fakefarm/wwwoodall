@@ -118,5 +118,6 @@ if ( typeof define === 'function' && define.amd ) {
   }
 
   triggerBttn.addEventListener( 'click', toggleOverlay );
+  triggerBttn.addEventListener( 'mouseover', toggleOverlay );
   closeBttn.addEventListener( 'click', toggleOverlay );
 })();
