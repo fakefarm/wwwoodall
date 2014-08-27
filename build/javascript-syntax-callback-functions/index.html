@@ -1,0 +1,97 @@
+<html><head><title>the www</title><meta charset="utf-8" /><meta content="HTML is the new English." property="og:title" /><meta content="By Dave Woodall" property="og:site_name" /><meta content="http://wwwoodall.com" property="og:url" /><meta content="http://wwwoodall.com/images/fly-219cc477.png" property="og:image" /><meta content="Once you know how to code, you can express your ideas to a greater level. Think of learning to code, like learning a foreign languge. It takes time, but soon you communicate without thinking about the details." property="og:description" /><link href="../stylesheets/blog-1708b04f.css" rel="stylesheet" /><link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /><script src="../scripts/lib/jquery.min-afb90752.js"></script><script src="../scripts/script-bac97143.js"></script><script src="../scripts/lib/modernizer-b2be4ef8.js"></script><script src="../scripts/script-bac97143.js"></script><meta content="initial-scale=1.0" name="viewport" /></head><body><div class="l-header"><header><div class="menu-button fa fa-bars" id="trigger-overlay"></div><div class="overlay overlay-scale"><button class="overlay-close" type="button"> Close</button><nav><ul><li><a href="/"><div class="fa fa-home"></div></a></li><li><a href="/about"><div class="fa fa-user"></div></a></li><li><a href="/blog"><div class="fa fa-list-ul"></div></a></li><li><a href="/internetland/"><div class="fa fa-star"></div></a></li><li><a target="_blank" href="http://www.github.com/woodall"><div class="fa fa-github"></div></a></li><li><a target="_blank" href="http://www.dribbble.com/wwwoodall"><div class="fa fa-dribbble"></div></a></li><li><a target="_blank" href="http://www.twitter.com/wwwoodall"><div class="fa fa-twitter"></div></a></li></ul></nav></div></header></div><div class="l-container"><h6 id="keys-to-the-kingdom">Keys to the kingdom</h6>
+
+<h2 id="js-syntax-callbacks">JS syntax: callbacks</h2>
+
+<p>When I told people I was confused about callbacks I often heard that callbacks were just functions. So I couldn't figure out what my hurdle was to grasping them. But I just had an <em>AH-HA!</em> moment after getting a better grasp on some basic syntax. </p>
+
+<p>JavaScript functions use <code>()</code> for two different reasons. Let me recap so that we're on the same page;</p>
+
+<h3 id="reasons-for--">2 reasons for ( )</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>**1st</td>
+      <td>Declaration**</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code>()'s</code> contain arguments the function will need to work properly.</p>
+
+<pre><code class="language-javascript">// Example 1
+function hello(name){
+  return 'hello' + name;
+}
+</code></pre>
+
+<table>
+  <tbody>
+    <tr>
+      <td>**2nd</td>
+      <td>Invocation**</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code>()'s</code> invoke the function.</p>
+
+<pre><code class="language-javascript">// Example 2
+  sign_out()
+</code></pre>
+
+<h4 id="adding-a-callback-to-a-function">Adding a callback to a function</h4>
+
+<p>To use a callback in a function, the function needs to be designed for it. 
+As in, the function will need to add <code>()</code> to argument that represents the function.</p>
+
+<pre><code class="language-javascript">// Example 3
+// Since I want to invoke 'callback', I do two things.
+// 1. Make it an argument.
+// 2. Add () in the body when I call it.
+function add(a, callback) { 
+  return a + callback(); 
+}
+</code></pre>
+
+<p>There is nothing special about the word <code>callback</code>. It's not a keyword, but what I've named the argument I want to become the function. I implement the callback argument by appending <code>()</code> to where the argument is used. So, <code>callback()</code> with those parens to invoke whatever future function will be passed in there.</p>
+
+<p><em>I had extra clarity when I realized that adding <code>()'s</code> to a number or string would be meaningless.</em></p>
+
+<pre><code class="language-javascript">  // Example 4
+  // You don't use () for anything but functions.
+  // So, any argument expecting something other 
+  // than a function would not append ()
+  'blam'() // Don't treat a string like a function.
+  4() // Craziness.
+</code></pre>
+
+<h5 id="a-function-to-use-for-the-callback">A function to use for the callback</h5>
+<p>Here's a function to use in the <code>callback</code> slot that just returns the number 2. </p>
+
+<pre><code class="language-javascript">function two() {
+  return 2;
+}
+
+two()
+=&gt; 2
+</code></pre>
+
+<p>Now, when I use that as part of my callback, I will enter <code>two</code> as my argument of the <code>add</code> function without the <code>()</code> because the <code>add</code> function is designed to append them to my argument. </p>
+
+<p>So, I can write </p>
+
+<pre><code class="language-javascript">  function add(1, two); // use function 'two' but don't add '()' 
+                        // because the add function does so.
+  =&gt; 3
+</code></pre>
+
+<p>It was when and where to add parens that were tripping me up with callbacks. 
+Now that I have clarity on the two uses of the <code>()'s</code>, I am able to see how the two different purposes work together to create callbacks.</p>
+</div></body><script src="../scripts/nav_overlay-234ad478.js"></script><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-52536027-1', 'auto');
+ga('send', 'pageview');</script></html>
