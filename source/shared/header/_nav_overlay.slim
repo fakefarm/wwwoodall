@@ -3,17 +3,17 @@
   button.overlay-close type="button"  Close
   nav
     ul
-      li= link_to "/" do
-        .fa.fa-home
-      li= link_to '/about' do
-        .fa.fa-user
       / li= link_to 'camping', '/camping'
       / li= link_to 'javascript', '/javascript'
       / li= link_to 'portfolio', '/portfolio'
-      li= link_to '/blog' do
-        .fa.fa-list-ul
       li= link_to blog.articles.first do
         .fa.fa-star
+      li= link_to '/blog' do
+        .fa.fa-list-ul
+      li= link_to '/about' do
+        .fa.fa-user
+      li= link_to "/" do
+        .fa.fa-home
       li= link_to 'http://www.github.com/woodall', target: '_blank' do
         .fa.fa-github
       li= link_to 'http://www.dribbble.com/wwwoodall', target: '_blank' do

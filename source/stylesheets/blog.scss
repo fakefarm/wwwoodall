@@ -23,7 +23,16 @@ h3 {
   margin-bottom: 0.5em;
   @include media($medium-screen) { font-size: 2em; }
 }
+h4 {
+  margin-top: 1em;
+  border-bottom: 1px solid $slate;
+  @include media($medium-screen) {
+    margin-top: 4em;
+    padding-bottom: 0.125em;
+    margin-bottom: 0.125em;
+  }
 
+}
 h6 { display: none; } // subtitle on index page.
 
 p {
@@ -37,14 +46,16 @@ a {
 }
 
 pre {
-  border: 3px solid #1f424b;
+  border: 3px solid $slate;
+
   background: rgba(255, 255, 255, 0.72);
   border-radius: 3px;
   padding: 1em 1em;
   font-size: 0.75em;
   @include media($medium-screen) {
     font-size: 0.9em;
-    border: 5px solid #1f424b;
+    border: 5px solid $slate;
+
     background: rgba(255, 255, 255, 0.72);
   }
   code {
