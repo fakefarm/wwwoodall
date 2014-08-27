@@ -20,9 +20,24 @@ h1 {
 
 p { font-size: 1.3em; }
 
+@include media($medium-screen) {
+  section {
+    @include row();
+    margin-top: 2em;
+    .title {
+      @include span-columns(3);
+    }
+    .copy {
+      @include span-columns(9);
+    }
+  }
+}
+
 .about {
-  h1, h2 { color: white; }
+  h1, h2, h3, h4, li { color: white; }
+  h2, h3, h4, li { font-family: $fat; }
   p { color: $light-yellow; }
+  li { font-size: 1.2em; }
 }
 
 .contact {
@@ -47,17 +62,28 @@ p { font-size: 1.3em; }
   h1 {
     font-size: 1.25em;
     line-height: 23px;
+    color: #6F4C1B;
+    letter-spacing: -1px;
+    &.fa { color: $warm-gray; }
     @include media($medium-screen) {
       font-size: 3em;
       line-height: 60px;
+    }
+  }
+  p, h2, h3 { display: none; }
+  h6 {
+    font-family: helvetica;
+    font-weight: 100;
+    @include media($medium-screen) {
+      font-size: 1.5em;
     }
   }
   p {
     font-size: 0.8em;
     @include media($medium-screen) { font-size: 1.75em; }
     &.tags {
-      color: #b6b083;
-      float: right;
+      display: block;
+      color: $warm-gray;
       font-size: 1em;
     }
   }
