@@ -1,64 +1,82 @@
-<html><head><title>the www</title><meta charset="utf-8" /><meta content="HTML is the new English." property="og:title" /><meta content="By Dave Woodall" property="og:site_name" /><meta content="http://wwwoodall.com" property="og:url" /><meta content="http://wwwoodall.com/images/fly-219cc477.png" property="og:image" /><meta content="Once you know how to code, you can express your ideas to a greater level. Think of learning to code, like learning a foreign languge. It takes time, but soon you communicate without thinking about the details." property="og:description" /><link href="../stylesheets/blog-6f462719.css" rel="stylesheet" /><link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /><script src="../scripts/lib/jquery.min-afb90752.js"></script><script src="../scripts/script-bac97143.js"></script><script src="../scripts/lib/modernizer-b2be4ef8.js"></script><script src="../scripts/script-bac97143.js"></script><meta content="initial-scale=1.0" name="viewport" /></head><body><div class="l-header"><header><div class="menu-button fa fa-bars" id="trigger-overlay"></div><div class="overlay overlay-scale"><button class="overlay-close" type="button"> Close</button><nav><ul><li><a href="/"><div class="fa fa-home"></div></a></li><li><a href="/about"><div class="fa fa-user"></div></a></li><li><a href="/blog"><div class="fa fa-list-ul"></div></a></li><li><a href="/internetland/"><div class="fa fa-star"></div></a></li><li><a target="_blank" href="http://www.github.com/woodall"><div class="fa fa-github"></div></a></li><li><a target="_blank" href="http://www.dribbble.com/wwwoodall"><div class="fa fa-dribbble"></div></a></li><li><a target="_blank" href="http://www.twitter.com/wwwoodall"><div class="fa fa-twitter"></div></a></li></ul></nav></div></header></div><div class="l-container"><h6 id="how-to-read-code">How to read code</h6>
+<html><head><title>the www</title><meta charset="utf-8" /><meta content="HTML is the new English." property="og:title" /><meta content="By Dave Woodall" property="og:site_name" /><meta content="http://wwwoodall.com" property="og:url" /><meta content="http://wwwoodall.com/images/fly-219cc477.png" property="og:image" /><meta content="Once you know how to code, you can express your ideas to a greater level. Think of learning to code, like learning a foreign languge. It takes time, but soon you communicate without thinking about the details." property="og:description" /><link href="../stylesheets/blog-c494beeb.css" rel="stylesheet" /><link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /><script src="../scripts/lib/jquery.min-afb90752.js"></script><script src="../scripts/script-bac97143.js"></script><script src="../scripts/lib/modernizer-b2be4ef8.js"></script><script src="../scripts/script-bac97143.js"></script><meta content="initial-scale=1.0" name="viewport" /></head><body><div class="l-header"><header><div class="menu-button fa fa-bars" id="trigger-overlay"></div><div class="overlay overlay-scale"><button class="overlay-close" type="button"> Close</button><nav><ul><li><a href="/"><div class="fa fa-home"></div></a></li><li><a href="/about"><div class="fa fa-user"></div></a></li><li><a href="/blog"><div class="fa fa-list-ul"></div></a></li><li><a href="/internetland/"><div class="fa fa-star"></div></a></li><li><a target="_blank" href="http://www.github.com/woodall"><div class="fa fa-github"></div></a></li><li><a target="_blank" href="http://www.dribbble.com/wwwoodall"><div class="fa fa-dribbble"></div></a></li><li><a target="_blank" href="http://www.twitter.com/wwwoodall"><div class="fa fa-twitter"></div></a></li></ul></nav></div></header></div><div class="l-container"><h6 id="how-to-read-code">How to read code</h6>
 
 <h2 id="js-syntax-arguments">JS syntax: Arguments</h2>
 <p>In my quest to learn more about Javascript's map function I went to <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">mozilla</a> and found the explanation unclear. So, I started playing around with it to learn it.</p>
 
-<pre><code class="language-javascript">var pets = ['cat', 'dog', 'mouse', 'bird']
-var more_pets = pets.map(function(value){
-return value;
-})
-
-pets 
-=&gt; ['cat', 'dog', 'mouse', 'bird']
-more_pets
-=&gt; ['cat', 'dog', 'mouse', 'bird']
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">var</span> pets = [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">cat</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">dog</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">mouse</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">bird</span><span style="color:#710">'</span></span>]
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span><span style="color:#080;font-weight:bold">var</span> more_pets = pets.map(<span style="color:#080;font-weight:bold">function</span>(value){
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span><span style="color:#080;font-weight:bold">return</span> value;
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>})
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>pets 
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>=&gt; [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">cat</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">dog</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">mouse</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">bird</span><span style="color:#710">'</span></span>]
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>more_pets
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>=&gt; [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">cat</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">dog</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">mouse</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">bird</span><span style="color:#710">'</span></span>]
+</pre></div>
+</div>
+</div>
 
 <p>Yay, I didn't break anything.
 But what did this buy me? Try again with an uppercase.</p>
 
-<pre><code class="language-javascript">
-var pets = ['cat', 'dog', 'mouse', 'bird'] 
-var more_pets = pets.map(function(value){
-return value.toUpperCase();
-})
-
-pets 
-=&gt; ['cat', 'dog', 'mouse', 'bird']
-more_pets
-=&gt; ["CAT", "DOG", "MOUSE", "BIRD"]
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span>
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span><span style="color:#080;font-weight:bold">var</span> pets = [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">cat</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">dog</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">mouse</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">bird</span><span style="color:#710">'</span></span>] 
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span><span style="color:#080;font-weight:bold">var</span> more_pets = pets.map(<span style="color:#080;font-weight:bold">function</span>(value){
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span><span style="color:#080;font-weight:bold">return</span> value.toUpperCase();
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>})
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>pets 
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>=&gt; [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">cat</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">dog</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">mouse</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">bird</span><span style="color:#710">'</span></span>]
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>more_pets
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>=&gt; [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">CAT</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">DOG</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">MOUSE</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">BIRD</span><span style="color:#710">&quot;</span></span>]
+</pre></div>
+</div>
+</div>
 
 <p><em>Hmmm. Is that just because I assigned to a new variable, or something else going on?</em></p>
 
 <h2 id="understanding-the-arguments">Understanding the arguments</h2>
 <p>The documentation says <code>map</code>'s callback has use of four arguments. So let me figure out what those arguments represent;</p>
 
-<pre><code class="language-javascript">var pets_info = pets.map(function(first, second, third, fourth){
-return [first, second, third, fourth] // put into an array 
-})
-
-pets_info
-=&gt; [Array[4], Array[4] , Array[4] , Array[4]]
-pets_info[0]
-=&gt; ["cat", 0, Array[4], undefined]
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">var</span> pets_info = pets.map(<span style="color:#080;font-weight:bold">function</span>(first, second, third, fourth){
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span><span style="color:#080;font-weight:bold">return</span> [first, second, third, fourth] <span style="color:#777">// put into an array </span>
+<span class="line-numbers"><a href="#n3" name="n3">3</a></span>})
+<span class="line-numbers"><a href="#n4" name="n4">4</a></span>
+<span class="line-numbers"><a href="#n5" name="n5">5</a></span>pets_info
+<span class="line-numbers"><a href="#n6" name="n6">6</a></span>=&gt; [Array[<span style="color:#00D">4</span>], Array[<span style="color:#00D">4</span>] , Array[<span style="color:#00D">4</span>] , Array[<span style="color:#00D">4</span>]]
+<span class="line-numbers"><a href="#n7" name="n7">7</a></span>pets_info[<span style="color:#00D">0</span>]
+<span class="line-numbers"><a href="#n8" name="n8">8</a></span>=&gt; [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">cat</span><span style="color:#710">&quot;</span></span>, <span style="color:#00D">0</span>, Array[<span style="color:#00D">4</span>], <span style="color:#069">undefined</span>]
+</pre></div>
+</div>
+</div>
 
 <p>Oh now it's starting to make sense. For clarity I should change the names of my arguments from; </p>
 
-<pre><code class="language-javascript">(first, second, third, fourth) 
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span>(first, second, third, fourth) 
+</pre></div>
+</div>
+</div>
 
 <p>to</p>
 
-<pre><code class="language-javascript">(value, index, original_array, fourth)  
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span>(value, index, original_array, fourth)  
+</pre></div>
+</div>
+</div>
 
 <p><strong>Back to pets_info[0]</strong></p>
 
-<pre><code class="language-javascript">pets_info[0] 
-=&gt; ["cat", 0, Array[4], undefined] 
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span>pets_info[<span style="color:#00D">0</span>] 
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>=&gt; [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">cat</span><span style="color:#710">&quot;</span></span>, <span style="color:#00D">0</span>, Array[<span style="color:#00D">4</span>], <span style="color:#069">undefined</span>] 
+</pre></div>
+</div>
+</div>
 
 <h3 id="one-by-one">One by one</h3>
 

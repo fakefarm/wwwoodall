@@ -8,6 +8,8 @@ tags: javascript
 
 ## JS syntax: Parens
 
+### Prep for anonymous functions and closures
+
 Let's start with a simple concept. 
 
 ~~~javascript

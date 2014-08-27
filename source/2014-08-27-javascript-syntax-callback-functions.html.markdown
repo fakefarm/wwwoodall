@@ -9,6 +9,8 @@ blurb: 'this is my blurb!!!'
 
 ## JS syntax: callbacks
 
+### Keys to the kingdom
+
 When I told people I was confused about callbacks I often heard that callbacks were just functions. So I couldn't figure out what my hurdle was to grasping them. But I just had an _AH-HA!_ moment after getting a better grasp on some basic syntax. 
 
 JavaScript functions use `()` for two different reasons. Let me recap so that we're on the same page;

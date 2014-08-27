@@ -1,4 +1,4 @@
-<html><head><title>the www</title><meta charset="utf-8" /><meta content="HTML is the new English." property="og:title" /><meta content="By Dave Woodall" property="og:site_name" /><meta content="http://wwwoodall.com" property="og:url" /><meta content="http://wwwoodall.com/images/fly-219cc477.png" property="og:image" /><meta content="Once you know how to code, you can express your ideas to a greater level. Think of learning to code, like learning a foreign languge. It takes time, but soon you communicate without thinking about the details." property="og:description" /><link href="../stylesheets/blog-6f462719.css" rel="stylesheet" /><link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /><script src="../scripts/lib/jquery.min-afb90752.js"></script><script src="../scripts/script-bac97143.js"></script><script src="../scripts/lib/modernizer-b2be4ef8.js"></script><script src="../scripts/script-bac97143.js"></script><meta content="initial-scale=1.0" name="viewport" /></head><body><div class="l-header"><header><div class="menu-button fa fa-bars" id="trigger-overlay"></div><div class="overlay overlay-scale"><button class="overlay-close" type="button"> Close</button><nav><ul><li><a href="/"><div class="fa fa-home"></div></a></li><li><a href="/about"><div class="fa fa-user"></div></a></li><li><a href="/blog"><div class="fa fa-list-ul"></div></a></li><li><a href="/internetland/"><div class="fa fa-star"></div></a></li><li><a target="_blank" href="http://www.github.com/woodall"><div class="fa fa-github"></div></a></li><li><a target="_blank" href="http://www.dribbble.com/wwwoodall"><div class="fa fa-dribbble"></div></a></li><li><a target="_blank" href="http://www.twitter.com/wwwoodall"><div class="fa fa-twitter"></div></a></li></ul></nav></div></header></div><div class="l-container"><h6 id="stop-getting-undefined">Stop getting undefined</h6>
+<html><head><title>the www</title><meta charset="utf-8" /><meta content="HTML is the new English." property="og:title" /><meta content="By Dave Woodall" property="og:site_name" /><meta content="http://wwwoodall.com" property="og:url" /><meta content="http://wwwoodall.com/images/fly-219cc477.png" property="og:image" /><meta content="Once you know how to code, you can express your ideas to a greater level. Think of learning to code, like learning a foreign languge. It takes time, but soon you communicate without thinking about the details." property="og:description" /><link href="../stylesheets/blog-c494beeb.css" rel="stylesheet" /><link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /><script src="../scripts/lib/jquery.min-afb90752.js"></script><script src="../scripts/script-bac97143.js"></script><script src="../scripts/lib/modernizer-b2be4ef8.js"></script><script src="../scripts/script-bac97143.js"></script><meta content="initial-scale=1.0" name="viewport" /></head><body><div class="l-header"><header><div class="menu-button fa fa-bars" id="trigger-overlay"></div><div class="overlay overlay-scale"><button class="overlay-close" type="button"> Close</button><nav><ul><li><a href="/"><div class="fa fa-home"></div></a></li><li><a href="/about"><div class="fa fa-user"></div></a></li><li><a href="/blog"><div class="fa fa-list-ul"></div></a></li><li><a href="/internetland/"><div class="fa fa-star"></div></a></li><li><a target="_blank" href="http://www.github.com/woodall"><div class="fa fa-github"></div></a></li><li><a target="_blank" href="http://www.dribbble.com/wwwoodall"><div class="fa fa-dribbble"></div></a></li><li><a target="_blank" href="http://www.twitter.com/wwwoodall"><div class="fa fa-twitter"></div></a></li></ul></nav></div></header></div><div class="l-container"><h6 id="stop-getting-undefined">Stop getting undefined</h6>
 
 <h2 id="js-syntax-return">JS syntax: Return</h2>
 
@@ -6,48 +6,60 @@
 
 <p>My first programming language was Ruby. Managing a return value wasn't something I had to do. This is an example of my Ruby-inspired functions;</p>
 
-<pre><code class="language-javascript">function check_box() {
-  'checked';
-}
-check_box();
-=&gt; undefined
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">check_box</span>() {
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>  <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">checked</span><span style="color:#710">'</span></span>;
+<span class="line-numbers"><a href="#n3" name="n3">3</a></span>}
+<span class="line-numbers"><a href="#n4" name="n4">4</a></span>check_box();
+<span class="line-numbers"><a href="#n5" name="n5">5</a></span>=&gt; <span style="color:#069">undefined</span>
+</pre></div>
+</div>
+</div>
 <p>So, what you need to do is explicitly add a keyword <code>return</code></p>
 
-<pre><code class="language-javascript">function check_box() {
-  return 'checked';
-}
-check_box();
-=&gt; checked
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">check_box</span>() {
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>  <span style="color:#080;font-weight:bold">return</span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">checked</span><span style="color:#710">'</span></span>;
+<span class="line-numbers"><a href="#n3" name="n3">3</a></span>}
+<span class="line-numbers"><a href="#n4" name="n4">4</a></span>check_box();
+<span class="line-numbers"><a href="#n5" name="n5">5</a></span>=&gt; checked
+</pre></div>
+</div>
+</div>
 
 <p>It took me a while to figure out if this is a good or bad design.</p>
 
-<pre><code class="language-javascript">  function check_box(answer) {
-    if (answer) "This is true.";
-    else if (!answer) "Less is more.";
-    "Never reached.";
-  }
-check_box(true);
-=&gt; undefined
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">check_box</span>(answer) {
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>  <span style="color:#080;font-weight:bold">if</span> (answer) <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">This is true.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"><a href="#n3" name="n3">3</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">if</span> (!answer) <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Less is more.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"><a href="#n4" name="n4">4</a></span>  <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Never reached.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"><a href="#n5" name="n5">5</a></span>}
+<span class="line-numbers"><a href="#n6" name="n6">6</a></span>check_box(<span style="color:#069">true</span>);
+<span class="line-numbers"><a href="#n7" name="n7">7</a></span>=&gt; <span style="color:#069">undefined</span>
+</pre></div>
+</div>
+</div>
 
 <p>JavaScript is so fluid, the wrong answer doesn't provide an error. So, I was left scratching my head. Turns out, JavaScript requires you to manage your return value. If you don't set it, then you will get <code>undefined</code>.</p>
 
 <p><code>return</code> will terminate the function and spit out as it sees. No need to assign the argument to a variable.</p>
 
-<pre><code class="language-javascript">  function check_box(answer) {
-    if (answer) return "This is true.";
-    else if (!answer) return "Less is more.";
-    return "Never reached.";
-  }
-
-  check_box(true);
-  =&gt; "This is true.".
-
-  check_box(false);
-  =&gt; "Less is more."
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">check_box</span>(answer) {
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>  <span style="color:#080;font-weight:bold">if</span> (answer) <span style="color:#080;font-weight:bold">return</span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">This is true.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">if</span> (!answer) <span style="color:#080;font-weight:bold">return</span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Less is more.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>  <span style="color:#080;font-weight:bold">return</span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Never reached.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>}
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>check_box(<span style="color:#069">true</span>);
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>=&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">This is true.</span><span style="color:#710">&quot;</span></span>.
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>check_box(<span style="color:#069">false</span>);
+<span class="line-numbers"><a href="#n11" name="n11">11</a></span>=&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Less is more.</span><span style="color:#710">&quot;</span></span>
+</pre></div>
+</div>
+</div>
 
 <p>Getting comfortable with the shorthand conditional syntax. If you put the conditional on one line, the <code>{}</code> are not needed. 
 Even when having multiple conditionals. </p>
@@ -55,49 +67,58 @@ Even when having multiple conditionals. </p>
 <h3 id="using-a-var">Using a var</h3>
 <p>Maybe you don't want to have a return to interrupt the sequence of the function. You could assign a value to a variable and return the variable at the end.</p>
 
-<pre><code class="language-javascript">  function check_box(answer) {
-    var entry;
-    if (answer) entry = "This is true.";
-    else if (!answer) entry = "Less is more.";
-    return entry;
-  }
-
-  check_box(true);
-  =&gt; "This is true."
-
-  check_box(false);
-  =&gt; "Less is more."
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">check_box</span>(answer) {
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>  <span style="color:#080;font-weight:bold">var</span> entry;
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>  <span style="color:#080;font-weight:bold">if</span> (answer) entry = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">This is true.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">if</span> (!answer) entry = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Less is more.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>  <span style="color:#080;font-weight:bold">return</span> entry;
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>}
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>check_box(<span style="color:#069">true</span>);
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>=&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">This is true.</span><span style="color:#710">&quot;</span></span>
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>
+<span class="line-numbers"><a href="#n11" name="n11">11</a></span>check_box(<span style="color:#069">false</span>);
+<span class="line-numbers"><a href="#n12" name="n12">12</a></span>=&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Less is more.</span><span style="color:#710">&quot;</span></span>
+</pre></div>
+</div>
+</div>
 
 <h4 id="possible-gotcha">Possible gotcha</h4>
 
 <p>If you are using the variable approach. Be careful to notice if there are any return values before returning a variable. Returns exit the program immediately.</p>
 
-<pre><code class="language-javascript">  function check_box(answer) {
-    var entry;
-    if (answer) entry = "This is true.";
-    else if (!answer) entry = "Less is more.";
-    return "I am not what you expect.";
-    return entry;
-  }
-
-  check_box(true);
-  =&gt; "I am not what you expect."
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">check_box</span>(answer) {
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>  <span style="color:#080;font-weight:bold">var</span> entry;
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>  <span style="color:#080;font-weight:bold">if</span> (answer) entry = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">This is true.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">if</span> (!answer) entry = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Less is more.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>  <span style="color:#080;font-weight:bold">return</span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">I am not what you expect.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>  <span style="color:#080;font-weight:bold">return</span> entry;
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>}
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>check_box(<span style="color:#069">true</span>);
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>=&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">I am not what you expect.</span><span style="color:#710">&quot;</span></span>
+</pre></div>
+</div>
+</div>
 
 <h3 id="a-return-is-not-called-on-a-false-conditional">A return is not called on a false conditional</h3>
 
-<pre><code class="language-javascript">  function check_box(answer) {
-    var entry;
-    if (answer) entry = "This is true.";
-    else if (!answer) entry = "Less is more.";
-    else return "Why can't we return to shallow topics?";
-    return entry;
-  }
-
-  check_box(true);
-  =&gt; "This is true."
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">check_box</span>(answer) {
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>  <span style="color:#080;font-weight:bold">var</span> entry;
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>  <span style="color:#080;font-weight:bold">if</span> (answer) entry = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">This is true.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">if</span> (!answer) entry = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Less is more.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">return</span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Why can't we return to shallow topics?</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>  <span style="color:#080;font-weight:bold">return</span> entry;
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>}
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>check_box(<span style="color:#069">true</span>);
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>=&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">This is true.</span><span style="color:#710">&quot;</span></span>
+</pre></div>
+</div>
+</div>
 
 <p>This makes logical sense, but it's good to note the syntax. I wasn't paying attention and thought that my return in the following <code>else</code> clause would have been the functions return value. It's because the previous was checking boolean and the if/elseif/else was met at a higher level, so the conditional never hit the else. The else had a return, but it wasn't called.</p>
 
@@ -105,77 +126,98 @@ Even when having multiple conditionals. </p>
 
 <p>I figured it out when I moved the conditionals from boolean, to checking strings; I was thinking that the <code>origins()</code> call, while true would have returned 'open for discussion' but the reason it didn't, was because the conditional had been met in the <code>if</code> block and moved out of that sequence and moved to the  <code>return</code> value.</p>
 
-<pre><code class="language-javascript">  function origins(entry_system) {
-    var _entrys;
-    if (entry_system == "created") _entrys = "Intelligent Design.";
-    else if (entry_system == "chance") _entrys = "Evolution.";
-    else return "Open for discussion.";
-    return _entrys;
-  }
-
-  origins("created"); // showed me that the 'if/else if / else' conditional was met so it stopped moving down the chain.
-  =&gt; Intelligent Design
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">origins</span>(entry_system) {
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>  <span style="color:#080;font-weight:bold">var</span> _entrys;
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>  <span style="color:#080;font-weight:bold">if</span> (entry_system == <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">created</span><span style="color:#710">&quot;</span></span>) _entrys = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Intelligent Design.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">if</span> (entry_system == <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">chance</span><span style="color:#710">&quot;</span></span>) _entrys = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Evolution.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">return</span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Open for discussion.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>  <span style="color:#080;font-weight:bold">return</span> _entrys;
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>}
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>origins(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">created</span><span style="color:#710">&quot;</span></span>); <span style="color:#777">// showed me that the 'if/else if / else' conditional was met so it stopped moving down the chain.</span>
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>=&gt; Intelligent Design
+</pre></div>
+</div>
+</div>
 
 <h4 id="another-gotcha">Another gotcha</h4>
 
 <p>I also noticed that a return in the else can prevent a possible, undesired 'undefined'.</p>
 
-<pre><code class="language-javascript">  function origins(entry_system) {
-    var _entrys;
-    if (entry_system == "created") _entrys = "Intelligent Design.";
-    else if (entry_system == "chance") _entrys = "Evolution.";
-    else return "Open for discussion.";
-    return _entrys;
-  }
-
-  origins("confused");
-  =&gt; "Open for discussion."
-
-  function origins(entry_system) {
-    var _entrys;
-    if (entry_system == "created") _entrys = "Intelligent Design.";
-    else if (entry_system == "chance") _entrys = "Evolution.";
-    else "Open for discussion."; // removed the explicit return
-    return _entrys;
-  }
-
-  origins("confused");
-  =&gt; undefined
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">origins</span>(entry_system) {
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>  <span style="color:#080;font-weight:bold">var</span> _entrys;
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>  <span style="color:#080;font-weight:bold">if</span> (entry_system == <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">created</span><span style="color:#710">&quot;</span></span>) _entrys = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Intelligent Design.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">if</span> (entry_system == <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">chance</span><span style="color:#710">&quot;</span></span>) _entrys = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Evolution.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">return</span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Open for discussion.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>  <span style="color:#080;font-weight:bold">return</span> _entrys;
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>}
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>origins(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">confused</span><span style="color:#710">&quot;</span></span>);
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>=&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Open for discussion.</span><span style="color:#710">&quot;</span></span>
+<span class="line-numbers"><a href="#n11" name="n11">11</a></span>
+<span class="line-numbers"><a href="#n12" name="n12">12</a></span><span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">origins</span>(entry_system) {
+<span class="line-numbers"><a href="#n13" name="n13">13</a></span>  <span style="color:#080;font-weight:bold">var</span> _entrys;
+<span class="line-numbers"><a href="#n14" name="n14">14</a></span>  <span style="color:#080;font-weight:bold">if</span> (entry_system == <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">created</span><span style="color:#710">&quot;</span></span>) _entrys = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Intelligent Design.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"><a href="#n15" name="n15">15</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="color:#080;font-weight:bold">if</span> (entry_system == <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">chance</span><span style="color:#710">&quot;</span></span>) _entrys = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Evolution.</span><span style="color:#710">&quot;</span></span>;
+<span class="line-numbers"><a href="#n16" name="n16">16</a></span>  <span style="color:#080;font-weight:bold">else</span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Open for discussion.</span><span style="color:#710">&quot;</span></span>; <span style="color:#777">// removed the explicit return</span>
+<span class="line-numbers"><a href="#n17" name="n17">17</a></span>  <span style="color:#080;font-weight:bold">return</span> _entrys;
+<span class="line-numbers"><a href="#n18" name="n18">18</a></span>}
+<span class="line-numbers"><a href="#n19" name="n19">19</a></span>
+<span class="line-numbers"><strong><a href="#n20" name="n20">20</a></strong></span>origins(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">confused</span><span style="color:#710">&quot;</span></span>);
+<span class="line-numbers"><a href="#n21" name="n21">21</a></span>=&gt; <span style="color:#069">undefined</span>
+</pre></div>
+</div>
+</div>
 <p>If you don't put a <code>return</code>, then the return of <code>_entrys</code> is <code>undefined</code>.</p>
 
 <p>JS return values chain well</p>
 
 <p>Make an array</p>
 
-<pre><code class="language-javascript">var a = []
-=&gt; []
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">var</span> a = []
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>=&gt; []
+</pre></div>
+</div>
+</div>
 
 <p>And a function that returns the array</p>
 
-<pre><code class="language-javascript">var b = function(){ return a }
-=&gt; function (){ return a }
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">var</span> <span style="color:#06B;font-weight:bold">b</span> = <span style="color:#080;font-weight:bold">function</span>(){ <span style="color:#080;font-weight:bold">return</span> a }
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>=&gt; <span style="color:#080;font-weight:bold">function</span> (){ <span style="color:#080;font-weight:bold">return</span> a }
+</pre></div>
+</div>
+</div>
 
 <p>Invoking the function will return an array</p>
 
-<pre><code class="language-javascript">b()
-=&gt; []
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span>b()
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>=&gt; []
+</pre></div>
+</div>
+</div>
 
 <p>Since an Array is the return value of that function, I can chain Array methods to the function</p>
 
-<pre><code class="language-javascript">b().push(1)
-=&gt; 1
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span>b().push(<span style="color:#00D">1</span>)
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>=&gt; <span style="color:#00D">1</span>
+</pre></div>
+</div>
+</div>
 
 <p>Moreso, that method actually influenced the <code>a</code> array;</p>
 
-<pre><code class="language-javascript">a
-=&gt; [1]
-</code></pre>
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span>a
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>=&gt; [<span style="color:#00D">1</span>]
+</pre></div>
+</div>
+</div>
 
 <p>Think of the possibilities…</p>
 </div></body><script src="../scripts/nav_overlay-234ad478.js"></script><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

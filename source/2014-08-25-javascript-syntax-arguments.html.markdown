@@ -8,6 +8,9 @@ summary: this is the summary.
 ###### How to read code
 
 ## JS syntax: Arguments
+
+### How to read code
+
 In my quest to learn more about Javascript's map function I went to [mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and found the explanation unclear. So, I started playing around with it to learn it.
 
 ~~~javascript
