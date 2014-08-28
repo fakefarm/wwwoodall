@@ -1,20 +1,20 @@
 ---
-title: 'JS syntax: callbacks'
+title: 'JS syntax: Callbacks'
 snip: How functions work together
 image: 'heros/photo.gif'
 layout: blog
 date: 2014-08-27 19:47 UTC
 tags: javascript
-published: false
+published: true
 ---
 
-When I told people I was confused about callbacks I often heard that callbacks were just functions. So I couldn't figure out what my hurdle was to grasping them. But I just had an _AH-HA!_ moment after getting a better grasp on some basic syntax. 
+When I told people I was confused about callbacks I often heard 'they are  just functions'. So I couldn't figure out what my hurdle was to grasping them. But I figured finally got it after understanding some basic syntax. 
 
 JavaScript functions use `()` for two different reasons. Let me recap so that we're on the same page;
 
-### 2 reasons for ( )
+#### 2 reasons for ( )
 
-**1st | Declaration** 
+##### 1. Declaration
 
 `()'s` contain arguments the function will need to work properly.
 
@@ -25,7 +25,7 @@ function hello(name){
 }
 ~~~
 
-**2nd | Invocation** 
+##### 2. Invocation
 
 `()'s` invoke the function.
 
@@ -37,7 +37,7 @@ function hello(name){
 #### Adding a callback to a function
 
 To use a callback in a function, the function needs to be designed for it. 
-As in, the function will need to add `()` to argument that represents the function.
+As in, the function will need to append `()` onto the argument that represents the function.
 
 ~~~javascript
 // Example 3
@@ -56,14 +56,15 @@ _I had extra clarity when I realized that adding `()'s` to a number or string wo
 ~~~javascript
 // Example 4
 // You don't use () for anything but functions.
-// So, any argument expecting something other 
-// than a function would not append ()
-'blam'() // Don't treat a string like a function.
-4() // Craziness.
+// So, a function would not be designed to append () 
+// to any non-function argument.
+
+"blam"()    // Won't work.
+4()         // Silliness
 ~~~
 
 ##### A function to use for the callback
-Here's a function to use in the `callback` slot that just returns the number 2. 
+Ok, let's make a function that will be passed as a callback. It is just going to return the number 2. 
 
 ~~~javascript
 function two() {
@@ -74,7 +75,7 @@ two()
 => 2
 ~~~
 
-Now, when I use that as part of my callback, I will enter `two` as my argument of the `add` function without the `()` because the `add` function is designed to append them to my argument. 
+Now, when used as a callback, I will enter `two` as my argument but without the `()` because the `add` function is designed to append them to my argument. 
 
 So, I can write 
 
@@ -84,5 +85,4 @@ function add(1, two); // use function 'two' but don't add '()'
 => 3
 ~~~
 
-It was when and where to add parens that were tripping me up with callbacks. 
-Now that I have clarity on the two uses of the `()'s`, I am able to see how the two different purposes work together to create callbacks.
+The 'when' and 'where' to add parens that was tripping me up. Now that I have clarity on the two uses of the `()'s`, I am able to see how the two different purposes work together to create callbacks. Yay!

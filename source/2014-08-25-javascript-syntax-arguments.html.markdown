@@ -30,7 +30,7 @@ Ruby will throw an error if all the arguments are not passed in. JavaScript won'
 
 #### Understanding the arguments
 
-`Map`'s documentation says it has use of four arguments. Next was to figure out what those arguments represented. Since I didn't know, so I just named them `(first, second, third, fourth)` and stored them in an Array to see what I got back;
+`Map`'s documentation says it has use of four arguments. Next was to figure out what those arguments represented. Since I didn't know, I named them `(first, second, third, fourth)` and stored them in an Array to see what I got back;
 
 ~~~javascript
 pets_info = pets.map(function(first, second, third, fourth){
