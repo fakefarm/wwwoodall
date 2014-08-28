@@ -1,7 +1,7 @@
 @import 'import';
 
 .photos {
-  // display: none;
+  display: none;
   @include media($medium-screen) {
     position: fixed;
     z-index: 10;
