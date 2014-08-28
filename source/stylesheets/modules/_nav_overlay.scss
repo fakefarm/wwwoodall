@@ -82,6 +82,7 @@
 }
 
 .overlay ul li a {
+  position: relative;
   font-family: $fat;
   text-transform: lowercase;
   font-size: 34px;
@@ -89,6 +90,16 @@
   display: block;
   color: #fff;
   -webkit-transition: color 0.2s;
+  .desc {
+    display: none;
+    position: absolute;
+    font-size: 0.25em;
+    width: 6em;
+    color: rgba(239, 239, 239, 0.55);
+    top: 1.2em;
+    left: 4.5em;
+    text-align: left;
+  }
   @include media($medium-screen) {
     font-size: 68px;
   }
@@ -97,6 +108,11 @@
 .overlay ul li a:hover,
 .overlay ul li a:focus {
   color: $yellowish;
+}
+
+.overlay ul li a:hover > .desc {
+  display: inline-block;
+  @include transition (all 1.2s ease-in-out);
 }
 
 /* Effects */

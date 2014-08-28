@@ -8,15 +8,22 @@
       / li= link_to 'portfolio', '/portfolio'
       li= link_to blog.articles.first do
         .fa.fa-star
+        .desc latest post
       li= link_to '/blog' do
         .fa.fa-list-ul
+        .desc all posts
       li= link_to '/about' do
         .fa.fa-user
+        .desc about
       li= link_to "/" do
         .fa.fa-home
+        .desc home
       li= link_to 'http://www.github.com/woodall', target: '_blank' do
         .fa.fa-github
+        .desc code
       li= link_to 'http://www.dribbble.com/wwwoodall', target: '_blank' do
         .fa.fa-dribbble
+        .desc art
       li= link_to 'http://www.twitter.com/wwwoodall', target: '_blank' do
         .fa.fa-twitter
+        .desc let's tweet
