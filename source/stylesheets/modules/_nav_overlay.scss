@@ -41,10 +41,8 @@
 }
 
 .fa-camera {
-  // color: black;
   font-size: 1.75em;
   top: 2em;
-  // right: 0.75em;
 
   @include media($medium-screen) {
     font-size: 1.9em;
@@ -104,7 +102,7 @@
 /* Effects */
 .overlay-scale {
   visibility: hidden;
-  opacity: 0;
+  opacity: 1;
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s, visibility 0s 0.2s;

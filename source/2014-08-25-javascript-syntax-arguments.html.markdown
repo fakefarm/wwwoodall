@@ -1,8 +1,8 @@
 ---
 title: 'JS syntax: Arguments'
 snip: How to read code
-image: 'laird.jpg'
-caption: 'This is laird and he is awesome.'
+image: 'heros/joke.png'
+caption: ''
 date: 2014-08-25 14:53 UTC
 layout: blog
 tags: javascript

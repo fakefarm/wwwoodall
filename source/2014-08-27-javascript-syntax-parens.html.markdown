@@ -1,7 +1,7 @@
 ---
 title: 'JS syntax: Parens'
 snip: Prep for anonymous functions and closures
-image: ''
+image: 'heros/lake.jpg'
 layout: blog
 date: 2014-08-27 19:46 UTC
 tags: javascript

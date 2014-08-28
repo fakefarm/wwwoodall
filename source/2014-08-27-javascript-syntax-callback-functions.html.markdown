@@ -1,7 +1,7 @@
 ---
 title: 'JS syntax: callbacks'
 snip: Keys to the kingdom
-image: 'laird.jpg'
+image: 'heros/photo.gif'
 layout: blog
 date: 2014-08-27 19:47 UTC
 tags: javascript

@@ -1,1 +1,0 @@
-(function(){$(document).ready(function(){return $("#camera").click(function(){return $(".photos").css("top",0)}),$(".photos"),$(".timeline-header").css("display","none")})}).call(this);

@@ -1,7 +1,7 @@
 ---
 title: 'JS syntax: Return'
 snip: Stop getting undefined
-image: ''
+image: 'heros/canoe.jpg'
 date: 2014-08-27 19:51 UTC
 tags: javascript
 layout: blog
