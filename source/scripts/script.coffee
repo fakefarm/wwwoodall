@@ -1,5 +1,7 @@
 $(document).ready ->
   $('#camera').click ->
-    $('.photos').css('top', 0)
-  $('.photos')
+    $('.photos').slideDown()
+  $('.photos').click ->
+    $('.photos').slideUp()
+
   $('.timeline-header').css('display', 'none')

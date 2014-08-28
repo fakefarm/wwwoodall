@@ -15,6 +15,10 @@ html
     meta name="viewport" content="initial-scale=1.0"
 
   body class="#{page_classes}"
+    .photos
+      .cross= image_tag 'cross.png'
+      = image_tag(post_image)
+      = image_caption
     section.main
       .l-header
         = render_partial 'shared/header/header'

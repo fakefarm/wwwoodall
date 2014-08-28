@@ -19,8 +19,10 @@ html
     .l-header
         = render_partial 'shared/header/header'
     .l-container.blog
-      / .photos
-      /   - post_image
+      .photos
+        .cross= image_tag 'cross.png'
+        = image_tag(post_image)
+        = image_caption
       .copy
         = new_post
         h2= post_title

@@ -8,7 +8,20 @@ helpers do
   end
 
   def post_image
-    current_article.metadata[:page]['image']
+    unless current_article.nil?
+      current_article.metadata[:page]['image']
+    else
+      current_page.metadata[:page]['image']
+    end
+  end
+
+  def image_caption
+    unless current_article.nil?
+      caption = current_article.metadata[:page]['caption']
+    else
+      caption = current_page.metadata[:page]['caption']
+    end
+    "<div class='img-caption'>#{caption}</div>"
   end
 
   def post_title
