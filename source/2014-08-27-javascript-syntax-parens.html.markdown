@@ -7,8 +7,6 @@ date: 2014-08-27 19:46 UTC
 tags: javascript
 ---
 
-## JS syntax: Parens
-
 Let's start with a simple concept. 
 
 ~~~javascript

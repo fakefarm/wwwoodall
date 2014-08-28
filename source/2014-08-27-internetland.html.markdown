@@ -7,8 +7,6 @@ tags: growth
 layout: blog
 ---
 
-## Internetland
-
 In 2009, I started to realize that the Internet is here to stay. I know it sounds funny. But what I mean is that I knew how to consume it and used it for banking, bills, and movies. But I had no idea how it all worked. 
 
 I looked around and noticed that it had colonized our lives faster than Rome conquered Europe. I like to describe the web as a new country, I call 'InternetLand'.

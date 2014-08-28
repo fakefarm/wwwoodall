@@ -7,8 +7,6 @@ tags: javascript
 layout: blog
 ---
 
-## JS syntax: Return
-
 My first programming language was Ruby. Managing a return value wasn't something I had to do. This is an example of my Ruby-inspired functions;
 
 ~~~javascript

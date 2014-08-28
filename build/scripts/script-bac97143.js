@@ -1,1 +1,0 @@
-(function(){$(document).ready(function(){return $(".snippet-title").click(function(){return $(this).next(".snippet").slideToggle()})})}).call(this);
