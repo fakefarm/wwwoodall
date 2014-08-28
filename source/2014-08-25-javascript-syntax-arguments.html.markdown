@@ -1,6 +1,6 @@
 ---
 title: 'JS syntax: Arguments'
-snip: Insights on developer intuition
+snip: Developing intuition
 image: 'heros/joke.png'
 caption: ''
 date: 2014-08-25 14:53 UTC
@@ -79,12 +79,10 @@ add(2,1) # change order same result
 => 3
 ~~~
 
-Those simple examples unintentionally lead me to believe that arguments were informal. Thinking it didn't matter which way you ordered arguments.
+Those simple examples unintentionally led me to believe that arguments were informal. That it didn't matter which way you ordered arguments.
 
 #### Work with assumptions
 
-Nobody innately knows how another developer's code works. The easiest way is to take a guess or two. But if you can't figure it out, then you can be assured it's documented somewhere with tests, api, proper names, or (dare I say) comments. 
+Nobody innately knows how another developer's code works. The easiest way is to take a guess or two. But if you can't figure it out, then you can be assured it's documented somewhere with tests, api, proper names, or (dare I say) comments. Even though JavaScript is a dynamically typed language the arguments have to be specified.
 
 Knowing that arguments are intentional means expecting code to follow certain patters. That other developers are going to reference my code to understand how to use it challenges me to write clean code.
-
-Upward and onward...
