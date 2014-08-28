@@ -3,6 +3,7 @@
   - blog.articles[0...5].each do |article|
     =link_to article.url do
       article
-        h1= article.title
-        = article.summary(50)
+        h2= article.title
+        h3= article.metadata[:page]['snip']
+
         p.tags= article.tags.join(", ")

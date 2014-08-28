@@ -6,6 +6,18 @@ helpers do
       "<h1 class='fa fa-star'></h1>"
     end
   end
+
+  def post_image
+    current_article.metadata[:page]['image']
+  end
+
+  def post_title
+    current_article.title
+  end
+
+  def post_snip
+    current_article.metadata[:page]['snip']
+  end
 end
 
 activate :blog do |blog|

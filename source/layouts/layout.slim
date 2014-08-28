@@ -15,9 +15,9 @@ html
     meta name="viewport" content="initial-scale=1.0"
 
   body class="#{page_classes}"
-    .l-header
-      = render_partial 'shared/header/header'
-    = yield
+    section.main
+      .l-header
+        = render_partial 'shared/header/header'
+      = yield
   script src='../scripts/nav_overlay.js'
   = render_partial 'analytics'
-

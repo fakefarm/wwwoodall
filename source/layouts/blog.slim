@@ -12,7 +12,6 @@ html
     script src='../scripts/lib/jquery.min.js'
     script src='../scripts/script.js'
     script src='../scripts/lib/modernizer.js'
-    script src='../scripts/script.js'
     meta name="viewport" content="initial-scale=1.0"
 
 
@@ -20,9 +19,12 @@ html
     .l-header
         = render_partial 'shared/header/header'
     .l-container.blog
-      = new_post
-      = yield
+      / .photos
+      /   - post_image
+      .copy
+        = new_post
+        h2= post_title
+        h3= post_snip
+        = yield
   script src='../scripts/nav_overlay.js'
   = render_partial 'analytics'
-
-

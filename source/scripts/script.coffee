@@ -1,3 +1,5 @@
 $(document).ready ->
-  $('.snippet-title').click ->
-    $(this).next(".snippet").slideToggle()
+  $('#camera').click ->
+    $('.photos').css('top', 0)
+  $('.photos')
+  $('.timeline-header').css('display', 'none')

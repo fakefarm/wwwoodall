@@ -1,14 +1,13 @@
 ---
 title: 'JS syntax: Return'
+snip: Stop getting undefined
+image: ''
 date: 2014-08-27 19:51 UTC
 tags: javascript
 layout: blog
 ---
-###### Stop getting undefined
 
 ## JS syntax: Return
-
-### Stop getting undefined
 
 My first programming language was Ruby. Managing a return value wasn't something I had to do. This is an example of my Ruby-inspired functions;
 

@@ -27,7 +27,7 @@
 }
 
 /* Menu style */
-.menu-button {
+.menu-button, .fa-camera {
   position: fixed;
   right: 0.2em;
   top: 0.2em;
@@ -37,6 +37,19 @@
     padding: 0.25em;
     font-size: 3em;
     &:hover { color: $yellowish; }
+  }
+}
+
+.fa-camera {
+  // color: black;
+  font-size: 1.75em;
+  top: 2em;
+  // right: 0.75em;
+
+  @include media($medium-screen) {
+    font-size: 1.9em;
+    top: 3em;
+    right: 0.65em;
   }
 }
 

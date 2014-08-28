@@ -1,15 +1,11 @@
 ---
 title: 'JS syntax: Arguments'
+snip: How to read code
+image: 'laird.jpg'
 date: 2014-08-25 14:53 UTC
 layout: blog
 tags: javascript
-summary: this is the summary.
 ---
-###### How to read code
-
-## JS syntax: Arguments
-
-### How to read code
 
 In my quest to learn more about Javascript's map function I went to [mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and found the explanation unclear. So, I started playing around with it to learn it.
 

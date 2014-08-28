@@ -1,14 +1,13 @@
 ---
 title: 'JS syntax: Parens'
+snip: Prep for anonymous functions and closures
+image: ''
 layout: blog
 date: 2014-08-27 19:46 UTC
 tags: javascript
 ---
-###### Prep for anonymous functions and closures
 
 ## JS syntax: Parens
-
-### Prep for anonymous functions and closures
 
 Let's start with a simple concept. 
 
