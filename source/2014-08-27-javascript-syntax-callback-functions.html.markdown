@@ -1,11 +1,11 @@
 ---
 title: 'JS syntax: callbacks'
-snip: Keys to the kingdom
+snip: How functions work together
 image: 'heros/photo.gif'
 layout: blog
 date: 2014-08-27 19:47 UTC
 tags: javascript
-blurb: 'this is my blurb!!!'
+published: false
 ---
 
 When I told people I was confused about callbacks I often heard that callbacks were just functions. So I couldn't figure out what my hurdle was to grasping them. But I just had an _AH-HA!_ moment after getting a better grasp on some basic syntax. 

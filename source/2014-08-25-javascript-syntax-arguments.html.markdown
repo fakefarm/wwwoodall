@@ -1,112 +1,90 @@
 ---
 title: 'JS syntax: Arguments'
-snip: How to read code
+snip: Insights on developer intuition
 image: 'heros/joke.png'
 caption: ''
 date: 2014-08-25 14:53 UTC
 layout: blog
 tags: javascript
+published: true
 ---
 
-In my quest to learn more about Javascript's map function I went to [mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and found the explanation unclear. So, I started playing around with it to learn it.
+I wanted to learn JavaScript's `map` function so I went to [mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). My first goal was to toy with it without getting an error.
 
 ~~~javascript
 var pets = ['cat', 'dog', 'mouse', 'bird']
-var more_pets = pets.map(function(value){
-return value;
-})
 
-pets 
-=> ['cat', 'dog', 'mouse', 'bird']
+var more_pets = pets.map(function(value) {
+    return value;
+});
+
 more_pets
 => ['cat', 'dog', 'mouse', 'bird']
 ~~~
 
 Yay, I didn't break anything.
-But what did this buy me? Try again with an uppercase.
+
+##### Compared to Ruby
+
+Ruby will throw an error if all the arguments are not passed in. JavaScript won't do that. So, there's no error if I pass in less arguments than needed.
+
+#### Understanding the arguments
+
+`Map`'s documentation says it has use of four arguments. Next was to figure out what those arguments represented. Since I didn't know, so I just named them `(first, second, third, fourth)` and stored them in an Array to see what I got back;
 
 ~~~javascript
-
-var pets = ['cat', 'dog', 'mouse', 'bird'] 
-var more_pets = pets.map(function(value){
-return value.toUpperCase();
+pets_info = pets.map(function(first, second, third, fourth){
+    return [first, second, third, fourth]
 })
-
-pets 
-=> ['cat', 'dog', 'mouse', 'bird']
-more_pets
-=> ["CAT", "DOG", "MOUSE", "BIRD"]
+=> [Array[4], Array[4] , Array[4] , Array[4]]
 ~~~
 
-_Hmmm. Is that just because I assigned to a new variable, or something else going on?_
-
-## Understanding the arguments
-The documentation says `map`'s callback has use of four arguments. So let me figure out what those arguments represent;
+`Map` returned an Array of Arrays. Now, to see what's inside the first one;
 
 ~~~javascript
-var pets_info = pets.map(function(first, second, third, fourth){
-return [first, second, third, fourth] // put into an array 
-})
-
-pets_info
-=> [Array[4], Array[4] , Array[4] , Array[4]]
 pets_info[0]
 => ["cat", 0, Array[4], undefined]
 ~~~
 
-Oh now it's starting to make sense. For clarity I should change the names of my arguments from; 
+Oh now it's starting to make sense. For clarity I'll change the names of my arguments to
 
 ~~~javascript
-(first, second, third, fourth) 
+(current_value, array_index, original_array, fourth)  
+~~~
+_I'm still not sure what the undefined represented so I'll leave that argument as 'fourth'_
+
+#### Developing intuition
+Learning `map` gave me an _AH-HA_ moment about programming in general. 
+I used to get tripped up while pairing with an experienced developer who took educated guess at something and got it right. 
+
+<blockquote class="twitter-tweet" lang="en"><p>&quot;How do you do that Rodge?&quot;&#10;<a href="https://t.co/uG6v0EgAIi">https://t.co/uG6v0EgAIi</a></p>&mdash; dave (@wwwoodall) <a href="https://twitter.com/wwwoodall/statuses/463406685936427008">May 5, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Turns out they knew the underlying concept that function arguments must be intentionally placed.
+
+**Just because JavaScipt doesn't care if you _pass_ an argument, it does care which order you pass it.** 
+
+##### Oversimplification
+My introduction to arguments was something like an `add` method.
+
+~~~ruby
+def add(a,b)
+  a + b
+end
+
+add(1,2)
+=> 3
+
+add(2,1) # change order same result
+=> 3
 ~~~
 
-to
+Those simple examples unintentionally lead me to believe that arguments were informal. Thinking it didn't matter which way you ordered arguments.
 
-~~~javascript
-(value, index, original_array, fourth)  
-~~~
+#### Work with assumptions
 
-**Back to pets_info[0]**
+Nobody innately knows how another developer's code works. The easiest way is to take a guess or two. But if you can't figure it out, then you can be assured it's documented somewhere with tests, api, proper names, or (dare I say) comments. 
 
-~~~javascript
-pets_info[0] 
-=> ["cat", 0, Array[4], undefined] 
-~~~
+Knowing that arguments are intentional means expecting code to follow certain patters. That other developers are going to reference my code to understand how to use it challenges me to write clean code.
 
-### One by one
-
-So, Map's callback takes at _least_ 3 arguments.
-
-#### Value
-The first one is the value of the current item being looped over
-so, 'cat' in this situation.
-
-#### Original Array's index
-Next, you are given the array index
-
-#### The Original Array
-You can get the entire array back if desired. I can see that to be pretty handy.  Maybe something like checking the previous or next value of the array could influence how you interact with the current value.
-
-#### This? (The fourth)
-It seems like the API is telling me that the fourth argument is `this` but I am not finding a good use for it. 
-
-## Intentional Arguments
-If you're still reading, chances are you're on the junior side too. _Developers who know about `map()` have long since moved on to .gif hunting._
-
-![flying gif](http://img.ffffound.com/static-data/assets/6/16d2cae8eab49c134dbf0eda6aed315dc4d50d87_m.gif)
-
-After learning about `map` I had an AH-HA moment about programming in general. 
-
-In the past, I would get tripped up when pairing with an experienced developers who took educated guesses at the way the function **should** work and got it right. That gave me the impression I had missed out on some fundamental concepts about how **functions** worked. 
-
-My Ah-ha moment was realizing that a function's arguments have to be designed and used in a specific way. You can only know what that order is if you wrote it, take an educated gues, or read the documentation. I realized that nobody innately knows how other people's code works. 
-
-### Expectations at work
-
-Knowing that a function is designed all they way through gives me confidence that when I have to use someone else's function, then I should be able to mimic it's existing pattern for my own use. 
-
-It's also not unreasonable to expect that a co-worker will document their methods somehow be it;
-tests, api, proper naming, or comments.
-
-So the same goes for me. I should write code with an awareness that other devs are going to use it and I had better do a good job of clearly communicating how it works.
-
+Upward and onward...
