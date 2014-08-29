@@ -5,7 +5,7 @@ image: 'heros/canoe.jpg'
 date: 2014-08-27 19:51 UTC
 tags: javascript
 layout: blog
-published: false
+published: true
 ---
 
 My first programming language was Ruby. Managing a return value wasn't something I had to do. This is an example of my Ruby-inspired functions
@@ -53,7 +53,7 @@ Getting comfortable with the shorthand conditional syntax. If you put the condit
 Even when having multiple conditionals. 
 
 
-### Using a var
+#### Using a var
 Maybe you don't want `return` to interrupt the sequence of the function. You could assign a value to a variable and return the variable at the end.
 
 ~~~javascript
