@@ -5,8 +5,10 @@ image: 'heros/lake.jpg'
 layout: blog
 date: 2014-08-27 19:46 UTC
 tags: javascript
-published: false
+published: true
 ---
+
+Encountering syntax like `(function(){})()` makes my eyes glaze over. What is all that noise and how can I understand it?
 
 Let's start with a simple concept. 
 
@@ -15,7 +17,7 @@ Let's start with a simple concept.
 => 2
 ~~~
 
-Adding parens clarifies order of operations. 
+Adding parens actually clarifies order of operations. 
 
 ~~~javascript
 1 + 2 * 2
@@ -49,6 +51,7 @@ To prevent syntax error, wrap the function with parens
 ( function(){ } )
 => function (){ }
 ~~~
+_Either pick a name, or wrap it in parens. Your choice._
 
 If you want to define it, then run it, you'll need to wrap the definition in parens to separate definition from execution.
 
@@ -104,7 +107,7 @@ But, you will need to wrap the declaration in parens to define it and run it at 
 ~~~
 _Since we are defining then immediately calling the function assigning to `a` isn't neccssary._
 
-Which was the moment I realized the following line was productive!
+So, you can just remove it and you're left with
 
 ~~~javascript
 (function(){})()
