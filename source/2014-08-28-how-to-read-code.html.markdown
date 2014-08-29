@@ -30,6 +30,11 @@ console.log(reduce([1, 2, 3, 4], function(a, b) {
 
 #### Verbs Vs. Variables
 
+Just as English uses verbs, nouns, adjectives, and punctuation, so does a computer. But the computer's grammar is different. A computer's grammar is variables, functions, arguments, keywords, and syntax.
+
+Once you learn the basics, you'll start to put together more complete thoughts, just as you would in speaking a new foreign language.
+
+
 During this I started to realize I was still reading code like I would read an English paragraph. I was reading like I would read a paragraph.
 
 Reading code is not like consuming verbs, nouns, and adjectives. Code does not need those things. Code is made up of variables, keywords, functions, arguments, and syntax.
