@@ -34,6 +34,20 @@ p { font-size: 1.3em; }
     .copy {
       @include span-columns(9);
     }
+    .book {
+      @include span-columns(4);
+      h4 { font-size: 1em; }
+      h5 {
+        font-size: 0.8em;
+        &.grade {
+          color: $blue;
+        }
+      }
+    }
+    .review {
+      @include span-columns(8);
+      p { font-size: 1em; }
+    }
   }
 }
 

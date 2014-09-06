@@ -35,11 +35,14 @@ h4 {
 }
 h5 { font-size: 1.5em; }
 
+blockquote p { color: #ABECBE; }
+
 p {
   font-size: 0.925em;
   color: #ece4ab;
   @include media($medium-screen) { font-size: 1.3em; }
 }
+li { color: rgba(86, 165, 153, 0.75) }
 
 a {
   color: yellow;
