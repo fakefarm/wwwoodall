@@ -9,7 +9,7 @@ tags: growth
 published: true
 ---
 
-I am reading [eloquent javascript](http://www.eloquentjavascript.com) and came across an example of the reduce method.
+I am reading [Eloquent javascript](http://www.eloquentjavascript.com) and happended upon the reduce method;
 
 ~~~javascript
 function reduce(array, combine, start) {
@@ -25,24 +25,23 @@ console.log(reduce([1, 2, 3, 4], function(a, b) {
 // → 10
 ~~~
 
-The above code made my eyes glaze over.
+It just made my eyes glaze over.
 
-I read a few more paragraphs and realized these code blocks were the point of the book. Ugh. Either I neeed to read them or I should stop reading the book entirely.  
+I read a few more paragraphs and realized these code blocks were the point of the book. Ugh. Either I need to read them or I should stop reading the book entirely.
 
-I took a moment to think why those blocks were making me glossy-eyed. It was because I didn't understand them. I was trying to read a sentence before I fully understood the individual words.
+I took a moment to think why those blocks were making me glossy-eyed. It was because I didn't understand them. I was trying to read a sentence before I fully understood individual words.
 
 #### Verbs Vs. Variables
 
-Comparing Code to English helped give me an analogy to ramp up my comprehension.
-English is composed of verbs, nouns, adjectives, and punctuation. A computer is similar. But the computer's grammer is not named as such. Computer grammar is composed of variables, functions, arguments, keywords, and syntax. 
+Comparing code to English gave me an analogy to ramp up my comprehension.
+Think how English is composed of verbs, nouns, adjectives, and punctuation. A computer is similar but it's grammer is _variables_, _functions_, _arguments_, _keywords_, and _syntax_.
 
-One difference though is that you you might be able to speak English without learning to read or write it. You can't get by just 'speaking' programming. you need to know how to read and write it. So, you need to get into the details.
+But while you might be able to speak English without reading or writing it, you can't get by just 'speaking' programming. You need to study the details if you are going to read and write it.
 
 #### Crawling in Code
-You have to crawl before you can run. Crawling in code means taking the time to read word by word and say to yourself what it is. 
+You have to crawl before you can run. Crawling in code means taking the time to read word by word and be able to understand it's purpose in the 'sentence'. Your mind was created in such a way that once you grasp it, you won't have to think about it again.
 
-For example with the above code I did something like;
-
+So, for example, with the above code I did something like;
 
 ~~~javascript
 function                // starts a function
