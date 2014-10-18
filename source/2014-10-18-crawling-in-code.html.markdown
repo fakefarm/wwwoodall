@@ -6,6 +6,7 @@ layout: blog
 caption: ''
 date: 2014-10-18 17:18 UTC
 tags: growth
+published: true
 ---
 
 I am reading [eloquent javascript](http://www.eloquentjavascript.com) and came across an example of the reduce method.
