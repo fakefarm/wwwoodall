@@ -26,3 +26,28 @@
   }
 }
 
+.blog-container {
+  @include row();
+}
+.blog-posts {
+  @include span-columns(6);
+}
+.email-signup {
+  @include span-columns(6);
+}
+
+#mc_embed_signup #mce-success-response {
+  color: rgb(72, 76, 117);
+  position: absolute;
+  background: rgb(255, 255, 255);
+  top: 10px;
+  padding: 2em;
+  width: 100%;
+  left: 0;
+  height: 312px;
+  font-weight: 400;
+}
+
+#mc_embed_signup #mce-success-response::before {
+    content: "Awesome! ";
+}
