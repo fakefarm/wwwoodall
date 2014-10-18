@@ -1,10 +1,11 @@
 @import 'import';
 @import 'modules/nav_overlay';
+@import 'modules/blog_footer';
 @import 'modules/photos';
 
 body {
   padding: 0.75em;
-  background: #173138;
+  background: $blog-bg;
 }
 
 h1, h2, h3, h4, h5 {

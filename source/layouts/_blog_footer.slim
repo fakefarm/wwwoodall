@@ -1,0 +1,10 @@
+footer
+  .blog-footer
+    .l-container
+      h3 Other posts
+      - blog.articles.each do |article|
+        - next if current_page.title == article.title
+        =link_to article.url do
+          article
+            p= article.title
+            p.snip= article.metadata[:page]['snip']

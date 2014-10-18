@@ -1,0 +1,28 @@
+@import 'import';
+
+.blog-footer {
+  background: #56A599;
+  margin-top: 1em;
+  padding-top: 1em;
+  h3 {
+    color: $blog-bg;
+  }
+  p {
+    font-size: 2em;
+    color: white;
+    margin: 0;
+    padding: 0;
+    @include media($medium-screen) {
+      font-size: 1.2em;
+    }
+    &.snip {
+      color: $blog-bg;
+      margin-bottom: 1em;
+      font-size: 1em;
+      @include media($medium-screen) {
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+

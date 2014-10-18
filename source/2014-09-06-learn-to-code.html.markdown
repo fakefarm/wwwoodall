@@ -5,7 +5,7 @@ image: heros/banf.jpg
 caption: photo by mike woodall
 layout: blog
 date: 2014-09-06 17:18 UTC
-tags:
+tags: growth
 ---
 
 I've found four different ways to learn to code. Each has it's own set of incentives and pace.
