@@ -5,7 +5,6 @@
     ul
       / li= link_to 'camping', '/camping'
       / li= link_to 'javascript', '/javascript'
-      / li= link_to 'portfolio', '/portfolio'
       li= link_to blog.articles.first do
         .fa.fa-star
         .desc latest post
@@ -13,8 +12,11 @@
         .fa.fa-list-ul
         .desc all posts
       li= link_to '/about' do
-        .fa.fa-user
+        .fa.fa-question
         .desc about
+      li= link_to '/portfolio' do
+        .fa.fa-briefcase
+        .desc portfolio
       li= link_to "/" do
         .fa.fa-home
         .desc home

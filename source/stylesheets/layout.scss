@@ -3,10 +3,11 @@
 @import 'modules/photos';
 
 body {
-  &.index   { background: $bird-light-green; }
-  &.about   { background: $blue; }
-  &.contact { background: $salmon; }
-  &.blog    { background: $paste; }
+  &.index     { background: $bird-light-green; }
+  &.about     { background: $blue; }
+  &.contact   { background: $salmon; }
+  &.blog      { background: $paste; }
+  &.portfolio { background: $paste; }
 }
 
 section.main {
@@ -55,6 +56,13 @@ p { font-size: 1.3em; }
   h1, h2, h3, h4, li { color: white; }
   h2, h3, h4, li { font-family: $fat; }
   p { color: $light-yellow; }
+  li { font-size: 1.2em; }
+}
+
+.portfolio {
+  h1, h2, h3, h4, li { color: $slate; }
+  h2, h3, h4, li { font-family: $fat; }
+  p { color: $bird-light-green; }
   li { font-size: 1.2em; }
 }
 
