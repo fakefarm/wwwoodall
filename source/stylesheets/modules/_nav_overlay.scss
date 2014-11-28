@@ -86,7 +86,7 @@
   position: relative;
   font-family: $fat;
   text-transform: lowercase;
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 300;
   display: block;
   color: #fff;
@@ -102,7 +102,7 @@
     text-align: left;
   }
   @include media($medium-screen) {
-    font-size: 68px;
+    font-size: 48px;
   }
 }
 

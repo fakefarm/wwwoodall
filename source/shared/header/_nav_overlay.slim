@@ -3,17 +3,18 @@
   button.overlay-close type="button"  Close
   nav
     ul
-      / li= link_to 'camping', '/camping'
-      / li= link_to 'javascript', '/javascript'
-      li= link_to blog.articles.first do
+      li= link_to blog('blog').articles.first do
         .fa.fa-star
         .desc latest post
       li= link_to '/blog' do
         .fa.fa-list-ul
         .desc all posts
+      li= link_to '/notes' do
+        .fa.fa-pencil
+        .desc notes
       li= link_to '/about' do
         .fa.fa-question
-        .desc about
+        .desc Meet Dave
       li= link_to '/portfolio' do
         .fa.fa-briefcase
         .desc portfolio

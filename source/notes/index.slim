@@ -1,0 +1,15 @@
+---
+title: notes
+image: 'laird.jpg'
+caption: 'Laird Hamilton, ladies and gentlemen.'
+blog: blog
+layout: notes
+---
+.l-container
+  - blog('notes').articles.each do |article|
+    =link_to article.url.slice(1..-2) do
+      article
+        h2= article.title
+        h3= article.metadata[:page]['snip']
+
+        p.tags= article.tags.join(", ")

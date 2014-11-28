@@ -34,6 +34,15 @@ helpers do
 end
 
 activate :blog do |blog|
+  blog.name = 'blog'
+  blog.prefix = 'blog'
+  blog.permalink = "{title}.html"
+end
+
+activate :blog do |blog|
+  blog.new_article_template = 'templates/note.erb'
+  blog.name = 'notes'
+  blog.prefix = 'notes'
   blog.permalink = "{title}.html"
 end
 
