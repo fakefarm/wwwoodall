@@ -1,5 +1,6 @@
 ---
 title: 'JS syntax: Arguments'
+blog: blog
 snip: Developing intuition
 image: 'heros/joke.png'
 caption: ''

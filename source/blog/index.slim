@@ -2,10 +2,11 @@
 title: 'yay'
 image: 'laird.jpg'
 caption: 'Laird Hamilton, ladies and gentlemen.'
+blog: 'blog'
 ---
 .l-container
-  - blog.articles.each do |article|
-    =link_to article.url do
+  - blog('blog').articles.each do |article|
+    =link_to article.url.slice(1..-2) do
       article
         h2= article.title
         h3= article.metadata[:page]['snip']
