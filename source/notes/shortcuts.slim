@@ -1,0 +1,19 @@
+---
+title: notes
+image: 'laird.jpg'
+caption: 'Laird Hamilton, ladies and gentlemen.'
+blog: blog
+layout: note
+---
+
+h1 Shortcuts
+p
+  | filter by
+  = data.shortcuts.shortcuts.map { |s| s.tag }.join(' ')
+
+- data.shortcuts.shortcuts.each do |s|
+  p
+    span= s.tag
+    span= s.cut
+  p= s.gist
+

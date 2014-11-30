@@ -1,0 +1,12 @@
+notes:
+  1:
+    topic: 'services'
+    title: 'list of services'
+    services:
+      -
+        name:
+        gist:
+  1:
+    topic: 'dependency injection'
+    title: 'inverion control'
+    body: 'dependincy injection requires anotation'

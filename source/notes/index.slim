@@ -5,11 +5,48 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
 blog: blog
 layout: notes
 ---
-.l-container
-  - blog('notes').articles.each do |article|
-    =link_to article.url.slice(1..-2) do
-      article
-        h2= article.title
-        h3= article.metadata[:page]['snip']
 
-        p.tags= article.tags.join(", ")
+ul.bullets
+  li.bullet.four-col-bullet
+    = link_to '/notes/code' do
+      .bullet-icon.bullet-icon-1
+        img alt="" src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" /
+      .bullet-content
+        h2 Writing
+        p Blogs and notes in various stages.
+  li.bullet.four-col-bullet
+    = link_to '/notes/art' do
+      .bullet-icon.bullet-icon-2
+        img alt="" src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" /
+      .bullet-content
+        h2 Reading
+        p A collection of books, blogs, and links. Read and too read.
+  li.bullet.four-col-bullet
+    = link_to '/notes/shortcuts' do
+      .bullet-icon.bullet-icon-3
+        img alt="" src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" /
+      .bullet-content
+        h2 Shortcuts
+        p Shortcuts and hints.
+  li.bullet.four-col-bullet
+    = link_to '/notes/art' do
+      .bullet-icon.bullet-icon-3
+        img alt="" src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" /
+      .bullet-content
+        h2 Thinking
+        p Questions, ideas, drafts.
+  li.bullet.four-col-bullet
+    = link_to '/notes/art' do
+      .bullet-icon.bullet-icon-3
+        img alt="" src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" /
+      .bullet-content
+        h2 Photo albums
+        p Photos and gifs.
+  li.bullet.four-col-bullet
+    = link_to '/notes/art' do
+      .bullet-icon.bullet-icon-3
+        img alt="" src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" /
+      .bullet-content
+        h2 Art
+        p Logos and designs and sketches and whatnots.
+

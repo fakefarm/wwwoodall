@@ -1,0 +1,10 @@
+shortcuts:
+  -
+    tag: bash
+    cut: 'tail -f development.log | grep user'
+    gist: 'live read of the file in question, ex- development.log. Using grep I can look for log enteries that only have user in them.'
+  -
+    tag: git
+    cut: 'copr'
+    gist: 'checkout and pull latest pr.'
+    link: 'http://www.github.com'

@@ -4,12 +4,17 @@
   @include outer-container;
   max-width: 42em;
   min-height: 25em;
+}
 
-  &.blog {
-    @include media($medium-screen) {
-      margin-top: 5em;
-    }
+.blog {
+  @include media($medium-screen) {
+    margin-top: 5em;
   }
+}
+
+.table-width {
+  max-width: 58em;
+  margin-top: 5em;
 }
 
 .logo {

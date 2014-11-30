@@ -1,0 +1,9 @@
+info:
+  -
+    url: 'http://www.google.com'
+    title: "here's a title for a new site"
+    topic: angular
+    sub-topic:
+    read: true
+    gist:
+    favorite: yes

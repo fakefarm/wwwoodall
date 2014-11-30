@@ -10,13 +10,19 @@ th {
   font-weight: bold;
   padding: ($base-line-height / 2) 0;
   text-align: left;
+  color: $yellowish;
 }
 
 td {
   border-bottom: 1px solid $base-border-color;
   padding: ($base-line-height / 2) 0;
+  color: white;
 }
 
 tr, td, th {
   vertical-align: middle;
+}
+
+.topic {
+  width: 30%;
 }

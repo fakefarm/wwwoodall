@@ -18,11 +18,8 @@ html
   body
     .l-header
         = render_partial 'shared/header/header'
-    .l-wide-container
-        h1.page-title Notes
-        h2 Snippets of all shapes and sizes.
-        p I think across 7 or so main categories of life. These are things that I want to remember, do, or know. These items could end up forming a blog post or just remain here as reference for later.
-        = yield
+    .l-container.table-width
+      = yield
   script src='../scripts/nav_overlay.js'
   = render_partial 'analytics'
   / = render_partial 'layouts/blog_footer'

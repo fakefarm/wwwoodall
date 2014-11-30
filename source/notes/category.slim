@@ -1,0 +1,29 @@
+---
+title: notes
+image: 'laird.jpg'
+caption: 'Laird Hamilton, ladies and gentlemen.'
+blog: blog
+layout: note
+---
+
+
+h1= category
+table
+  tr
+    th.topic topic
+    th action
+    th asset
+    th tags
+    th status
+    th source
+  - blog('notes').articles.each do |note|
+    - if note.data['category'] == category
+      tr
+        td = link_to note.title, note.url.slice(1..-2)
+        td = note.data['action']
+        td = note.data['asset_type']
+        td = note.data['tags']
+        td = note.data['status']
+        td
+        - if note.data['source'].present?
+           = link_to 'source', note.data['source'], target: 'blank'

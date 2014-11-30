@@ -1,0 +1,24 @@
+---
+title: notes
+image: 'laird.jpg'
+caption: 'Laird Hamilton, ladies and gentlemen.'
+blog: blog
+layout: note
+---
+
+h1 Links
+p
+  | filter by
+  = data.links.info.map { |s| s.topic }.join(' ')
+
+- data.links.info.each do |s|
+  p
+    span= s.topic
+    span |
+    span= link_to s.title, s.url, target: 'blank'
+  p= s.read
+  - if s.read
+    p I read this
+  - else
+    p I have not read yet
+
