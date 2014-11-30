@@ -1,19 +1,13 @@
 // Import Base Styles', '/about'
-@import "base/normalize";
 @import 'bourbon';
+@import 'neat';
 
-// Variables
 @import 'base/variables';
-
-// Mixins
 @import 'base/mixins/flash';
-
-// Extends
 @import 'base/extends/button';
 @import 'base/extends/clearfix';
 @import 'base/extends/hide-text';
-
-// Typography and Elements
+@import 'base/normalize';
 @import 'base/typography';
 @import 'base/forms';
 @import 'base/tables';
@@ -21,11 +15,11 @@
 @import 'base/lists';
 @import 'base/flashes';
 @import 'base/buttons';
+@import 'base/base';
 
 @import 'lib/animate';
+@import 'layout/layout';
 
-// Neat needs to be installed before bitters.
-@import 'neat';
-
-@import "base/base";
-@import "layout/layout";
+@import 'modules/layout';
+@import 'modules/photos';
+@import 'modules/nav';

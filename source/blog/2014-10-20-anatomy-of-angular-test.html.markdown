@@ -1,11 +1,11 @@
 ---
-title: An AngularJS test
+title: 'An AngularJS test'
 snip: Terms when first learning to test Angular.
 date: 2014-10-20 22:39 UTC
 tags: angular
 image: ''
 caption: ''
-layout: blog
+layout: blog_post
 published: false
 ---
 

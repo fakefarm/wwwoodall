@@ -1,9 +1,9 @@
 ---
-title: Learn to code
+title: 'Learn to code'
 snip: Different strokes for different keys
 image: heros/banf.jpg
 caption: photo by mike woodall
-layout: blog
+layout: blog_post
 date: 2014-09-06 17:18 UTC
 tags: growth
 ---

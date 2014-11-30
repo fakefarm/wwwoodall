@@ -1,5 +1,3 @@
-@import 'import';
-
 .photos {
   display: none;
   @include media($medium-screen) {

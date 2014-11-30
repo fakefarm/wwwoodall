@@ -2,7 +2,7 @@
 title: 'JS syntax: Callbacks'
 snip: How functions work together
 image: 'heros/photo.gif'
-layout: blog
+layout: blog_post
 date: 2014-08-27 19:47 UTC
 tags: javascript
 published: true

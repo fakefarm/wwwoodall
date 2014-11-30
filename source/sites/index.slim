@@ -1,0 +1,10 @@
+.l-container
+  h2 Sites
+  p I managed these projects from concept to completion. Including; UI sketches, Photoshop/Illustrator mockups, HTML, CSS, Javascript, Jquery, Ruby, and Rails (or Middleman).
+  ul
+    - data.sites.sites.each do |site|
+      li
+        span= link_to site.title, site.url, target: '_blank'
+        span
+          '
+        span= site.summary

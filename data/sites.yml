@@ -1,0 +1,34 @@
+sites:
+  -
+    title: "danae.woodalls.me"
+    url: 'http://danae.woodalls.me'
+    summary: 'A site for my wife.'
+  -
+    title: 'Goalies'
+    url: 'http://www.goali.es'
+    summary: 'Reconcile your time.'
+  -
+    title: 'Lettucebooks'
+    url: 'http://www.lettucebooks.com'
+    summary: 'Manage communication between bookkeepers and business owners'
+  -
+    title: 'Afterburners'
+    url: 'http://www.afterburners.mx'
+    summary: 'Every playlist has a story.'
+  -
+    title: 'Destroy all Tasks'
+    url: 'http://www.destroyalltasks.com'
+    summary: 'A todo app that lets you snooze tasks'
+  -
+    title: 'blog'
+    url: 'http://dave.woodalls.me'
+    summary: 'My first rails blog'
+  -
+    title: 'hire Me'
+    url: 'http://www.hireDave.me'
+    summary: 'My freelance site'
+  -
+    title: 'Monkey CRUD'
+    url: 'http://monkeytasks.herokuapp.com/'
+    summary: 'My first CRUD'
+

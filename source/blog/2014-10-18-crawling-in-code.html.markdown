@@ -1,8 +1,8 @@
 ---
-title: Crawling in Code
+title: 'Crawling in Code'
 snip: How to read code
 image: 'heros/driving.gif'
-layout: blog
+layout: blog_post
 caption: ''
 date: 2014-10-18 17:18 UTC
 tags: growth

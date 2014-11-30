@@ -1,10 +1,10 @@
 ---
-title: Faith in what
+title: 'Faith in what'
 snip: We all have faith.
 date: 2014-10-21 15:24 UTC
 tags: faith
 published: false
-layout: blog
+layout: blog_post
 ---
 
 [@dottedt](https://twitter.com/DottedT) recently called me a 'man of faith'. I take it as a complement. And I'm not normally one to mince words but that phrase feels a bit short-sighted. 

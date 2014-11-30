@@ -1,7 +1,7 @@
 ---
-title: tld color guide
+title: 'tld color guide'
 date: 2014-11-28 23:26 UTC
-layout: note
+layout: blog_post
 published: false
 category: code
 action: reference

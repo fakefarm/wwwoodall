@@ -1,11 +1,10 @@
 ---
 title: 'JS syntax: Arguments'
-blog: blog
+layout: blog_post
 snip: Developing intuition
 image: 'heros/joke.png'
 caption: ''
 date: 2014-08-25 14:53 UTC
-layout: blog
 tags: javascript
 published: true
 ---

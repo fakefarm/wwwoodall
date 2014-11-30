@@ -4,7 +4,7 @@ snip: HTML is the new English
 image: 'heros/flying.gif'
 date: 2014-08-27 21:15 UTC
 tags: growth
-layout: blog
+layout: blog_post
 published: true
 ---
 

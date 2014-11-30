@@ -33,29 +33,8 @@ helpers do
   end
 end
 
-# Dynamically create sub-lists
-['art', 'business', 'code'].each do |category|
-    proxy "/notes/#{category}.html", "/notes/category.html", :locals => { :category => category }, :ignore => true
-end
-
-# ready do
-#   sitemap.resources.group_by {|p| sitemap.resources[p].data.tags }.each do |category, pages|
-#     proxy "/notes/#{category}.html", "/notes/categories.html",
-#       :locals => { :category => category, :pages => pages }
-#   end
-# end
-
-
 activate :blog do |blog|
-  blog.name = 'blog'
   blog.prefix = 'blog'
-  blog.permalink = "{title}.html"
-end
-
-activate :blog do |blog|
-  blog.new_article_template = 'source/notes/template.erb'
-  blog.name = 'notes'
-  blog.prefix = 'notes'
   blog.permalink = "{title}.html"
 end
 
