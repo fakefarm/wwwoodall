@@ -3,8 +3,10 @@ shortcuts:
     tag: bash
     cut: 'tail -f development.log | grep user'
     gist: 'live read of the file in question, ex- development.log. Using grep I can look for log enteries that only have user in them.'
+    source: 'http://www.twitter.com/dhassler'
   -
-    tag: git
-    cut: 'copr'
-    gist: 'checkout and pull latest pr.'
-    link: 'http://www.github.com'
+    tag: bash
+    cut: 'find ./source/notes ./source/blog -type f -print0 | xargs -0 stat -f "%m %N" | sort -rn | head -3 | cut -f2- -d" "'
+    gist: 'Recursively find the last updated files'
+    source: 'http://stackoverflow.com/a/9052878/935322'
+    date: 2014-11-29

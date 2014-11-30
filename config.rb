@@ -45,6 +45,7 @@ end
 #   end
 # end
 
+
 activate :blog do |blog|
   blog.name = 'blog'
   blog.prefix = 'blog'
@@ -65,6 +66,8 @@ end
 
 activate :directory_indexes
 activate :livereload
+activate :syntax
+
 set :markdown_engine, :kramdown
 
 set :css_dir, 'stylesheets'

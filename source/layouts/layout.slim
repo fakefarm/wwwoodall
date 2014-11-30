@@ -21,6 +21,7 @@ html
       = image_caption
     section.main
       .l-header
+        = render_partial 'shared/header/nav'
         = render_partial 'shared/header/header'
       = yield
   script src='../scripts/nav_overlay.js'

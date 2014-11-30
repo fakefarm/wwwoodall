@@ -6,8 +6,8 @@ blog: blog
 layout: note
 ---
 
+h1 = category
 
-h1= category
 table
   tr
     th.topic topic
@@ -19,7 +19,7 @@ table
   - blog('notes').articles.each do |note|
     - if note.data['category'] == category
       tr
-        td = link_to note.title, note.url.slice(1..-2)
+        td = link_to note.title, note.url.split('/')[-1]
         td = note.data['action']
         td = note.data['asset_type']
         td = note.data['tags']

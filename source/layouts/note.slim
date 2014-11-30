@@ -1,6 +1,8 @@
 html
   head
-    title notes
+    title
+      '  notes |
+      = current_page.url.split('/')[-1]
     meta charset= "utf-8"
     meta property="og:title" content="HTML is the new English."
     meta property="og:site_name" content="By Dave Woodall"
@@ -17,6 +19,7 @@ html
 
   body
     .l-header
+        = render_partial 'shared/header/nav'
         = render_partial 'shared/header/header'
     .l-container.table-width
       = yield

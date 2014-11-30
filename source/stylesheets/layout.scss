@@ -1,6 +1,7 @@
 @import 'import';
 @import 'modules/nav_overlay';
 @import 'modules/photos';
+@import 'modules/nav';
 
 body {
   &.index     { background: $bird-light-green; }
