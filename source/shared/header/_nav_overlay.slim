@@ -3,7 +3,7 @@
   button.overlay-close type="button"  Close
   nav
     ul
-      li= link_to blog.articles.first do
+      li= link_to blog('blog').articles.first do
         .fa.fa-star
         .desc latest post
       li= link_to '/blog' do
