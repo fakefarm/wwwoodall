@@ -4,9 +4,46 @@ shortcuts:
     cut: 'tail -f development.log | grep user'
     gist: 'live read of the file in question, ex- development.log. Using grep I can look for log enteries that only have user in them.'
     source: 'http://www.twitter.com/dhassler'
+    date: 2014-12-02
   -
     tag: bash
     cut: 'find ./source/notes ./source/blog -type f -print0 | xargs -0 stat -f "%m %N" | sort -rn | head -3 | cut -f2- -d" "'
     gist: 'Recursively find the last updated files'
     source: 'http://stackoverflow.com/a/9052878/935322'
     date: 2014-11-29
+  -
+    tag: git
+    cut: 'gpom'
+    gist: git pull origin master
+    source: 'Tom Copeland'
+    date: 2014-12-02
+  -
+    tag: git
+    cut: copr
+    gist: 'this'
+    source: 'this'
+    date: 2014-12-02
+  -
+    tag: git
+    cut: 'gcob'
+    gist: 'git checkout branch [branch name]'
+    source: 'Tom Copeland'
+    date: 2014-12-02
+  -
+    tag: git
+    cut: 'git log -S [word]'
+    gist: 'the -S is a regex that will look for the word used in the log'
+    source: 'Tom Copeland'
+    date: 2014-12-02
+  -
+    tag: git
+    cut: 'git log [file name]'
+    gist: 'shows changes only for file name'
+    source: 'Tom Copeland'
+    date: 2014-12-02
+  -
+    tag: bundle
+    cut: 'bundle open [gem]'
+    gist: 'will open the gem in question'
+    source: 'hassler'
+    date: 2014-11-02

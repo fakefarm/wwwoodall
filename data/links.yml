@@ -1,12 +1,42 @@
 info:
   -
+    url: http://www.rojotek.com/blog/2014/05/16/cool-stuff-you-can-do-with-rails-has_one/
+    title: 'cool stuff you can do with has one'
+    sub-topic: 'ruby'
+    topic: 'code'
+    gist: 'this'
+    read: false
+    favorite: false
+    structure: post
+    date_added: 2014-12-02
+  -
+    url: http://thomasleecopeland.com/2014/09/22/various-ways-to-create-structs.html
+    title: 'various ways to create structs'
+    topic: 'code'
+    sub-topic: 'ruby'
+    gist: 'this'
+    read: false
+    favorite: false
+    structure: post
+    date_added: 2014-12-02
+  -
+    url: http://theseniorsoftwareengineer.com/
+    title: 'sr. software'
+    sub-topic: 'career'
+    topic: 'personal'
+    gist: 'this'
+    read: false
+    favorite: false
+    structure: ebook
+    date_added: 2014-12-02
+  -
     url: http://www.blogtyrant.com/start-a-blog-2014/
     title: '19 things to know before starting a blog'
     topic: 'blogging'
-    structure: list
     gist: 'Interested to see how the pros do it.'
     read: false
     favorite: false
+    structure: list
     date_added: 2014-12-01
   -
     url: http://madhatted.com/2014/6/17/authentication-for-single-page-apps
