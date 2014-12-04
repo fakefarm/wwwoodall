@@ -1,6 +1,6 @@
 html
   = render_partial 'shared/meta'
-  = stylesheet_link_tag 'blog'
+  = stylesheet_link_tag 'blog_post'
 
   body
     .l-header
@@ -15,7 +15,8 @@ html
         = new_post
         h2= post_title
         h3= post_snip
-        = yield
+        article
+          = yield
   script src='../scripts/nav_overlay.js'
   = render_partial 'shared/analytics'
   = render_partial 'shared/footer/blog'
