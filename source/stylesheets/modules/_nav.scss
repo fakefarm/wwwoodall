@@ -1,6 +1,13 @@
 .new {
+  display: none;
+  @include media($medium-screen) {
+    display: block;
+  }
   a {
-    color: white;
+    color: #aaa;
+    &:hover {
+      color: red;
+    }
   }
 }
 
@@ -146,5 +153,14 @@
   }
   .overlay ul li {
     min-height: 34px;
+  }
+}
+
+@include media($medium-screen) {
+  .menu-button {
+    display: none;
+  }
+  .overlay {
+    display: none;
   }
 }
