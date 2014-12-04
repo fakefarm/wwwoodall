@@ -1,5 +1,25 @@
 info:
   -
+    url: http://www.codequizzes.com/
+    title: 'Code Quizes'
+    topic: 'code'
+    sub-topic: 'practice'
+    gist: 'list of code quizes'
+    date_added: 2014-12-03
+    structure: quiz
+    read: false
+    favorite: false
+  -
+    url: https://practicingruby.com/
+    title: 'practicing ruby'
+    topic: 'code'
+    sub-topic: 'ruby'
+    gist: 'solid articles'
+    date_added: 2014-12-03
+    structure: blog
+    read: false
+    favorite: false
+  -
     url: http://www.rojotek.com/blog/2014/05/16/cool-stuff-you-can-do-with-rails-has_one/
     title: 'cool stuff you can do with has one'
     sub-topic: 'ruby'
