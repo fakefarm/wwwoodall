@@ -2,7 +2,16 @@
 .overlay.overlay-scale
   button.overlay-close type="button"  Close
   nav
-    ul
+    ul.col-one
+      / li= link_to '/bible' do
+      /   .fa.fa-book
+      /   .desc bible verses
+      / li= link_to '/shortcuts' do
+      /   .fa.fa-book
+      /   .desc shortcuts
+      / li= link_to '/links' do
+      /   .fa.fa-book
+      /   .desc links
       li= link_to blog('blog').articles.first do
         .fa.fa-star
         .desc latest post

@@ -2,9 +2,17 @@
 
 body {
   &.index     { background: $bird-light-green; }
-  &.about     { background: $blue; }
+  &.dave      { background: $blue; }
   &.contact   { background: $salmon; }
-  &.portfolio { background: $paste; }
+  &.code      { background: $paste; }
+  &.freelance { background: $salmon; }
+  &.blog      { background: $paste; }
+  &.bible     { background: $salmon; }
+  &.resume    { background: $salmon; }
+  &.shortcuts { background: $salmon; }
+  &.links     { background: $salmon; }
+  &.gifs      { background: $salmon; }
+  &.art       { background: $salmon; }
 }
 
 // About
