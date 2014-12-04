@@ -2,6 +2,26 @@
 title: Dave Woodall
 image: 'heros/lava.jpg'
 caption: "Don't touch the ground, it's lava!"
+layout: false
 ---
-.bird-logo
-  = image_tag 'bird.svg'
+
+html
+  = render_partial 'shared/meta'
+  = stylesheet_link_tag 'application'
+
+  body class="#{page_classes}"
+    .photos
+      .cross= image_tag 'cross.png'
+      = image_tag(post_image)
+      = image_caption
+    section.main
+      .l-header
+        = render_partial 'shared/header/nav'
+        = render_partial 'shared/header/header'
+      p.welcome Welcome Dave Woodall's personal site.
+      .bird-logo
+        = image_tag 'bird.svg'
+
+  script src='../scripts/nav_overlay.js'
+  = render_partial 'shared/analytics'
+
