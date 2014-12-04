@@ -5,8 +5,7 @@ tags: 'site design'
 type: 'journal'
 format: 'text'
 date: 2014-12-02 16:16 UTC
-layout: notes
-blog: notes
+layout: blog_post
 published: false
 image: 'heros/joke.png'
 caption: 'a photo caption goes here'
