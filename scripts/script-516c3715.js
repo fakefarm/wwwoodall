@@ -1,0 +1,1 @@
+(function(){$(document).ready(function(){return $("#camera").click(function(){return $(".photos").slideDown()}),$(".photos").click(function(){return $(".photos").slideUp()}),$(".timeline-header").css("display","none")})}).call(this);
