@@ -4,8 +4,7 @@ html
 
   body
     .l-header
-        = render_partial 'shared/header/nav'
-        = render_partial 'shared/header/header'
+      = render_partial 'shared/header/header'
     .l-container.blog
       .photos
         .cross= image_tag 'cross.png'
@@ -17,6 +16,5 @@ html
         h3= post_snip
         article
           = yield
-  script src='../scripts/nav_overlay.js'
-  = render_partial 'shared/analytics'
+  = render_partial 'shared/footer/stuff'
   = render_partial 'shared/footer/blog'

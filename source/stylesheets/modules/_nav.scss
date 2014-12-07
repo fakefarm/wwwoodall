@@ -1,13 +1,10 @@
-.new {
-  display: none;
+.welcome {
+  font-size: 0.9em;
+  width: 37%;
+  color: $paste;
   @include media($medium-screen) {
-    display: block;
-  }
-  a {
-    color: #aaa;
-    &:hover {
-      color: red;
-    }
+    width: 100%;
+    font-size: 0.9em;
   }
 }
 
@@ -46,8 +43,8 @@
   color: #FFF;
   font-size: 2em;
   @include media($medium-screen) {
-    padding: 0.25em;
-    font-size: 3em;
+    padding: 0.15em;
+    font-size: 2em;
     &:hover { color: $yellowish; }
   }
 }
@@ -58,7 +55,6 @@
 
   @include media($medium-screen) {
     font-size: 1.9em;
-    top: 3em;
     right: 0.65em;
   }
 }
@@ -66,8 +62,7 @@
 .overlay nav {
   text-align: center;
   position: relative;
-  top: 45%;
-  height: 70%;
+  top: 25%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -77,27 +72,52 @@
   padding: 0;
   margin: 0 auto;
   display: inline-block;
-  height: 100%;
   position: relative;
 }
 
 .overlay ul li {
   display: block;
+  text-align: left;
   height: 20%;
-  height: calc(100% / 6);
+  height: 2em;
+  margin-right: 1em;
   @include media($medium-screen) {
-    height: calc(100% / 7);
+    height: 4em;
+    margin-right: 15em;
   }
-  min-height: 54px;
+  min-height: 34px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+.overlay ul.col-two {
+  margin-top: 12em;
+  li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+}
+
+nav.bottom {
+    top: 15%;
+    width: 27%;
+    margin: 0 auto;
+    padding: 2em 0 0;
+    .fa {
+      font-size: 1.2em;
+      color: rgba(0,0,0,0.2);
+      &:hover {
+        color: rgba(255,255,255,0.7);
+      }
+    }
+}
+
 
 .overlay ul li a {
   position: relative;
   font-family: $fat;
   text-transform: lowercase;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 300;
   display: block;
   color: #fff;
@@ -113,7 +133,7 @@
     text-align: left;
   }
   @include media($medium-screen) {
-    font-size: 48px;
+    font-size: 34px;
   }
 }
 
@@ -158,9 +178,9 @@
 
 @include media($medium-screen) {
   .menu-button {
-    display: none;
+    // display: none;
   }
   .overlay {
-    display: none;
+    // display: none;
   }
 }

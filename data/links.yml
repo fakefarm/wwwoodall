@@ -1,5 +1,15 @@
 info:
   -
+    url: 'https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs?utm_source=javascriptweekly&utm_medium=email#2-understanding-angular'
+    title: 'Preparing for the future of AngularJS'
+    topic: 'code'
+    sub-topic: 'Angular'
+    gist: "Here we'll be taking a look at where Angular comes from, to get an idea of where it might go."
+    date_added: 2014-12-06
+    structure: post
+    read: false
+    favorite: false
+  -
     url: http://www.codequizzes.com/
     title: 'Code Quizes'
     topic: 'code'

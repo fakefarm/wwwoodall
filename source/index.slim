@@ -16,12 +16,10 @@ html
       = image_caption
     section.main
       .l-header
-        = render_partial 'shared/header/nav'
         = render_partial 'shared/header/header'
-      p.welcome Welcome Dave Woodall's personal site.
+      p.welcome Art, Business, and Code projects by Dave Woodall.
       .bird-logo
         = image_tag 'bird.svg'
 
-  script src='../scripts/nav_overlay.js'
-  = render_partial 'shared/analytics'
+  = render_partial 'shared/footer/stuff'
 

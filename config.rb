@@ -37,7 +37,7 @@ activate :blog do |blog|
   blog.prefix = 'blog'
   blog.name = 'blog'
   blog.permalink = "{title}.html"
-  blog.new_article_template = 'source/blog/template.erb'
+  blog.new_article_template = 'source/templates/blog_post.erb'
 end
 
 
@@ -53,7 +53,7 @@ activate :syntax
 set :markdown_engine, :kramdown
 
 set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
+set :js_dir, 'scripts'
 set :images_dir, 'images'
 
 configure :build do

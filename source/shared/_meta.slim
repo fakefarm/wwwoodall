@@ -1,10 +1,12 @@
 head
-  title="#{current_page.metadata[:page]['title']} | the www"
+  title="hello wwworld! | Dave Woodall"
   meta charset= "utf-8"
   link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"
-  script src='../scripts/lib/jquery.min.js'
-  script src='../scripts/lib/modernizer.js'
-  script src='../scripts/script.js'
+  = javascript_include_tag 'lib/jquery.min.js'
+  = javascript_include_tag 'lib/modernizer.js'
+  = javascript_include_tag 'nav_overlay'
+  = javascript_include_tag 'script'
+  = yield_content :assets
   meta name="viewport" content="initial-scale=1.0"
   meta property="og:title" content="HTML is the new English."
   meta property="og:site_name" content="By Dave Woodall"

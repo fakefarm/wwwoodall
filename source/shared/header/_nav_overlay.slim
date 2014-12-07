@@ -1,38 +1,19 @@
-.menu-button id="trigger-overlay" class="fa fa-bars"
+.menu-button id="trigger-overlay" menu
 .overlay.overlay-scale
   button.overlay-close type="button"  Close
   nav
     ul.col-one
-      / li= link_to '/bible' do
-      /   .fa.fa-book
-      /   .desc bible verses
-      / li= link_to '/shortcuts' do
-      /   .fa.fa-book
-      /   .desc shortcuts
-      / li= link_to '/links' do
-      /   .fa.fa-book
-      /   .desc links
-      li= link_to blog('blog').articles.first do
-        .fa.fa-star
-        .desc latest post
-      li= link_to '/blog' do
-        .fa.fa-list-ul
-        .desc all posts
-      li= link_to '/dave' do
-        .fa.fa-question
-        .desc Meet Dave
-      li= link_to '/code' do
-        .fa.fa-briefcase
-        .desc sites
+      li= link_to "#{blog('blog').articles.first.title}", blog.articles.first.url
+      li= link_to 'blog', '/blog'
+      li= link_to 'code projects', '/code'
+      li= link_to 'about', '/dave'
+  nav.bottom
+    ul.col-two
       li= link_to "/" do
         .fa.fa-home
-        .desc home
       li= link_to 'http://www.github.com/woodall', target: '_blank' do
         .fa.fa-github
-        .desc code
       li= link_to 'http://www.dribbble.com/wwwoodall', target: '_blank' do
         .fa.fa-dribbble
-        .desc art
       li= link_to 'http://www.twitter.com/wwwoodall', target: '_blank' do
         .fa.fa-twitter
-        .desc let's tweet
