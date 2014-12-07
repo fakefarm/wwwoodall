@@ -1,20 +1,19 @@
 html
   = render_partial 'shared/meta'
   = stylesheet_link_tag 'application'
+  link href="http://fonts.googleapis.com/css?family=Radley:400,400italic" rel="stylesheet" type="text/css" /
+  link href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css" /
 
   body
     .l-header
       = render_partial 'shared/header/header'
-    .l-container.blog
-      .photos
-        .cross= image_tag 'cross.png'
-        = image_tag(post_image)
-        = image_caption
-      .copy
-        = new_post
-        h2= post_title
-        h3= post_snip
-        article
-          = yield
+    .l-container
+      article.type-system-traditional
+        p.type= current_article.tags[0]
+        h1= post_title
+        h2= post_snip
+        p.date= current_article.date
+        = yield
   = render_partial 'shared/footer/stuff'
   = render_partial 'shared/footer/blog'
+
