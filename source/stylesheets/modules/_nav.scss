@@ -1,6 +1,6 @@
 .welcome {
   font-size: 0.9em;
-  width: 37%;
+  width: 50%;
   color: $paste;
   @include media($medium-screen) {
     width: 100%;
@@ -70,7 +70,10 @@
 .overlay ul {
   list-style: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 3em auto;
+  @include media($medium-screen) {
+    margin: 0 auto;
+  }
   display: inline-block;
   position: relative;
 }
@@ -79,7 +82,7 @@
   display: block;
   text-align: left;
   height: 20%;
-  height: 2em;
+  height: 1.5em;
   margin-right: 1em;
   @include media($medium-screen) {
     height: 4em;
@@ -91,18 +94,26 @@
 }
 
 .overlay ul.col-two {
-  margin-top: 12em;
+    margin-top: 1em;
+  @include media($medium-screen) {
+    margin-top: 12em;
+  }
   li {
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 0.5em;
+    @include media($medium-screen) {
+      margin-right: 2em;
+    }
   }
 }
 
 nav.bottom {
-    top: 15%;
-    width: 27%;
+    width: 50%;
     margin: 0 auto;
-    padding: 2em 0 0;
+    @include media($medium-screen) {
+      padding: 2em 0 0;
+      top: 15%;
+    }
     .fa {
       font-size: 1.2em;
       color: rgba(0,0,0,0.2);
