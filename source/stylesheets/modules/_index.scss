@@ -21,6 +21,11 @@
   .welcome-title {
     @include clearfix;
     font-size: 0.5em;
+    .tags p {
+      font-size: 1.5em;
+      padding: 0;
+      margin: 0;
+    }
   }
   .content {
     display: none;

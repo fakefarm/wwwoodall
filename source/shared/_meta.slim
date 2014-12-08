@@ -15,9 +15,6 @@ head
   meta content="summary" name="twitter:card"
   meta content="@wwwoodall" name="twitter:site"
   meta content="@wwwoodall" name="twitter:creator"
-  - if current_article.present?
-    meta property="og:description" content="#{current_article.summary}"
-  - else
-    meta property="og:description" content="#{current_page.data.meta_desc}"
+  meta property="og:description" content="#{current_page.data.meta_desc}"
 
 

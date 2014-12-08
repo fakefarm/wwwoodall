@@ -4,6 +4,7 @@ snip: "Having trouble blogging? Think of it as note taking"
 tags: 'blogging'
 date: 2014-12-08 13:27 UTC
 published: false
+layout: blog_post
 image: 'heros/joke.png'
 caption: 'a photo caption goes here'
 ---
