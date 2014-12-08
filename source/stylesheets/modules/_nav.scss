@@ -1,13 +1,3 @@
-.welcome {
-  font-size: 0.9em;
-  width: 50%;
-  color: $paste;
-  @include media($medium-screen) {
-    width: 100%;
-    font-size: 0.9em;
-  }
-}
-
 /* Overlay style */
 .overlay {
   position: fixed;
@@ -93,10 +83,20 @@
   backface-visibility: hidden;
 }
 
+.overlay ul.col-one {
+  margin-bottom: 1em;
+  @include media($medium-screen) {
+    margin-bottom: 4em;
+  }
+  li{
+    text-decoration: underline;
+  }
+}
+
 .overlay ul.col-two {
     margin-top: 1em;
   @include media($medium-screen) {
-    margin-top: 12em;
+    margin-top: 0em;
   }
   li {
     display: inline-block;

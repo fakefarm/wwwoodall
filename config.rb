@@ -37,7 +37,7 @@ activate :blog do |blog|
   blog.prefix = 'blog'
   blog.name = 'blog'
   blog.permalink = "{title}.html"
-  blog.new_article_template = 'source/templates/blog_post.erb'
+  blog.new_article_template = 'templates/blog_post.erb'
 end
 
 

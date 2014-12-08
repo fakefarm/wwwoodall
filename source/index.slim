@@ -1,8 +1,9 @@
 ---
-title: Dave Woodall
+title: wwwoodall.com
 image: 'heros/lava.jpg'
 caption: "Don't touch the ground, it's lava!"
 layout: false
+meta_desc: "Welcome to Dave Woodall's homepage."
 ---
 
 html
@@ -17,9 +18,21 @@ html
     section.main
       .l-header
         = render_partial 'shared/header/header'
-      p.welcome Art, Business, and Code projects by Dave Woodall.
-      .bird-logo
-        = image_tag 'bird.svg'
+      .home-content
+        .bird-logo
+          = image_tag 'bird.svg'
+        .welcome
+          .welcome-title
+            h1 Dave Woodall
+            h2
+              em Boulder, CO
+          .content
+            br
+            p Welcome to my personal site!
+            p I'm an INTJ and my introverted nature tends to think I shouldn't be so forward with my thoughts and views. Translate: I go back and forth between merging personal and professional content on the same site. But I like what Peter Drucker says about people;
+            cite You can't get the hand without the whole body.
+            p And since you're on my site then I assume you'd like to learn something about me. So, if you're curious about deeper matters then you can read my views. I write to process and also start conversations to learn from.
+            p And if those things don't interest you, then I hope you find something else, like my ninja bird doodles.
 
   = render_partial 'shared/footer/stuff'
 

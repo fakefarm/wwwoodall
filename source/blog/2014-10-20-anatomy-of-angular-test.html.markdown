@@ -3,7 +3,7 @@ title: 'An AngularJS test'
 snip: Terms when first learning to test Angular.
 date: 2014-10-20 22:39 UTC
 tags: angular
-image: ''
+image: 'heros/fail.gif'
 caption: ''
 layout: blog_post
 published: false

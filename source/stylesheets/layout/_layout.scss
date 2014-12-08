@@ -25,10 +25,6 @@ section.main {
   padding: 0.75em;
 }
 
-.bird-logo {
-  img { width: 100%; }
-}
-
 h1 {
   font-family: $fat;
   @include media($medium-screen) { font-size: 5em }

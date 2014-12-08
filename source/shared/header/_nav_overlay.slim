@@ -3,10 +3,10 @@
   button.overlay-close type="button"  Close
   nav
     ul.col-one
-      li= link_to "#{blog('blog').articles.first.title}", blog.articles.first.url
+      li= link_to 'newest post', blog.articles.first.url
       li= link_to 'blog', '/blog'
-      li= link_to 'code projects', '/code'
-      li= link_to 'about', '/dave'
+      / li= link_to 'code projects', '/code'
+      / li= link_to 'about', '/dave'
   nav.bottom
     ul.col-two
       li= link_to "/" do

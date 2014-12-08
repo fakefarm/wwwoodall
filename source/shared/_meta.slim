@@ -1,5 +1,5 @@
 head
-  title="hello wwworld! | Dave Woodall"
+  title= "#{current_page.data.title} | Dave Woodall" || "hello wwworld! | Dave Woodall"
   meta charset= "utf-8"
   link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"
   = javascript_include_tag 'lib/jquery.min.js'
@@ -8,8 +8,16 @@ head
   = javascript_include_tag 'script'
   = yield_content :assets
   meta name="viewport" content="initial-scale=1.0"
-  meta property="og:title" content="HTML is the new English."
-  meta property="og:site_name" content="By Dave Woodall"
+  meta property="og:title" content="#{current_page.data.title}"
+  meta property="og:site_name" content="Dave Woodall"
   meta property="og:url" content="http://wwwoodall.com"
-  meta property="og:image" content="http://wwwoodall.com/images/fly-219cc477.png"
-  meta property="og:description" content="Once you know how to code, you can express your ideas to a greater level. Think of learning to code, like learning a foreign languge. It takes time, but soon you communicate without thinking about the details."
+  meta property="og:image" content="http://wwwoodall.com/images/#{current_page.data.image}"
+  meta content="summary" name="twitter:card"
+  meta content="@wwwoodall" name="twitter:site"
+  meta content="@wwwoodall" name="twitter:creator"
+  - if current_article.present?
+    meta property="og:description" content="#{current_article.summary}"
+  - else
+    meta property="og:description" content="#{current_page.data.meta_desc}"
+
+
