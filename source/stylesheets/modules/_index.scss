@@ -1,0 +1,44 @@
+.home-content {
+  @include row()
+}
+
+.bird-logo {
+  img { width: 100%; }
+  @include media($medium-screen) {
+    @include span-columns(6);
+  }
+}
+
+.welcome {
+  font-size: 0.9em;
+  color: $paste;
+  @include media($medium-screen) {
+    max-width: 40em;
+    margin-top: 3em;
+    @include span-columns(6);
+    font-size: 0.9em;
+  }
+  .welcome-title {
+    @include clearfix;
+    font-size: 0.5em;
+  }
+  .content {
+    display: none;
+    @include media($medium-screen) {
+      display: block;
+    }
+  }
+  cite {
+    color: $paste;
+  }
+}
+
+.avatar {
+  display: none;
+  @include media($medium-screen) {
+    display: block;
+    img {
+      @include span-columns(2);
+    }
+  }
+}
