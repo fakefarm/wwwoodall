@@ -1,4 +1,5 @@
 ---
+snip: 'sub-title'
 title: 'tld color guide'
 date: 2014-11-28 23:26 UTC
 layout: blog_post

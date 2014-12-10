@@ -1,5 +1,10 @@
 tips:
   -
+    date: 2014-12-08
+    topic: 'test a POST method'
+    gist: 'open up console and test it with a simple $.post("/path/to/endpoint",{ test: 1});'
+    tag: jquery
+  -
     date: 2014-12-02
     topic: 'cron jobs'
     gist: 'they are scheduled jobs that happen'

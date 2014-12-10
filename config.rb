@@ -2,7 +2,7 @@ Middleman::Templates.register :slim
 
 helpers do
   def new_post
-    if blog('blog').articles.first.title.downcase == page_classes.split(' ')[0].downcase
+    if blog.articles.first.title.downcase == page_classes.split(' ')[0].downcase
       "<h1 class='fa fa-star'></h1>"
     end
   end
@@ -35,11 +35,9 @@ end
 
 activate :blog do |blog|
   blog.prefix = 'blog'
-  blog.name = 'blog'
   blog.permalink = "{title}.html"
   blog.new_article_template = 'templates/blog_post.erb'
 end
-
 
 activate :deploy do |deploy|
   deploy.build_before = true

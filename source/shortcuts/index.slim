@@ -6,14 +6,9 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
 
 .shortcuts
   h1 Shortcuts
-  p
-    | filter by
-    = data.shortcuts.shortcuts.map { |s| s.tag }.join(' ')
 
   - data.shortcuts.shortcuts.each do |s|
     p= s.tag
     h3= s.gist
-    - code("ruby") do
-      = s.cut
-    span= link_to 'source', s.source
+    p= s.cut
 

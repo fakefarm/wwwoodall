@@ -18,22 +18,29 @@ html
     section.main
       .l-header
         = render_partial 'shared/header/header'
-      .home-content
+      / .l-container
+      .intro-text
         .bird-logo
           = image_tag 'bird.svg'
-        .welcome
-          .welcome-title
-            h1 Dave Woodall
-            .tags
-              p Christian | Husband | Dad | Full Stack Programmer | Graphic Designer | Inventor
-              p Retired Entrepreneur | IPA Connoisseur | Stove top espresso | Boulder, CO
-          .content
-            br
-            p Welcome to my personal site!
-            p I'm an INTJ and my introverted nature tends to think I shouldn't be so forward with my thoughts and views. Translate: I go back and forth between merging personal and professional content on the same site. But I like what Peter Drucker says about people;
-            cite You can't have the hand without the body.
-            p And since you're on my site then I assume you'd like to learn something about me. So, if you're curious about deeper matters then you can read my views. I write to process and also start conversations to learn from.
-            p And if those things don't interest you, then I hope you find something else, like my ninja bird doodles.
-
+        h2 Everything begins with the Creator
+        / h4 A site by Dave Woodall
+        p Look with a microscope or telescope and the student will discover awe and beauty. Those are not attributes of chaos. No, those are the words we ascribe to works of One who knows what He's doing.
+        / cite You can't have the hand without the body.
+        / p And since you're on my site then I assume you'd like to learn something about me. So, if you're curious about deeper matters then you can read my views. I write to process and also start conversations to learn from.
+        / p And if those things don't interest you, then I hope you find something else, like my ninja bird doodles.
+        = link_to "Hi, I'm Dave Woodall", '/blog/about'
+      .l-container
+        = render_partial 'shared/index/blog'
+        = render_partial 'shared/index/shortcuts'
+      / .home-content
+      /   .welcome
+      /     .welcome-title
+      /       h1 Dave Woodall
+      /       .tags
+      /         p Christian | Husband | Dad | Full Stack Programmer | Graphic Designer | Inventor
+      /         p Retired Entrepreneur | IPA Connoisseur | Stove top espresso | Boulder, CO
+      /     .content
+      /       br
+      /       p Welcome to my personal site!
   = render_partial 'shared/footer/stuff'
 

@@ -1,7 +1,7 @@
 // first stop for specific page styling before they become modules
 
 body {
-  &.index     { background: $bird-light-green; }
+  &.index     { background: white; }
   &.dave      { background: $blue; }
   &.contact   { background: $salmon; }
   &.code      { background: $paste; }
