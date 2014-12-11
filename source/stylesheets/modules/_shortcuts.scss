@@ -7,15 +7,27 @@
 
   .shortcut {
     padding-top: 0.5em;
+    @include row();
+    .topic {
+      h2 { font-size: 1em;}
+      @include media($medium-screen) {
+        @include span-columns(2);
+      }
+    }
+    .gist {
+      h2 {
+        font-size: 0.9em;
+        font-family: courier;
+        border: 1px solid $medium-gray;
+        padding: 1em;
+        border-radius: 5px;
+      }
+      @include media($medium-screen) {
+        @include span-columns(10);
+      }
+    }
 
     h1 { font-size: 1.3em; }
-    h2 {
-      font-size: 1.2em;
-      font-family: courier;
-      border: 1px solid #eee;
-      padding: 1em;
-      border-radius: 5px;
-    }
     p {
       font-size: 0.8em;
     }

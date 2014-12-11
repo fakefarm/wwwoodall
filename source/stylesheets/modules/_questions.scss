@@ -1,5 +1,7 @@
+
 .questions {
   @include row();
+  article:nth-child(3){ border-bottom: none; }
   padding-top: 1em;
   .tag {
     @include media($medium-screen) {
