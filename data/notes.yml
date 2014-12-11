@@ -1,6 +1,11 @@
 tips:
   -
     date: 2014-12-08
+    topic: 'css strategy'
+    gist: 'Think of classes as cousins and be more generic enough to be reused. They are more similar than I realize.'
+    tag: scss
+  -
+    date: 2014-12-08
     topic: 'test a POST'
     gist: '$.post("/path/to/endpoint",{ test: 1});'
     tag: code

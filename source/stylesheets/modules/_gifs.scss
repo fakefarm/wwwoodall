@@ -12,10 +12,15 @@
   &.show {
     padding-bottom: 1em;
     margin-top: 1em;
+    .controls {
+      text-align: right;
+    }
     @include media($medium-screen) {
-      padding-bottom: 0em;
-      @include span-columns(4);
-      @include omega(3n);
+      padding-bottom: 2em;
+      @include span-columns(12);
+      img {
+        width: 100%;
+      }
     }
     .controls {
       font-size: 0.8em;
