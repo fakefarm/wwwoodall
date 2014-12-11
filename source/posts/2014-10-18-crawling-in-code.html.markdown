@@ -2,8 +2,8 @@
 title: 'Crawling in Code'
 snip: How to read code
 image: 'heros/driving.gif'
-layout: blog_post
 caption: ''
+layout: blog_post
 date: 2014-10-18 17:18 UTC
 tags: growth
 published: true

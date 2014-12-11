@@ -3,10 +3,10 @@ title: 'An AngularJS test'
 snip: Terms when first learning to test Angular.
 date: 2014-10-20 22:39 UTC
 tags: angular
-image: 'heros/fail.gif'
-caption: ''
+image: 'pictures/hero.png'
+caption: "Camping on Father's Day 2014"
 layout: blog_post
-published: false
+published: true
 ---
 
 After writing Angular you'll soon want to test it. Testing is when you'll encounter a second layer of terms and functionality that was designed. I had to learn some new concepts and they made my head spin. So, I am documenting here for a reminder of the parts that are necessary to test. 

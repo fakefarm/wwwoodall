@@ -5,25 +5,9 @@ snip: My notes
 date: 2014-08-30 00:35 UTC
 tags: notes
 layout: blog_post
-published: false
+published: true
 
 ---
-
-<a id="top">
-<a href="#objects">objects</a>
-<span> | </span>
-<a href="#debugging">debugging</a>
-<span> | </span>
-<a href="#http">http</a>
-<span> | </span>
-<a href="#functions">functions</a>
-<span> | </span>
-<a href="#modules">modules</a>
-
-<a id="objects">
-
-## Objects
-_Notes from [Chapter 6](http://eloquentjavascript.net/06_object.html)_
 
 #### Object.create()
 
@@ -60,13 +44,11 @@ console.log(Object.getPrototypeOf(Object.prototype));
 
 Starting to notice that JavaScript needs me to interact with the Object parent to obtain certain information.
 
-#### Object.prototoype vs. Function.prototype
-
 #### for/in vs. in return values.
 
 ~~~javascript
 var user = {
-  nazme: 'dave',
+  name: 'dave',
   age: 37,
   blam: function(){}
 }
@@ -166,17 +148,8 @@ Almost every object is an instance of Object so be aware
 
 [grasp this](http://eloquentjavascript.net/06_object.html#p_4sWuvx6wkg)
 
-<a id="debugging">
-<a href="#top">top</a>
 
 
-## Bug handling
-_Notes from [Chapter 8](http://eloquentjavascript.net/08_error.html)_
-
-#### Types of bugs it will catch
-
-##### Syntax
-##### Trying to invoke a non-function as a function
 ##### Calling methods on null properties.
 
 > But often, your nonsense computation will simply produce a NaN (not a number) or undefined value. And the program happily continues, convinced that it’s doing something meaningful. The mistake will manifest itself only later, after the bogus value has traveled though several functions. It might not trigger an error at all but silently cause the program’s output to be wrong. Finding the source of such problems can be difficult.
@@ -202,22 +175,3 @@ canYouSpotTheProblem();
 > In strict mode, however, an error is reported instead. This is very helpful. It should be noted, though, that this doesn’t work when the variable in question already exists as a global variable, but only when assigning to it would have created it.
 
 Another change in strict mode is that the this binding holds the value undefined in functions that are not called as methods. When making such a call outside of strict mode, this refers to the global scope object. So if you accidentally call a method or constructor incorrectly in strict mode, JavaScript will produce an error as soon as it tries to read something from this, rather than happily working with the global object, creating and reading global variables.
-
-<a id="http">
-<a href="#top">top</a>
-
-
-## HTTP
-
-
-<a id="functions">
-<a href="#top">top</a>
-
-
-## Functions
-
-<a id="modules">
-<a href="#top">top</a>
-
-
-## Modules
