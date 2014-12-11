@@ -101,11 +101,11 @@
 .scroll-on-page aside {
   font-size: 2em;
   @include media($medium-screen) {
-    text-align: left;
+    text-align: right;
     font-size: 0.9em;
     position: fixed;
-    left: 13em;
-    top: 1em;
+    left: 6.3em;
+    bottom: 1em;
     a { color: $warm-gray; }
   }
 }
