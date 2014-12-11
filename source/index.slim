@@ -21,6 +21,10 @@ html
         = render_partial 'shared/nav'
       .intro-text
         #jots
+        .shortcuts
+          .intro-text
+            h3 jots
+            p.date More than a tweet. Less than a Post.
         .bird-logo
           = image_tag 'bird.svg'
         h2= data.jots.jots[0]['jot']

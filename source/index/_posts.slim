@@ -1,4 +1,8 @@
 .shortcuts
+  .intro-text
+    h3 posts
+    p.date Thoughts, Feeling, Words, Actions.
+.shortcuts
   - blog.articles[0..2].each do |post|
     article.type-system-traditional
       h1= link_to post.title, post.url
