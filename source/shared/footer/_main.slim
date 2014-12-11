@@ -8,12 +8,13 @@ footer.footer
     ul
       li
         h3 Pages
-      li= link_to 'current', '/'
-      li= link_to 'posts', '/posts'
-      li= link_to 'gifs', '/gifs'
-      li= link_to 'shortcuts', '/shortcuts'
-      li= link_to 'notes', '/notes'
-      li= link_to 'links', '/links'
+      li= nav_link( 'new', '/')
+      li= nav_link( 'gifs', '/gifs/')
+      li= nav_link( 'jots', '/jots/')
+      li= nav_link( 'posts', '/posts/')
+      li= nav_link( 'shortcuts', '/shortcuts/')
+      li= nav_link( 'notes', '/notes/')
+      li= nav_link( 'links', '/links/')
     ul
       li
         h3 Social
@@ -31,4 +32,9 @@ footer.footer
         span twitter
 
   hr/
-  p wwwoodall.com is an accurate representation of Dave Woodall's life.
+  p
+    ' Designed & Built by Dave using
+    = link_to 'middleman', 'http://www.middlemanapp.com', target: '_blank'
+    '  & thoughtbot
+    = link_to 'front-end', 'http://thoughtbot.com/open-source', target: '_blank'
+    ' .

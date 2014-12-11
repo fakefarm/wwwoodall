@@ -9,6 +9,10 @@
   padding-bottom: 3em;
   width: 100%;
 
+  .active {
+    border-bottom: 2px solid $footer-link-color
+  }
+
   .footer-logo {
     text-align: center;
     margin-bottom: 2em;

@@ -4,11 +4,33 @@
     display: block;
     text-align: right;
     position: absolute;
-    font-size: 0.8em;
+    font-size: 1em;
     left: 1em;
     top: 1em;
-    p { font-size: 1.2em;}
     width: 160px;
+    .active {
+      border-bottom: 2px solid $blue;
+    }
+    p { font-size: 1.2em;}
+    .mailchimp {
+      border-top: 1px solid $light-gray;
+      padding: 0.5em;
+      margin-top: 3em;
+      #mc_embed_signup input {
+        color: $medium-gray;
+        font-size: 0.8em;
+        font-weight: normal;
+        background: $light-gray;
+        padding-left: 0.21em;
+        border: none;
+        width: 100%;
+      }
+      #mc_embed_signup .button {
+        font-size: 1em;
+        background: $light-green;
+        color: $blue;
+      }
+    }
   }
 }
 
@@ -153,7 +175,7 @@ nav.bottom {
   font-size: 18px;
   font-weight: 300;
   display: block;
-  color: #fff;
+  color: $white;
   -webkit-transition: color 0.2s;
   .desc {
     display: none;
