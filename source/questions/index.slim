@@ -1,0 +1,17 @@
+.shortcuts
+  .intro-text
+    h2= link_to 'questions', '/question'
+    p.date I'd like some answers.
+
+  .links.home
+    - data.questions.list.each do |s|
+      .link
+        .tag
+          span As of
+          span= s.date
+        .content
+          .title
+            h2= s.question
+
+  .sectional
+    p= link_to 'view all questions', '/questions'

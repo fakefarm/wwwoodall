@@ -1,0 +1,12 @@
+nav.left-nav
+  .pic
+    =image_tag 'dave_woodall.jpg'
+  p Dave Woodall
+  ul
+    li= link_to 'home', '/'
+    li= link_to 'gifs', '/gifs'
+    li= link_to 'posts', '/posts'
+    li= link_to 'shortcuts', '/shortcuts'
+    li= link_to 'notes', '/notes'
+    li= link_to 'links', '/links'
+  = render_partial 'shared/mailchimp'

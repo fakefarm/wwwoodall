@@ -1,0 +1,14 @@
+---
+title: gifs
+image: 'laird.jpg'
+caption: 'Laird Hamilton, ladies and gentlemen.'
+---
+
+.shortcuts
+  .intro-text
+    h2 notes
+    p.date Things I hear along the way.
+  article.type-system-traditional.shortcut
+    - data.notes.tips.each do |s|
+      h1= s.topic
+      h2= s.gist

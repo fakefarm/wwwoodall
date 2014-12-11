@@ -1,0 +1,34 @@
+footer.footer
+  .footer-logo
+  .footer-links
+    ul
+      li
+        h3 Dave Woodall
+      li= link_to 'about', '/posts/about'
+    ul
+      li
+        h3 Pages
+      li= link_to 'current', '/'
+      li= link_to 'posts', '/posts'
+      li= link_to 'gifs', '/gifs'
+      li= link_to 'shortcuts', '/shortcuts'
+      li= link_to 'notes', '/notes'
+      li= link_to 'links', '/links'
+    ul
+      li
+        h3 Social
+      li= link_to 'http://www.github.com/woodall', target: '_blank' do
+        .fa.fa-github
+        '
+        span github
+      li= link_to 'http://www.dribbble.com/wwwoodall', target: '_blank' do
+        .fa.fa-dribbble
+        '
+        span dribbble
+      li= link_to 'http://www.twitter.com/wwwoodall', target: '_blank' do
+        .fa.fa-twitter
+        '
+        span twitter
+
+  hr/
+  p wwwoodall.com is an accurate representation of Dave Woodall's life.

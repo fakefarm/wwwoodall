@@ -1,0 +1,14 @@
+---
+title: gifs
+image: 'laird.jpg'
+caption: 'Laird Hamilton, ladies and gentlemen.'
+---
+
+.shortcuts
+  .intro-text
+    h2 Jots
+    p.date Kinda like tweets.
+  article.type-system-traditional.shortcut
+    - data.jots.jots.each do |s|
+      h1= s.jot
+      h2= s.blurb
