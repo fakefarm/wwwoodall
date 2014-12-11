@@ -10,6 +10,8 @@ html
     section.main
       .l-header
         = render_partial 'shared/header/header'
+        = render_partial 'shared/nav'
       .l-container
         = yield
   = render_partial 'shared/footer/stuff'
+  = render_partial 'shared/footer/main'

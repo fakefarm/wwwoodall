@@ -7,13 +7,17 @@ html
   body
     .l-header
       = render_partial 'shared/header/header'
+      = render_partial 'shared/nav'
     .l-container
       article.type-system-traditional
         p.type= current_article.tags[0]
         h1= post_title
+        = image_tag current_article.data.image
+        cite= current_article.data.caption
         h2= post_snip
         p.date= current_article.date.strftime("%h %d, %Y")
         = yield
 
+  = render_partial 'shared/footer/main'
   = render_partial 'shared/footer/stuff'
 
