@@ -49,8 +49,8 @@ article.type-system-traditional {
 
   code {
     white-space: pre;
-    background: #F7F7F7;
-    border: 1px solid #E0E0E0;
+    background: $light-yellow;
+    border: 1px solid $light-yellow;
     border-radius: $base-border-radius * 1.5;
     padding: .1em .4em;
     font-size: .75em;
@@ -131,7 +131,7 @@ article.type-system-traditional {
   }
   p {
     font-size: 2em;
-    color: white;
+    color: $white;
     margin: 0;
     padding: 0;
     @include media($medium-screen) {

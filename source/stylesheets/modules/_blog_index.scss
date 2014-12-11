@@ -8,7 +8,7 @@
   h2{
     font-size: 1.25em;
     line-height: 23px;
-    color: #6F4C1B;
+    color: $base-font-color;
     letter-spacing: -1px;
     @include media($medium-screen) {
       font-size: 2em;
@@ -27,7 +27,7 @@
     @include media($medium-screen) { font-size: 1.75em; }
     &.tags {
       display: block;
-      color: $warm-gray;
+      color: $base-font-color;
       font-size: 1em;
     }
   }
