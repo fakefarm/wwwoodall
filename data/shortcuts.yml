@@ -12,13 +12,13 @@ shortcuts:
     source: 'http://stackoverflow.com/a/9052878/935322'
     date: 2014-11-29
   -
-    tag: git
-    cut: 'gpom'
-    gist: git pull origin master
+    tag: bash alias (gpom)
+    cut: 'alias gpom="git pull origin master"'
+    gist: save yourself from typing sooo much
     source: 'Tom Copeland'
     date: 2014-12-02
   -
-    tag: git
+    tag: bash alias (gpom)
     cut: copr
     gist: 'this'
     source: 'this'
