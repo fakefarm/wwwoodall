@@ -40,7 +40,7 @@
     text-transform: uppercase;
 
     @include media($large-screen) {
-      margin-bottom: 3.3em;
+      margin-bottom: 0.75em;
     }
   }
 
@@ -101,10 +101,10 @@
 .scroll-on-page aside {
   font-size: 2em;
   @include media($medium-screen) {
-    text-align: right;
+    text-align: left;
     font-size: 0.9em;
     position: fixed;
-    right: 1em;
+    left: 13em;
     top: 1em;
     a { color: $warm-gray; }
   }
