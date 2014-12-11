@@ -1,0 +1,25 @@
+.gifs {
+ @include row();
+ padding-top: 2em;
+ .gif{
+  &.index {
+    padding-bottom: 1em;
+    @include media($medium-screen) {
+      padding-bottom: 0;
+      @include span-columns(4);
+    }
+  }
+  &.show {
+    padding-bottom: 1em;
+    margin-top: 1em;
+    @include media($medium-screen) {
+      padding-bottom: 0em;
+      @include span-columns(4);
+      @include omega(3n);
+    }
+    .controls {
+      font-size: 0.8em;
+    }
+  }
+ }
+}

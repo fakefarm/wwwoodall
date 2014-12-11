@@ -1,0 +1,23 @@
+.shortcuts {
+  h2 { margin-bottom: 0; }
+
+  article:nth-child(4) {
+    border-bottom: none;
+  }
+
+  .shortcut {
+    padding-top: 0.5em;
+
+    h1 { font-size: 1.3em; }
+    h2 {
+      font-size: 1.2em;
+      font-family: courier;
+      border: 1px solid #eee;
+      padding: 1em;
+      border-radius: 5px;
+    }
+    p {
+      font-size: 0.8em;
+    }
+  }
+}

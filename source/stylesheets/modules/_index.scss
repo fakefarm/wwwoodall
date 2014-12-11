@@ -1,3 +1,6 @@
+.main {
+  margin-top: 3em;
+}
 .intro-text {
   $intro-text-width: 60%;
 
@@ -7,16 +10,21 @@
     }
   }
 
-  margin-top: 2em;
   text-align: center;
 
   h2 {
     font-family: $serif;
     font-weight: 800;
     margin-bottom: .3em;
+    a {
+      color: $dark-gray;
+      &:hover{
+        color: $salmon;
+      }
+    }
 
-    @include media($large-screen) {
-      font-size: 3em;
+    @include media($medium-screen) {
+      font-size: 1.8em;
       margin-bottom: .4em;
     }
   }
@@ -72,62 +80,58 @@
   }
 }
 
+.jot-blurb {
+  font-size: 0.8em;
+  line-height: 22px;
+  text-align: center;
+}
+
 .sectional {
+  margin-top: 1em;
+  padding: 0.5em 0 1em;
+  text-align: right;
+  border-top: 2px dashed #eee;
   p {
     font-size: 1em;
   }
-  background: red;
 }
 
-.shortcuts {
-  h2 {
-    margin-bottom: 0;
-  }
-  .shortcut {
-    padding-top: 0.5em;
+// _nav bar
+
+.scroll-on-page aside {
+  font-size: 2em;
+  @include media($medium-screen) {
+    text-align: right;
+    font-size: 0.9em;
+    position: fixed;
+    right: 1em;
+    top: 7em;
   }
 }
 
-// .home-content {
-//   @include row()
-// }
+.scroll-on-page-link {
+  padding: $base-spacing / 2 0;
+  margin-right: $base-spacing;
+  display: block;
 
+  &:last-child {
+    margin-bottom: $base-spacing;
+  }
+}
 
-// .welcome {
-//   p { font-size: 1em; }
-//   color: $dark-gray;
-//   @include media($medium-screen) {
-//     max-width: 40em;
-//     margin-top: 3em;
-//     @include span-columns(6);
-//     font-size: 0.9em;
-//   }
-//   .welcome-title {
-//     @include clearfix;
-//     font-size: 0.5em;
-//     .tags p {
-//       font-size: 1.5em;
-//       padding: 0;
-//       margin: 0;
-//     }
-//   }
-//   .content {
-//     display: none;
-//     @include media($medium-screen) {
-//       display: block;
-//     }
-//   }
-//   cite {
-//     color: $paste;
-//   }
-// }
+.scroll-on-page article {
+  h4 {
+    margin-bottom: .5em;
+  }
 
-// .avatar {
-//   display: none;
-//   @include media($medium-screen) {
-//     display: block;
-//     img {
-//       @include span-columns(2);
-//     }
-//   }
-// }
+  section p:last-of-type {
+    margin-bottom: 2em;
+  }
+
+  @include media($large-screen) {
+    @include span-columns(8);
+  }
+}
+
+// Based on code by http://codepen.io/xmark/
+

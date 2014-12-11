@@ -2,16 +2,16 @@
 
 body {
   &.index     { background: white; }
-  &.dave      { background: $blue; }
+  &.dave      { background: $blog-bg; }
   &.contact   { background: $salmon; }
   &.code      { background: $paste; }
   &.freelance { background: $salmon; }
   &.blog      { background: $paste; }
   &.bible     { background: $salmon; }
   &.resume    { background: $salmon; }
-  &.shortcuts { background: $salmon; }
-  &.links     { background: $salmon; }
-  &.gifs      { background: $salmon; }
+  &.shortcuts { background: $light-green; }
+  &.links     { background: $blog-bg; }
+  &.gifs      { background: $blog-bg; }
   &.art       { background: $salmon; }
 }
 
