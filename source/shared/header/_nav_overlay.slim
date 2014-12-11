@@ -1,16 +1,16 @@
-.menu-button id="trigger-overlay" menu
+.menu-button id="trigger-overlay" Pages
 .overlay.overlay-scale
   button.overlay-close type="button"  Close
   nav
     ul.col-one
-      / li= link_to 'newest post', blog.articles.first.url
-      li= link_to 'blog', '/blog'
-      / li= link_to 'code projects', '/code'
-      / li= link_to 'about', '/dave'
+      li= link_to 'current', '/'
+      li= link_to '@', '/@'
+      li= link_to 'gifs', '/gifs'
+      li= link_to 'shortcuts', '/shortcuts'
+      li= link_to 'notes', '/notes'
+      li= link_to 'links', '/links'
   nav.bottom
     ul.col-two
-      li= link_to "/" do
-        .fa.fa-home
       li= link_to 'http://www.github.com/woodall', target: '_blank' do
         .fa.fa-github
       li= link_to 'http://www.dribbble.com/wwwoodall', target: '_blank' do

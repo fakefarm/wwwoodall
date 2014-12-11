@@ -18,29 +18,24 @@ html
     section.main
       .l-header
         = render_partial 'shared/header/header'
-      / .l-container
+        = render_partial 'shared/nav'
       .intro-text
         .bird-logo
           = image_tag 'bird.svg'
-        h2 Everything begins with the Creator
-        / h4 A site by Dave Woodall
-        p Look with a microscope or telescope and the student will discover awe and beauty. Those are not attributes of chaos. No, those are the words we ascribe to works of One who knows what He's doing.
-        / cite You can't have the hand without the body.
-        / p And since you're on my site then I assume you'd like to learn something about me. So, if you're curious about deeper matters then you can read my views. I write to process and also start conversations to learn from.
-        / p And if those things don't interest you, then I hope you find something else, like my ninja bird doodles.
-        = link_to "Hi, I'm Dave Woodall", '/blog/about'
+        /= render_partial 'index/nav'
+        h2= data.jots.jots[0]['jot']
       .l-container
-        = render_partial 'shared/index/blog'
-        = render_partial 'shared/index/shortcuts'
-      / .home-content
-      /   .welcome
-      /     .welcome-title
-      /       h1 Dave Woodall
-      /       .tags
-      /         p Christian | Husband | Dad | Full Stack Programmer | Graphic Designer | Inventor
-      /         p Retired Entrepreneur | IPA Connoisseur | Stove top espresso | Boulder, CO
-      /     .content
-      /       br
-      /       p Welcome to my personal site!
+        p.jot-blurb= data.jots.jots[0]['blurb']
+        .sectional
+          p= link_to '/jots', '/jots'
+        article
+          section
+            = render_partial 'index/gifs'
+            = render_partial 'index/posts'
+            = render_partial 'index/shortcuts'
+            = render_partial 'index/notes'
+            = render_partial 'index/questions'
+            = render_partial 'index/links'
+    = render_partial 'shared/footer/main'
   = render_partial 'shared/footer/stuff'
 

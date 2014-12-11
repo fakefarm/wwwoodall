@@ -1,0 +1,14 @@
+.shortcuts
+  - blog.articles[0..2].each do |post|
+    article.type-system-traditional
+      h1= link_to post.title, post.url
+      p.type= post.tags.first
+      = image_tag post.data.image
+      p= post.summary
+      .link=link_to post.url, class: 'read-more' do
+        ' continue reading
+        |
+          &rsaquo;
+
+.sectional
+  p= link_to '/posts', '/posts'

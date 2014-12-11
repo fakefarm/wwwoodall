@@ -1,0 +1,16 @@
+.shortcuts
+  .intro-text
+    h2= link_to 'shortcuts', '/shortcuts'
+    p.date Things I learn from the real programmers.
+
+  - data.shortcuts.shortcuts[0..2].each do |s|
+    article.type-system-traditional
+      .shortcut
+        .topic
+          h2= s.tag
+        .gist
+          h2= s.cut
+          p= s.gist
+
+  .sectional
+    p= link_to '/shortcuts', '/shortcuts'

@@ -1,0 +1,20 @@
+.shortcuts
+  .intro-text
+    h2= link_to 'questions', '/question'
+    p.date Keeping track of where I'm lost.
+
+  .questions.home
+    - data.questions.list[0..2].each do |s|
+      article.type-system-traditional
+        .link
+          .tag
+            h2
+              ' Asked
+              '
+              = s.date.strftime("%h, %Y")
+          .content
+            .title
+              p= s.question
+
+  .sectional
+    p= link_to '/questions', '/questions'

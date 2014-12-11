@@ -1,0 +1,10 @@
+/ .shortcuts
+/   .intro-text
+/     h2= link_to 'gif me a break.', '/gifs'
+/     p.date when words won't do.
+.gifs#gifs
+  - data.gifs.gifs[0..2].each do |s|
+    .gif.index
+      = image_tag s.link
+.sectional
+  p= link_to '/gifs', '/gifs'

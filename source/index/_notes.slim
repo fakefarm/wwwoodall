@@ -1,0 +1,15 @@
+.shortcuts
+  .intro-text
+    h2= link_to 'notes', '/notes'
+    p.date Keeping track of the tid bits.
+
+  - data.notes.tips[0..2].each do |s|
+    article.type-system-traditional
+      .notes
+        .topic
+          h2= s.topic
+        .gist
+          p= s.gist
+
+  .sectional
+    p= link_to '/notes', '/notes'
