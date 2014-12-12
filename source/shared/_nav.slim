@@ -7,8 +7,6 @@ nav.left-nav
   p Pages
   ul
     li= nav_link( 'new', '/')
-    - if current_page.url == '/'
-      = render_partial 'index/nav'
     li= nav_link( 'gifs', '/gifs/')
     li= nav_link( 'jots', '/jots/')
     li= nav_link( 'posts', '/posts/')
@@ -17,3 +15,5 @@ nav.left-nav
     li= nav_link( 'links', '/links/')
   .mailchimp
     = render_partial 'shared/mailchimp'
+  - if current_page.url == '/'
+    = render_partial 'index/nav'
