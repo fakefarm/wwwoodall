@@ -21,17 +21,17 @@ html
         = render_partial 'shared/nav'
       .intro-text
         #jots
-        .shortcuts
-          .intro-text
-            h3 jots
-            p.date More than a tweet. Less than a Post.
-        .bird-logo
-          = image_tag 'bird.svg'
+        / .shortcuts
+        /   .intro-text
+        /     h3 jots
+        /     p.date More than a tweet. Less than a Post. Sometimes a doodle.
+        .jot-tag
+          = image_tag data.jots.jots[0]['img']
         h2= data.jots.jots[0]['jot']
       .l-container
         p.jot-blurb= data.jots.jots[0]['blurb']
         .sectional
-          p= link_to '/jots', '/jots'
+          p= link_to 'all jots', '/jots'
         article
           section
             #gifs

@@ -2,15 +2,18 @@ nav.left-nav
   .pic
     =image_tag 'dave_woodall.jpg'
   p Dave Woodall
+  .bio Christian, Husband, Dad, Hacker, Designer, Inventor, Thinker, Snowboard
+  .location Boulder, CO
+  p Pages
   ul
-    li= nav_link( '/new', '/')
+    li= nav_link( 'new', '/')
     - if current_page.url == '/'
       = render_partial 'index/nav'
-    li= nav_link( '/gifs', '/gifs/')
-    li= nav_link( '/jots', '/jots/')
-    li= nav_link( '/posts', '/posts/')
-    li= nav_link( '/shortcuts', '/shortcuts/')
-    li= nav_link( '/notes', '/notes/')
-    li= nav_link( '/links', '/links/')
+    li= nav_link( 'gifs', '/gifs/')
+    li= nav_link( 'jots', '/jots/')
+    li= nav_link( 'posts', '/posts/')
+    li= nav_link( 'shortcuts', '/shortcuts/')
+    li= nav_link( 'notes', '/notes/')
+    li= nav_link( 'links', '/links/')
   .mailchimp
     = render_partial 'shared/mailchimp'

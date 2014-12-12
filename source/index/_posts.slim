@@ -1,7 +1,7 @@
 .shortcuts
   .intro-text
     h3 posts
-    p.date Thoughts, Feeling, Words, Actions.
+    p.date Thoughts, Feeling, Actions in words.
 .shortcuts
   - blog.articles[0..2].each do |post|
     article.type-system-traditional
@@ -15,4 +15,4 @@
           &rsaquo;
 
 .sectional
-  p= link_to '/posts', '/posts'
+  p= link_to ' all posts', '/posts'

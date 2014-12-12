@@ -6,12 +6,15 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
 
 .shortcuts
   .intro-text
-    h2 Shortcuts
+    h3 Shortcuts
     p.date Things I learn from the real programmers.
 
-  - data.shortcuts.shortcuts[0..2].each do |s|
+  - data.shortcuts.shortcuts.each do |s|
     article.type-system-traditional.shortcut
-      h1= s.tag
-      h2= s.cut
-      p= s.gist
-      p.date= s.date.strftime("%m %d, %Y")
+      .shortcut
+        .topic
+          h2= s.tag
+          p.date= s.date.strftime("%h %Y")
+        .gist
+          h2= s.cut
+          p= s.gist

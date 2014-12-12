@@ -6,9 +6,13 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
 
 .shortcuts
   .intro-text
-    h2 notes
-    p.date Things I hear along the way.
-  article.type-system-traditional.shortcut
-    - data.notes.tips.each do |s|
-      h1= s.topic
-      h2= s.gist
+    h3 notes
+    p.date Keeping track of the tid bits.
+
+  - data.notes.tips.each do |s|
+    article.type-system-traditional
+      .notes
+        .topic
+          h2= s.topic
+        .gist
+          p= s.gist

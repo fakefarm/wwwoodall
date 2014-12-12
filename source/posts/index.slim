@@ -7,29 +7,29 @@ meta_desc: "Dave Woodall's hues and views."
 
 .shortcuts
   .intro-text
-    h2 posts
-    p.date From me to you
+    h3 posts
+    p.date Thoughts, Feeling, Actions in words.
 
 
 .l-container
-  / - blog.articles.each do |article|
-  /   =link_to article.url do
-  /     article
-  /       = image_tag article.data.image
-  /       h2= article.title
-  /       h3= article.metadata[:page]['snip']
-  /       p.tags= article.tags.join(", ")
   .l-blog
-    .l-tags
-    .l-copy
-      - blog.articles.each do |post|
-        article.type-system-traditional
-          h1= link_to post.title, post.url
-          p.type= post.tags.first
-          = image_tag post.data.image
-          h2= post.metadata[:page]['snip']
-          p= post.summary
-          .link=link_to post.url, class: 'read-more' do
-            ' continue reading
-            |
-              &rsaquo;
+    / .blog-tags
+    /   p filter
+    /   ul
+    /     - blog.articles.each do |article|
+    /       li data-name='filter'= link_to article.tags.first, ''
+
+    .l-copy#container
+      #posts
+        - blog.articles.each do |post|
+          article.type-system-traditional#article data-tag="#{post.tags.first}"
+            .post
+              h1= link_to post.title, post.url
+              p.type= post.tags.first
+              = image_tag post.data.image
+              h2= post.metadata[:page]['snip']
+              p= post.summary
+              .link=link_to post.url, class: 'read-more' do
+                ' continue reading
+                |
+                  &rsaquo;

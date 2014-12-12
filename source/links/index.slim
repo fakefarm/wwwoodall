@@ -5,16 +5,18 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
 layout: layout
 ---
 
-.l-container
-  h1 Links
-  .links
-    - data.links.info.each do |s|
-      .link-title= link_to s.title, s.url, target: 'blank'
-      .topic= s.topic
-      .date= s.date_added
-      .read
-        - if s.read
-          | I read this
-        - else
-          | I have not read yet
+.shortcuts
+  .intro-text
+    h3 links
+    p.date Saved for later.
 
+  .links.home
+    - data.links.info.each do |s|
+      .link
+        .tag
+          = s.topic
+        .content
+          .title
+            h2= link_to s.title, s.url, target: '_blank'
+          .gist
+            = s.gist
