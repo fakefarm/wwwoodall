@@ -1,0 +1,8 @@
+.shortcuts
+  .intro-text
+    h3 pictures
+    p.date pictures
+.pictures#pictures
+  - data.pictures.list.each do |s|
+    .pic.show
+      = image_tag s.url

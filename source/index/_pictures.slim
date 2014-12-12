@@ -1,0 +1,10 @@
+.shortcuts
+  .intro-text
+    h3 pictures
+    p.date pictures
+.pictures#pictures
+  - data.pictures.list[0..3].each do |s|
+    .pic.home
+      = image_tag s.url
+.sectional
+  p= link_to ' all pictures', '/pictures'
