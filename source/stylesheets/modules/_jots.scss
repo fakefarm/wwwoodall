@@ -1,0 +1,24 @@
+.jots {
+  .jot {
+    border-bottom: 1px solid $light-gray;
+    padding-bottom: 2em;
+    margin-bottom: 3em;
+    .image {
+      @include media($medium-screen) {
+        margin: 0 auto;
+        img {
+          width: 50%;
+          margin-left: 25%;
+        }
+      }
+    }
+    .j {
+      margin-top: 1em;
+      font-size: 1.8em;
+      text-align: center;
+    }
+    .blurb {
+      font-size: 1.2em;
+    }
+  }
+}
