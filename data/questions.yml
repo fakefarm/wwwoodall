@@ -1,6 +1,18 @@
 list:
   -
     date: 2014-12-02
+    question: "What is SysOps?"
+    answer: ""
+  -
+    date: 2014-12-02
+    question: "What is TechOps?"
+    answer: ""
+  -
+    date: 2014-12-02
+    question: "How does one monitor the 99% of that app that's below the surface?"
+    answer: ""
+  -
+    date: 2014-12-02
     question: 'What is nginx?'
     answer: ""
   -

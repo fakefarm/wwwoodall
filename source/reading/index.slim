@@ -1,0 +1,15 @@
+.shortcuts
+  .intro-text
+    h3 Reading
+    p.date Wish I could do more of it.
+
+  .links.home
+    - data.reading.info.each do |s|
+      .link
+        .tag
+          = s.topic
+        .content
+          .title
+            h2= link_to s.title, s.url, target: '_blank'
+          .gist
+            = s.gist

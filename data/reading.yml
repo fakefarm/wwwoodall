@@ -1,0 +1,26 @@
+info:
+  -
+    url: 'http://www.amazon.com/Async-JavaScript-Responsive-Pragmatic-Express/dp/1937785270'
+    title: 'Async Javascript'
+    topic: 'code'
+    gist: "Events and other goodies lay in store!"
+    date: 2014-12-06
+    finished: false
+    favorite: false
+  -
+    url: ''
+    title: 'Launch'
+    topic: 'marketing'
+    gist: "A friend gave me this book and it's better than I expected it to be."
+    date: 2014-12-06
+    finished: false
+    favorite: false
+  -
+    url: ''
+    title: 'Bible'
+    topic: 'Spiritual'
+    gist: "Trying to read 1 chapter a day with my wife. A 3 year goal we started this month."
+    date: 2014-12-06
+    finished: false
+    favorite: false
+
