@@ -437,130 +437,130 @@ info:
     favorite: false
     date: 2014-12-01
     gist: 'tbd'
-  -
-    title: 'n/a'
-    url: https://docs.angularjs.org/guide/unit-testing is not available
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'n/a'
-    url: https://docs.angularjs.org/guide/unit-testing
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'egghead video'
-    url: https://egghead.io/lessons/angularjs-compile-pre-and-post-link is not available
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'egghead video'
-    url: https://egghead.io/lessons/angularjs-compile-pre-and-post-link
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'egghead video'
-    url: https://egghead.io/lessons/angularjs-apply-vs-digest is not available
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'egghead video'
-    url: https://egghead.io/lessons/angularjs-apply-vs-digest
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'n/a'
-    url: http://jimhoskins.com/2012/12/17/angularjs-and-apply.html is not available
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'n/a'
-    url: http://jimhoskins.com/2012/12/17/angularjs-and-apply.html
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'angular docs'
-    url: https://docs.angularjs.org/guide/scope is not available
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'n/a'
-    url: https://docs.angularjs.org/guide/scope
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'n/a'
-    url: https://docs.angularjs.org/api/ng/type/$rootScope.Scope is not available
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'n/a'
-    url: https://docs.angularjs.org/api/ng/type/$rootScope.Scope
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'n/a'
-    url: http://angular-rails.com/ is not available
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
-  -
-    title: 'n/a'
-    url: http://angular-rails.com/
-    topic: angular
-    structure: ''
-    read: false
-    favorite: false
-    date: 2014-12-01
-    gist: 'tbd'
+  # -
+  #   title: 'n/a'
+  #   url: https://docs.angularjs.org/guide/unit-testing is not available
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'n/a'
+  #   url: https://docs.angularjs.org/guide/unit-testing
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'egghead video'
+  #   url: https://egghead.io/lessons/angularjs-compile-pre-and-post-link is not available
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'egghead video'
+  #   url: https://egghead.io/lessons/angularjs-compile-pre-and-post-link
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'egghead video'
+  #   url: https://egghead.io/lessons/angularjs-apply-vs-digest is not available
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'egghead video'
+  #   url: https://egghead.io/lessons/angularjs-apply-vs-digest
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'n/a'
+  #   url: http://jimhoskins.com/2012/12/17/angularjs-and-apply.html is not available
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'n/a'
+  #   url: http://jimhoskins.com/2012/12/17/angularjs-and-apply.html
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'angular docs'
+  #   url: https://docs.angularjs.org/guide/scope is not available
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'n/a'
+  #   url: https://docs.angularjs.org/guide/scope
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'n/a'
+  #   url: https://docs.angularjs.org/api/ng/type/$rootScope.Scope is not available
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'n/a'
+  #   url: https://docs.angularjs.org/api/ng/type/$rootScope.Scope
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'n/a'
+  #   url: http://angular-rails.com/ is not available
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
+  # -
+  #   title: 'n/a'
+  #   url: http://angular-rails.com/
+  #   topic: angular
+  #   structure: ''
+  #   read: false
+  #   favorite: false
+  #   date: 2014-12-01
+  #   gist: 'tbd'
 
