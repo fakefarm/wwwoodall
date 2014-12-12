@@ -40,7 +40,7 @@ helpers do
 end
 
 activate :blog do |blog|
-  blog.prefix = 'posts'
+  blog.prefix = 'blog'
   blog.permalink = "{title}.html"
   blog.new_article_template = 'templates/blog_post.erb'
 end

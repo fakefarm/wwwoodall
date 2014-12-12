@@ -151,7 +151,7 @@ article.type-system-traditional {
 .blog-container {
   @include row();
 }
-.blog-posts {
+.blog-blog {
   @include span-columns(6);
 }
 .email-signup {

@@ -7,20 +7,13 @@ meta_desc: "Dave Woodall's hues and views."
 
 .shortcuts
   .intro-text
-    h3 posts
+    h3 blog
     p.date Thoughts, Feeling, Actions in words.
-
 
 .l-container
   .l-blog
-    / .blog-tags
-    /   p filter
-    /   ul
-    /     - blog.articles.each do |article|
-    /       li data-name='filter'= link_to article.tags.first, ''
-
     .l-copy#container
-      #posts
+      #blog
         - blog.articles.each do |post|
           article.type-system-traditional#article data-tag="#{post.tags.first}"
             .post

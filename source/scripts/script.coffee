@@ -30,12 +30,12 @@ $(document).ready ->
     filtered = $('[data-tag=' + tag.new_tag + ']' )
 
     if tag.old_post = null
-      $('#posts').remove()
+      $('#blog').remove()
       tag.old_post = tag.new_tag
     else
       $('[data-tag=' + tag.old_post + ']' ).remove()
 
-    $('#posts').append(filtered)
+    $('#blog').append(filtered)
 
     title = $('#title').text(tag.new_tag)
 

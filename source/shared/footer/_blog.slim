@@ -2,8 +2,8 @@ footer
   .blog-footer
     .l-container
       .blog-container
-        .blog-posts
-          h3 Other posts
+        .blog-blog
+          h3 Other blog
           - blog.articles.each do |article|
             - next if current_page.title == article.title
             =link_to article.url do
@@ -11,5 +11,5 @@ footer
                 p= article.title
                 p.snip= article.metadata[:page]['snip']
         .email-signup
-          h3 New posts via email
+          h3 New blog via email
           = render_partial 'shared/mailchimp'

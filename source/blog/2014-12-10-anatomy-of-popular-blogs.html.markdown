@@ -38,7 +38,7 @@ I also looked at what these blogs have in common. Most them have the following;
 - contact
 - links to other blogs
 - comments
-- index of all posts
+- index of all blog
 - call to action - submit a story or suggestion!
 - tag cloud
 - twitter feeds
