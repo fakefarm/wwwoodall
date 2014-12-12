@@ -4,12 +4,13 @@
   .tag {
     @include media($medium-screen) {
       @include span-columns(1.5);
-      padding-top: 1.5em;
+      padding-top: 2em;
+      font-size: 0.8em;
     }
   }
   .content {
     @include media($medium-screen) {
-      @include span-columns(10.5);
+      @include span-columns(10);
     }
   }
   .title {

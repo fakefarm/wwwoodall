@@ -8,10 +8,22 @@
     left: 1em;
     top: 1em;
     width: 160px;
-    .active {
-      border-bottom: 2px solid $blue;
+    .active { border-bottom: 2px solid $blue; }
+    .bio, .location {
+      font-size: 0.7em;
+      color: #aaa;
+      text-align: right;
     }
-    p { font-size: 1.2em;}
+    .location  {
+      font-style: italic;
+      font-size: 0.9em;
+      margin-bottom: 1em;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 0;
+    }
     .mailchimp {
       border-top: 1px solid $light-gray;
       padding: 0.5em;

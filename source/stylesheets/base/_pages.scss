@@ -6,12 +6,14 @@ body {
   &.contact   { background: $salmon; }
   &.code      { background: $paste; }
   &.freelance { background: $salmon; }
-  &.blog      { background: $paste; }
+  &.posts     { background: white; }
   &.bible     { background: $salmon; }
   &.resume    { background: $salmon; }
-  &.shortcuts { background: $blog-bg; }
-  &.links     { background: $blog-bg; }
-  &.gifs      { background: $blog-bg; }
+  &.shortcuts { background: white; }
+  &.links     { background: white; }
+  &.gifs      { background: white; }
+  &.jots      { background: white; }
+  &.notes      { background: white; }
   &.art       { background: $salmon; }
 }
 
