@@ -1,6 +1,7 @@
 ---
 title: 'blog'
 image: laird.jpg
+layout: layout
 caption: 'Laird Hamilton, ladies and gentlemen.'
 meta_desc: "Dave Woodall's hues and views."
 ---
@@ -11,7 +12,13 @@ meta_desc: "Dave Woodall's hues and views."
     p.date Thoughts, Feeling, Actions in words.
 
 .l-container
+  .l-tags
   .l-blog
+    .blog-tags
+      p Topics
+      ul
+        - blog_tags.each do |tag|
+          li= tag
     .l-copy#container
       #blog
         - blog.articles.each do |post|
