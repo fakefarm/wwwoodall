@@ -46,6 +46,16 @@ helpers do
   end
 end
 
+# Grid pages.
+[
+  "art",
+  "gifs",
+  'pictures',
+  'videos'
+].each do |name|
+  proxy "/#{name}.html", "/grids/template.html", :locals => { :file_name => name }, :ignore => true
+end
+
 activate :blog do |blog|
   blog.prefix = 'blog'
   blog.permalink = "{title}.html"

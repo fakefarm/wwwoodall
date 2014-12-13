@@ -1,3 +1,14 @@
+.blog-tags {
+  display: none;
+  @include media($medium-screen) {
+    display: block;
+    text-align: right;
+    position: fixed;
+    right: 1em;
+    top: 1em;
+  }
+}
+
 // .blog {
 
 //   h1.fa {
@@ -39,10 +50,3 @@
 //     a:hover { color: none; }
 //   }
 // }
-
-.blog-tags {
-  text-align: right;
-  position: fixed;
-  right: 1em;
-  top: 1em;
-}

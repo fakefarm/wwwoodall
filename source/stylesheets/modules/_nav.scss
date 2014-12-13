@@ -1,6 +1,9 @@
 .left-nav {
   display: none;
   @include media($medium-screen) {
+    .fa-home {
+      font-size: 1.8em;
+    }
     display: block;
     text-align: right;
     position: absolute;

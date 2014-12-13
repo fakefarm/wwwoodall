@@ -1,0 +1,32 @@
+.grids {
+ @include row();
+ padding-top: 2em;
+ .grid{
+  &.index {
+    padding-bottom: 1em;
+    @include media($medium-screen) {
+      padding-bottom: 0;
+      @include span-columns(4);
+      overflow: hidden;
+      img { height: 180px; }
+    }
+  }
+  &.show {
+    padding-bottom: 1em;
+    margin-top: 1em;
+    .controls {
+      text-align: right;
+    }
+    @include media($medium-screen) {
+      padding-bottom: 2em;
+      @include span-columns(12);
+      img {
+        width: 100%;
+      }
+    }
+    .controls {
+      font-size: 0.8em;
+    }
+  }
+ }
+}

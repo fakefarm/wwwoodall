@@ -1,0 +1,31 @@
+---
+image: 'laird.jpg'
+caption: 'Laird Hamilton, ladies and gentlemen.'
+---
+
+.shortcuts
+  .intro-text
+    h3= data.grid.send(file_name).page.title
+    p.date= data.grid.send(file_name).page.subtitle
+
+  .grids
+    - data.grid.send(file_name).albums.each do |album|
+      h2= album.title
+      - album.images.each do |s|
+        .grid.show
+          = image_tag s.url unless s.url.empty?
+          = s.video         unless s.video.empty?
+          = s.caption       unless s.caption.empty?
+          .controls= unless s.tag.present?
+            = s.tag         unless s.tag.empty?
+            '  |
+            '
+            = link_to 'link', s.url, target: '_blank' unless s.url.empty?
+
+            / Pages with social: art
+            - if file_name == 'art' || 'videos'
+              - unless s.social.empty?
+                .social-source
+                  span As seen on
+                  '
+                  = link_to s.social.name, s.url, target: '_blank'
