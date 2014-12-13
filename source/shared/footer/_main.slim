@@ -8,7 +8,8 @@ footer.footer
     ul
       li
         h3 Pages
-      li= nav_link( 'new', '/')
+      li= link_to '/' do
+        .fa.fa-home
       li= nav_link( 'gifs', '/gifs/')
       li= nav_link( 'pictures', '/pictures/')
       li= nav_link( 'jots', '/jots/')

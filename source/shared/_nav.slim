@@ -4,9 +4,9 @@ nav.left-nav
   p Dave Woodall
   .bio Christian, Husband, Dad, Hacker, Designer, Inventor, Thinker, Reader, Writer, French press Snowboard then beers.
   .location Boulder, CO
-  p Pages
   ul
-    li= nav_link( 'new', '/')
+    li= link_to '/' do
+      .fa.fa-home
     li= nav_link( 'gifs', '/gifs/')
     li= nav_link( 'pictures', '/pictures/')
     li= nav_link( 'jots', '/jots/')

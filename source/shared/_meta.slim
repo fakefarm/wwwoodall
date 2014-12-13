@@ -2,9 +2,9 @@ head
   title= "#{current_page.data.title} | Dave Woodall" || "hello wwworld! | Dave Woodall"
   meta charset= "utf-8"
   link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"
+  = javascript_include_tag 'lib/lodash.min.js'
   = javascript_include_tag 'lib/jquery.min.js'
   = javascript_include_tag 'lib/modernizer.js'
-  = javascript_include_tag 'nav_overlay'
   = javascript_include_tag 'script'
   = yield_content :assets
   meta name="viewport" content="initial-scale=1.0"
