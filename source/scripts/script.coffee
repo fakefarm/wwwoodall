@@ -22,22 +22,51 @@ $(document).ready ->
     $('#gifs').children().show()
     $('p.date').text('(Click to hide)')
 
-  $('[data-name=filter]').click (e) ->
-    e.preventDefault()
 
-    self = $(this)
-    tag = { new_tag: self.text() }
-    filtered = $('[data-tag=' + tag.new_tag + ']' )
+  class FilterPosts
+    constructor: (@posts,@tags) ->
+      @currentTag = ''
+      _.each @tags, (tag) =>
+        tag.el.on "click", _.bind(@onClick,@)
+    onClick: (e) ->
+      $tag = $(e.currentTarget)
+      @currentTag = tag = $tag.text()
+      @filterPosts(tag)
+    filterPosts: (tag) ->
+      filtered = _.filter @posts, (post) ->
+        post.tag == tag
+      for post in @allPosts()
+        $(post).hide()
+      for post in filtered
+        $(post.el).show()
+    allPosts: ->
+      _.map(@posts, (post) -> post.el)
+    addPost: (post) ->
+      @posts.push(post)
 
-    if tag.old_post = null
-      $('#blog').remove()
-      tag.old_post = tag.new_tag
-    else
-      $('[data-tag=' + tag.old_post + ']' ).remove()
+  posts = _.map $("article"), (post) ->
+    { el: $(post), tag: $(post).data("tag") }
+  tags = _.map $(".blog-tags ul > li"), (tag) ->
+    { el: $(tag), tag: $(tag).text() }
 
-    $('#blog').append(filtered)
 
-    title = $('#title').text(tag.new_tag)
+  filterPosts = new FilterPosts(posts,tags)
+
+  # $('[data-name=filter]').click (e) ->
+
+  #   self = $(this)
+  #   tag = { new_tag: self.text() }
+  #   filtered = $('[data-tag=' + tag.new_tag + ']' )
+
+  #   if tag.old_post = null
+  #     $('#blog').remove()
+  #     tag.old_post = tag.new_tag
+  #   else
+  #     $('[data-tag=' + tag.old_post + ']' ).remove()
+
+  #   $('#blog').append(filtered)
+
+  #   title = $('#title').text(tag.new_tag)
 
   jQuery.mark = jump: (options) ->
     defaults = selector: "a.scroll-on-page-link"
