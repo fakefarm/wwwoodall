@@ -7,6 +7,13 @@ helpers do
     end
   end
 
+  def blog_tags
+    tags = blog.articles.map do |tag|
+      tag.tags.first
+    end
+    tags.uniq
+  end
+
   def nav_link(link_text, url, options = {})
     options[:class] ||= ""
     options[:class] << " active" if url == current_page.url
