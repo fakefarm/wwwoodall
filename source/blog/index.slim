@@ -24,10 +24,10 @@ meta_desc: "Dave Woodall's hues and views."
         - blog.articles.each do |post|
           article.type-system-traditional#article data-tag="#{post.tags.first}"
             .post
-              h1= link_to post.title, post.url
               p.type= post.tags.first
-              = image_tag post.data.image
-              h2= post.metadata[:page]['snip']
+              h1= link_to post.title, post.url
+              / = image_tag post.data.image
+              / h2= post.metadata[:page]['snip']
               p= post.summary
               .link=link_to post.url, class: 'read-more' do
                 ' continue reading

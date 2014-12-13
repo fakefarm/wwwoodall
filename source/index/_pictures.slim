@@ -3,8 +3,10 @@
     h3 pictures
     p.date pictures
 .pictures#pictures
-  - data.pictures.list[0..3].each do |s|
-    .pic.home
-      = image_tag s.url
+  - data.grid.pictures.albums.each do |album|
+    h2= album.title
+    - album.images[0..3].each do |s|
+      .gif.show
+        = image_tag s.url unless s.url.empty?
 .sectional
   p= link_to ' all pictures', '/pictures'

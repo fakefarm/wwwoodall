@@ -1,0 +1,58 @@
+page:
+  title: gifs
+  subtitle: My favorites.
+albums:
+  -
+    title: foo
+    date: 2014-12-13
+    images:
+      -
+        url: http://24.media.tumblr.com/tumblr_lepgaj0rfB1qfkue8o1_500.gif
+        video: ''
+        tag: boo
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://i.imgur.com/wKN7qV2.gif
+        video: ''
+        tag: amirite
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://giant.gfycat.com/ExhaustedPleasantGermanspaniel.gif
+        video: ''
+        tag: nice
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://i.imgur.com/p49J3rc.gif
+        video: ''
+        tag: whoa
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://img.ffffound.com/static-data/assets/6/c8875a19f29f75a551b9ad4b4ae72bb776c02efd_m.gif
+        video: ''
+        date: 12-13-2014
+        classes: big
+        caption: ''
+        tag: trance
+      -
+        url: http://i.imgur.com/WXrFotS.gif
+        video: ''
+        tag: trance
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://www.istpositiv.de/wp-content/uploads/2014/07/61.gif
+        video: ''
+        tag: trance
+        date: 12-13-2014
+        classes: big
+        caption: ''
+

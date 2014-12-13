@@ -1,0 +1,318 @@
+page:
+  title: art
+  subtitle: things I've made along the way.
+albums:
+  -
+    title: Father's Day
+    date: 2014-12-13
+    images:
+        -
+          url: 'pictures/IMG_1121.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1122.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1123.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1127.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_11272.jpg'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1129.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1145.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1149.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1150.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1151.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1154.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1167.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1174.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1178.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1212.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1215.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1235.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1235.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1271.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1291.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1294.jpg'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1296.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1297.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1307.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1307.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1314.jpg'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1315.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_13152.jpg'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1320.png'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_1331.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+
+        -
+          url: 'pictures/IMG_13312.JPG'
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: i love this photo
+          social:
+            name: dribbble
+            url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
+

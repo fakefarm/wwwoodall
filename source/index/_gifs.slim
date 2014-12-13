@@ -3,8 +3,9 @@
     h3 gifs
     p.date My favorites.
 .gifs#gifs
-  - data.gifs.gifs[0..2].each do |s|
-    .gif.index
-      = image_tag s.link
+  - data.grid.gifs.albums.each do |album|
+    - album.images[0..2].each do |s|
+      .gif.index
+        = image_tag s.url
 .sectional
   p= link_to ' all gifs', '/gifs'

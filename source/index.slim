@@ -26,10 +26,10 @@ html
         /     h3 jots
         /     p.date More than a tweet. Less than a Post. Sometimes a doodle.
         .jot-tag
-          = image_tag data.jots.jots[0]['img']
-        h2= data.jots.jots[0]['jot']
+          = image_tag data.posts.jots.jots[0]['img']
+        h2= data.posts.jots.jots[0]['jot']
       .l-container
-        p.jot-blurb= data.jots.jots[0]['blurb']
+        p.jot-blurb= data.posts.jots.jots[0]['blurb']
         .sectional
           p= link_to 'all jots', '/jots'
         article
