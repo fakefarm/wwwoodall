@@ -15,7 +15,7 @@ nav.left-nav
     li= nav_link( 'notes', '/notes/')
     li= nav_link( 'reading', '/reading/')
     li= nav_link( 'links', '/links/')
-  .mailchimp
-    = render_partial 'shared/mailchimp'
+  / .mailchimp
+  /   = render_partial 'shared/mailchimp'
   - if current_page.url == '/'
     = render_partial 'index/nav'

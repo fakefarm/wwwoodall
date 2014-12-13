@@ -7,10 +7,10 @@ $(document).ready ->
     windowInnerHeight = window.innerHeight
     elementTopToWindowTop = elementTopToPageTop - windowTopToPageTop
     elementTopToWindowBottom = windowInnerHeight - elementTopToWindowTop
-    distanceFromBottomToAppear = 750
+    distanceFromBottomToAppear = 800
     if elementTopToWindowBottom > distanceFromBottomToAppear
      $(element).addClass "js-fade-element-show"
-    else if elementTopToWindowBottom < 600
+    else if elementTopToWindowBottom < 570
      $(element).removeClass "js-fade-element-show"
      $(element).addClass "js-fade-element-hide"
 

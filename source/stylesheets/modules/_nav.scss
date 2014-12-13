@@ -8,7 +8,16 @@
     left: 1em;
     top: 1em;
     width: 160px;
-    .active { border-bottom: 2px solid $blue; }
+    li {
+      a {
+        padding: 0.25em 0;
+        display: block;
+        &:hover {
+          background: $light-yellow;
+        }
+      }
+    }
+    .active { background: $light-green; }
     .bio, .location {
       font-size: 0.7em;
       color: #aaa;
