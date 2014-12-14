@@ -1,0 +1,20 @@
+---
+title: shortcuts
+image: 'laird.jpg'
+caption: 'Laird Hamilton, ladies and gentlemen.'
+---
+
+.shortcuts
+  .intro-text
+    h3= data.lists.send(file_name).page.title
+    p.date= data.lists.send(file_name).page.subtitle
+
+  - data.lists.send(file_name).list.each do |s|
+    article.type-system-traditional.shortcut
+      .shortcut
+        .topic
+          h2= s.tag
+          p.date= s.date.strftime("%h %Y")
+        .gist
+          h2= s.title
+          p= s.body

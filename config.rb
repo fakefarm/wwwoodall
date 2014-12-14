@@ -53,7 +53,23 @@ end
   'pictures',
   'videos'
 ].each do |name|
-  proxy "/#{name}.html", "/grids/template.html", :locals => { :file_name => name }, :ignore => true
+  proxy "/#{name}.html", "/templates/grid.html", :locals => { :file_name => name }, :ignore => true
+end
+
+# Post pages.
+[
+  "jots"
+].each do |name|
+  proxy "/#{name}.html", "/templates/post.html", :locals => { :file_name => name }, :ignore => true
+end
+
+# List pages.
+[
+  "shortcuts",
+  'links',
+  'notes'
+].each do |name|
+  proxy "/#{name}.html", "/templates/list.html", :locals => { :file_name => name }, :ignore => true
 end
 
 activate :blog do |blog|
