@@ -1,8 +1,13 @@
-verses:
-  -
-    date: 2014-11-29
-    book: Genesis
-    reference: '1:5'
-    verse: 'God called the light “day,” and the darkness he called “night.” And there was evening, and there was morning—the first day.'
-    why: 'Interesting to think about the night called darkness.'
+page:
+  title: verses
+  subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
 
+list:
+  -
+    date: 2014-12-02
+    tag: Genesis
+    title: '1:5'
+    sub-title: 'Interesting to think about the night called darkness.'
+    body: 'God called the light “day,” and the darkness he called “night.” And there was evening, and there was morning—the first day.'
+    url: 'http://www.twitter.com/dhassler'
+    state: 'read'

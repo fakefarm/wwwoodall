@@ -1,9 +1,13 @@
+page:
+  title: jots
+  subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
+
 posts:
   -
-    img: 'jots/creator.jpg'
+    img: 'jots/heart.png'
     date: 2014-12-13
     title: '11 years later'
-    body: "I am a better person because of the help mate God gave me. She sees things in a way more better way."
+    body: "I am a better person because of the helpmate God gave me. Danae, you are the love of my life. Happy Anniversary!"
   -
     img: 'jots/creator.jpg'
     date: 2014-12-10
