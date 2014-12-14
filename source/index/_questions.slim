@@ -4,14 +4,14 @@
     p.date Current status.
 
   .questions.home
-    - data.posts.questions.list[0..2].each do |s|
+    - data.lists.questions.list[0..2].each do |s|
       article.type-system-traditional
         .link
           .tag
             h2= s.date.strftime("%h, %Y")
           .content
             .title
-              p= s.question
+              p= s.title
 
   .sectional
     p= link_to 'all questions', '/questions'

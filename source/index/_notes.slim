@@ -3,13 +3,13 @@
     h3 notes
     p.date Keeping track of the tid bits.
 
-  - data.posts.notes.tips[0..2].each do |s|
+  - data.lists.notes.list[0..2].each do |s|
     article.type-system-traditional
       .notes
         .topic
-          h2= s.topic
+          h2= s.title
         .gist
-          p= s.gist
+          p= s.body
 
   .sectional
     p= link_to 'all notes', '/notes'

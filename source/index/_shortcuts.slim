@@ -3,14 +3,14 @@
     h3 shortcuts
     p.date Things I learn from the real programmers.
 
-  - data.lists.shortcuts.shortcuts[0..2].each do |s|
+  - data.lists.shortcuts.list[0..2].each do |s|
     article.type-system-traditional
       .shortcut
         .topic
           h2= s.tag
         .gist
-          h2= s.cut
-          p= s.gist
+          h2= s.title
+          p= s.body
 
   .sectional
     p= link_to 'all shortcuts', '/shortcuts'

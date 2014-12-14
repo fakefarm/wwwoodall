@@ -2,21 +2,21 @@ nav.left-nav
   .pic
     =image_tag 'dave_woodall.jpg'
   p Dave Woodall
-  .bio Christian, Husband, Dad, Hacker, Designer, Inventor, Thinker, Reader, Writer, French press Snowboard then beers.
+  .bio Christian, Husband, Dad, Hacker, Designer, Drawer, Inventor, INTJ, Reader, Writer, French presser Snowboarded then beers.
   .location Boulder, CO
   ul
     li= link_to '/' do
       .fa.fa-home
+    li= nav_link( 'jots', '/jots/')
     li= nav_link( 'gifs', '/gifs/')
     li= nav_link( 'pictures', '/pictures/')
     li= nav_link( 'videos', '/videos/')
-    li= nav_link( 'jots', '/jots/')
     li= nav_link( 'blog', '/blog/')
     li= nav_link( 'shortcuts', '/shortcuts/')
     li= nav_link( 'notes', '/notes/')
     li= nav_link( 'reading', '/reading/')
     li= nav_link( 'links', '/links/')
-  / .mailchimp
-  /   = render_partial 'shared/mailchimp'
+  .mailchimp
+    = render_partial 'shared/mailchimp'
   - if current_page.url == '/'
     = render_partial 'index/nav'

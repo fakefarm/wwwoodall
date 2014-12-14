@@ -11,10 +11,6 @@ html
   = stylesheet_link_tag 'application'
 
   body class="#{page_classes}"
-    .photos
-      .cross= image_tag 'cross.png'
-      = image_tag(post_image)
-      = image_caption
     section.main
       .l-header
         = render_partial 'shared/header/header'
@@ -26,10 +22,10 @@ html
         /     h3 jots
         /     p.date More than a tweet. Less than a Post. Sometimes a doodle.
         .jot-tag
-          = image_tag data.posts.jots.jots[0]['img']
-        h2= data.posts.jots.jots[0]['jot']
+          = image_tag data.posts.jots.posts[0]['img']
+        h2= data.posts.jots.posts[0]['title']
       .l-container
-        p.jot-blurb= data.posts.jots.jots[0]['blurb']
+        p.jot-blurb= data.posts.jots.posts[0]['body']
         .sectional
           p= link_to 'all jots', '/jots'
         article

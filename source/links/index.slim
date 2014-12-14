@@ -7,8 +7,8 @@ layout: layout
 
 .shortcuts
   .intro-text
-    h3 links
-    p.date Saved for later.
+    h3= data.lists.send(file_name).page.title
+    p.date= data.lists.send(file_name).page.subtitle
 
   .links.home
     - data.lists.links.info.each do |s|
