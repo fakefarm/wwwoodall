@@ -48,7 +48,6 @@ end
 
 # Grid pages.
 [
-  "art",
   "gifs",
   'pictures',
   'videos'
@@ -69,8 +68,7 @@ end
   'links',
   'questions',
   'reading',
-  'notes',
-  'bible'
+  'notes'
 ].each do |name|
   proxy "/#{name}.html", "/templates/list.html", :locals => { :file_name => name }, :ignore => true
 end
