@@ -67,7 +67,10 @@ end
 [
   "shortcuts",
   'links',
-  'notes'
+  'questions',
+  'reading',
+  'notes',
+  'bible'
 ].each do |name|
   proxy "/#{name}.html", "/templates/list.html", :locals => { :file_name => name }, :ignore => true
 end

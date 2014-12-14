@@ -4,7 +4,7 @@
     p.date Wish I could do more of it.
 
   .links.home
-    - data.lists.reading.info[0..2].each do |s|
+    - data.lists.reading.list[0..2].each do |s|
       .link
         .tag
           = s.topic
@@ -12,7 +12,7 @@
           .title
             h2= link_to s.title, s.url, target: '_blank'
           .gist
-            = s.gist
+            = s.body
 
   .sectional
     p= link_to 'all reading', '/reading'

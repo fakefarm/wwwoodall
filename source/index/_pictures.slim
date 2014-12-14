@@ -4,7 +4,7 @@
     p.date pictures
 .pictures#pictures
   - data.grid.pictures.albums.each do |album|
-    h2= album.title
+    / h2= album.title
     - album.images[0..3].each do |s|
       .gif.show
         = image_tag s.url unless s.url.empty?
