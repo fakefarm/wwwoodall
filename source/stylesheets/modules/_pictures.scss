@@ -3,7 +3,7 @@
   .pic {
     &.home, &.show {
       @include span-columns(6);
-      @include omega(2n);
+      @include omega(3n);
       padding-bottom: 1em;
     }
   }
