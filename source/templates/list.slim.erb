@@ -16,5 +16,8 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
           h2= s.tag
           p.date= s.date.strftime("%h %Y")
         .gist
-          h2= s.title
+          - if s.url.empty?
+            h2= s.title
+          - else
+            h2= link_to s.title, s.url, target: '_blank'
           p= s.body
