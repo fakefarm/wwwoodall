@@ -1,14 +1,19 @@
-jots:
+posts:
   -
     img: 'jots/creator.jpg'
-    jot: 'Everything begins with the Creator'
-    blurb: "Look through a microscope or telescope and be filled with awe. 'Awe' is not an attribute of chaos but a word we ascribe to the work of a Designer."
+    date: 2014-12-13
+    title: '11 years later'
+    body: "I am a better person because of the help mate God gave me. She sees things in a way more better way."
+  -
+    img: 'jots/creator.jpg'
     date: 2014-12-10
+    title: 'Everything begins with the Creator'
+    body: "Look through a microscope or telescope and be filled with awe. 'Awe' is not an attribute of chaos but a word we ascribe to the work of a Designer."
   -
     img: 'jots/terms.jpg'
-    jot: 'God shows Himself on His terms, not ours.'
-    blurb: "People doubt God when He doesn't do what they want Him to. But what if that's the point? What if He shows Himself when we are ready to see things from His perpective?"
     date: 2014-12-10
+    title: 'God shows Himself on His terms, not ours.'
+    body: "People doubt God when He doesn't do what they want Him to. But what if that's the point? What if He shows Himself when we are ready to see things from His perpective?"
   # -
   #   img: 'bird.svg'
   #   jot: "In the darkness are hidden the most valuable of treasures."

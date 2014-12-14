@@ -8,6 +8,7 @@ albums:
     images:
       -
         url: ''
+        title: ''
         video: <iframe width="560" height="615" src="//www.youtube.com/embed/EIGhT6fBXWg" frameborder="0" allowfullscreen></iframe>
         tag: ''
         date: 08-12-2014
@@ -18,6 +19,7 @@ albums:
           url: <iframe width="560" height="615" src="//www.youtube.com/embed/EIGhT6fBXWg" frameborder="0" allowfullscreen></iframe>
       -
         url: ''
+        title: ''
         video: <iframe width="560" height="315" src="//www.youtube.com/embed/Vk5ZhnY0ykg" frameborder="0" allowfullscreen></iframe>
         tag: ''
         date: 08-12-2014

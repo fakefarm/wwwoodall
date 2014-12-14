@@ -1,49 +1,68 @@
-shortcuts:
+page:
+  title: shortcuts
+  subtitle: Things I learn from the real programmers.
+list:
   -
     tag: bash
-    cut: 'tail -f development.log | grep user'
-    gist: 'live read of the file in question, ex- development.log. Using grep I can look for log enteries that only have user in them.'
-    source: 'http://www.twitter.com/dhassler'
+    title: 'tail -f development.log | grep user'
+    subtitle: ''
+    body: 'live read of the file in question, ex- development.log. Using grep I can look for log enteries that only have user in them.'
+    url: 'http://www.twitter.com/dhassler'
     date: 2014-12-02
+    state: ''
   -
     tag: bash
-    cut: 'find ./source/notes ./source/blog -type f -print0 | xargs -0 stat -f "%m %N" | sort -rn | head -3 | cut -f2- -d" "'
-    gist: 'Recursively find the last updated files'
-    source: 'http://stackoverflow.com/a/9052878/935322'
+    title: 'find ./source/notes ./source/blog -type f -print0 | xargs -0 stat -f "%m %N" | sort -rn | head -3 | cut -f2- -d" "'
+    subtitle: ''
+    body: 'Recursively find the last updated files'
+    url: 'http://stackoverflow.com/a/9052878/935322'
     date: 2014-11-29
+    state: ''
   -
     tag: bash alias (gpom)
-    cut: 'alias gpom="git pull origin master"'
-    gist: save yourself from typing sooo much
-    source: 'Tom Copeland'
+    title: 'alias gpom="git pull origin master"'
+    subtitle: ''
+    body: save yourself from typing sooo much
+    url: 'Tom Copeland'
     date: 2014-12-02
+    state: ''
   -
     tag: bash alias (gpom)
-    cut: copr
-    gist: 'this'
-    source: 'this'
+    title: copr
+    subtitle: ''
+    body: 'this'
+    url: 'this'
     date: 2014-12-02
+    state: ''
   -
     tag: git
-    cut: 'gcob'
-    gist: 'git checkout branch [branch name]'
-    source: 'Tom Copeland'
+    title: 'gcob'
+    subtitle: ''
+    body: 'git checkout branch [branch name]'
+    url: 'Tom Copeland'
     date: 2014-12-02
+    state: ''
   -
     tag: git
-    cut: 'git log -S [word]'
-    gist: 'the -S is a regex that will look for the word used in the log'
-    source: 'Tom Copeland'
+    title: 'git log -S [word]'
+    subtitle: ''
+    body: 'the -S is a regex that will look for the word used in the log'
+    url: 'Tom Copeland'
     date: 2014-12-02
+    state: ''
   -
     tag: git
-    cut: 'git log [file name]'
-    gist: 'shows changes only for file name'
-    source: 'Tom Copeland'
+    title: 'git log [file name]'
+    subtitle: ''
+    body: 'shows changes only for file name'
+    url: 'Tom Copeland'
     date: 2014-12-02
+    state: ''
   -
     tag: bundle
-    cut: 'bundle open [gem]'
-    gist: 'will open the gem in question'
-    source: 'hassler'
+    title: 'bundle open [gem]'
+    subtitle: ''
+    body: 'will open the gem in question'
+    url: 'hassler'
     date: 2014-11-02
+    state: ''

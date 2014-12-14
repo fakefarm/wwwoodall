@@ -1,0 +1,29 @@
+page:
+  title: jots
+  subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
+list:
+  -
+    img: 'jots/creator.jpg'
+    date: 2014-12-02
+    title: "What is SysOps?"
+    body: ""
+  -
+    date: 2014-12-02
+    title: "What is TechOps?"
+    body: ""
+  -
+    date: 2014-12-02
+    title: "How does one monitor the 99% of that app that's below the surface?"
+    body: ""
+  -
+    date: 2014-12-02
+    title: 'What is nginx?'
+    body: ""
+  -
+    date: 2014-12-02
+    title: 'What are Cron jobs?'
+    body: "Scheduled background jobs."
+  -
+    date: 2014-12-02
+    title: "How to best learn test_unit"
+    body: ""

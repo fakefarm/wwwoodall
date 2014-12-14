@@ -1,566 +1,527 @@
-info:
+page:
+  title: links
+  subtitle: Save for later.
+list:
   -
     url: 'https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs?utm_source=javascriptweekly&utm_medium=email#2-understanding-angular'
     title: 'Preparing for the future of AngularJS'
-    topic: 'code'
-    sub-topic: 'Angular'
-    gist: "Here we'll be taking a look at where Angular comes from, to get an idea of where it might go."
+    tag: 'code'
+    sub-title: 'Angular'
+    body: "Here we'll be taking a look at where Angular comes from, to get an idea of where it might go."
     date: 2014-12-06
     structure: post
-    read: false
-    favorite: false
+    stat: false
+    date: 2014-12-13
   -
     url: http://www.codequizzes.com/
     title: 'Code Quizes'
-    topic: 'code'
-    sub-topic: 'practice'
-    gist: 'list of code quizes'
+    tag: 'code'
+    sub-title: 'practice'
+    body: 'list of code quizes'
     date: 2014-12-03
     structure: quiz
-    read: false
-    favorite: false
+    stat: false
+    date: 2014-12-13
   -
     url: https://practicingruby.com/
     title: 'practicing ruby'
-    topic: 'code'
-    sub-topic: 'ruby'
-    gist: 'solid articles'
+    tag: 'code'
+    sub-title: 'ruby'
+    body: 'solid articles'
     date: 2014-12-03
     structure: blog
-    read: false
-    favorite: false
+    stat: false
+    date: 2014-12-13
   -
     url: http://www.rojotek.com/blog/2014/05/16/cool-stuff-you-can-do-with-rails-has_one/
     title: 'cool stuff you can do with has one'
-    sub-topic: 'ruby'
-    topic: 'code'
-    gist: 'this'
-    read: false
-    favorite: false
+    sub-title: 'ruby'
+    tag: 'code'
+    body: 'this'
+    stat: false
+    date: 2014-12-13
     structure: post
     date: 2014-12-02
   -
     url: http://thomasleecopeland.com/2014/09/22/various-ways-to-create-structs.html
     title: 'various ways to create structs'
-    topic: 'code'
-    sub-topic: 'ruby'
-    gist: 'this'
-    read: false
-    favorite: false
+    tag: 'code'
+    sub-title: 'ruby'
+    body: 'this'
+    stat: false
+    date: 2014-12-13
     structure: post
     date: 2014-12-02
   -
     url: http://theseniorsoftwareengineer.com/
     title: 'sr. software'
-    sub-topic: 'career'
-    topic: 'personal'
-    gist: 'this'
-    read: false
-    favorite: false
+    sub-title: 'career'
+    tag: 'personal'
+    body: 'this'
+    stat: false
+    date: 2014-12-13
     structure: ebook
     date: 2014-12-02
   -
     url: http://www.blogtyrant.com/start-a-blog-2014/
     title: '19 things to know before starting a blog'
-    topic: 'blogging'
-    gist: 'Interested to see how the pros do it.'
-    read: false
-    favorite: false
+    tag: 'blogging'
+    body: 'Interested to see how the pros do it.'
+    stat: false
+    date: 2014-12-13
     structure: list
     date: 2014-12-01
   -
     url: http://madhatted.com/2014/6/17/authentication-for-single-page-apps
     title: 'Authentication for Single Page Apps'
-    topic: 'Architecture'
+    tag: 'Architecture'
     structure: tutorial
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
   -
     url: http://bonsaiden.github.io/JavaScript-Garden/
     title: 'JavaScript Garden'
-    topic: 'JavaScript'
+    tag: 'JavaScript'
     structure: reference
-    gist: 'A growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes and subtle bugs, as well as performance issues and bad practices, that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language.'
-    read: false
-    favorite: false
+    body: 'A growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes and subtle bugs, as well as performance issues and bad practices, that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language.'
+    stat: false
     date: 2014-12-01
   -
     title: 'javascript - How to enable CORS in AngularJs - Stack Overflow'
     url: http://stackoverflow.com/questions/23823010/how-to-enable-cors-in-angularjs
     topic: CORS
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
   -
     title: 'Jutsu #1 - CORS with Angular.js and Sinatra - Samurails'
     url: http://samurails.com/tutorial/cors-with-angular-js-and-sinatra/
     topic: CORS
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
   -
     title: Cross-Origin Resource Sharing Tutorial
     url: https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.appprogramming/html/tutorials/w3c_tutorial/sec_tutorial/cors_tutorial.htm
     topic: CORS
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
   -
     title: 'enable cross-origin resource sharing'
     url: http://enable-cors.org/resources.html
     topic: CORS
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
   -
     title: 'Karma - Spectacular Test Runner for Javascript'
     url: http://karma-runner.github.io/0.12/index.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Unit Testing Best Practices in AngularJS'
     url: http://andyshora.com/unit-testing-best-practices-angularjs.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: '| ng-newsletter'
     url: http://www.ng-newsletter.com/advent2013/#!/day/19
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Full-Spectrum Testing with AngularJS and Karma - yearofmoo.com'
     url: http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'AngularJS Testing with Karma and Jasmine | tuesdayDeveloper;'
     url: http://www.tuesdaydeveloper.com/2013/06/angularjs-testing-with-karma-and-jasmine/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'A Few Thoughts on Better Unit Tests For AngularJS Controllers'
     url: http://odetocode.com/blogs/scott/archive/2014/05/15/a-few-thoughts-on-better-unit-tests-for-angularjs-controllers.aspx
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Testing with Angular.JS | Ruben Vermeersch (rubenv) - The Life of RubenV'
     url: https://savanne.be/articles/testing-with-angular-js/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Try, Catch, Fail: Angular - $compile: How it works, How to use it.'
     url: http://www.benlesh.com/2013/08/angular-compile-how-it-works-how-to-use.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'AngularJS Custom Directives'
     url: http://tutorials.jenkov.com/angularjs/custom-directives.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Understanding template compiling in AngularJS - dagingaa@github'
     url: http://daginge.com/technology/2014/03/04/understanding-template-compiling-in-angularjs/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'dom - AngularJS - Compiling dynamic HTML strings from database - Stack Overflow'
     url: http://stackoverflow.com/questions/18157305/angularjs-compiling-dynamic-html-strings-from-database
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'angular - Dealing with DOM Manipulations - AngularJS - Stack Overflow'
     url: http://stackoverflow.com/questions/11699635/dealing-with-dom-manipulations-angularjs
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'AngularJS and $compile | Phase2'
     url: http://www.phase2technology.com/blog/angularjs-and-compile/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Try, Catch, Fail: AngularJS: $watch, $digest and $apply'
     url: http://www.benlesh.com/2013/08/angularjs-watch-digest-and-apply-oh-my.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'AngularJS - $digest - Thinkster'
     url: https://thinkster.io/angulartutorial/digest/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: '$watch how the $apply runs a $digest - Angular Tips'
     url: http://angular-tips.com/blog/2013/08/watch-how-the-apply-runs-a-digest/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Understanding Angulars $apply() and $digest()'
     url: http://www.sitepoint.com/understanding-angulars-apply-digest/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Make Your Own AngularJS, Part 1: Scopes And Digest'
     url: http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Using $scope.$digest() As A Performance Optimization In AngularJS'
     url: http://www.bennadel.com/blog/2595-using-scope-digest-as-a-performance-optimization-in-angularjs.htm
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Inside Search – Google'
     url: http://www.google.com/insidesearch/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Directives (Parts 4 and 5 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter'
     url: http://www.ng-newsletter.com/posts/beginner2expert-directives.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'The 80/20 Guide to Writing AngularJS Directives | The Code Barbarian'
     url: http://thecodebarbarian.wordpress.com/2013/09/23/the-8020-guide-to-writing-angularjs-directives/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'A Year on Angular on Rails: A Retrospective'
     url: http://info.localytics.com/engineering-blog/a-year-on-angular-on-rails-a-retrospective
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Comprehensive Beginners Guide to AngularJS - AntJanus'
     url: http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Diving in Rails - The request handling'
     url: http://blog.siami.fr/diving-in-rails-the-request-handling
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'tyronewilson/protractor-rails'
     url: https://github.com/tyronewilson/protractor-rails
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'AngularJS Watch and PubSub Best Practices Forged From Pain! – One Hungry Mind'
     url: http://onehungrymind.com/angularjs-watch-pubsub-best-practice/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'eburley.github.com'
     url: http://eburley.github.io/2013/01/31/angularjs-watch-pub-sub-best-practices.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Web Development blog'
     url: http://blog.brunoscopelliti.com/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Staggering Animations in AngularJS - yearofmoo.com'
     url: http://www.yearofmoo.com/2013/12/staggering-animations-in-angularjs.html
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Tyler McGinnis » AngularJS: Factory vs Service vs Provider'
     url: http://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'Benefits of Protractor in a Angular + Rails API application stack — Medium'
     url: https://medium.com/@AlexanderJeuris/benefits-of-protractor-in-a-angular-rails-api-application-stack-c60dc44c39b1
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'protractor/faq.md at master · angular/protractor'
     url: https://github.com/angular/protractor/blob/master/docs/faq.md
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'angularjs - Using scope.$watch and scope.$apply - Stack Overflow'
     url: http://stackoverflow.com/questions/15112584/using-scope-watch-and-scope-apply
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'egghead video'
     url: https://egghead.io/lessons/angularjs-unit-testing-hello-world
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   -
     title: 'egghead video'
     url: https://egghead.io/lessons/angularjs-unit-testing-hello-world
     topic: angular
     structure: ''
-    read: false
-    favorite: false
+    stat: false
     date: 2014-12-01
-    gist: 'tbd'
+    body: 'tbd'
   # -
   #   title: 'n/a'
   #   url: https://docs.angularjs.org/guide/unit-testing is not available
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'n/a'
   #   url: https://docs.angularjs.org/guide/unit-testing
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'egghead video'
   #   url: https://egghead.io/lessons/angularjs-compile-pre-and-post-link is not available
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'egghead video'
   #   url: https://egghead.io/lessons/angularjs-compile-pre-and-post-link
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'egghead video'
   #   url: https://egghead.io/lessons/angularjs-apply-vs-digest is not available
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'egghead video'
   #   url: https://egghead.io/lessons/angularjs-apply-vs-digest
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'n/a'
   #   url: http://jimhoskins.com/2012/12/17/angularjs-and-apply.html is not available
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'n/a'
   #   url: http://jimhoskins.com/2012/12/17/angularjs-and-apply.html
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'angular docs'
   #   url: https://docs.angularjs.org/guide/scope is not available
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'n/a'
   #   url: https://docs.angularjs.org/guide/scope
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'n/a'
   #   url: https://docs.angularjs.org/api/ng/type/$rootScope.Scope is not available
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'n/a'
   #   url: https://docs.angularjs.org/api/ng/type/$rootScope.Scope
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'n/a'
   #   url: http://angular-rails.com/ is not available
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
   # -
   #   title: 'n/a'
   #   url: http://angular-rails.com/
-  #   topic: angular
+  #   tag: angular
   #   structure: ''
-  #   read: false
-  #   favorite: false
+  #   stat: false
+  # date: 2014-12-13
   #   date: 2014-12-01
-  #   gist: 'tbd'
+  #   body: 'tbd'
 

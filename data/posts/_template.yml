@@ -1,0 +1,9 @@
+page:
+  title: jots
+  subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
+posts:
+  -
+    img: 'jots/creator.jpg'
+    date: 2014-12-10
+    title: 'Everything begins with the Creator'
+    body: "Look through a microscope or telescope and be filled with awe. 'Awe' is not an attribute of chaos but a word we ascribe to the work of a Designer."

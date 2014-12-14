@@ -1,0 +1,13 @@
+page:
+  title: jots
+  subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
+list:
+  -
+    date: 2014-12-02
+    tag: bash
+    title: 'tail -f development.log | grep user'
+    sub-title:
+    body: 'live read of the file in question, ex- development.log. Using grep I can look for log enteries that only have user in them.'
+    url: 'http://www.twitter.com/dhassler'
+    state: 'read'
+

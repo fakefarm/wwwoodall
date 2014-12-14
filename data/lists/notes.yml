@@ -1,0 +1,55 @@
+page:
+  title: notes
+  subtitle: Keeping track of the tid bits.
+
+list:
+  -
+    date: 2014-12-08
+    tag: scss
+    title: 'css strategy'
+    sub-title: ''
+    body: 'Think of classes as cousins and be more generic enough to be reused. They are more similar than I realize.'
+    url: ''
+  -
+    date: 2014-12-08
+    title: 'test a POST'
+    body: '$.post("/path/to/endpoint",{ test: 1});'
+    url: ''
+    sub-title: ''
+    tag: code
+  -
+    date: 2014-12-02
+    tag: code
+    title: 'Cron jobs'
+    body: 'Scheduled jobs.'
+    url: ''
+    sub-title: ''
+  -
+    date: 2014-12-02
+    tag: code
+    title: 'Background jobs'
+    state:
+    body: 'Things that work with apps like sidekiq and resque'
+    url: ''
+    sub-title: ''
+  -
+    date: 2014-12-02
+    tag: code
+    body: 'during each project ask myself to find something that should be refactored. what this will do will encourage me to dig around the gems or files I used.'
+    sub-title: ''
+    title: 'how to refactor'
+    url: ''
+  -
+    date: 2014-12-02
+    tag: code
+    title: '2 ways to use return'
+    sub-title: ''
+    body: 'there are two views on how to use return. 1.) return at the end of the function. 2.) early exit.'
+    url: ''
+  -
+    date: 2014-12-02
+    body: "During the story I'm working on, consider looking at the gems to know them. This will help understand the environment and help me find things that need to be refactored later."
+    sub-title: ''
+    title: 'constructive wandering'
+    url: ''
+    tag: code
