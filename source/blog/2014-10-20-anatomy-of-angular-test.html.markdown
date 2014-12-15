@@ -9,9 +9,12 @@ layout: blog_post
 published: true
 ---
 
-After writing Angular you'll soon want to test it. Testing is when you'll encounter a second layer of terms and functionality that was designed. I had to learn some new concepts and they made my head spin. So, I am documenting here for a reminder of the parts that are necessary to test. 
+After writing Angular you'll soon want to test it. In learning to test you'll encounter a second layer of terms and functionality about Angular. I had to learn some new concepts and they made my head spin. So, I am documenting here for a reminder of the parts that are necessary to test. 
 
-Now that I've written a few tests, I see why and how it works and it's not that bad :-)
+Now that I've written a few tests, I see why and how it works and it's not that bad :-) 
+
+I'm going to breakdown a test file step by step as I understand it. 
+[Scroll to the bottom](#test-without-comments) if you want to see the overview before reading the steps
 
 ##### Step 1: require
 The first thing is you need to require all the files you need.
@@ -134,7 +137,8 @@ Notice we are using `$compile` this service will convert the template and expres
 
 ##### Step 11.
 Here, we use `$compile` to convert our directive into html.
-Then, `$digest` attacheses it to the root scope. YOu have to do this.
+Then, `$digest` attacheses it to the root scope. You have to do this.
+
 ~~~coffeescript
     it 'replaces an a existing element identified by selector attribute', ->
       $compile("<recommendations selector='#foo'></recommendations>")($scope)
@@ -143,6 +147,8 @@ Then, `$digest` attacheses it to the root scope. YOu have to do this.
       expect($(document.body).html()).not.toContain 'remove me.'
 ~~~
 
+
+<div id="test-without-comments"></div>
 
 ### Code without comments
 
