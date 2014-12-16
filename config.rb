@@ -14,6 +14,21 @@ helpers do
     tags.uniq
   end
 
+  def grid_tags
+    tags = data.grid.send(file_name).albums.map do |tag|
+      tag.tags.first
+    end
+    tags.uniq
+  end
+
+  def list_tags(file_name)
+    all = data.lists.send(file_name)
+    tags = all.map do |list|
+      list.tag
+    end
+    tags.uniq
+  end
+
   def nav_link(link_text, url, options = {})
     options[:class] ||= ""
     options[:class] << " active" if url == current_page.url
