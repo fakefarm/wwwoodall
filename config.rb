@@ -23,7 +23,7 @@ helpers do
 
   def list_tags(file_name)
     all = data.lists.send(file_name)
-    tags = all.map do |list|
+    tags = all.list.map do |list|
       list.tag
     end
     tags.uniq

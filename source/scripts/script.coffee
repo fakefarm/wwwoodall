@@ -7,7 +7,7 @@ $(document).ready ->
     windowInnerHeight = window.innerHeight
     elementTopToWindowTop = elementTopToPageTop - windowTopToPageTop
     elementTopToWindowBottom = windowInnerHeight - elementTopToWindowTop
-    distanceFromBottomToAppear = 800
+    distanceFromBottomToAppear = 10
     if elementTopToWindowBottom > distanceFromBottomToAppear
      $(element).addClass "js-fade-element-show"
     else if elementTopToWindowBottom < 570
@@ -73,11 +73,11 @@ $(document).ready ->
     addPost: (post) ->
       @posts.push(post)
 
-  posts = _.map $(".filter-tags"), (post) ->
+  posts = _.map $("article"), (post) ->
     { el: $(post), tag: $(post).data("tag") }
+
   tags = _.map $(".blog-tags ul > li"), (tag) ->
     { el: $(tag), tag: $(tag).text() }
-
 
   filterPosts = new FilterPosts(posts,tags)
 

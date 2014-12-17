@@ -9,11 +9,13 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
     p.date= data.grid.send(file_name).page.subtitle
 
 .blog-tags
-  p Topics
+  - if file_name == 'pictures'
+    p Albums
+  - else
+    p Topics
   ul
     - data.grid.send(file_name).albums.each do |album|
       - if file_name == 'pictures' || file_name == 'videos'
-        .filter-tags
           li= album.title
       - else
         - album.images.each do |s|
@@ -21,22 +23,23 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
 
 .grids
   - data.grid.send(file_name).albums.each do |album|
-    h2= album.title
-    - album.images.each do |s|
-      .grid.show
-        = image_tag s.url unless s.url.empty?
-        = s.video         unless s.video.empty?
-        = s.caption       unless s.caption.empty?
-        .controls= unless s.tag.present?
-          = s.tag         unless s.tag.empty?
-          '  |
-          '
-          = link_to 'link', s.url, target: '_blank' unless s.url.empty?
+    article data-tag="#{album.title}"
+      h2= album.title
+      - album.images.each do |s|
+        .grid.show
+          = image_tag s.url unless s.url.empty?
+          = s.video         unless s.video.empty?
+          = s.caption       unless s.caption.empty?
+          .controls= unless s.tag.present?
+            = s.tag         unless s.tag.empty?
+            '  |
+            '
+            = link_to 'link', s.url, target: '_blank' unless s.url.empty?
 
-          / Pages with social: art
-          - if file_name == 'art' || 'videos'
-            - unless s.social.empty?
-              .social-source
-                span As seen on
-                '
-                = link_to s.social.name, s.url, target: '_blank'
+            / Pages with social: art
+            - if file_name == 'art' || 'videos'
+              - unless s.social.empty?
+                .social-source
+                  span As seen on
+                  '
+                  = link_to s.social.name, s.url, target: '_blank'

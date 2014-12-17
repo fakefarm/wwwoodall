@@ -10,13 +10,16 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
     p.date= data.lists.send(file_name).page.subtitle
 
 .blog-tags
-  p Topics
+  - if file_name == 'shortcuts'
+    p Categories
+  - else
+    p Topics
   ul
     - list_tags(file_name).each do |item|
       li= item
 
 - data.lists.send(file_name).list.each do |s|
-  article.type-system-traditional.shortcut
+  article.type-system-traditional.shortcut#article data-tag="#{s.tag}"
     .shortcut
       .topic
         h2= s.tag
