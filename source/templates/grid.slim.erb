@@ -14,32 +14,56 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
   - else
     p Topics
   ul
-    - data.grid.send(file_name).albums.each do |album|
-      - if file_name == 'pictures' || file_name == 'videos'
-          li= album.title
-      - else
-        - album.images.each do |s|
-          li= s.tag
+    - if file_name == 'pictures' || file_name == 'videos'
+      - filter_tags_by_album(file_name).each do |album|
+        li= album
+    - else
+      - filter_tags_by_image(file_name).each do |album|
+        li= album
 
 .grids
   - data.grid.send(file_name).albums.each do |album|
-    article data-tag="#{album.title}"
-      h2= album.title
-      - album.images.each do |s|
-        .grid.show
-          = image_tag s.url unless s.url.empty?
-          = s.video         unless s.video.empty?
-          = s.caption       unless s.caption.empty?
-          .controls= unless s.tag.present?
-            = s.tag         unless s.tag.empty?
-            '  |
-            '
-            = link_to 'link', s.url, target: '_blank' unless s.url.empty?
+    - if file_name == 'pictures' || 'videos'
+      article.type-system-traditional data-tag="#{album.title}"
+        h1= album.title
+        h2= album.date
+        - album.images.each do |s|
+          .grid.show
+            = image_tag s.url unless s.url.empty?
+            = s.video         unless s.video.empty?
+            = s.caption       unless s.caption.empty?
+            .controls= if s.tag.present?
+              = s.tag         if s.tag.present?
+              '  |
+              '
+              = link_to 'link', s.url, target: '_blank' if s.url.present?
 
-            / Pages with social: art
-            - if file_name == 'art' || 'videos'
-              - unless s.social.empty?
-                .social-source
-                  span As seen on
-                  '
-                  = link_to s.social.name, s.url, target: '_blank'
+              / Pages with social: art
+              - if file_name == 'art' || 'videos'
+                - if s.social.present?
+                  .social-source
+                    span As seen on
+                    '
+                    = link_to s.social.name, s.url, target: '_blank'
+    - else
+      section
+        h2= album.title
+        - album.images.each do |s|
+          article data-tag="#{s.tag}"
+            .grid.show
+              = image_tag s.url unless s.url.empty?
+              = s.video         unless s.video.empty?
+              = s.caption       unless s.caption.empty?
+              .controls= if s.tag.present?
+                = s.tag         if s.tag.present?
+                '  |
+                '
+                = link_to 'link', s.url, target: '_blank' if s.url.present?
+
+                / Pages with social: art
+                - if file_name == 'art' || 'videos'
+                  - if s.social.present?
+                    .social-source
+                      span As seen on
+                      '
+                      = link_to s.social.name, s.url, target: '_blank'

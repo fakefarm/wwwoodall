@@ -14,11 +14,21 @@ helpers do
     tags.uniq
   end
 
-  def grid_tags
+  def filter_tags_by_album(file_name)
     tags = data.grid.send(file_name).albums.map do |tag|
-      tag.tags.first
+      tag.title
     end
-    tags.uniq
+    tags
+  end
+
+  def filter_tags_by_image(file_name)
+    tags = data.grid.send(file_name).albums.map do |tag|
+      t = tag.images.map do |img|
+        img.tag
+      end
+      t.uniq
+    end
+    tags.flatten
   end
 
   def list_tags(file_name)

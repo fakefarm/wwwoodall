@@ -24,14 +24,17 @@ $(document).ready ->
 
 
   class FilterPosts
+
     constructor: (@posts,@tags) ->
       @currentTag = ''
       _.each @tags, (tag) =>
         tag.el.on "click", _.bind(@onClick,@)
+
     onClick: (e) ->
       $tag = $(e.currentTarget)
       @currentTag = tag = $tag.text()
       @filterPosts(tag)
+
     filterPosts: (tag) ->
       filtered = _.filter @posts, (post) ->
         post.tag == tag
@@ -41,6 +44,7 @@ $(document).ready ->
         $(post.el).show()
     allPosts: ->
       _.map(@posts, (post) -> post.el)
+
     addPost: (post) ->
       @posts.push(post)
 
@@ -52,34 +56,6 @@ $(document).ready ->
 
   filterPosts = new FilterPosts(posts,tags)
 
-  class FilterPosts
-    constructor: (@posts,@tags) ->
-      @currentTag = ''
-      _.each @tags, (tag) =>
-        tag.el.on "click", _.bind(@onClick,@)
-    onClick: (e) ->
-      $tag = $(e.currentTarget)
-      @currentTag = tag = $tag.text()
-      @filterPosts(tag)
-    filterPosts: (tag) ->
-      filtered = _.filter @posts, (post) ->
-        post.tag == tag
-      for post in @allPosts()
-        $(post).hide()
-      for post in filtered
-        $(post.el).show()
-    allPosts: ->
-      _.map(@posts, (post) -> post.el)
-    addPost: (post) ->
-      @posts.push(post)
-
-  posts = _.map $("article"), (post) ->
-    { el: $(post), tag: $(post).data("tag") }
-
-  tags = _.map $(".blog-tags ul > li"), (tag) ->
-    { el: $(tag), tag: $(tag).text() }
-
-  filterPosts = new FilterPosts(posts,tags)
 
   jQuery.mark = jump: (options) ->
     defaults = selector: "a.scroll-on-page-link"
