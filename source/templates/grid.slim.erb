@@ -26,17 +26,19 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
     - if file_name == 'pictures' || file_name == 'videos'
       article.type-system-traditional data-tag="#{album.title}"
         h1= album.title
-        h2= album.date
+        h2= album.caption if album.caption.present?
+        h3= album.date
         - album.images.each do |s|
           .grid.show
             = image_tag s.url unless s.url.empty?
             = s.video         unless s.video.empty?
             = s.caption       unless s.caption.empty?
-            .controls= if s.tag.present?
-              = s.tag         if s.tag.present?
-              '  |
-              '
-              = link_to 'link', s.url, target: '_blank' if s.url.present?
+            - if file_name == 'art' || file_name == 'videos'
+              .controls= if s.tag.present?
+                = s.tag         if s.tag.present?
+                '  |
+                '
+                = link_to 'link', s.url, target: '_blank' if s.url.present?
 
               / Pages with social: art
               - if file_name == 'art' || file_name == 'videos'
