@@ -7,16 +7,16 @@ albums:
     date: 2014-12-13
     images:
       -
-        url: http://i.imgur.com/88bgZso.jpg
+        url: http://24.media.tumblr.com/tumblr_lepgaj0rfB1qfkue8o1_500.gif
         video: ''
-        tag: bam
+        tag: boo
         date: 12-13-2014
         classes: big
         caption: ''
       -
-        url: http://24.media.tumblr.com/tumblr_lepgaj0rfB1qfkue8o1_500.gif
+        url: http://i.imgur.com/88bgZso.jpg
         video: ''
-        tag: boo
+        tag: bam
         date: 12-13-2014
         classes: big
         caption: ''

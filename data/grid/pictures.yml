@@ -3,8 +3,40 @@ page:
   subtitle: click.
 albums:
   -
-    title: Father's Day 2014
-    date: 2014-12-13
+    title: Wells visits Oscar
+    date: 2014-12-15
+    images:
+        -
+          url: 'pictures/wells_visit_oscar/1.jpeg'
+          video: ''
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: ''
+        -
+          url: 'pictures/wells_visit_oscar/2.jpeg'
+          video: ''
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: ''
+        -
+          url: 'pictures/wells_visit_oscar/3.jpeg'
+          video: ''
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: ''
+        -
+          url: 'pictures/wells_visit_oscar/4.jpeg'
+          video: ''
+          tag: boys'
+          date: 08-12-2014
+          classes: big
+          caption: ''
+  -
+    title: Father's Day
+    date: 2014-06-15
     images:
         -
           url: 'pictures/IMG_1121.JPG'
@@ -16,7 +48,6 @@ albums:
           social:
             name: dribbble
             url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1
-
         -
           url: 'pictures/IMG_1122.png'
           video: ''
