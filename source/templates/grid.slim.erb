@@ -39,7 +39,7 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
               = link_to 'link', s.url, target: '_blank' if s.url.present?
 
               / Pages with social: art
-              - if file_name == 'art' || 'videos'
+              - if file_name == 'art' || file_name == 'videos'
                 - if s.social.present?
                   .social-source
                     span As seen on
