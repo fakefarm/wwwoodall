@@ -7,6 +7,13 @@ albums:
     date: 2014-12-13
     images:
       -
+        url: http://i.imgur.com/wKN7qV2.gif
+        video: ''
+        tag: amirite
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
         url: http://24.media.tumblr.com/tumblr_lepgaj0rfB1qfkue8o1_500.gif
         video: ''
         tag: boo
@@ -17,13 +24,6 @@ albums:
         url: http://i.imgur.com/88bgZso.jpg
         video: ''
         tag: bam
-        date: 12-13-2014
-        classes: big
-        caption: ''
-      -
-        url: http://i.imgur.com/wKN7qV2.gif
-        video: ''
-        tag: amirite
         date: 12-13-2014
         classes: big
         caption: ''
