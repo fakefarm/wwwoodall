@@ -23,7 +23,7 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
 
 .grids
   - data.grid.send(file_name).albums.each do |album|
-    - if file_name == 'pictures' || 'videos'
+    - if file_name == 'pictures' || file_name == 'videos'
       article.type-system-traditional data-tag="#{album.title}"
         h1= album.title
         h2= album.date
@@ -47,7 +47,6 @@ caption: 'Laird Hamilton, ladies and gentlemen.'
                     = link_to s.social.name, s.url, target: '_blank'
     - else
       section
-        h2= album.title
         - album.images.each do |s|
           article data-tag="#{s.tag}"
             .grid.show
