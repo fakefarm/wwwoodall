@@ -19,7 +19,7 @@ list:
     date: 2014-11-29
     state: ''
   -
-    tag: bash alias (gpom)
+    tag: bash
     title: 'alias gpom="git pull origin master"'
     subtitle: ''
     body: save yourself from typing sooo much
@@ -27,7 +27,7 @@ list:
     date: 2014-12-02
     state: ''
   -
-    tag: bash alias (gpom)
+    tag: bash
     title: copr
     subtitle: ''
     body: 'this'
