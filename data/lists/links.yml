@@ -3,12 +3,11 @@ page:
   subtitle: Save for later.
 list:
   -
-    date: 2014-12-17
-    tag: ruby
-    title: "Merge and interleave two arrays in Ruby"
-    sub-title: 'a.zip(s).flatten.compact'
-    body: 'a.zip(s).flatten.compact'
-    url: 'http://stackoverflow.com/questions/7312713/merge-and-interleave-two-arrays-in-ruby'
+    date: 2014-12-18
+    tag: gem
+    title: "Vanity gem"
+    body: 'Experiment Driven Development framework for Rails.'
+    url: 'http://vanity.labnotes.org/'
   -
     title: '8 Powerful Ways to Build a Faster, More Agile Business'
     url: http://www.inc.com/peter-economy/8-powerful-ways-to-build-a-faster-more-agile-business.html

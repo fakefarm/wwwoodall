@@ -3,6 +3,22 @@ page:
   subtitle: movies
 albums:
   -
+    title: music videos
+    caption: 'Some of the ones I like.'
+    date: ''
+    images:
+      -
+        url: ''
+        title: 'DJ SHADOW'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/BuCTxhSAi7s?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: ''
+        date: 2014-12-18
+        classes: big
+        caption: ''
+        social:
+          name: youTube
+          url: <iframe width="560" height="415" src="//www.youtube.com/embed/BuCTxhSAi7s?rel=0" frameborder="0" allowfullscreen></iframe>
+  -
     title: parenting
     date: ''
     images:

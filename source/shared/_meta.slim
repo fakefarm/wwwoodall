@@ -11,13 +11,23 @@ head
   meta property="og:title" content="#{current_page.data.title}"
   meta property="og:site_name" content="Dave Woodall"
   meta property="og:url" content="http://wwwoodall.com"
-  meta content="summary" name="twitter:card"
+  meta content="summary_large_image" name="twitter:card"
   meta content="@wwwoodall" name="twitter:site"
   meta content="@wwwoodall" name="twitter:creator"
   meta property="og:description" content="#{current_page.data.meta_desc}"
+
+  / TODO - convert these to grid
   - if current_page.url == '/pictures/'
     meta content="#{data.grid.pictures.albums.first.title}" name="twitter:title"
     meta content="#{data.grid.pictures.albums.first.caption}" name="twitter:description"
     meta property="og:image" content="http://www.wwwoodall.com/images/#{data.grid.pictures.albums.first.images.first.url}"
+    meta name="twitter:image:src" content="http://www.wwwoodall.com/images/#{data.grid.pictures.albums.first.images.first.url}"
 
+  / TODO - convert these to posts
+  - if current_page.url == '/jots/'
+    meta content="#{data.posts.jots.posts.first.title}" name="twitter:title"
+    meta content="#{data.posts.jots.posts.first.body}" name="twitter:description"
+    meta property="og:image" content="http://www.wwwoodall.com/images/#{data.posts.jots.posts.first.img}"
+    meta name="twitter:image:src" content="http://www.wwwoodall.com/images/#{data.posts.jots.posts.first.img}"
 
+  / TODO - create a meta for lists.
