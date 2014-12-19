@@ -1,7 +1,16 @@
+
 page:
   title: shortcuts
   subtitle: Things I learn from the real programmers.
 list:
+  -
+    tag: bash
+    title: 'tar cfvz [name_of_zipped_version_of_file.tgz] [file that you are zipping]'
+    subtitle: ''
+    body: "Zip a file from the terminal </br>The Zipped file needs to end with .tgz </br><b>Example;</b> 'tar cfvz myZippedFile.tgz BigFile' </br>cfvz stands for: create file verbose zip"
+    url: ''
+    date: 2014-12-19
+    state: ''
   -
     tag: bash
     title: 'tail -f development.log | grep user'

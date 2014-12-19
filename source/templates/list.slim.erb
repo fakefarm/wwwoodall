@@ -17,7 +17,7 @@
     .shortcut
       .topic
         h2= s.tag
-        p.date= s.date.strftime("%h %Y")
+        p.date= s.date.strftime("%h %Y") if s.date.present?
       .gist
         - if s.url.empty?
           h2= s.title

@@ -3,7 +3,46 @@ page:
   subtitle: Save for later.
 list:
   -
-    date: 2014-12-18
+    title: Video - 215 Advanced Queries in Rails 3 - RailsCasts
+    url: http://railscasts.com/episodes/215-advanced-queries-in-rails-3)
+    tag: sql
+  -
+    title: B-log - Database agnostic != database ignorant | railway
+    url: http://www.railway.at/articles/2008/04/24/database-agnostic-database-ignorant/)
+    tag: sql
+  -
+    title: Video - Active Record Queries
+    url: http://railscasts.com/episodes/202-active-record-queries-in-rails-3)
+    tag: sql
+  -
+    title: Blog - Active Record Query Interface 3.0
+    url: http://m.onkey.org/active-record-query-interface)
+    tag: sql
+  -
+    tag: metrics
+    title: 'Startup Metrics for Pirates: AARRR! - Master of 500 Hats'
+    url: 'http://500hats.typepad.com/500blogs/2007/09/startup-metrics.html'
+  -
+    tag: stats
+    title: 'Statistical significance & other A/B pitfalls — Cennydd Bowles'
+    url: 'http://www.cennydd.com/blog/statistical-significance-other-ab-pitfalls/?s=2009/statistical-significance-other-ab-test-pitfalls/'
+  -
+    tag: javascript
+    title: 'sethvincent/javascripting'
+    url: 'https://github.com/sethvincent/javascripting'
+  -
+    tag: jquery
+    title: 'Code School - Try jQuery'
+    url: 'http://try.jquery.com/levels/1/challenges/4'
+  -
+    tag: javascript
+    title: 'JavaScript for Cats'
+    url: 'http://jsforcats.com/'
+  -
+    tag: ruby
+    title: 'Writing a Web Crawler | The Bastards Book of Ruby'
+    url: 'http://ruby.bastardsbook.com/chapters/web-crawling/'
+  -
     tag: gem
     title: "Vanity gem"
     body: 'Experiment Driven Development framework for Rails.'
@@ -12,47 +51,38 @@ list:
     title: '8 Powerful Ways to Build a Faster, More Agile Business'
     url: http://www.inc.com/peter-economy/8-powerful-ways-to-build-a-faster-more-agile-business.html
     tag: team
-    date: 2014-12-17
   -
     title: 'The Syntax of Taste: Refactoring Conditionals'
     url: http://www.sitepoint.com/syntax-taste-refactoring-conditionals/
     tag: code
-    date: 2014-12-17
   -
     title: 'How to keep bad abstractions from handcuffing your code - Weissblog'
     url: http://www.justinweiss.com/blog/2014/12/09/how-to-keep-bad-abstractions-from-handcuffing-your-code/
     tag: code
-    date: 2014-12-17
   -
     url: 'https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs?utm_source=javascriptweekly&utm_medium=email#2-understanding-angular'
     title: 'Preparing for the future of AngularJS'
     tag: 'code'
     sub-title: 'Angular'
     body: "Here we'll be taking a look at where Angular comes from, to get an idea of where it might go."
-    date: 2014-12-06
     structure: post
     stat: false
-    date: 2014-12-13
   -
     url: http://www.codequizzes.com/
     title: 'Code Quizes'
     tag: 'code'
     sub-title: 'practice'
     body: 'list of code quizes'
-    date: 2014-12-03
     structure: quiz
     stat: false
-    date: 2014-12-13
   -
     url: https://practicingruby.com/
     title: 'practicing ruby'
     tag: 'code'
     sub-title: 'ruby'
     body: 'solid articles'
-    date: 2014-12-03
     structure: blog
     stat: false
-    date: 2014-12-13
   -
     url: http://www.rojotek.com/blog/2014/05/16/cool-stuff-you-can-do-with-rails-has_one/
     title: 'cool stuff you can do with has one'
@@ -60,9 +90,7 @@ list:
     tag: 'code'
     body: 'this'
     stat: false
-    date: 2014-12-13
     structure: post
-    date: 2014-12-02
   -
     url: http://thomasleecopeland.com/2014/09/22/various-ways-to-create-structs.html
     title: 'various ways to create structs'
@@ -70,74 +98,61 @@ list:
     sub-title: 'ruby'
     body: 'this'
     stat: false
-    date: 2014-12-13
     structure: post
-    date: 2014-12-02
   -
     url: http://theseniorsoftwareengineer.com/
-    title: 'sr. software'
+    title: 'The Senior Software Engineer'
     sub-title: 'career'
-    tag: 'personal'
-    body: 'this'
+    tag: book
+    body: "Recommended to me a few times. I've read several of Dave Copeland's other tutorials and ebooks. Looking forward to reading this one!"
     stat: false
-    date: 2014-12-13
     structure: ebook
-    date: 2014-12-02
   -
     url: http://www.blogtyrant.com/start-a-blog-2014/
     title: '19 things to know before starting a blog'
     tag: 'blogging'
     body: 'Interested to see how the pros do it.'
     stat: false
-    date: 2014-12-13
     structure: list
-    date: 2014-12-01
   -
     url: http://madhatted.com/2014/6/17/authentication-for-single-page-apps
     title: 'Authentication for Single Page Apps'
     tag: 'Architecture'
     structure: tutorial
     stat: false
-    date: 2014-12-01
   -
     url: http://bonsaiden.github.io/JavaScript-Garden/
     title: 'JavaScript Garden'
-    tag: 'JavaScript'
+    tag: javascript
     structure: reference
     body: 'A growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes and subtle bugs, as well as performance issues and bad practices, that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language.'
     stat: false
-    date: 2014-12-01
   -
     title: 'javascript - How to enable CORS in AngularJs - Stack Overflow'
     url: http://stackoverflow.com/questions/23823010/how-to-enable-cors-in-angularjs
     topic: CORS
     stat: false
-    date: 2014-12-01
   -
     title: 'Jutsu #1 - CORS with Angular.js and Sinatra - Samurails'
     url: http://samurails.com/tutorial/cors-with-angular-js-and-sinatra/
     topic: CORS
     stat: false
-    date: 2014-12-01
   -
     title: Cross-Origin Resource Sharing Tutorial
     url: https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.appprogramming/html/tutorials/w3c_tutorial/sec_tutorial/cors_tutorial.htm
     topic: CORS
     stat: false
-    date: 2014-12-01
   -
     title: 'enable cross-origin resource sharing'
     url: http://enable-cors.org/resources.html
     topic: CORS
     stat: false
-    date: 2014-12-01
   -
     title: 'Karma - Spectacular Test Runner for Javascript'
     url: http://karma-runner.github.io/0.12/index.html
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Unit Testing Best Practices in AngularJS'
@@ -145,7 +160,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: '| ng-newsletter'
@@ -153,7 +167,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Full-Spectrum Testing with AngularJS and Karma - yearofmoo.com'
@@ -161,7 +174,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'AngularJS Testing with Karma and Jasmine | tuesdayDeveloper;'
@@ -169,7 +181,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'A Few Thoughts on Better Unit Tests For AngularJS Controllers'
@@ -177,7 +188,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Testing with Angular.JS | Ruben Vermeersch (rubenv) - The Life of RubenV'
@@ -185,7 +195,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Try, Catch, Fail: Angular - $compile: How it works, How to use it.'
@@ -193,7 +202,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'AngularJS Custom Directives'
@@ -201,7 +209,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Understanding template compiling in AngularJS - dagingaa@github'
@@ -209,7 +216,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'dom - AngularJS - Compiling dynamic HTML strings from database - Stack Overflow'
@@ -217,7 +223,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'angular - Dealing with DOM Manipulations - AngularJS - Stack Overflow'
@@ -225,7 +230,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'AngularJS and $compile | Phase2'
@@ -233,7 +237,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Try, Catch, Fail: AngularJS: $watch, $digest and $apply'
@@ -241,7 +244,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'AngularJS - $digest - Thinkster'
@@ -249,7 +251,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: '$watch how the $apply runs a $digest - Angular Tips'
@@ -257,7 +258,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Understanding Angulars $apply() and $digest()'
@@ -265,7 +265,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Make Your Own AngularJS, Part 1: Scopes And Digest'
@@ -273,7 +272,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Using $scope.$digest() As A Performance Optimization In AngularJS'
@@ -281,7 +279,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Inside Search – Google'
@@ -289,7 +286,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Directives (Parts 4 and 5 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter'
@@ -297,7 +293,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'The 80/20 Guide to Writing AngularJS Directives | The Code Barbarian'
@@ -305,7 +300,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'A Year on Angular on Rails: A Retrospective'
@@ -313,7 +307,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Comprehensive Beginners Guide to AngularJS - AntJanus'
@@ -321,7 +314,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Diving in Rails - The request handling'
@@ -329,7 +321,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'tyronewilson/protractor-rails'
@@ -337,7 +328,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'AngularJS Watch and PubSub Best Practices Forged From Pain! – One Hungry Mind'
@@ -345,7 +335,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'eburley.github.com'
@@ -353,7 +342,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Web Development blog'
@@ -361,7 +349,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Staggering Animations in AngularJS - yearofmoo.com'
@@ -369,7 +356,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Tyler McGinnis » AngularJS: Factory vs Service vs Provider'
@@ -377,7 +363,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'Benefits of Protractor in a Angular + Rails API application stack — Medium'
@@ -385,7 +370,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'protractor/faq.md at master · angular/protractor'
@@ -393,7 +377,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'angularjs - Using scope.$watch and scope.$apply - Stack Overflow'
@@ -401,7 +384,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'egghead video'
@@ -409,7 +391,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   -
     title: 'egghead video'
@@ -417,7 +398,6 @@ list:
     topic: angular
     structure: ''
     stat: false
-    date: 2014-12-01
     body: 'tbd'
   # -
   #   title: 'n/a'
@@ -425,8 +405,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'n/a'
@@ -434,8 +412,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'egghead video'
@@ -443,8 +419,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'egghead video'
@@ -452,8 +426,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'egghead video'
@@ -461,8 +433,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'egghead video'
@@ -470,8 +440,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'n/a'
@@ -479,8 +447,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'n/a'
@@ -488,8 +454,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'angular docs'
@@ -497,8 +461,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'n/a'
@@ -506,8 +468,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'n/a'
@@ -515,8 +475,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'n/a'
@@ -524,8 +482,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'n/a'
@@ -533,8 +489,6 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
   # -
   #   title: 'n/a'
@@ -542,7 +496,5 @@ list:
   #   tag: angular
   #   structure: ''
   #   stat: false
-  # date: 2014-12-13
-  #   date: 2014-12-01
   #   body: 'tbd'
 
