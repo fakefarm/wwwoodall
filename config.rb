@@ -124,3 +124,5 @@ configure :build do
   activate :minify_javascript
   activate :relative_assets
 end
+
+ignore   '/blog/drafts/*'
