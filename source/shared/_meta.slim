@@ -15,7 +15,9 @@ head
   meta content="@wwwoodall" name="twitter:site"
   meta content="@wwwoodall" name="twitter:creator"
   meta property="og:description" content="#{current_page.data.meta_desc}"
-  meta content="#{current_article.data.snip}" name="twitter:description"
+
+  - if current_page.data.layout == 'blog_post'
+    meta content="#{current_article.data.snip}" name="twitter:description"
 
   / TODO - convert these to grid
   - if current_page.url == '/pictures/'
