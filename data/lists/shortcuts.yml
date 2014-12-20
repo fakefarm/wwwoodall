@@ -1,8 +1,23 @@
-
 page:
   title: shortcuts
   subtitle: Things I learn from the real programmers.
 list:
+  -
+    tag: testing
+    title: 'ruby -Itest test/models/name_of_file_controller_test.rb  -n /zz/'
+    subtitle: ''
+    body: "Run a single test with the -n flag and an reg expression"
+    url: ''
+    date: 2014-12-19
+    state: ''
+  -
+    tag: git
+    title: 'copr [1234]'
+    subtitle: ''
+    body: "Fetch a remote PR to a local branch by <a href='https://twitter.com/gregvaughn'>Greg Vaughn</a>.<br><em>In .bash_[profile]</em><br><code>copr() { <br> &nbsp;&nbsp;git fetch origin refs/pull/$1/head:pull-request-$1<br>&nbsp;&nbsp;git co pull-request-$1<br> }</code>"
+    url: ''
+    date: 2014-12-19
+    state: ''
   -
     tag: bash
     title: 'tar cfvz [name_of_zipped_version_of_file.tgz] [file that you are zipping]'

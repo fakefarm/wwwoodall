@@ -3,6 +3,42 @@ page:
   subtitle: Save for later.
 list:
   -
+    title: "Responsive interaction - Animation - Google design guidelines"
+    url: "http://www.google.com/design/spec/animation/responsive-interaction.html#"
+    tag: material design
+  -
+    title: "Google Design"
+    url: "http://www.google.com/design/#resources"
+    tag: material design
+  -
+    title: "Services > $mdBottomSheet"
+    url: "https://material.angularjs.org/#/api/material.components.bottomSheet/service/$mdBottomSheet"
+    tag: material design
+  -
+    title: "Material Design for Bootstrap"
+    url: "https://fezvrasta.github.io/bootstrap-material-design/#button"
+    tag: material design
+  -
+    title: "Polymer paper elements - Polymer"
+    url: "https://www.polymer-project.org/docs/elements/paper-elements.html#paper-radio-button"
+    tag: material design
+  -
+    title: "What You Can Learn From Google’s Material Design - Tuts+ Code Article"
+    url: "http://code.tutsplus.com/articles/what-you-can-learn-from-googles-material-design--cms-22516"
+    tag: material design
+  -
+    title: "Icons - Style - Google design guidelines"
+    url: "http://www.google.com/design/spec/style/icons.html#icons-product-icons"
+    tag: material design
+  -
+    title: "Cards - Components - Google design guidelines"
+    url: "http://www.google.com/design/spec/components/cards.html#cards-usage"
+    tag: material design
+  -
+    title: Video - 215 Advanced Queries in Rails 3 - RailsCasts
+    url: http://railscasts.com/episodes/215-advanced-queries-in-rails-3)
+    tag: sql
+  -
     title: Video - 215 Advanced Queries in Rails 3 - RailsCasts
     url: http://railscasts.com/episodes/215-advanced-queries-in-rails-3)
     tag: sql

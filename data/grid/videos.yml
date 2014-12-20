@@ -3,6 +3,22 @@ page:
   subtitle: movies
 albums:
   -
+    title: Business
+    caption: 'How people work.'
+    date: ''
+    images:
+      -
+        url: ''
+        title: 'Google design sprints'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/137XnWlUTKY?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: collaboration
+        date: 2014-12-19
+        classes: big
+        caption: '175 designers and researchers from the Ads and Commerce UX team got together for a week and participated in 23 parallel design sprints. In this video, team leads discuss how design sprints can help you rapidly iterate on ideas, at scale. #GoogleDesignMinutes'
+        social:
+          name: youTube
+          url: <iframe width="560" height="315" src="//www.youtube.com/embed/137XnWlUTKY?rel=0" frameborder="0" allowfullscreen></iframe>
+  -
     title: music videos
     caption: 'Some of the ones I like.'
     date: ''

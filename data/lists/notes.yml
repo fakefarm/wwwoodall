@@ -5,6 +5,13 @@ page:
 list:
   -
     date: 2014-12-17
+    tag: ruby
+    title: "assert_select"
+    sub-title: ''
+    body: 'An assertion that selects elements and makes one or more equality tests.Example<br><pre class="ruby" data-result="[object Object]" data-second_best="[object Object]"><code><span class="identifier">assert_select</span> <span class="string">"ol"</span> <span class="identifier"><span class="keyword">do</span></span> |<span class="identifier">elements</span>| <br><span class="identifier">elements</span>.<span class="identifier"><span class="keymethods">each</span></span> <span class="identifier"><span class="keyword">do</span></span> |<span class="identifier">element</span>| <br><span class="identifier">assert_select</span> <span class="identifier">element</span>, <span class="string">"li"</span>, <span class="number">4</span> <span class="identifier"><span class="keyword"><br>end</span></span> <span class="identifier"><span class="keyword"><br>end</span></span> </code></pre>'
+    url: 'http://api.rubyonrails.org/classes/ActionDispatch/Assertions/SelectorAssertions.html#method-i-assert_select'
+  -
+    date: 2014-12-17
     tag: jquery
     title: "$(\"a[href*='travel']\")"
     sub-title: ''
