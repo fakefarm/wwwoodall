@@ -1,5 +1,5 @@
 ---
-layout: post
+0.5em
 title:  "House camping"
 date:   2013-06-13 10:25:59
 categories:

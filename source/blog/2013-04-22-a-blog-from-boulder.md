@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A blog from Boulder"
 description: ""
 category: lifestyle

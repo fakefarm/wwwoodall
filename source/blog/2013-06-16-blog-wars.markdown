@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Blog wars."
 date:   2013-06-16 13:45:46
 categories: dear-diary

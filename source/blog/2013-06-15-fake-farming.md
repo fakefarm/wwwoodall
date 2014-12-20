@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Fake farming"
 date:   2013-06-15 10:25:59
 categories:
