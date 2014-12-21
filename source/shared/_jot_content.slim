@@ -1,0 +1,7 @@
+.jots
+  article.type-system-traditional
+    - data.send(file_name).jots[0..limit].each do |s|
+      .jot
+        .image= image_tag s.img unless s.img.empty?
+        h1.j= s.title
+        h3.blurb= s.body

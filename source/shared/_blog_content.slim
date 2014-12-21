@@ -1,9 +1,11 @@
+/ _dw TOOD - move this into the page_titles partial
 .shortcuts
   .intro-text
     h3 blog
     p.date Thoughts, Feeling, Actions in words.
+
 .shortcuts
-  - blog.articles[0..2].each do |post|
+  - blog.articles[0..limit].each do |post|
     article.type-system-traditional
       h1= link_to post.title, post.url
       p.type= post.tags.first

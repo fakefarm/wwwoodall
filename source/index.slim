@@ -1,51 +1,27 @@
----
-title: wwwoodall.com
-image: 'heros/lava.jpg'
-caption: "Don't touch the ground, it's lava!"
-layout: false
-meta_desc: "Welcome to Dave Woodall's homepage."
----
+.index
+  span#jots
+  = render_partial 'shared/page_titles',  locals: { file_name: 'jots' }
+  = render_partial 'shared/jot_content', locals: { file_name: 'jots', limit: 0 }
 
-html
-  = render_partial 'shared/meta'
-  = stylesheet_link_tag 'application'
+  / grid template - managed in config.rb
+  - ['gifs', 'pictures' ].each do |file_name|
+    span id=file_name
+    = render_partial 'shared/page_titles',  locals: { file_name: file_name }
+    = render_partial 'shared/grid_content', locals: { file_name: file_name, limit: 2, album_limit: 0 }
+    .sectional
+      p= link_to "all #{file_name}", "/#{file_name}"
 
-  body class="#{page_classes}"
-    section.main
-      .l-header
-        = render_partial 'shared/header/header'
-        = render_partial 'shared/nav'
-      .intro-text
-        #jots
-        / .shortcuts
-        /   .intro-text
-        /     h3 jots
-        /     p.date More than a tweet. Less than a Post. Sometimes a doodle.
-        .jot-tag
-          = image_tag data.posts.jots.posts[0]['img']
-        h2= data.posts.jots.posts[0]['title']
-      .l-container
-        p.jot-blurb= data.posts.jots.posts[0]['body']
-        .sectional
-          p= link_to 'all jots', '/jots'
-        article
-          section
-            #gifs
-            = render_partial 'index/gifs'
-            #pictures
-            = render_partial 'index/pictures'
-            #blog
-            = render_partial 'index/blog'
-            #shortcuts
-            = render_partial 'index/shortcuts'
-            #notes
-            = render_partial 'index/notes'
-            #reading
-            = render_partial 'index/reading'
-            #questions
-            = render_partial 'index/questions'
-            #links
-            = render_partial 'index/links'
-    = render_partial 'shared/footer/main'
-  = render_partial 'shared/footer/stuff'
+  span#blog
+  = render_partial 'shared/blog_content', locals: { file_name: 'blog', limit: 2 }
 
+  span#notes
+  = render_partial 'shared/page_titles',  locals: { file_name: 'notes' }
+  = render_partial 'shared/note_content', locals: { file_name: 'notes', limit: 2 }
+
+  / list template - managed in config.rb
+  - ['links', 'reading', 'questions' ].each do |file_name|
+    span id=file_name
+    = render_partial 'shared/page_titles',  locals: { file_name: file_name }
+    = render_partial 'shared/list_content', locals: { file_name: file_name, limit: 2 }
+    .sectional
+      p= link_to "all #{file_name}", "/#{file_name}"

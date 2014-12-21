@@ -1,0 +1,48 @@
+div class="#{file_name}"
+  .grids
+    - data.send(file_name).albums[0..album_limit].each do |album|
+      - if file_name == 'pictures' || file_name == 'videos'
+        article.type-system-traditional data-tag="#{album.title}"
+          h1= album.title
+          h2= album.caption if album.caption.present?
+          h3= album.date
+          - album.images[0..limit].each do |s|
+            .grid.show
+              = image_tag s.url unless s.url.empty?
+              = s.video         unless s.video.empty?
+              = s.caption       unless s.caption.empty?
+              - if file_name == 'art' || file_name == 'videos'
+                .controls= if s.tag.present?
+                  = s.tag         if s.tag.present?
+                  '  |
+                  '
+                  = link_to 'link', s.url, target: '_blank' if s.url.present?
+
+                / Pages with social: art
+                - if file_name == 'art' || file_name == 'videos'
+                  - if s.social.present?
+                    .social-source
+                      span As seen on
+                      '
+                      = link_to s.social.name, s.url, target: '_blank'
+      - else
+        section
+          - album.images[0..limit].each do |s|
+            article data-tag="#{s.tag}"
+              .grid
+                = image_tag s.url unless s.url.empty?
+                = s.video         unless s.video.empty?
+                = s.caption       unless s.caption.empty?
+                .controls= if s.tag.present?
+                  = s.tag         if s.tag.present?
+                  '  |
+                  '
+                  = link_to 'link', s.url, target: '_blank' if s.url.present?
+
+                  / Pages with social: art
+                  - if file_name == 'art' || 'videos'
+                    - if s.social.present?
+                      .social-source
+                        span As seen on
+                        '
+                        = link_to s.social.name, s.url, target: '_blank'

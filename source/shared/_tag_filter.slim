@@ -1,0 +1,8 @@
+.blog-tags
+  - if file_name == 'shortcuts'
+    p Categories
+  - else
+    p Topics
+  ul
+    - filter_tags_by(option, file_name).each do |item|
+      li= item
