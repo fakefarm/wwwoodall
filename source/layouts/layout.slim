@@ -3,10 +3,6 @@ html
   = stylesheet_link_tag 'application'
 
   body class="#{page_classes}"
-    .photos
-      .cross= image_tag 'cross.png'
-      = image_tag(post_image)
-      = image_caption
     section.main
       .l-header
         = render_partial 'shared/header/header'
