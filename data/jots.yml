@@ -2,7 +2,7 @@ page:
   title: jots
   subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
 
-posts:
+jots:
   -
     img: 'jots/creator.jpg'
     date: 2014-12-10

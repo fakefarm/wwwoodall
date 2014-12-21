@@ -15,14 +15,14 @@ helpers do
   end
 
   def filter_tags_by_album(file_name)
-    tags = data.grid.send(file_name).albums.map do |tag|
+    tags = data.send(file_name).albums.map do |tag|
       tag.title
     end
     tags
   end
 
   def filter_tags_by_image(file_name)
-    tags = data.grid.send(file_name).albums.map do |tag|
+    tags = data.send(file_name).albums.map do |tag|
       t = tag.images.map do |img|
         img.tag
       end
@@ -32,12 +32,28 @@ helpers do
   end
 
   def list_tags(file_name)
-    all = data.lists.send(file_name)
+    all = data.send(file_name)
     tags = all.list.map do |list|
       list.tag
     end
     tags.uniq
   end
+
+  def filter_tags_by(option, file_name)
+    # probably practice duck typing
+    if option == 'album'
+      tags = data.send(file_name).albums.map do |tag|
+        tag.title
+      end
+      tags
+    elsif option == 'tag'
+      tags = data.send(file_name).list.map do |tag|
+        tag.tag
+      end
+      tags.uniq.compact.sort
+    end
+  end
+
 
   def nav_link(link_text, url, options = {})
     options[:class] ||= ""
@@ -84,19 +100,25 @@ end
 [
   "jots"
 ].each do |name|
-  proxy "/#{name}.html", "/templates/post.html", :locals => { :file_name => name }, :ignore => true
+  proxy "/#{name}.html", "/templates/jot.html", :locals => { :file_name => name }, :ignore => true
 end
 
 # List pages.
 [
-  "shortcuts",
   'links',
   'questions',
-  'reading',
-  'notes'
+  'reading'
 ].each do |name|
   proxy "/#{name}.html", "/templates/list.html", :locals => { :file_name => name }, :ignore => true
 end
+
+# Note pages.
+[
+  "notes"
+].each do |name|
+  proxy "/#{name}.html", "/templates/note.html", :locals => { :file_name => name }, :ignore => true
+end
+
 
 activate :blog do |blog|
   blog.prefix = 'blog'
