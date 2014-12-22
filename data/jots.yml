@@ -6,6 +6,15 @@ jots:
   -
     img: 'jots/creator.jpg'
     date: 2014-12-10
+    title: 'He promised to meet our needs.'
+    body: "Medical bills, school loans, daily expenses, and more. As you provided up through harder challenges, so too will face these challenges. You are leading and guiding us in the way we should go."
+  # -
+  #   img: 'bird.svg'
+  #   jot: "In the darkness are hidden the most valuable of treasures."
+  #   date: 2014-12-02
+  -
+    img: 'jots/creator.jpg'
+    date: 2014-12-10
     title: 'Everything begins with the Creator'
     body: "Look through a microscope or telescope and be filled with awe. 'Awe' is not an attribute of chaos but a word we ascribe to the work of a Designer."
   -
@@ -18,7 +27,3 @@ jots:
     date: 2014-12-10
     title: 'God shows Himself on His terms, not ours.'
     body: "People doubt God when He doesn't do what they want Him to. But what if that's the point? What if He shows Himself when we are ready to see things from His perpective?"
-  # -
-  #   img: 'bird.svg'
-  #   jot: "In the darkness are hidden the most valuable of treasures."
-  #   date: 2014-12-02

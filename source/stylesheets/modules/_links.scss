@@ -1,4 +1,4 @@
-.link {
+.links, .link {
   @include row();
   padding-top: 1em;
   .tag {
@@ -16,14 +16,15 @@
   .title {
     @include media($medium-screen) {
       h2 {
-        font-size: 1em;
         padding: 1em 0 0.2em;
+
       }
       @include span-columns(12);
     }
   }
   .gist {
     @include media($medium-screen) {
+      a { font-size: 0.8em; }
       font-size: 0.8em;
       border-left: 1px solid $light-gray;
       padding-left: 1em;
