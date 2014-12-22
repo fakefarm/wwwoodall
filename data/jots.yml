@@ -7,11 +7,11 @@ page:
 # there are two types of data, albums and entries.
 # but album entries are the same as normal entries so they should be treated as such and without any duplication.
 jots:
-  -
-    img: 'jots/creator.jpg'
-    date: 2014-12-10
-    title: 'He promised to meet our needs.'
-    body: "Medical bills, school loans, daily expenses, and more. As you provided up through harder challenges, so too will face these challenges. You are leading and guiding us in the way we should go."
+  # -
+  #   img: 'jots/creator.jpg'
+  #   date: 2014-12-10
+  #   title: 'He promised to meet our needs.'
+  #   body: "Medical bills, school loans, daily expenses, and more. As you provided up through harder challenges, so too will face these challenges. You are leading and guiding us in the way we should go."
   # -
   #   img: 'bird.svg'
   #   jot: "In the darkness are hidden the most valuable of treasures."

@@ -3,6 +3,14 @@ page:
   subtitle: books galore.
 list:
   -
+    url: ''
+    title: 'The Alchemist'
+    sub-title: ''
+    tag:  'fiction'
+    body: "Andrew Hunter gave it to me."
+    date: 2014-12-06
+    state: false
+  -
     url: 'http://www.amazon.com/Async-JavaScript-Responsive-Pragmatic-Express/dp/1937785270'
     title: 'Async Javascript'
     sub-title: ''
