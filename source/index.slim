@@ -7,7 +7,13 @@
   - ['gifs', 'pictures' ].each do |file_name|
     span id=file_name
     = render_partial 'shared/page_titles',  locals: { file_name: file_name }
-    = render_partial 'templates/grid/layout', locals: { file_name: file_name, limit: 2, album_limit: 0 }
+
+    - if file_name == 'gifs'
+      - limit = 2
+    - else
+      - limit = 3
+
+    = render_partial 'templates/grid/layout', locals: { file_name: file_name, limit: limit, album_limit: 0 }
     .sectional
       p= link_to "all #{file_name}", "/#{file_name}"
 

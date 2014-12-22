@@ -4,9 +4,6 @@ div class="#{file_name}"
       - if file_name == 'pictures' || file_name == 'videos'
         article.type-system-traditional data-tag="#{album.title}"
           = render_partial 'templates/grid/album_title', locals: { album: album }
-          - album.images[0..limit].each do |s|
-            = render_partial 'templates/grid/image_body', locals: { image: s, file_name: file_name }
+          = render_partial 'templates/grid/images', locals: { album: album, file_name: file_name, limit: limit }
       - else
-        - album.images[0..limit].each do |s|
-          article.type-system-traditional data-tag="#{s.tag}"
-            = render_partial 'templates/grid/image_body', locals: { image: s, file_name: file_name }
+        = render_partial 'templates/grid/images', locals: { album: album, file_name: file_name, limit: limit }

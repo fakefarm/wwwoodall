@@ -1,44 +1,15 @@
-// gif overrides on index page
-.index .gifs {
-  article {
-    @include media($medium-screen) {
-      padding-bottom: 0;
-      @include span-columns(4);
-      overflow: hidden;
-      img { height: 180px; }
+.index {
+  .gifs {
+    @include clearfix;
+    .image {
+      @include media($medium-screen) {
+        @include span-columns(4);
+        img { height: 180px; }
+      }
     }
   }
 }
 
-// gif overrides on show page page
-.gifs {}
-
-
-.grid {
-  @include row;
-  .index & {}
-    article {
-      padding-bottom: 1em;
-    }
+.gifs_index {
+  .grid { max-width: 32em;}
 }
-// .gifs {
-//   @include row();
-//   padding-top: 2em;
-//   &.show {
-//     padding-bottom: 1em;
-//     margin-top: 1em;
-//     .controls {
-//       text-align: right;
-//     }
-//     @include media($medium-screen) {
-//       padding-bottom: 2em;
-//       @include span-columns(12);
-//       img {
-//         width: 100%;
-//       }
-//     }
-//     .controls {
-//       font-size: 0.8em;
-//     }
-//   }
-//  }
