@@ -93,14 +93,14 @@ end
   'pictures',
   'videos'
 ].each do |name|
-  proxy "/#{name}.html", "/templates/grid.html", :locals => { :file_name => name }, :ignore => true
+  proxy "/#{name}.html", "/templates/grid/grid.html", :locals => { :file_name => name }, :ignore => true
 end
 
 # Post pages.
 [
   "jots"
 ].each do |name|
-  proxy "/#{name}.html", "/templates/jot.html", :locals => { :file_name => name }, :ignore => true
+  proxy "/#{name}.html", "/templates/jot/jot.html", :locals => { :file_name => name }, :ignore => true
 end
 
 # List pages.
@@ -109,14 +109,14 @@ end
   'questions',
   'reading'
 ].each do |name|
-  proxy "/#{name}.html", "/templates/list.html", :locals => { :file_name => name }, :ignore => true
+  proxy "/#{name}.html", "/templates/list/list.html", :locals => { :file_name => name }, :ignore => true
 end
 
 # Note pages.
 [
   "notes"
 ].each do |name|
-  proxy "/#{name}.html", "/templates/note.html", :locals => { :file_name => name }, :ignore => true
+  proxy "/#{name}.html", "/templates/note/note.html", :locals => { :file_name => name }, :ignore => true
 end
 
 

@@ -2,6 +2,10 @@ page:
   title: jots
   subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
 
+# _dw TODO - change these to be more generic.
+# like entry
+# there are two types of data, albums and entries.
+# but album entries are the same as normal entries so they should be treated as such and without any duplication.
 jots:
   -
     img: 'jots/creator.jpg'

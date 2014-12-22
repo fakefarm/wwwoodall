@@ -4,6 +4,12 @@ page:
 
 list:
   -
+    tag: css
+    title: add a class to the parent
+    body: Promote reuse by adding classes to parent nodes.
+    url: ''
+    date: 2014-12-22
+  -
     date: 2014-12-17
     tag: ruby
     title: "assert_select"

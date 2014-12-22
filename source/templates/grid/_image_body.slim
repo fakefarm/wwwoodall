@@ -1,0 +1,18 @@
+.grid.show
+  = image_tag image.url unless image.url.empty?
+  = image.video         unless image.video.empty?
+  = image.caption       unless image.caption.empty?
+  - if file_name == 'art' || file_name == 'videos'
+    .controls= if image.tag.present?
+      = image.tag         if image.tag.present?
+      '  |
+      '
+      = link_to 'link', image.url, target: '_blank' if image.url.present?
+
+    / Pages with social: art
+    - if file_name == 'art' || file_name == 'videos'
+      - if image.social.present?
+        .social-source
+          span As seen on
+          '
+          = link_to image.social.name, image.url, target: '_blank'

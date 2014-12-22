@@ -4,14 +4,18 @@ page:
 albums:
   -
     title: foo
+    body: ''
+    tag: ''
     date: 2014-12-13
     images:
       -
-        url: https://d13yacurqjgara.cloudfront.net/users/137644/screenshots/1836405/ninja_bird.jpg
-        tag: boys'
+        title:
+        body:
+        tag: boys
         date: 08-12-2014
-        classes: big
+        url: https://d13yacurqjgara.cloudfront.net/users/137644/screenshots/1836405/ninja_bird.jpg
         caption: i love this photo
+        video:
         social:
           name: dribbble
           url: https://dribbble.com/shots/1836405-Ninja-Bird?list=users&offset=1

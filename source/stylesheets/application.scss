@@ -22,21 +22,25 @@
 
 @import 'layout/layout';
 
-@import 'modules/photos';
 @import 'modules/index';
-@import 'modules/blog_index';
-@import 'modules/blog_post';
 @import 'modules/nav';
-@import 'modules/gifs';
 @import 'modules/footer';
-@import 'modules/jots';
-@import 'modules/pictures';
-@import 'modules/grid';
-@import 'modules/lists';
+
+@import 'modules/blog/blog_index';
+@import 'modules/blog/blog_post';
+
+// Templates & overrides
+@import 'modules/lists/lists';
+@import 'modules/lists/links';
+@import 'modules/lists/questions';
+@import 'modules/lists/shortcuts';
+
+@import 'modules/grid/grid';
+@import 'modules/grid/gifs';
+@import 'modules/grid/pictures';
+
+@import 'modules/jots/jots';
+
+@import 'modules/notes/notes';
 
 
-
-@import 'modules/shortcuts';
-@import 'modules/notes';
-@import 'modules/links';
-@import 'modules/questions';
