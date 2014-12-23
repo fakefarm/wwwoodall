@@ -3,6 +3,11 @@ page:
   subtitle: Save for later.
 list:
   -
+    title: "Bash Tricks"
+    body: 'Here are some handy keyboard shortcuts for maneuvering around Bash.'
+    tag: bash
+    url: "https://techblog.livingsocial.com/blog/2014/10/03/bash-tricks/"
+  -
     title: "AngularJS: Developer Guide: Unit Testing"
     tag: angular
     url: "https://docs.angularjs.org/guide/unit-testing"

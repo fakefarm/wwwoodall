@@ -12,10 +12,11 @@ jots:
   #   date: 2014-12-10
   #   title: 'He promised to meet our needs.'
   #   body: "Medical bills, school loans, daily expenses, and more. As you provided up through harder challenges, so too will face these challenges. You are leading and guiding us in the way we should go."
-  # -
-  #   img: 'bird.svg'
-  #   jot: "In the darkness are hidden the most valuable of treasures."
-  #   date: 2014-12-02
+  -
+    img: 'jots/treasure.jpg'
+    title: "The darkness hides valuable of treasure"
+    body: "People naturally avoid the painful and sad places of life. <br>But in those times, God shows Himself to those who seek for him."
+    date: 2014-12-02
   -
     img: 'jots/creator.jpg'
     date: 2014-12-10

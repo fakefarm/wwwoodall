@@ -3,6 +3,22 @@ page:
   subtitle: movies
 albums:
   -
+    title: Life
+    caption: Things to discuss after we clock out.
+    date: ''
+    images:
+      -
+        url: ''
+        title: 'The 10th Commandment'
+        video: <iframe width="560" height="315" src="//www.youtube.com/embed/Dq2TsDbylUg?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: collaboration
+        date: 2014-12-19
+        classes: big
+        caption: "There is only one Commandment that prohibits a thought, and it is this: 'Do not covet.' Why does the Bible, which is preoccupied with behavior, legislate a thought? Because to covet, to want what belongs to someone else, is the root of the preceding four commandments and often leads to evil. Before someone murders, steals, lies, or commits adultery, the desire to take what is rightly someone else's usually comes first."
+        social:
+          name: youTube
+          url: <iframe width="560" height="315" src="//www.youtube.com/embed/Dq2TsDbylUg?rel=0" frameborder="0" allowfullscreen></iframe>
+  -
     title: Business
     caption: 'How people work.'
     date: ''
@@ -19,8 +35,8 @@ albums:
           name: youTube
           url: <iframe width="560" height="315" src="//www.youtube.com/embed/137XnWlUTKY?rel=0" frameborder="0" allowfullscreen></iframe>
   -
-    title: music videos
-    caption: 'Some of the ones I like.'
+    title: music & videos
+    caption: "Creative Juices flowin'"
     date: ''
     images:
       -
@@ -36,6 +52,7 @@ albums:
           url: <iframe width="560" height="415" src="//www.youtube.com/embed/BuCTxhSAi7s?rel=0" frameborder="0" allowfullscreen></iframe>
   -
     title: parenting
+    caption: "When I'm not coding, I'm usually with these guys..."
     date: ''
     images:
       -
