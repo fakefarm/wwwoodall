@@ -3,6 +3,19 @@ page:
   subtitle: Things I learn from the real programmers.
 
 list:
+
+  -
+    tag: rails
+    title: "Instance variables don't pass from gems."
+    body: "Use a hash or method call instead."
+    url: ''
+    date: 2014-12-23
+  -
+    tag: ruby
+    title: "#merge to add to a hash"
+    body: "Say <code>foo = {'a' => 1}</code> <br> Use <code>foo.merge('b' => 2)</code>. <br>So that foo is now <code>{'a' => 1, 'b'=> 2}</code>"
+    url: ''
+    date: 2014-12-23
   -
     tag: css
     title: add a class to the parent

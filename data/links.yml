@@ -3,6 +3,11 @@ page:
   subtitle: Save for later.
 list:
   -
+    title: "Background story of Make Her Smile."
+    body: "<a href='http://www.makehersmile.co/' target='_blank'>MakeHerSmile</a> is a service created by Starter School graduate Erinn Barr that helps you give great gifts to your loved ones. Now that Starter School is over I caught up with her to talk about the building process and what she has planned next for MakeHerSmile."
+    tag: Startup
+    url: "http://blog.starterleague.com/posts/how-makehersmile-is-helping-you-give-a-better-gift"
+  -
     title: "Bash Tricks"
     body: 'Here are some handy keyboard shortcuts for maneuvering around Bash.'
     tag: bash
