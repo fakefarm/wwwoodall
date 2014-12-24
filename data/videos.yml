@@ -3,22 +3,6 @@ page:
   subtitle: movies
 collections:
   -
-    title: Life
-    caption: Things to discuss after we clock out.
-    date: ''
-    entries:
-      -
-        url: ''
-        title: 'The 10th Commandment'
-        video: <iframe width="560" height="315" src="//www.youtube.com/embed/Dq2TsDbylUg?rel=0" frameborder="0" allowfullscreen></iframe>
-        tag: collaboration
-        date: 2014-12-19
-        classes: big
-        caption: "There is only one Commandment that prohibits a thought, and it is this: 'Do not covet.' Why does the Bible, which is preoccupied with behavior, legislate a thought? Because to covet, to want what belongs to someone else, is the root of the preceding four commandments and often leads to evil. Before someone murders, steals, lies, or commits adultery, the desire to take what is rightly someone else's usually comes first."
-        social:
-          name: youTube
-          url: <iframe width="560" height="315" src="//www.youtube.com/embed/Dq2TsDbylUg?rel=0" frameborder="0" allowfullscreen></iframe>
-  -
     title: Business
     caption: 'How people work.'
     date: ''
@@ -34,6 +18,33 @@ collections:
         social:
           name: youTube
           url: <iframe width="560" height="315" src="//www.youtube.com/embed/137XnWlUTKY?rel=0" frameborder="0" allowfullscreen></iframe>
+  -
+    title: Beer talk
+    caption: I'll probably bring these up next time we're sippin on IPA's.
+    date: ''
+    entries:
+      -
+        url: ''
+        title: 'Deep Underground Military Bases'
+        video: <iframe width="560" height="315" src="//www.youtube.com/embed/jF86-hl7DlY?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: 'Government Conspiracy'
+        date: 2014-12-19
+        classes: big
+        caption: "Timothy Alberino analyzes Deep Underground Military Bases, and the amazing testimony of Phil Schneider."
+        social:
+          name: youTube
+          url: <iframe width="560" height="315" src="//www.youtube.com/embed/jF86-hl7DlY?rel=0" frameborder="0" allowfullscreen></iframe>
+      -
+        url: ''
+        title: 'The 10th Commandment'
+        video: <iframe width="560" height="315" src="//www.youtube.com/embed/Dq2TsDbylUg?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: collaboration
+        date: 2014-12-19
+        classes: big
+        caption: "There is only one Commandment that prohibits a thought, and it is this: 'Do not covet.' Why does the Bible, which is preoccupied with behavior, legislate a thought? Because to covet, to want what belongs to someone else, is the root of the preceding four commandments and often leads to evil. Before someone murders, steals, lies, or commits adultery, the desire to take what is rightly someone else's usually comes first."
+        social:
+          name: youTube
+          url: <iframe width="560" height="315" src="//www.youtube.com/embed/Dq2TsDbylUg?rel=0" frameborder="0" allowfullscreen></iframe>
   -
     title: music & videos
     caption: "Creative Juices flowin'"

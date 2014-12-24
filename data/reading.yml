@@ -12,7 +12,7 @@ collections:
         title: 'Zero to One'
         sub-title: ''
         tag:  'startup'
-        body: "A Christmas present / payment for doing some logo work."
+        body: "Thanks <a href='http://www.twitter.com/dhassler' target='_blank'>Dave Hassler</a> for the Christmas gift!"
         date: 2014-12-06
         state: false
       -
@@ -20,7 +20,7 @@ collections:
         title: 'The Alchemist'
         sub-title: ''
         tag:  'fiction'
-        body: "Andrew Hunter gave it to me."
+        body: "Andrew Hunter gave it to me. It's made for some good bathroom reading  <i>(Too much information??)</i>"
         date: 2014-12-06
         state: false
       -
@@ -32,16 +32,16 @@ collections:
         date: 2014-12-06
         state: false
       -
-        url: ''
+        url: 'http://www.amazon.com/Launch-Internet-Millionaires-Anything-Business/dp/1630470171'
         title: 'Launch'
         sub-title: ''
         tag:  'marketing'
-        body: "A friend gave me this book and it's better than I expected it to be."
+        body: "Michael Williams met the author and gave me a signed copy. It's better than I expected it to be. I hope to apply what I'm learning to <a href='www.twitter.com/catmathdo' target='_blank'>Cat Math Do</a>"
         date: 2014-12-06
         state: false
       -
         url: ''
-        title: 'Bible'
+        title: 'The Bible'
         sub-title: ''
         tag:  'Spiritual'
         body: "Trying to read 1 chapter a day with my wife. A 3 year goal we started this month."
