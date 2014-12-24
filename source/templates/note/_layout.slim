@@ -1,5 +1,5 @@
 .notes
-  - data.send(file_name).list[0..limit].each do |s|
+  - data.send(file_name).collections[0]['entries'][0..limit].each do |s|
     article.type-system-traditional.shortcut#article data-tag="#{s.tag}"
       .shortcut
         .topic

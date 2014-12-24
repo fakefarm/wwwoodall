@@ -1,495 +1,500 @@
 page:
   title: links
   subtitle: Save for later.
-list:
-  -
-    title: "Background story of Make Her Smile."
-    body: "<a href='http://www.makehersmile.co/' target='_blank'>MakeHerSmile</a> is a service created by Starter School graduate Erinn Barr that helps you give great gifts to your loved ones. Now that Starter School is over I caught up with her to talk about the building process and what she has planned next for MakeHerSmile."
-    tag: Startup
-    url: "http://blog.starterleague.com/posts/how-makehersmile-is-helping-you-give-a-better-gift"
-  -
-    title: "Bash Tricks"
-    body: 'Here are some handy keyboard shortcuts for maneuvering around Bash.'
-    tag: bash
-    url: "https://techblog.livingsocial.com/blog/2014/10/03/bash-tricks/"
-  -
-    title: "AngularJS: Developer Guide: Unit Testing"
-    tag: angular
-    url: "https://docs.angularjs.org/guide/unit-testing"
-  -
-    title: "Compile Pre and Post Link - AngularJS Video Tutorial #pro @eggheadio"
-    tag: angular
-    url: "https://egghead.io/lessons/angularjs-compile-pre-and-post-link"
-  -
-    title: "$apply vs $digest - AngularJS Video Tutorial #free @eggheadio"
-    tag: angular
-    url: "https://egghead.io/lessons/angularjs-apply-vs-digest"
-  -
-    title: "AngularJS and scope.$apply — Jim Hoskins"
-    tag: angular
-    url: "http://jimhoskins.com/2012/12/17/angularjs-and-apply.html"
-  -
-    title: "AngularJS: Developer Guide: Scopes"
-    tag: angular
-    url: "https://docs.angularjs.org/guide/scope"
-  -
-    title: "AngularJS: API: $rootScope.Scope"
-    tag: angular
-    url: "https://docs.angularjs.org/api/ng/type/$rootScope.Scope"
-  -
-    title: "AngularJS with Ruby on Rails: Zero to deployment in less than 10,000 words"
-    tag: angular
-    url: "http://angular-rails.com/"
-  -
-    title: "A Software Developer's Guide to HTTP Part I - Resources"
-    url: "http://odetocode.com/Articles/741.aspx"
-    tag: HTTP
-  -
-    title: "A Software Developer's Guide to HTTP Part II - Messages"
-    url: "http://odetocode.com/Articles/742.aspx"
-    tag: HTTP
-  -
-    title: "A Software Developer's Guide to HTTP Part III–Connections"
-    url: "http://odetocode.com/Articles/743.aspx"
-    tag: HTTP
-  -
-    title: "A Software Developer's Guide to HTTP Part V– State & Security"
-    url: "http://odetocode.com/Articles/745.aspx"
-    tag: HTTP
-  -
-    title: "A Software Developer's Guide to HTTP Part IV– Web Architecture"
-    url: "http://odetocode.com/Articles/744.aspx"
-    tag: HTTP
-  -
-    title: "Responsive interaction - Animation - Google design guidelines"
-    url: "http://www.google.com/design/spec/animation/responsive-interaction.html#"
-    tag: material design
-  -
-    title: "Google Design"
-    url: "http://www.google.com/design/#resources"
-    tag: material design
-  -
-    title: "Services > $mdBottomSheet"
-    url: "https://material.angularjs.org/#/api/material.components.bottomSheet/service/$mdBottomSheet"
-    tag: material design
-  -
-    title: "Material Design for Bootstrap"
-    url: "https://fezvrasta.github.io/bootstrap-material-design/#button"
-    tag: material design
-  -
-    title: "Polymer paper elements - Polymer"
-    url: "https://www.polymer-project.org/docs/elements/paper-elements.html#paper-radio-button"
-    tag: material design
-  -
-    title: "What You Can Learn From Google’s Material Design - Tuts+ Code Article"
-    url: "http://code.tutsplus.com/articles/what-you-can-learn-from-googles-material-design--cms-22516"
-    tag: material design
-  -
-    title: "Icons - Style - Google design guidelines"
-    url: "http://www.google.com/design/spec/style/icons.html#icons-product-icons"
-    tag: material design
-  -
-    title: "Cards - Components - Google design guidelines"
-    url: "http://www.google.com/design/spec/components/cards.html#cards-usage"
-    tag: material design
-  -
-    title: Video - 215 Advanced Queries in Rails 3 - RailsCasts
-    url: http://railscasts.com/episodes/215-advanced-queries-in-rails-3)
-    tag: sql
-  -
-    title: Video - 215 Advanced Queries in Rails 3 - RailsCasts
-    url: http://railscasts.com/episodes/215-advanced-queries-in-rails-3)
-    tag: sql
-  -
-    title: B-log - Database agnostic != database ignorant | railway
-    url: http://www.railway.at/articles/2008/04/24/database-agnostic-database-ignorant/)
-    tag: sql
-  -
-    title: Video - Active Record Queries
-    url: http://railscasts.com/episodes/202-active-record-queries-in-rails-3)
-    tag: sql
-  -
-    title: Blog - Active Record Query Interface 3.0
-    url: http://m.onkey.org/active-record-query-interface)
-    tag: sql
-  -
-    tag: metrics
-    title: 'Startup Metrics for Pirates: AARRR! - Master of 500 Hats'
-    url: 'http://500hats.typepad.com/500blogs/2007/09/startup-metrics.html'
-  -
-    tag: stats
-    title: 'Statistical significance & other A/B pitfalls — Cennydd Bowles'
-    url: 'http://www.cennydd.com/blog/statistical-significance-other-ab-pitfalls/?s=2009/statistical-significance-other-ab-test-pitfalls/'
-  -
-    tag: javascript
-    title: 'sethvincent/javascripting'
-    url: 'https://github.com/sethvincent/javascripting'
-  -
-    tag: jquery
-    title: 'Code School - Try jQuery'
-    url: 'http://try.jquery.com/levels/1/challenges/4'
-  -
-    tag: javascript
-    title: 'JavaScript for Cats'
-    url: 'http://jsforcats.com/'
-  -
-    tag: ruby
-    title: 'Writing a Web Crawler | The Bastards Book of Ruby'
-    url: 'http://ruby.bastardsbook.com/chapters/web-crawling/'
-  -
-    tag: gem
-    title: "Vanity gem"
-    body: 'Experiment Driven Development framework for Rails.'
-    url: 'http://vanity.labnotes.org/'
-  -
-    title: '8 Powerful Ways to Build a Faster, More Agile Business'
-    url: http://www.inc.com/peter-economy/8-powerful-ways-to-build-a-faster-more-agile-business.html
-    tag: team
-  -
-    title: 'The Syntax of Taste: Refactoring Conditionals'
-    url: http://www.sitepoint.com/syntax-taste-refactoring-conditionals/
-    tag: code
-  -
-    title: 'How to keep bad abstractions from handcuffing your code - Weissblog'
-    url: http://www.justinweiss.com/blog/2014/12/09/how-to-keep-bad-abstractions-from-handcuffing-your-code/
-    tag: code
-  -
-    url: 'https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs?utm_source=javascriptweekly&utm_medium=email#2-understanding-angular'
-    title: 'Preparing for the future of AngularJS'
-    tag: 'code'
-    sub-title: 'Angular'
-    body: "Here we'll be taking a look at where Angular comes from, to get an idea of where it might go."
-    structure: post
-    stat: false
-  -
-    url: http://www.codequizzes.com/
-    title: 'Code Quizes'
-    tag: 'code'
-    sub-title: 'practice'
-    body: 'list of code quizes'
-    structure: quiz
-    stat: false
-  -
-    url: https://practicingruby.com/
-    title: 'practicing ruby'
-    tag: 'code'
-    sub-title: 'ruby'
-    body: 'solid articles'
-    structure: blog
-    stat: false
-  -
-    url: http://www.rojotek.com/blog/2014/05/16/cool-stuff-you-can-do-with-rails-has_one/
-    title: 'cool stuff you can do with has one'
-    sub-title: 'ruby'
-    tag: 'code'
-    body: 'this'
-    stat: false
-    structure: post
-  -
-    url: http://thomasleecopeland.com/2014/09/22/various-ways-to-create-structs.html
-    title: 'various ways to create structs'
-    tag: 'code'
-    sub-title: 'ruby'
-    body: 'this'
-    stat: false
-    structure: post
-  -
-    url: http://theseniorsoftwareengineer.com/
-    title: 'The Senior Software Engineer'
-    sub-title: 'career'
-    tag: book
-    body: "Recommended to me a few times. I've read several of Dave Copeland's other tutorials and ebooks. Looking forward to reading this one!"
-    stat: false
-    structure: ebook
-  -
-    url: http://www.blogtyrant.com/start-a-blog-2014/
-    title: '19 things to know before starting a blog'
-    tag: 'blogging'
-    body: 'Interested to see how the pros do it.'
-    stat: false
-    structure: list
-  -
-    url: http://madhatted.com/2014/6/17/authentication-for-single-page-apps
-    title: 'Authentication for Single Page Apps'
-    tag: 'Architecture'
-    structure: tutorial
-    stat: false
-  -
-    url: http://bonsaiden.github.io/JavaScript-Garden/
-    title: 'JavaScript Garden'
-    tag: javascript
-    structure: reference
-    body: 'A growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes and subtle bugs, as well as performance issues and bad practices, that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language.'
-    stat: false
-  -
-    title: 'javascript - How to enable CORS in AngularJs - Stack Overflow'
-    url: http://stackoverflow.com/questions/23823010/how-to-enable-cors-in-angularjs
-    topic: CORS
-    stat: false
-  -
-    title: 'Jutsu #1 - CORS with Angular.js and Sinatra - Samurails'
-    url: http://samurails.com/tutorial/cors-with-angular-js-and-sinatra/
-    topic: CORS
-    stat: false
-  -
-    title: Cross-Origin Resource Sharing Tutorial
-    url: https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.appprogramming/html/tutorials/w3c_tutorial/sec_tutorial/cors_tutorial.htm
-    topic: CORS
-    stat: false
-  -
-    title: 'enable cross-origin resource sharing'
-    url: http://enable-cors.org/resources.html
-    topic: CORS
-    stat: false
-  -
-    title: 'Karma - Spectacular Test Runner for Javascript'
-    url: http://karma-runner.github.io/0.12/index.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Unit Testing Best Practices in AngularJS'
-    url: http://andyshora.com/unit-testing-best-practices-angularjs.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: '| ng-newsletter'
-    url: http://www.ng-newsletter.com/advent2013/#!/day/19
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Full-Spectrum Testing with AngularJS and Karma - yearofmoo.com'
-    url: http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'AngularJS Testing with Karma and Jasmine | tuesdayDeveloper;'
-    url: http://www.tuesdaydeveloper.com/2013/06/angularjs-testing-with-karma-and-jasmine/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'A Few Thoughts on Better Unit Tests For AngularJS Controllers'
-    url: http://odetocode.com/blogs/scott/archive/2014/05/15/a-few-thoughts-on-better-unit-tests-for-angularjs-controllers.aspx
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Testing with Angular.JS | Ruben Vermeersch (rubenv) - The Life of RubenV'
-    url: https://savanne.be/articles/testing-with-angular-js/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Try, Catch, Fail: Angular - $compile: How it works, How to use it.'
-    url: http://www.benlesh.com/2013/08/angular-compile-how-it-works-how-to-use.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'AngularJS Custom Directives'
-    url: http://tutorials.jenkov.com/angularjs/custom-directives.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Understanding template compiling in AngularJS - dagingaa@github'
-    url: http://daginge.com/technology/2014/03/04/understanding-template-compiling-in-angularjs/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'dom - AngularJS - Compiling dynamic HTML strings from database - Stack Overflow'
-    url: http://stackoverflow.com/questions/18157305/angularjs-compiling-dynamic-html-strings-from-database
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'angular - Dealing with DOM Manipulations - AngularJS - Stack Overflow'
-    url: http://stackoverflow.com/questions/11699635/dealing-with-dom-manipulations-angularjs
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'AngularJS and $compile | Phase2'
-    url: http://www.phase2technology.com/blog/angularjs-and-compile/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Try, Catch, Fail: AngularJS: $watch, $digest and $apply'
-    url: http://www.benlesh.com/2013/08/angularjs-watch-digest-and-apply-oh-my.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'AngularJS - $digest - Thinkster'
-    url: https://thinkster.io/angulartutorial/digest/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: '$watch how the $apply runs a $digest - Angular Tips'
-    url: http://angular-tips.com/blog/2013/08/watch-how-the-apply-runs-a-digest/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Understanding Angulars $apply() and $digest()'
-    url: http://www.sitepoint.com/understanding-angulars-apply-digest/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Make Your Own AngularJS, Part 1: Scopes And Digest'
-    url: http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Using $scope.$digest() As A Performance Optimization In AngularJS'
-    url: http://www.bennadel.com/blog/2595-using-scope-digest-as-a-performance-optimization-in-angularjs.htm
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Inside Search – Google'
-    url: http://www.google.com/insidesearch/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Directives (Parts 4 and 5 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter'
-    url: http://www.ng-newsletter.com/posts/beginner2expert-directives.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'The 80/20 Guide to Writing AngularJS Directives | The Code Barbarian'
-    url: http://thecodebarbarian.wordpress.com/2013/09/23/the-8020-guide-to-writing-angularjs-directives/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'A Year on Angular on Rails: A Retrospective'
-    url: http://info.localytics.com/engineering-blog/a-year-on-angular-on-rails-a-retrospective
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Comprehensive Beginners Guide to AngularJS - AntJanus'
-    url: http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Diving in Rails - The request handling'
-    url: http://blog.siami.fr/diving-in-rails-the-request-handling
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'tyronewilson/protractor-rails'
-    url: https://github.com/tyronewilson/protractor-rails
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'AngularJS Watch and PubSub Best Practices Forged From Pain! – One Hungry Mind'
-    url: http://onehungrymind.com/angularjs-watch-pubsub-best-practice/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'eburley.github.com'
-    url: http://eburley.github.io/2013/01/31/angularjs-watch-pub-sub-best-practices.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Web Development blog'
-    url: http://blog.brunoscopelliti.com/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Staggering Animations in AngularJS - yearofmoo.com'
-    url: http://www.yearofmoo.com/2013/12/staggering-animations-in-angularjs.html
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Tyler McGinnis » AngularJS: Factory vs Service vs Provider'
-    url: http://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'Benefits of Protractor in a Angular + Rails API application stack — Medium'
-    url: https://medium.com/@AlexanderJeuris/benefits-of-protractor-in-a-angular-rails-api-application-stack-c60dc44c39b1
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'protractor/faq.md at master · angular/protractor'
-    url: https://github.com/angular/protractor/blob/master/docs/faq.md
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'angularjs - Using scope.$watch and scope.$apply - Stack Overflow'
-    url: http://stackoverflow.com/questions/15112584/using-scope-watch-and-scope-apply
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'egghead video'
-    url: https://egghead.io/lessons/angularjs-unit-testing-hello-world
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
-  -
-    title: 'egghead video'
-    url: https://egghead.io/lessons/angularjs-unit-testing-hello-world
-    topic: angular
-    structure: ''
-    stat: false
-    body: 'tbd'
+collections:
+  -
+    title: ''
+    caption: ""
+    date: 2014-12-15
+    entries:
+      -
+        title: "Background story of <i>Make Her Smile</i>."
+        body: "Funny, I came up with an idea very similar. I was pleasantly surprised to discover this was done by a former alum of Starter League, the program I went to! <br><a href='http://www.makehersmile.co/' target='_blank'>MakeHerSmile</a> is a service created by Starter School graduate Erinn Barr that helps you give great gifts to your loved ones. Now that Starter School is over I caught up with her to talk about the building process and what she has planned next for MakeHerSmile."
+        tag: Startup
+        url: "http://blog.starterleague.com/posts/how-makehersmile-is-helping-you-give-a-better-gift"
+      -
+        title: "Bash Tricks"
+        body: 'Here are some handy keyboard shortcuts for maneuvering around Bash.'
+        tag: bash
+        url: "https://techblog.livingsocial.com/blog/2014/10/03/bash-tricks/"
+      -
+        title: "AngularJS: Developer Guide: Unit Testing"
+        tag: angular
+        url: "https://docs.angularjs.org/guide/unit-testing"
+      -
+        title: "Compile Pre and Post Link - AngularJS Video Tutorial #pro @eggheadio"
+        tag: angular
+        url: "https://egghead.io/lessons/angularjs-compile-pre-and-post-link"
+      -
+        title: "$apply vs $digest - AngularJS Video Tutorial #free @eggheadio"
+        tag: angular
+        url: "https://egghead.io/lessons/angularjs-apply-vs-digest"
+      -
+        title: "AngularJS and scope.$apply — Jim Hoskins"
+        tag: angular
+        url: "http://jimhoskins.com/2012/12/17/angularjs-and-apply.html"
+      -
+        title: "AngularJS: Developer Guide: Scopes"
+        tag: angular
+        url: "https://docs.angularjs.org/guide/scope"
+      -
+        title: "AngularJS: API: $rootScope.Scope"
+        tag: angular
+        url: "https://docs.angularjs.org/api/ng/type/$rootScope.Scope"
+      -
+        title: "AngularJS with Ruby on Rails: Zero to deployment in less than 10,000 words"
+        tag: angular
+        url: "http://angular-rails.com/"
+      -
+        title: "A Software Developer's Guide to HTTP Part I - Resources"
+        url: "http://odetocode.com/Articles/741.aspx"
+        tag: HTTP
+      -
+        title: "A Software Developer's Guide to HTTP Part II - Messages"
+        url: "http://odetocode.com/Articles/742.aspx"
+        tag: HTTP
+      -
+        title: "A Software Developer's Guide to HTTP Part III–Connections"
+        url: "http://odetocode.com/Articles/743.aspx"
+        tag: HTTP
+      -
+        title: "A Software Developer's Guide to HTTP Part V– State & Security"
+        url: "http://odetocode.com/Articles/745.aspx"
+        tag: HTTP
+      -
+        title: "A Software Developer's Guide to HTTP Part IV– Web Architecture"
+        url: "http://odetocode.com/Articles/744.aspx"
+        tag: HTTP
+      -
+        title: "Responsive interaction - Animation - Google design guidelines"
+        url: "http://www.google.com/design/spec/animation/responsive-interaction.html#"
+        tag: material design
+      -
+        title: "Google Design"
+        url: "http://www.google.com/design/#resources"
+        tag: material design
+      -
+        title: "Services > $mdBottomSheet"
+        url: "https://material.angularjs.org/#/api/material.components.bottomSheet/service/$mdBottomSheet"
+        tag: material design
+      -
+        title: "Material Design for Bootstrap"
+        url: "https://fezvrasta.github.io/bootstrap-material-design/#button"
+        tag: material design
+      -
+        title: "Polymer paper elements - Polymer"
+        url: "https://www.polymer-project.org/docs/elements/paper-elements.html#paper-radio-button"
+        tag: material design
+      -
+        title: "What You Can Learn From Google’s Material Design - Tuts+ Code Article"
+        url: "http://code.tutsplus.com/articles/what-you-can-learn-from-googles-material-design--cms-22516"
+        tag: material design
+      -
+        title: "Icons - Style - Google design guidelines"
+        url: "http://www.google.com/design/spec/style/icons.html#icons-product-icons"
+        tag: material design
+      -
+        title: "Cards - Components - Google design guidelines"
+        url: "http://www.google.com/design/spec/components/cards.html#cards-usage"
+        tag: material design
+      -
+        title: Video - 215 Advanced Queries in Rails 3 - RailsCasts
+        url: http://railscasts.com/episodes/215-advanced-queries-in-rails-3)
+        tag: sql
+      -
+        title: Video - 215 Advanced Queries in Rails 3 - RailsCasts
+        url: http://railscasts.com/episodes/215-advanced-queries-in-rails-3)
+        tag: sql
+      -
+        title: B-log - Database agnostic != database ignorant | railway
+        url: http://www.railway.at/articles/2008/04/24/database-agnostic-database-ignorant/)
+        tag: sql
+      -
+        title: Video - Active Record Queries
+        url: http://railscasts.com/episodes/202-active-record-queries-in-rails-3)
+        tag: sql
+      -
+        title: Blog - Active Record Query Interface 3.0
+        url: http://m.onkey.org/active-record-query-interface)
+        tag: sql
+      -
+        tag: metrics
+        title: 'Startup Metrics for Pirates: AARRR! - Master of 500 Hats'
+        url: 'http://500hats.typepad.com/500blogs/2007/09/startup-metrics.html'
+      -
+        tag: stats
+        title: 'Statistical significance & other A/B pitfalls — Cennydd Bowles'
+        url: 'http://www.cennydd.com/blog/statistical-significance-other-ab-pitfalls/?s=2009/statistical-significance-other-ab-test-pitfalls/'
+      -
+        tag: javascript
+        title: 'sethvincent/javascripting'
+        url: 'https://github.com/sethvincent/javascripting'
+      -
+        tag: jquery
+        title: 'Code School - Try jQuery'
+        url: 'http://try.jquery.com/levels/1/challenges/4'
+      -
+        tag: javascript
+        title: 'JavaScript for Cats'
+        url: 'http://jsforcats.com/'
+      -
+        tag: ruby
+        title: 'Writing a Web Crawler | The Bastards Book of Ruby'
+        url: 'http://ruby.bastardsbook.com/chapters/web-crawling/'
+      -
+        tag: gem
+        title: "Vanity gem"
+        body: 'Experiment Driven Development framework for Rails.'
+        url: 'http://vanity.labnotes.org/'
+      -
+        title: '8 Powerful Ways to Build a Faster, More Agile Business'
+        url: http://www.inc.com/peter-economy/8-powerful-ways-to-build-a-faster-more-agile-business.html
+        tag: team
+      -
+        title: 'The Syntax of Taste: Refactoring Conditionals'
+        url: http://www.sitepoint.com/syntax-taste-refactoring-conditionals/
+        tag: code
+      -
+        title: 'How to keep bad abstractions from handcuffing your code - Weissblog'
+        url: http://www.justinweiss.com/blog/2014/12/09/how-to-keep-bad-abstractions-from-handcuffing-your-code/
+        tag: code
+      -
+        url: 'https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs?utm_source=javascriptweekly&utm_medium=email#2-understanding-angular'
+        title: 'Preparing for the future of AngularJS'
+        tag: 'code'
+        sub-title: 'Angular'
+        body: "Here we'll be taking a look at where Angular comes from, to get an idea of where it might go."
+        structure: post
+        stat: false
+      -
+        url: http://www.codequizzes.com/
+        title: 'Code Quizes'
+        tag: 'code'
+        sub-title: 'practice'
+        body: 'list of code quizes'
+        structure: quiz
+        stat: false
+      -
+        url: https://practicingruby.com/
+        title: 'practicing ruby'
+        tag: 'code'
+        sub-title: 'ruby'
+        body: 'solid articles'
+        structure: blog
+        stat: false
+      -
+        url: http://www.rojotek.com/blog/2014/05/16/cool-stuff-you-can-do-with-rails-has_one/
+        title: 'cool stuff you can do with has one'
+        sub-title: 'ruby'
+        tag: 'code'
+        body: 'this'
+        stat: false
+        structure: post
+      -
+        url: http://thomasleecopeland.com/2014/09/22/various-ways-to-create-structs.html
+        title: 'various ways to create structs'
+        tag: 'code'
+        sub-title: 'ruby'
+        body: 'this'
+        stat: false
+        structure: post
+      -
+        url: http://theseniorsoftwareengineer.com/
+        title: 'The Senior Software Engineer'
+        sub-title: 'career'
+        tag: book
+        body: "Recommended to me a few times. I've read several of Dave Copeland's other tutorials and ebooks. Looking forward to reading this one!"
+        stat: false
+        structure: ebook
+      -
+        url: http://www.blogtyrant.com/start-a-blog-2014/
+        title: '19 things to know before starting a blog'
+        tag: 'blogging'
+        body: 'Interested to see how the pros do it.'
+        stat: false
+        structure: list
+      -
+        url: http://madhatted.com/2014/6/17/authentication-for-single-page-apps
+        title: 'Authentication for Single Page Apps'
+        tag: 'Architecture'
+        structure: tutorial
+        stat: false
+      -
+        url: http://bonsaiden.github.io/JavaScript-Garden/
+        title: 'JavaScript Garden'
+        tag: javascript
+        structure: reference
+        body: 'A growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes and subtle bugs, as well as performance issues and bad practices, that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language.'
+        stat: false
+      -
+        title: 'javascript - How to enable CORS in AngularJs - Stack Overflow'
+        url: http://stackoverflow.com/questions/23823010/how-to-enable-cors-in-angularjs
+        topic: CORS
+        stat: false
+      -
+        title: 'Jutsu #1 - CORS with Angular.js and Sinatra - Samurails'
+        url: http://samurails.com/tutorial/cors-with-angular-js-and-sinatra/
+        topic: CORS
+        stat: false
+      -
+        title: Cross-Origin Resource Sharing Tutorial
+        url: https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.appprogramming/html/tutorials/w3c_tutorial/sec_tutorial/cors_tutorial.htm
+        topic: CORS
+        stat: false
+      -
+        title: 'enable cross-origin resource sharing'
+        url: http://enable-cors.org/resources.html
+        topic: CORS
+        stat: false
+      -
+        title: 'Karma - Spectacular Test Runner for Javascript'
+        url: http://karma-runner.github.io/0.12/index.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Unit Testing Best Practices in AngularJS'
+        url: http://andyshora.com/unit-testing-best-practices-angularjs.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: '| ng-newsletter'
+        url: http://www.ng-newsletter.com/advent2013/#!/day/19
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Full-Spectrum Testing with AngularJS and Karma - yearofmoo.com'
+        url: http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'AngularJS Testing with Karma and Jasmine | tuesdayDeveloper;'
+        url: http://www.tuesdaydeveloper.com/2013/06/angularjs-testing-with-karma-and-jasmine/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'A Few Thoughts on Better Unit Tests For AngularJS Controllers'
+        url: http://odetocode.com/blogs/scott/archive/2014/05/15/a-few-thoughts-on-better-unit-tests-for-angularjs-controllers.aspx
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Testing with Angular.JS | Ruben Vermeersch (rubenv) - The Life of RubenV'
+        url: https://savanne.be/articles/testing-with-angular-js/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Try, Catch, Fail: Angular - $compile: How it works, How to use it.'
+        url: http://www.benlesh.com/2013/08/angular-compile-how-it-works-how-to-use.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'AngularJS Custom Directives'
+        url: http://tutorials.jenkov.com/angularjs/custom-directives.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Understanding template compiling in AngularJS - dagingaa@github'
+        url: http://daginge.com/technology/2014/03/04/understanding-template-compiling-in-angularjs/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'dom - AngularJS - Compiling dynamic HTML strings from database - Stack Overflow'
+        url: http://stackoverflow.com/questions/18157305/angularjs-compiling-dynamic-html-strings-from-database
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'angular - Dealing with DOM Manipulations - AngularJS - Stack Overflow'
+        url: http://stackoverflow.com/questions/11699635/dealing-with-dom-manipulations-angularjs
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'AngularJS and $compile | Phase2'
+        url: http://www.phase2technology.com/blog/angularjs-and-compile/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Try, Catch, Fail: AngularJS: $watch, $digest and $apply'
+        url: http://www.benlesh.com/2013/08/angularjs-watch-digest-and-apply-oh-my.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'AngularJS - $digest - Thinkster'
+        url: https://thinkster.io/angulartutorial/digest/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: '$watch how the $apply runs a $digest - Angular Tips'
+        url: http://angular-tips.com/blog/2013/08/watch-how-the-apply-runs-a-digest/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Understanding Angulars $apply() and $digest()'
+        url: http://www.sitepoint.com/understanding-angulars-apply-digest/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Make Your Own AngularJS, Part 1: Scopes And Digest'
+        url: http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Using $scope.$digest() As A Performance Optimization In AngularJS'
+        url: http://www.bennadel.com/blog/2595-using-scope-digest-as-a-performance-optimization-in-angularjs.htm
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Inside Search – Google'
+        url: http://www.google.com/insidesearch/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Directives (Parts 4 and 5 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter'
+        url: http://www.ng-newsletter.com/posts/beginner2expert-directives.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'The 80/20 Guide to Writing AngularJS Directives | The Code Barbarian'
+        url: http://thecodebarbarian.wordpress.com/2013/09/23/the-8020-guide-to-writing-angularjs-directives/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'A Year on Angular on Rails: A Retrospective'
+        url: http://info.localytics.com/engineering-blog/a-year-on-angular-on-rails-a-retrospective
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Comprehensive Beginners Guide to AngularJS - AntJanus'
+        url: http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Diving in Rails - The request handling'
+        url: http://blog.siami.fr/diving-in-rails-the-request-handling
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'tyronewilson/protractor-rails'
+        url: https://github.com/tyronewilson/protractor-rails
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'AngularJS Watch and PubSub Best Practices Forged From Pain! – One Hungry Mind'
+        url: http://onehungrymind.com/angularjs-watch-pubsub-best-practice/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'eburley.github.com'
+        url: http://eburley.github.io/2013/01/31/angularjs-watch-pub-sub-best-practices.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Web Development blog'
+        url: http://blog.brunoscopelliti.com/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Staggering Animations in AngularJS - yearofmoo.com'
+        url: http://www.yearofmoo.com/2013/12/staggering-animations-in-angularjs.html
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Tyler McGinnis » AngularJS: Factory vs Service vs Provider'
+        url: http://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'Benefits of Protractor in a Angular + Rails API application stack — Medium'
+        url: https://medium.com/@AlexanderJeuris/benefits-of-protractor-in-a-angular-rails-api-application-stack-c60dc44c39b1
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'protractor/faq.md at master · angular/protractor'
+        url: https://github.com/angular/protractor/blob/master/docs/faq.md
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'angularjs - Using scope.$watch and scope.$apply - Stack Overflow'
+        url: http://stackoverflow.com/questions/15112584/using-scope-watch-and-scope-apply
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'egghead video'
+        url: https://egghead.io/lessons/angularjs-unit-testing-hello-world
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'
+      -
+        title: 'egghead video'
+        url: https://egghead.io/lessons/angularjs-unit-testing-hello-world
+        topic: angular
+        structure: ''
+        stat: false
+        body: 'tbd'

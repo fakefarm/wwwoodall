@@ -27,16 +27,15 @@ head
 
   / TODO - convert these to grid
   - if current_page.url == '/pictures/'
-    meta content="#{data.pictures.albums.first.title}" name="twitter:title"
-    meta content="#{data.pictures.albums.first.caption}" name="twitter:description"
-    meta property="og:image" content="http://www.wwwoodall.com/images/#{data.pictures.albums.first.images.first.url}"
-    meta name="twitter:image:src" content="http://www.wwwoodall.com/images/#{data.pictures.albums.first.images.first.url}"
+    meta content="#{data.pictures.collections[0].title}" name="twitter:title"
+    meta content="#{data.pictures.collections[0].caption}" name="twitter:description"
+    meta name="twitter:image:src" content="http://www.wwwoodall.com/images/#{data.pictures.collections.first['entries'].first.url}"
 
   / TODO - convert these to posts
   - if current_page.url == '/jots/'
-    meta content="#{data.jots.jots.first.title}" name="twitter:title"
-    meta content="#{data.jots.jots.first.body}" name="twitter:description"
-    meta property="og:image" content="http://www.wwwoodall.com/images/#{data.jots.jots.first.img}"
-    meta name="twitter:image:src" content="http://www.wwwoodall.com/images/#{data.jots.jots.first.img}"
+    meta content="#{data.jots.page.title}" name="twitter:title"
+    meta content="#{data.jots.page.body}" name="twitter:description"
+    meta property="og:image" content="http://www.wwwoodall.com/images/#{newest_jot_image}"
+    meta name="twitter:image:src" content="http://www.wwwoodall.com/images/#{newest_jot_image}"
 
   / TODO - create a meta for lists.

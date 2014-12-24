@@ -1,45 +1,50 @@
 page:
   title: reading
   subtitle: books galore.
-list:
+collections:
   -
-    url: 'http://www.amazon.com/dp/0804139296/?tag=googhydr-20&hvadid=50410872996&hvpos=1t1&hvexid=&hvnetw=g&hvrand=3396129756002425689&hvpone=16.20&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_6s5y8hlzk_b'
-    title: 'Zero to One'
-    sub-title: ''
-    tag:  'startup'
-    body: "A Christmas present / payment for doing some logo work."
-    date: 2014-12-06
-    state: false
-  -
-    url: 'http://www.amazon.com/The-Alchemist-Paulo-Coelho/dp/0061122416'
-    title: 'The Alchemist'
-    sub-title: ''
-    tag:  'fiction'
-    body: "Andrew Hunter gave it to me."
-    date: 2014-12-06
-    state: false
-  -
-    url: 'http://www.amazon.com/Async-JavaScript-Responsive-Pragmatic-Express/dp/1937785270'
-    title: 'Async Javascript'
-    sub-title: ''
-    tag:  'code'
-    body: "Events and other goodies lay in store!"
-    date: 2014-12-06
-    state: false
-  -
-    url: ''
-    title: 'Launch'
-    sub-title: ''
-    tag:  'marketing'
-    body: "A friend gave me this book and it's better than I expected it to be."
-    date: 2014-12-06
-    state: false
-  -
-    url: ''
-    title: 'Bible'
-    sub-title: ''
-    tag:  'Spiritual'
-    body: "Trying to read 1 chapter a day with my wife. A 3 year goal we started this month."
-    date: 2014-12-06
-    state: false
+    title: Wells visits Oscar
+    caption: "Danae started volunteering at Oscar's school and Wells gets to tag along. Oscar was excited to show Wells the ropes."
+    date: 2014-12-15
+    entries:
+      -
+        url: 'http://www.amazon.com/dp/0804139296/?tag=googhydr-20&hvadid=50410872996&hvpos=1t1&hvexid=&hvnetw=g&hvrand=3396129756002425689&hvpone=16.20&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_6s5y8hlzk_b'
+        title: 'Zero to One'
+        sub-title: ''
+        tag:  'startup'
+        body: "A Christmas present / payment for doing some logo work."
+        date: 2014-12-06
+        state: false
+      -
+        url: 'http://www.amazon.com/The-Alchemist-Paulo-Coelho/dp/0061122416'
+        title: 'The Alchemist'
+        sub-title: ''
+        tag:  'fiction'
+        body: "Andrew Hunter gave it to me."
+        date: 2014-12-06
+        state: false
+      -
+        url: 'http://www.amazon.com/Async-JavaScript-Responsive-Pragmatic-Express/dp/1937785270'
+        title: 'Async Javascript'
+        sub-title: ''
+        tag:  'code'
+        body: "Events and other goodies lay in store!"
+        date: 2014-12-06
+        state: false
+      -
+        url: ''
+        title: 'Launch'
+        sub-title: ''
+        tag:  'marketing'
+        body: "A friend gave me this book and it's better than I expected it to be."
+        date: 2014-12-06
+        state: false
+      -
+        url: ''
+        title: 'Bible'
+        sub-title: ''
+        tag:  'Spiritual'
+        body: "Trying to read 1 chapter a day with my wife. A 3 year goal we started this month."
+        date: 2014-12-06
+        state: false
 

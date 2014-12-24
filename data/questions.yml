@@ -1,47 +1,52 @@
 page:
   title: questions
   subtitle: looking.
-list:
+collections:
   -
-    date: 2014-12-22
-    tag: life
-    title: "What is the Gap Theory all about?"
-    url: ''
-    body: ""
-  -
-    date: 2014-12-02
-    tag: 'code'
-    title: "How does one monitor the 99% of that app that's below the surface?"
-    url: ''
-    body: ""
-  -
-    date: 2014-12-02
-    tag: 'code'
-    title: "How to best learn test_unit"
-    url: ''
-    body: ""
-  # -
-  #   date: 2014-12-02
-  #   tag: 'code'
-  #   img: 'jots/creator.jpg'
-  #   title: "What is SysOps?"
-  #   url: ''
-  #   body: "what happense here?"
-  # -
-  #   date: 2014-12-02
-  #   tag: 'code'
-  #   title: "What is TechOps?"
-  #   url: ''
-  #   body: ""
-  # -
-  #   date: 2014-12-02
-  #   tag: 'code'
-  #   title: 'What is nginx?'
-  #   url: ''
-  #   body: ""
-  # -
-  #   date: 2014-12-02
-  #   tag: 'code'
-  #   title: 'What are Cron jobs?'
-  #   url: ''
-  #   body: "Scheduled background jobs."
+    title: ''
+    caption: ''
+    date: 2014-12-15
+    entries:
+      -
+        date: 2014-12-22
+        tag: life
+        title: "What is the Gap Theory all about?"
+        url: ''
+        body: ""
+      -
+        date: 2014-12-02
+        tag: 'code'
+        title: "How does one monitor the 99% of that app that's below the surface?"
+        url: ''
+        body: ""
+      -
+        date: 2014-12-02
+        tag: 'code'
+        title: "How to best learn test_unit"
+        url: ''
+        body: ""
+      # -
+      #   date: 2014-12-02
+      #   tag: 'code'
+      #   img: 'jots/creator.jpg'
+      #   title: "What is SysOps?"
+      #   url: ''
+      #   body: "what happense here?"
+      # -
+      #   date: 2014-12-02
+      #   tag: 'code'
+      #   title: "What is TechOps?"
+      #   url: ''
+      #   body: ""
+      # -
+      #   date: 2014-12-02
+      #   tag: 'code'
+      #   title: 'What is nginx?'
+      #   url: ''
+      #   body: ""
+      # -
+      #   date: 2014-12-02
+      #   tag: 'code'
+      #   title: 'What are Cron jobs?'
+      #   url: ''
+      #   body: "Scheduled background jobs."

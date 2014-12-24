@@ -1,12 +1,12 @@
 page:
   title: videos
   subtitle: movies
-albums:
+collections:
   -
     title: Life
     caption: Things to discuss after we clock out.
     date: ''
-    images:
+    entries:
       -
         url: ''
         title: 'The 10th Commandment'
@@ -22,7 +22,7 @@ albums:
     title: Business
     caption: 'How people work.'
     date: ''
-    images:
+    entries:
       -
         url: ''
         title: 'Google design sprints'
@@ -38,7 +38,7 @@ albums:
     title: music & videos
     caption: "Creative Juices flowin'"
     date: ''
-    images:
+    entries:
       -
         url: ''
         title: 'DJ SHADOW'
@@ -54,7 +54,7 @@ albums:
     title: parenting
     caption: "When I'm not coding, I'm usually with these guys..."
     date: ''
-    images:
+    entries:
       -
         url: ''
         title: ''

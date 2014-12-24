@@ -1,4 +1,4 @@
-- album.images[0..limit].each do |image|
+- album['entries'][0..limit].each do |image|
   article.image data-tag="#{image.tag}"
     = image_tag image.url unless image.url.empty?
     = image.video         unless image.video.empty?

@@ -1,12 +1,12 @@
 page:
   title: pictures
   subtitle: click.
-albums:
+collections:
   -
     title: Wells visits Oscar
     caption: "Danae started volunteering at Oscar's school and Wells gets to tag along. Oscar was excited to show Wells the ropes."
     date: 2014-12-15
-    images:
+    entries:
         -
           url: 'pictures/wells_visit_oscar/1.jpeg'
           video: ''
@@ -39,7 +39,7 @@ albums:
     title: Father's Day
     caption: "The Hailey's were kind enough to let us tag along on their Father's Day Camping trip. We had a blast and hope to keep it up!"
     date: 2014-06-15
-    images:
+    entries:
         -
           url: 'pictures/IMG_1121.JPG'
           video: ''

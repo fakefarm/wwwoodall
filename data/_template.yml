@@ -1,13 +1,13 @@
 page:
   title: art
   subtitle: things I've made along the way.
-albums:
+collections:
   -
     title: foo
     body: ''
     tag: ''
     date: 2014-12-13
-    images:
+    entries:
       -
         title:
         body:

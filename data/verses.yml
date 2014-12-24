@@ -1,13 +1,17 @@
 page:
   title: verses
   subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
-
-list:
+collections:
   -
-    date: 2014-12-02
-    tag: Genesis
-    title: '1:5'
-    sub-title: 'Interesting to think about the night called darkness.'
-    body: 'God called the light “day,” and the darkness he called “night.” And there was evening, and there was morning—the first day.'
-    url: 'http://www.twitter.com/dhassler'
-    state: 'read'
+    title: Wells visits Oscar
+    caption: "Danae started volunteering at Oscar's school and Wells gets to tag along. Oscar was excited to show Wells the ropes."
+    date: 2014-12-15
+    entries:
+      -
+        date: 2014-12-02
+        tag: Genesis
+        title: '1:5'
+        sub-title: 'Interesting to think about the night called darkness.'
+        body: 'God called the light “day,” and the darkness he called “night.” And there was evening, and there was morning—the first day.'
+        url: 'http://www.twitter.com/dhassler'
+        state: 'read'

@@ -1,11 +1,11 @@
 page:
   title: art
   subtitle: things I've made along the way.
-albums:
+collections:
   -
     title: foo
     date: 2014-12-13
-    images:
+    entries:
       -
         url: https://d13yacurqjgara.cloudfront.net/users/137644/screenshots/1836405/ninja_bird.jpg
         tag: boys'

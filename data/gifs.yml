@@ -1,11 +1,11 @@
 page:
   title: gifs
   subtitle: My favorites.
-albums:
+collections:
   -
     title: foo
     date: 2014-12-13
-    images:
+    entries:
       -
         url: https://dl.dropboxusercontent.com/u/13563632/gifs/1.gif
         video: ''

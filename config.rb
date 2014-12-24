@@ -14,15 +14,19 @@ helpers do
     tags.uniq
   end
 
+  def newest_jot_image
+    data.jots.collections[0].entries[3][1][0]['img']
+  end
+
   def filter_tags_by_album(file_name)
-    tags = data.send(file_name).albums.map do |tag|
+    tags = data.send(file_name).collections.map do |tag|
       tag.title
     end
     tags
   end
 
   def filter_tags_by_image(file_name)
-    tags = data.send(file_name).albums.map do |tag|
+    tags = data.send(file_name).collections.map do |tag|
       t = tag.images.map do |img|
         img.tag
       end
@@ -42,13 +46,13 @@ helpers do
   def filter_tags_by(option, file_name)
     # probably practice duck typing
     if option == 'album'
-      tags = data.send(file_name).albums.map do |tag|
+      tags = data.send(file_name).collections.map do |tag|
         tag.title
       end
       tags
     elsif option == 'tag'
-      tags = data.send(file_name).albums[0].images.map do |tag|
-        tag.tag
+      tags = data.send(file_name).collections[0]['entries'].map do |tag|
+        tag['tag']
       end
       tags.uniq.compact.sort
     end
