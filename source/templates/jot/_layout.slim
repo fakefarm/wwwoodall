@@ -1,6 +1,6 @@
 .jots
   article.type-system-traditional
-    - data.send(file_name).collections[0]['entries'].each do |s|
+    - data.send(file_name).collections[0]['entries'][0..limit].each do |s|
       .jot
         .image= image_tag s.img if s.img.present?
         h1.j= s.title

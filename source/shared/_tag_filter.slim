@@ -1,8 +1,8 @@
-.blog-tags
-  - if file_name == 'shortcuts'
-    p Categories
-  - else
-    p Topics
-  ul
-    - filter_tags_by(option, file_name).each do |item|
-      li= item
+.fade-in-element
+  .scroll-on-page
+    aside#scroll-on-page-top
+      .blog-tags
+        p Tags
+        ul
+          - filter_tags_by(option, file_name).each do |item|
+            li= item

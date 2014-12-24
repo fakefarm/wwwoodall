@@ -7,7 +7,12 @@ article.type-system-traditional {
   $serif: 'Radley', serif;
   padding-top: 1em;
   padding-bottom: 1em;
-  border-bottom: 1px solid $light-gray;
+  &.post {
+    border-bottom: 1px solid $light-gray;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
 
   @include clearfix;
   text-align: left;

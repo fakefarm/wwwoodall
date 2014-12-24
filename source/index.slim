@@ -2,6 +2,8 @@
   span#jots
   = render_partial 'shared/page_titles',  locals: { file_name: 'jots' }
   = render_partial 'templates/jot/layout', locals: { file_name: 'jots', limit: 0 }
+  .sectional
+      p= link_to "all jots", "/jots"
 
   / grid template - managed in config.rb
   - ['gifs', 'pictures' ].each do |file_name|
@@ -23,6 +25,8 @@
   span#notes
   = render_partial 'shared/page_titles',  locals: { file_name: 'notes' }
   = render_partial 'templates/note/layout', locals: { file_name: 'notes', limit: 2 }
+  .sectional
+      p= link_to "all notes", "/notes"
 
   / list template - managed in config.rb
   - ['links', 'reading', 'questions' ].each do |file_name|
