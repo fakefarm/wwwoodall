@@ -5,7 +5,7 @@ snip: My notes
 date: 2014-08-30 00:35 UTC
 tags: notes
 layout: blog_post
-published: true
+published: false
 
 ---
 

@@ -3,7 +3,7 @@ snip: 'sub-title'
 title: 'Selling the Catholic Church'
 date: 2014-11-28 23:26 UTC
 layout: blog_post
-published: true
+published: false
 category: code
 action: reference
 tags: idea
