@@ -14,11 +14,14 @@ layout: layout
 
 .l-container
   .l-blog
-    .blog-tags
-      p Topics
-      ul
-        - blog_tags.each do |tag|
-          li= tag
+    .fade-in-element
+      .scroll-on-page
+        aside#scroll-on-page-top
+          .blog-tags
+            p Tags
+            ul
+              - blog_tags.each do |tag|
+                li= tag
     .l-copy#container
       #blog
         - blog.articles.each do |post|

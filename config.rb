@@ -18,33 +18,7 @@ helpers do
     data.jots.collections[0].entries[3][1][0]['img']
   end
 
-  def filter_tags_by_album(file_name)
-    tags = data.send(file_name).collections.map do |tag|
-      tag.title
-    end
-    tags
-  end
-
-  def filter_tags_by_image(file_name)
-    tags = data.send(file_name).collections.map do |tag|
-      t = tag.images.map do |img|
-        img.tag
-      end
-      t.uniq
-    end
-    tags.flatten
-  end
-
-  def list_tags(file_name)
-    all = data.send(file_name)
-    tags = all.list.map do |list|
-      list.tag
-    end
-    tags.uniq
-  end
-
   def filter_tags_by(option, file_name)
-    # probably practice duck typing
     if option == 'album'
       tags = data.send(file_name).collections.map do |tag|
         tag.title
