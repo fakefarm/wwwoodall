@@ -1,7 +1,7 @@
 ---
 title: how to get your page to look good on twitter and facebook with meta tags
 snip: 'sub-title'
-tags: middleman
+tags: "How I made this site."
 type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
 format: 'video, text, image, interactive, course'
 date: 2014-12-08 13:24 UTC

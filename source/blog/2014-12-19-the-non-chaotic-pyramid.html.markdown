@@ -1,7 +1,7 @@
 ---
 title: the non-chaotic pyramid
 snip: 'sub-title'
-tags: 'bash, rails, html, marketing'
+tags: What I think about after work.
 type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
 format: 'video, text, image, interactive, course'
 date: 2014-12-19 15:54 UTC

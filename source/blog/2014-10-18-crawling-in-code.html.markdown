@@ -5,8 +5,7 @@ image: 'heros/driving.gif'
 caption: ''
 layout: blog_post
 date: 2014-10-18 17:18 UTC
-tags: skill
-published: true
+tags: Learning to Code
 ---
 
 I am reading [Eloquent javascript](http://www.eloquentjavascript.com) and happended upon the reduce method;

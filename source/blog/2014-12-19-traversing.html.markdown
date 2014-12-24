@@ -1,7 +1,7 @@
 ---
 title: traversing
 snip: 'sub-title'
-tags: skill
+tags: Learning to Code
 type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
 format: 'video, text, image, interactive, course'
 date: 2014-12-19 14:33 UTC

@@ -3,7 +3,7 @@ title: 'Eloquent JavasScript'
 image: 'heros/fail.gif'
 snip: My notes
 date: 2014-08-30 00:35 UTC
-tags: notes
+tags: Learning to Code
 layout: blog_post
 published: false
 

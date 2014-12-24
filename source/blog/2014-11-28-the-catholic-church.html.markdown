@@ -6,7 +6,7 @@ layout: blog_post
 published: false
 category: code
 action: reference
-tags: idea
+tags: What I think about after work.
 asset_type: text
 ---
 

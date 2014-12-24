@@ -4,8 +4,7 @@ snip: Prep for anonymous functions and closures
 image: 'heros/lake.jpg'
 layout: blog_post
 date: 2014-08-27 19:46 UTC
-tags: javascript
-published: true
+tags: Learning to Code
 ---
 
 Encountering syntax like `(function(){})()` makes my eyes glaze over. What is all that noise and how can I understand it?

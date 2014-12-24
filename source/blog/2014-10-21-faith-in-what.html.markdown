@@ -1,8 +1,7 @@
 ---
 title: 'Faith in what'
 date: 2014-10-21 15:24 UTC
-tags: faith
-published: true
+tags: What I think about after work.
 layout: blog_post
 image: 'pictures/IMG_1121.JPG'
 ---

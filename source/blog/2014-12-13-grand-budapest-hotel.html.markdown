@@ -1,15 +1,9 @@
 ---
 title: grand budapest hotel
-snip: 'sub-title'
-tags: review
-type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
-format: 'video, text, image, interactive, course'
+tags: Too random to be tagged.
 date: 2014-12-13 04:15 UTC
 layout: blog_post
-blog: notes
 published: false
-image: 'heros/joke.png'
-caption: 'a photo caption goes here'
 ---
 
 I love wes anderson movies. But this one has gone one step further for me. This one mixes so many great things.

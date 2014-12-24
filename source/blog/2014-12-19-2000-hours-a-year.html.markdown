@@ -1,7 +1,7 @@
 ---
 title: 2000 hours a year
 snip: 'sub-title'
-tags: paradigm
+tags: What I think about after work.
 type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
 format: 'video, text, image, interactive, course'
 date: 2014-12-19 15:57 UTC

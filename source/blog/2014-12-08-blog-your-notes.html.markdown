@@ -1,7 +1,7 @@
 ---
 title: blog your notes
 snip: "Having trouble blogging? Think of it as note taking"
-tags: skill
+tags: Learning to Code
 date: 2014-12-08 13:27 UTC
 published: false
 layout: blog_post

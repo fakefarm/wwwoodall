@@ -1,7 +1,7 @@
 ---
 title: starter league completed now what
 snip: 'sub-title'
-tags: progress
+tags: HTML is the new English
 type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
 format: 'video, text, image, interactive, course'
 date: 2014-12-19 15:58 UTC

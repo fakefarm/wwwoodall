@@ -5,8 +5,7 @@ snip: Developing intuition
 image: 'heros/joke.png'
 caption: ''
 date: 2014-08-25 14:53 UTC
-tags: javascript
-published: true
+tags: Learning to Code
 ---
 
 I wanted to learn JavaScript's `map` function so I went to [mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). My first goal was to toy with it without getting an error.

@@ -4,8 +4,7 @@ snip: How functions work together
 image: 'heros/photo.gif'
 layout: blog_post
 date: 2014-08-27 19:47 UTC
-tags: javascript
-published: true
+tags: Learning to Code
 ---
 
 When I told people I was confused about callbacks I often heard 'they are  just functions'. So I couldn't figure out what my hurdle was to grasping them. 

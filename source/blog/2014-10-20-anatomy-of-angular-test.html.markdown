@@ -2,11 +2,10 @@
 title: 'An AngularJS test'
 snip: Terms when first learning to test Angular.
 date: 2014-10-20 22:39 UTC
-tags: angular
+tags: Learning to Code
 image: 'pictures/hero.png'
 caption: "Camping on Father's Day 2014"
 layout: blog_post
-published: true
 ---
 
 After writing Angular you'll soon want to test it. In learning to test you'll encounter a second layer of terms and functionality about Angular. I had to learn some new concepts and they made my head spin. So, I am documenting here for a reminder of the parts that are necessary to test. 

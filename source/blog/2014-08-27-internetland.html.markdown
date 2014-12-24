@@ -3,9 +3,8 @@ title: Internetland
 snip: 'HTML is the new English'
 image: 'heros/flying.gif'
 date: 2014-08-27 21:15 UTC
-tags: progress
+tags: HTML is the new English
 layout: blog_post
-published: true
 ---
 
 In 2009, I started to realize that the Internet is here to stay. I know it sounds funny. But what I mean is that I knew how to consume it and used it for banking, bills, and movies. But I had no idea how it all worked. 

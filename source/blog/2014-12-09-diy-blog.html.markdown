@@ -1,7 +1,7 @@
 ---
 title: diy blog
 snip: 'sub-title'
-tags: middleman
+tags: "How I made this site."
 type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
 format: 'video, text, image, interactive, course'
 date: 2014-12-09 23:48 UTC
@@ -13,6 +13,8 @@ caption: 'a photo caption goes here'
 ---
 
 I decide to build my own blog again. THis is the third time I've set out to do so. The first time was a word press site to blog about my learning of ruby at code acatemdy. Then, I built a rails app.
+
+This mutant blog of mine was built using [middleman](http://www.middlemanapp.com) I've been building a static middleman site for a while now. I have the typical site content; pages, posts, index, images.
 
 This time i'm making a middleman app and the reasons for the switch are;
 - static site

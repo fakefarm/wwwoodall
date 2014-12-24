@@ -3,9 +3,8 @@ title: 'JS syntax: Return'
 snip: Stop getting undefined
 image: 'heros/canoe.jpg'
 date: 2014-08-27 19:51 UTC
-tags: javascript
+tags: Learning to Code
 layout: blog_post
-published: true
 ---
 
 My first programming language was Ruby. Managing a return value wasn't something I had to do. This is an example of my Ruby-inspired functions
