@@ -1,13 +1,10 @@
 ---
 title: anatomy of popular blogs
-snip: 'sub-title'
-tags: 'blogging'
+tags: blog
 date: 2014-12-10 19:02 UTC
 layout: blog_post
 blog: notes
 published: false
-image: 'fly.png'
-caption: 'The fly guy. One of my anaimores.'
 ---
 
 I have been working on a board game for a few years now. I think it's nearly done. One of my desires is to make it a web based business. I've gone the route of thinking kickstarter or just selling direct via social media. But I'm now coming to the thought that a blog is the way to get the traffic to drive the sales. The blog can be a way to develop an audience of people who would buy the game anyway.

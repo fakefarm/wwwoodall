@@ -1,7 +1,7 @@
 ---
 title: 10 reasons to love Boulder Colorado
 snip: 'sub-title'
-tags: life
+tags: list
 date: 2014-12-19 15:56 UTC
 layout: blog_post
 published: true

@@ -1,15 +1,10 @@
 ---
 title: about
-snip: 'Hopefully my last bio'
-tags: 'dave'
-type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
-format: 'video, text, image, interactive, course'
+tags: dave
 date: 2014-12-10 00:32 UTC
 layout: blog_post
 blog: notes
 published: true
-image: 'heros/joke.png'
-caption: 'Photo bombing.'
 ---
 
 I'm an INTJ and my introverted nature tends to think I shouldn't be so forward with my thoughts and views. Translate: I go back and forth between merging personal and professional content on the same site. But I like what Peter Drucker says about people...

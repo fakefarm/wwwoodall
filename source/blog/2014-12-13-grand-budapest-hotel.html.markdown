@@ -1,7 +1,7 @@
 ---
 title: grand budapest hotel
 snip: 'sub-title'
-tags: 'bash, rails, html, marketing'
+tags: review
 type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
 format: 'video, text, image, interactive, course'
 date: 2014-12-13 04:15 UTC
