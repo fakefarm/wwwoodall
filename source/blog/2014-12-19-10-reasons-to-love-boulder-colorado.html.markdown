@@ -1,15 +1,10 @@
 ---
 title: 10 reasons to love Boulder Colorado
 snip: 'sub-title'
-tags: 'bash, rails, html, marketing'
-type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
-format: 'video, text, image, interactive, course'
+tags: life
 date: 2014-12-19 15:56 UTC
 layout: blog_post
-blog: notes
-published: false
-image: 'heros/joke.png'
-caption: 'a photo caption goes here'
+published: true
 ---
 
 ### Beautiful location

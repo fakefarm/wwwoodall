@@ -12,7 +12,6 @@ image: 'heros/joke.png'
 caption: 'a photo caption goes here'
 ---
 
-## 3 types of students
 “Hacker Academies” like Code Academy and Dev Bootcamp introduce web development to a new a group of students who enlist for primarily one of three reasons; 
 1. To build their own web startup
 2. To better communicate / manage developers, 

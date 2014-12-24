@@ -5,6 +5,18 @@ page:
 list:
 
   -
+    tag: git
+    title: "$ git branch -d the_local_branch"
+    body: 'Deletes a local branch'
+    url: 'http://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote'
+    date: 2014-12-23
+  -
+    tag: sublime
+    title: "Close all tabs at once."
+    body: 'Preferences > Key Bindings > User <br><code>{ "keys": ["super+shift+w"], "command": "close_all" }</code>'
+    url: 'http://stackoverflow.com/a/13561797/935322'
+    date: 2014-12-23
+  -
     tag: rails
     title: "Instance variables don't pass from gems."
     body: "Use a hash or method call instead."

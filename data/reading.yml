@@ -3,7 +3,15 @@ page:
   subtitle: books galore.
 list:
   -
-    url: ''
+    url: 'http://www.amazon.com/dp/0804139296/?tag=googhydr-20&hvadid=50410872996&hvpos=1t1&hvexid=&hvnetw=g&hvrand=3396129756002425689&hvpone=16.20&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_6s5y8hlzk_b'
+    title: 'Zero to One'
+    sub-title: ''
+    tag:  'startup'
+    body: "A Christmas present / payment for doing some logo work."
+    date: 2014-12-06
+    state: false
+  -
+    url: 'http://www.amazon.com/The-Alchemist-Paulo-Coelho/dp/0061122416'
     title: 'The Alchemist'
     sub-title: ''
     tag:  'fiction'
