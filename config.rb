@@ -47,7 +47,7 @@ helpers do
       end
       tags
     elsif option == 'tag'
-      tags = data.send(file_name).list.map do |tag|
+      tags = data.send(file_name).albums[0].images.map do |tag|
         tag.tag
       end
       tags.uniq.compact.sort

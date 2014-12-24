@@ -1,3 +1,6 @@
-= render_partial 'shared/tag_filter',   locals: { file_name: file_name, option: 'album' }
+- if file_name == 'gifs'
+  = render_partial 'shared/tag_filter',   locals: { file_name: file_name, option: 'tag' }
+- else
+  = render_partial 'shared/tag_filter',   locals: { file_name: file_name, option: 'album' }
 = render_partial 'shared/page_titles',  locals: { file_name: file_name }
 = render_partial 'templates/grid/layout', locals: { file_name: file_name, limit: -1, album_limit: -1 }
