@@ -24,11 +24,10 @@ collections:
         date: 2014-12-06
         state: false
       -
-        url: 'http://www.amazon.com/Async-JavaScript-Responsive-Pragmatic-Express/dp/1937785270'
-        title: 'Async Javascript'
-        sub-title: ''
+        url: 'http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742'
+        title: 'JavaSrcipt: Good Parts'
         tag:  'code'
-        body: "Events and other goodies lay in store!"
+        body: "A lean but compact book. I'm on my 4th pass and picking up something new each time."
         date: 2014-12-06
         state: false
       -
