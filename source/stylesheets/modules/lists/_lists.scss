@@ -21,6 +21,17 @@
   }
 }
 
+.reading_index .gist, .links_index .gist, .index .notes .gist {
+  h2 { margin-bottom: 0em; }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  span {
+    color: $medium-gray;
+    font-style: italic;
+  }
+}
 
 // // .shortcuts, .questions, .reading {
 // .shortcuts, .questions, .reading {
