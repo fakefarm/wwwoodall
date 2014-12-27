@@ -1,7 +1,6 @@
 ---
 title: 'JS syntax: Return'
 snip: Stop getting undefined
-image: 'heros/canoe.jpg'
 date: 2014-08-27 19:51 UTC
 tags: Learning to Code
 layout: blog_post

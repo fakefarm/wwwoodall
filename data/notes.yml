@@ -8,6 +8,105 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Strict mode
+        body: "Quotes from Eloquent JavaScript<br><cite>JavaScript can be made a little more strict by enabling strict mode. This is done by putting the string 'use strict;' at the top of a file or a function body. Here’s an example:</cite><br>
+        <code>
+        function canYouSpotTheProblem() {<br>
+        &nbsp;&nbsp;'use strict';<br>
+        &nbsp;&nbsp;for (counter = 0; counter < 10; counter++)<br>
+        &nbsp;&nbsp;console.log('Happy happy');<br>
+        }<br>
+        <br>
+        canYouSpotTheProblem();<br>
+        // → ReferenceError: counter is not defined<br>
+        </code>
+        <cite>
+        Normally, when you forget to put var in front of your variable, as with counter in the example, JavaScript quietly creates a global variable and uses that. <br><br>
+        In strict mode, however, an error is reported instead. This is very helpful. It should be noted, though, that this doesn’t work when the variable in question already exists as a global variable, but only when assigning to it would have created it.<br><br>
+        Another change in strict mode is that the this binding holds the value undefined in functions that are not called as methods. When making such a call outside of strict mode, this refers to the global scope object. So if you accidentally call a method or constructor incorrectly in strict mode, JavaScript will produce an error as soon as it tries to read something from this, rather than happily working with the global object, creating and reading global variables.
+        </cite>
+        "
+        tag: javascript
+        url: 'http://www.eloquentjavascript.net/'
+        date: 2014-12-27
+      -
+        title: instanceof
+        body: "A binary operator useful to know whether an object was derived from a specific constructor. <br> <code>a = [];<br>a instanceof Array;<br> // → true<br> </code> Almost every object is an instance of Object so be aware"
+        tag: javascript
+        url: 'http://www.eloquentjavascript.net/06_object.html#p_4sWuvx6wkg'
+        date: 2014-12-27
+      -
+        title: The get and set methods
+        body: "<code>var pile = {<br>
+          &nbsp;&nbsp;elements: ['eggshell', 'orange peel', 'worm'],<br>
+          &nbsp;&nbsp;get height() {<br>
+          return this.elements.length;<br>
+          &nbsp;},<br>
+          &nbsp;&nbsp;set height(value) {<br>
+          &nbsp;console.log('Ignoring attempt to set height to', value);<br>
+          &nbsp;&nbsp;}<br>
+          };<br>
+          <br>
+          console.log(pile.height);<br>
+          // → 3<br>
+          pile.height = 100;<br>
+          // → Ignoring attempt to set height to 100<br>
+          </code>
+          <cite>In object literal, the `get` or `set` notation for properties allows you to specify a function to be run when the property is read or written.</cite>
+          "
+        tag: javascript
+        url: 'http://www.eloquentjavascript.net/'
+        date: 2014-12-27
+      -
+        title: Object.keys()
+        body: Returns an array of property names in the object
+        tag: jav
+        url: ''
+        date: 2014-12-27
+      -
+        title: "hasOwnProperty()"
+        body: "<cite>This method tells us whether the object itself has the property, without looking at its prototypes. This is often a more useful piece of information than what the in operator gives us.<br>When you are worried that someone (some other code you loaded into your program) might have messed with the base object prototype, I recommend you write your for/in loops like this:</cite>
+            <br><code>for (var name in map) {
+              <br> &nbsp;&nbsp;if (map.hasOwnProperty(name)) {
+              <br> &nbsp;&nbsp;// ... this is an own property
+            <br> &nbsp;}
+            <br> }
+            <br> </code>
+          "
+        tag: javascript
+        url: 'http://www.eloquentjavascript.net/'
+        date: 2014-12-27
+      -
+        title: "Enumerable vs. NonEnumerable"
+        body: "JavaScript distinguishes between enumerable and nonenumerable properties.<br><br>Quotes from Eloquent JavaScript<br><cite>All properties that we create by simply assigning to them are enumerable. The standard properties in `Object.prototype` are all nonenumerable, which is why they do not show up in such a for/in loop.</cite><br> <cite>It is possible to define our own nonenumerable properties by using the `Object.defineProperty` function, which allows us to control the type of property we are creating.</cite><br> <code> Object.defineProperty(Object.prototype, 'hiddenNonsense', {enumerable: false, value: 'hi'});<br> for (var name in map)<br> console.log(name);<br> // → pizza<br> // → touched tree<br> console.log(map.hiddenNonsense);<br> // → hi<br> </code> <cite>So now the property is there, but it won’t show up in a loop. That’s good. But we still have the problem with the regular in operator claiming that the Object.prototype properties exist in our object. For that, we can use the object’s hasOwnProperty method.</cite><br>"
+        tag: javascript
+        url: 'http://www.eloquentjavascript.net/'
+        date: 2014-12-27
+      -
+        title: 'for/in values are strings.'
+        body: "<code> var user = { <br> name: 'dave',<br> age: 37,<br> blam: function(){}<br> }<br> </code> for / in returns a loop.<br> <code> for (p in user) {<br> console.log(p);<br> console.log(user[p]);<br> }<br> </code> <i>in</i> is a boolean. <i>NOTE</i> all properties are checked as a string.<br> <code> var c = 'blam' in user;  // blam is a function<br> console.log(c);<br> </code>"
+        tag: javascript
+        url: 'http://www.eloquentjavascript.net/06_object.html#p_FtECKQ2UPV'
+        date: 2014-12-27
+      -
+        title: "getPrototypeOf()"
+        body: "Starting to notice that JavaScript needs me to interact with the Object parent to obtain certain information.<br>Quotes from Eloquent JavaScript<br> <code> console.log(Object.getPrototypeOf({}) == Object.prototype);<br> // → true<br> console.log(Object.getPrototypeOf(Object.prototype));<br> // → null<br> </code> <cite>As you might expect, the Object.getPrototypeOf function returns the prototype of an object.<br> The prototype relations of JavaScript objects form a tree-shaped structure, and at the root of this structure sits Object.prototype. It provides a few methods that show up in all objects, such as toString, which converts an object to a string representation.</cite>"
+        tag: javascript
+        url: 'http://www.eloquentjavascript.net/'
+        date: 2014-12-27
+      -
+        title: "Calling methods on null properties"
+        body: "Quotes from Eloquent JavaScript<br><cite>But often, your nonsense computation will simply produce a NaN (not a number) or undefined value. And the program happily continues, convinced that it’s doing something meaningful. The mistake will manifest itself only later, after the bogus value has traveled though several functions. It might not trigger an error at all but silently cause the program’s output to be wrong. Finding the source of such problems can be difficult.</cite>"
+        tag: javascript
+        url: 'http://www.eloquentjavascript.net/'
+        date: 2014-12-27
+      -
+        title: "Why use Object.create verse just normal {}"
+        body: "Quotes from Eloquent JavaScript<br><cite>You can use Object.create to create an object with a specific prototype. <br>We saw the Object.create function, which allows us to create an object with a specific prototype. You are allowed to pass null as the prototype to create a fresh object with no prototype. For objects like map, where the properties could be anything, this is exactly what we want.</cite><br> <code> var map = Object.create(null);<br> map['pizza'] = 0.069;<br> console.log('toString' in map);<br> // → false<br> console.log('pizza' in map);<br> // → true<br> </code><br><cite>Now we can safely use for/in loops, no matter what people have been doing to Object.prototype.</cite>"
+        tag: javascript
+        url: 'http://www.eloquentjavascript.net/'
+        date: 2014-12-27
+      -
         tag: git
         title: "$ git branch -d the_local_branch"
         body: 'Deletes a local branch'

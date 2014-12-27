@@ -1,7 +1,6 @@
 ---
 title: 'JS syntax: Parens'
 snip: Prep for anonymous functions and closures
-image: 'heros/lake.jpg'
 layout: blog_post
 date: 2014-08-27 19:46 UTC
 tags: Learning to Code

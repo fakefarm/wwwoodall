@@ -1,7 +1,6 @@
 ---
 title: Internetland
 snip: 'HTML is the new English'
-image: 'heros/flying.gif'
 date: 2014-08-27 21:15 UTC
 tags: HTML is the new English
 layout: blog_post
