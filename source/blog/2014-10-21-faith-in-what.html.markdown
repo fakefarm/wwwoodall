@@ -8,7 +8,7 @@ image: 'pictures/IMG_1121.JPG'
 
 [@dottedt](https://twitter.com/DottedT) recently called me a 'man of faith'. I take it as a complement. And I'm not normally one to mince words but that phrase feels a bit short-sighted. 
 
-Obviously Scott used it to describe me as someone who believe's in God. But I contend that every single person is a person of faith. It's just a matter of what your faith is in. Here are your options;
+Obviously Scott used it to describe me as someone who believes in God. But I contend that every single person is a person of faith. It's just a matter of what your faith is in. Here are your options;
 
 - God
 - Self

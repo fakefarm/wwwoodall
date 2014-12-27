@@ -1,6 +1,6 @@
 ---
 title: anatomy of popular blogs
-tags: Too random to be tagged.
+tags: "How I made this site."
 date: 2014-12-10 19:02 UTC
 layout: blog_post
 blog: notes

@@ -1,18 +1,10 @@
 ---
 title: 2000 hours a year
-snip: 'sub-title'
 tags: What I think about after work.
-type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
-format: 'video, text, image, interactive, course'
 date: 2014-12-19 15:57 UTC
 layout: blog_post
-blog: notes
-published: false
-image: 'heros/joke.png'
-caption: 'a photo caption goes here'
 ---
 
-## Hours in a week.
 There are 168 hours in a week. But not all those are yours to do with. Let's do a quick exercise.
 
 - 8 hours of sleep a night is 56 hours a week. (168 - 56 = 112 hours remaining)
@@ -22,12 +14,13 @@ Let's narrow in on the 5 weekdays and not discuss the 32 awake hours on the week
 
 Each day there are daily chores like getting ready for the day and night.
 If you consider that it takes you 30m to get ready for the day and 30m to close it out. (1 hour x 5 days = 30)
+
 Depending on your commute, let's consider it's 30m each way (1 x 5 = 25)
 
-From Monday to Friday, after you work and sleep, there are approximately 25 hours in your schedule that you have controll over.
+From Monday to Friday, after you work and sleep, there are approximately 25 hours in your schedule that you have control over.
 
-25 hours x 4 weeks = 100 hours a month.
-100 hours x 12 months = 1,200 hours a year.
+- 25 hours x 4 weeks = 100 hours a month.
+- 100 hours x 12 months = 1,200 hours a year.
 
 If you consider that there are the 16 hours on the weekends, you can add an additional 830 hours back into your annual bucket, which then gets us to approximately 2,000 hours at your discretion each year.
 

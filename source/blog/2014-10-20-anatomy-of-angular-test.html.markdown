@@ -3,8 +3,6 @@ title: 'An AngularJS test'
 snip: Terms when first learning to test Angular.
 date: 2014-10-20 22:39 UTC
 tags: Learning to Code
-image: 'pictures/hero.png'
-caption: "Camping on Father's Day 2014"
 layout: blog_post
 ---
 

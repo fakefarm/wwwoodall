@@ -1,10 +1,11 @@
 ---
 title: 10 reasons to love Boulder Colorado
-snip: 'sub-title'
 tags: List form
 date: 2014-12-19 15:56 UTC
 layout: blog_post
 ---
+
+I've lived in Orlando, San Diego, Nashville, Atlanta, DC, Salt Lake City, Denver, Lynchburg, Boca Raton, and now Boulder. Of all those places, Boulder is my favorite. Here are the top 10 reasons I love it here...
 
 ### Beautiful location
 Tucked nicely alongside the Flatirons, it's hard not to sing a song of praise just from driving around town.
@@ -21,7 +22,7 @@ It helps to know the language. If you're building web apps with Rails, then you'
 ### Startup scene
 [Techstars](http://www.techstars.com/) has put Boulder on the map as one of the top startup towns in the country. How cool is it to be in a small town buzzing with activity.
 
-### Great Meetups & Confs
+### Great Meetups & Conferences
 There are so many ways to connect with people. My personal favorites are [Ruby On Beer](http://www.rubyonbeer.com/.com) and [Boulder Ruby](http://www.meetup.com/boulder_ruby_group/)
 
 ### Small town life
