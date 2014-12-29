@@ -10,7 +10,7 @@ html
       = render_partial 'shared/nav'
     .l-container
       article.type-system-traditional
-        p.type= current_article.tags[0]
+        p.type= link_to current_article.tags[0], "/#{current_article.tags[0].parameterize}"
         h1= post_title
         p.date= current_article.date.strftime("%h %d, %Y")
         = yield

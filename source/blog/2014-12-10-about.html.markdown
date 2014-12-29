@@ -1,6 +1,7 @@
 ---
 title: about
-tags: "Hi&#44; I'm Dave"
+tags: 'about Dave'
+snip: "I'm an INTJ"
 date: 2014-12-10 00:32 UTC
 layout: blog_post
 blog: notes

@@ -126,3 +126,12 @@ configure :build do
 end
 
 ignore   '/blog/drafts/*'
+
+ready do
+  t = sitemap.resources.group_by { |p| p.data['tags'] }
+  tags = t.reject{ |k,v| k.nil? || v.nil? }
+  tags.each do |category, pages|
+      proxy "/#{category.parameterize}.html", "/templates/categories/list.html",
+        :locals => { :category => category, :pages => pages }, :ignore => true
+  end
+end

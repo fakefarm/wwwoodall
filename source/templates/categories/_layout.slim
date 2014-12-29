@@ -1,0 +1,6 @@
+.notes
+  h1= category
+  - pages.each do |s|
+    article.type-system-traditional
+      h2= link_to s.title, s.url
+      h3= s.data.snip unless s.data.snip.nil?
