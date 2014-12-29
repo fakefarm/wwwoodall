@@ -8,6 +8,18 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Traversing
+        body: "This is about finding code by following the trail. You don't just hunt and peck but you take a method and see who calls it then you go to the next place until you find what you need to do."
+        url: ''
+        tag: code
+        date: 2014-12-28
+      -
+        title: coercion
+        body: "Coercion is the task of converting data into the format you need. This is moving from JSON to a Ruby Hash. Or a symbol to a string. Or a string to an integer. Or an integer to a Date.<br><br>Data has to be in the proper format or the computer blows up. This is part of the job."
+        url: ''
+        tag: code
+        date: 2014-12-28
+      -
         title: Strict mode
         body: "Quotes from Eloquent JavaScript<br><cite>JavaScript can be made a little more strict by enabling strict mode. This is done by putting the string 'use strict;' at the top of a file or a function body. Here’s an example:</cite><br>
         <code>
