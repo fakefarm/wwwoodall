@@ -1,0 +1,19 @@
+page:
+  title: categories
+  subtitle: things I've made along the way.
+collections:
+  -
+    title: 'about Dave'
+    body: "I assume you'd like to learn something about me since you're on my site."
+    tag: ''
+    date: 2014-12-13
+  -
+    title: 'Business Idea...'
+    body: 'Some things I think about during the day.'
+    tag: ''
+    date: 2014-12-13
+  -
+    title: 'HTML is the new English'
+    body: "I didn't learn to code until my early 30's. These posts describe my views and reasoning why I took the plunge into a long and difficult path."
+    tag: ''
+    date: 2014-12-13

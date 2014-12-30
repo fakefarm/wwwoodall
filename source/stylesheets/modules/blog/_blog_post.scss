@@ -34,7 +34,7 @@ article.type-system-traditional {
     text-align: left;
     text-transform: uppercase;
     a {
-      color: black;
+      // color: $blog-bg;
     }
   }
 
@@ -185,4 +185,19 @@ article.type-system-traditional {
 
 #mc_embed_signup #mce-success-response::before {
     content: "Awesome! ";
+}
+
+// Categories
+
+.categories {
+  h1, h2 { text-align: center; }
+  h2 { font-size: 1.3em !important; }
+  .post {
+    border-bottom: 1px solid $light-gray;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    &:last-child{
+      border-bottom: none;
+    }
+  }
 }

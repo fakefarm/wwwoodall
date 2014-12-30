@@ -1,6 +1,16 @@
 .notes
-  h1= category
-  - pages.each do |s|
-    article.type-system-traditional
-      h2= link_to s.title, s.url
-      h3= s.data.snip unless s.data.snip.nil?
+  article.type-system-traditional.categories
+    h1= category
+    - data.categories.collections.each do |cat|
+      - if cat.title == category
+        h2= cat.body
+    - pages.each do |s|
+      .post
+        h1= link_to s.title, s.url
+        / h3= s.data.snip unless s.data.snip.nil?
+        p= s.summary
+        .link=link_to s.url, class: 'read-more' do
+          ' continue reading
+          |
+            &rsaquo;
+
