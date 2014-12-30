@@ -27,7 +27,7 @@
     margin-bottom: $base-spacing;
 
     @include media($medium-screen) {
-      @include shift(3);
+      @include shift(2);
     }
   }
 
@@ -36,7 +36,7 @@
 
     @include media($medium-screen) {
       @include span-columns(3);
-      @include omega(3n);
+      @include omega(4n);
       @include clearfix;
     }
   }

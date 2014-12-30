@@ -1,5 +1,4 @@
 footer.footer
-  .footer-logo
   .footer-links
     ul
       li
@@ -9,6 +8,20 @@ footer.footer
       li
         h3 Pages
       = render_partial 'shared/nav_links'
+    ul
+      li
+        h3 Blog
+      li= link_to 'home', '/blog'
+      li= link_to 'newest', blog.articles.first.url
+      li
+        h3 Categories
+      li= link_to 'about Dave', '/about-dave'
+      li= link_to 'Business ideas', '/business-ideas'
+      li= link_to 'What I think about after work', '/what-i-think-about-after-work'
+      li= link_to 'Learning to Code', '/learning-to-code'
+      li= link_to 'How I made this site', '/how-i-made-this-site'
+      li= link_to 'HTML is the new English', '/html-is-the-new-english'
+      li= link_to 'List form', '/list-form'
     ul
       li
         h3 Social
@@ -28,6 +41,7 @@ footer.footer
         .fa.fa-linkedin
         '
         span linkedIn
+
 
   hr/
   p
