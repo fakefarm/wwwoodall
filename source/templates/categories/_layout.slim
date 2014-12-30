@@ -1,10 +1,17 @@
+.shortcuts
+  .intro-text
+    h3= category
+    p.date
+      | View
+      '
+      = link_to 'all posts', '/blog/'
+
 .notes
   article.type-system-traditional.categories
-    h1= category
     - data.categories.collections.each do |cat|
       - if cat.title == category
         h2= cat.body
-    - pages.each do |s|
+    - pages.reverse.each do |s|
       .post
         h1= link_to s.title, s.url
         / h3= s.data.snip unless s.data.snip.nil?

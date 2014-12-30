@@ -2,7 +2,7 @@
   display: none;
   @include media($medium-screen) {
     display: block;
-    text-align: right;
+    text-align: left;
     position: fixed;
     right: 1em;
     top: 1em;

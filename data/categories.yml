@@ -13,6 +13,11 @@ collections:
     tag: ''
     date: 2014-12-13
   -
+    title: 'Learning to Code'
+    body: "Challenging myself to write a cohesive post about new material."
+    tag: ''
+    date: 2014-12-13
+  -
     title: 'HTML is the new English'
     body: "I didn't learn to code until my early 30's. These posts describe my views and reasoning why I took the plunge into a long and difficult path."
     tag: ''

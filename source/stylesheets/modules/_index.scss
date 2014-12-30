@@ -90,7 +90,7 @@
 .sectional {
   margin-top: 1em;
   padding: 0.5em 0 1em;
-  text-align: right;
+  text-align: left;
   border-top: 1px dashed $medium-gray;
   p {
     font-size: 1em;
@@ -103,11 +103,11 @@
   font-size: 2em;
   @include media($medium-screen) {
     p {
-      color: $blue;
+      color: $dark-gray;
       border-bottom: 2px solid $blue;
       text-transform: uppercase;
     }
-    text-align: right;
+    text-align: left;
     font-size: 0.9em;
     position: fixed;
     right: 2em;
