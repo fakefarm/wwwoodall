@@ -27,9 +27,7 @@ layout: layout
         - blog.articles.each do |post|
           article.type-system-traditional#article data-tag="#{post.tags.first}"
             .post
-              p.type=link_to post.tags.first, "/#{post.tags.first.parameterize}"
-
-              h1= link_to post.title, post.url
+              h1= post.title
               p= post.summary
               .link=link_to post.url, class: 'read-more' do
                 ' continue reading
