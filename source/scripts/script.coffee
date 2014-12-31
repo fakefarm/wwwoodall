@@ -33,6 +33,7 @@ $(document).ready ->
     onClick: (e) ->
       $tag = $(e.currentTarget)
       @currentTag = tag = $tag.text()
+      $('#blog-title').text($tag.text())
       @filterPosts(tag)
 
     filterPosts: (tag) ->
