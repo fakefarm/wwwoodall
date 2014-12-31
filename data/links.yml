@@ -8,6 +8,60 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Understanding placeholder selectors
+        body: ''
+        tag: css
+        url: "http://thesassway.com/intermediate/understanding-placeholder-selectors"
+        date: ''
+      -
+        title: Sass Blog
+        body: ''
+        tag: css
+        url: "http://sass.logdown.com/"
+        date: ''
+      -
+        title: "Seven JavaScript Quirks I Wish I'd Known About"
+        body: ''
+        tag: javascript
+        url: "http://developer.telerik.com/featured/seven-javascript-quirks-i-wish-id-known-about/"
+        date: ''
+      -
+        title: 12 JavaScript quirks
+        body: ''
+        tag: javascript
+        url: "http://www.2ality.com/2013/04/12quirks.html"
+        date: ''
+      -
+        title: Speaking JavaScript
+        body: ''
+        tag: javascript
+        url: "http://speakingjs.com/es5/index.html"
+        date: ''
+      -
+        title: programmering-1-med-js/javascript-quirks.markdown
+        body: ''
+        tag: javascript
+        url: "https://github.com/itpastorn/programmering-1-med-js/blob/master/javascript-quirks.markdown"
+        date: ''
+      -
+        title: "Avoiding The Quirks: Lessons From A JavaScript Code Review"
+        body: ''
+        tag: JavaScript
+        url: "http://addyosmani.com/blog/lessons-from-a-javascript-code-review/"
+        date: ''
+      -
+        title: Seth Godin's Blog
+        body: Great little tidbits
+        tag: marketing
+        url: 'http://sethgodin.typepad.com/'
+        date: 2014-12-31
+      -
+        title: CoDrops
+        body: 'Awesome source for frontend inpsiration'
+        tag: front-end
+        url: 'http://tympanus.net/codrops/'
+        date: 2014-12-31
+      -
         title: "Background story of <i>Make Her Smile</i>."
         body: "Funny, I came up with an idea very similar. I was pleasantly surprised to discover this was done by a former alum of Starter League, the program I went to! <br><a href='http://www.makehersmile.co/' target='_blank'>MakeHerSmile</a> is a service created by Starter School graduate Erinn Barr that helps you give great gifts to your loved ones. Now that Starter School is over I caught up with her to talk about the building process and what she has planned next for MakeHerSmile."
         tag: Startup
@@ -498,3 +552,1111 @@ collections:
         structure: ''
         stat: false
         body: 'tbd'
+      -
+        title: "Edit fiddle - JSFiddle"
+        body: ''
+        tag: Angular
+        url: "http://jsfiddle.net/F7kxC/2/"
+        date: ''
+
+      -
+        title: "Edit fiddle - JSFiddle"
+        body: ''
+        tag: Angular
+        url: "http://jsfiddle.net/w2LvU/7/"
+        date: ''
+      -
+        title: "Angular DI Part 3: Angular - JSFiddle"
+        body: ''
+        tag: Angular
+        url: "http://jsfiddle.net/jeremylikness/PK2fB/2/"
+        date: ''
+      -
+        title: "rails use postgres locally - Google Search"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.google.com/search?q=rails+use+postgres+locally&oq=rails+use+postgres+l&aqs=chrome.1.69i57j0j69i64.6591j0j7&sourceid=chrome&es_sm=119&ie=UTF-8"
+      -
+        title: "How To Setup Ruby on Rails with Postgres | DigitalOcean"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.digitalocean.com/community/tutorials/how-to-setup-ruby-on-rails-with-postgres"
+      -
+        title: "database - su postgres: Sorry? - Stack Overflow"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://stackoverflow.com/questions/7765269/su-postgres-sorry"
+      -
+        title: "su (Unix) - Wikipedia, the free encyclopedia"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://en.wikipedia.org/wiki/Su_(Unix)"
+      -
+        title: "start postgres mac - Google Search"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.google.com/search?q=start+postgres+mac&oq=start+postgre&aqs=chrome.1.69i57j0l5.4296j0j7&sourceid=chrome&es_sm=119&ie=UTF-8"
+      -
+        title: "osx - how to start postgresql server on mac os x - Stack Overflow"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://stackoverflow.com/questions/7975556/how-to-start-postgresql-server-on-mac-os-x"
+      -
+        title: "Mac OS X Postgresql: How to start a Postgres server on a Mac | alvinalexander.com"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://alvinalexander.com/blog/post/postgresql/how-start-postgres-postgresql-server-mac-osx"
+      -
+        title: "Postgres.app – the easiest way to get started with PostgreSQL on the Mac"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://postgresapp.com/"
+      -
+        title: "postgres does not know where to find the server configuration file. - Google Search"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.google.com/search?q=postgres+does+not+know+where+to+find+the+server+configuration+file.&oq=postgres+does+not+know+where+to+find+the+server+configuration+file.&aqs=chrome..69i57j0l4.235j0j4&sourceid=chrome&es_sm=119&ie=UTF-8"
+      -
+        title: "PostgreSQL: Documentation: 7.4: Starting the Database Server"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.postgresql.org/docs/7.4/static/postmaster-start.html"
+      -
+        title: "OneTab extension for Google Chrome and Firefox - save up to 95% memory and reduce tab clutter"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.one-tab.com/"
+      -
+        title: "Playground Archives | Codrops"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://tympanus.net/codrops/category/playground/"
+      -
+        title: "Tether – Marrying elements for life"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://github.hubspot.com/tether/docs/welcome/"
+      -
+        title: "Ceaser - CSS Easing Animation Tool - Matthew Lein"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://matthewlein.com/ceaser/"
+      -
+        title: "12 Awesome CSS3 Features That You Can Finally Start Using | Tutorialzine"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use/"
+      -
+        title: "Page Loading Effects | Demo 11"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://tympanus.net/Development/PageLoadingEffects/index11.html"
+      -
+        title: "Fullscreen Overlay Styles & Effects | Demo 2"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://tympanus.net/Development/FullscreenOverlayStyles/index2.html"
+      -
+        title: "Animatable: One property, two values, endless possibilities"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://leaverou.github.io/animatable/"
+      -
+        title: "azer/bud"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/azer/bud"
+      -
+        title: "qrohlf/trianglify"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/qrohlf/trianglify"
+      -
+        title: "sindresorhus/multiline"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/sindresorhus/multiline"
+      -
+        title: "How to Use steps() in CSS Animations - Designmodo"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://designmodo.com/steps-css-animations/"
+      -
+        title: "PACE — Automatic page load progress bars"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://github.hubspot.com/pace/docs/welcome/"
+      -
+        title: "Pesticide - Kill Your Css Layout Bugs"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://pesticide.io/"
+      -
+        title: "typebase.css: The starting point for good typography on the web"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://devinhunt.github.io/typebase.css/"
+      -
+        title: "timuric/Content-generator-sketch-plugin"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/timuric/Content-generator-sketch-plugin"
+      -
+        title: "Slidebars"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://plugins.adchsm.me/slidebars/"
+      -
+        title: "felixge/node-style-guide"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/felixge/node-style-guide"
+      -
+        title: "Improve the payment experience with animations — Medium"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://medium.com/@michaelvillar/improve-the-payment-experience-with-animations-3d1b0a9b810e"
+      -
+        title: "The PourOver Book · PourOver"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://nytimes.github.io/pourover/"
+      -
+        title: "Vocabs"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://apps.workflower.fi/vocabs/"
+      -
+        title: "CodePen - Fluidbox (v1.3)"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://codepen.io/terrymun/full/JKHwp"
+      -
+        title: "Voodoo - A Next Generation Internet"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.voodoojs.com/"
+      -
+        title: "Responsive tables"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://gergeo.se/RWD-Table-Patterns/"
+      -
+        title: "Isomer – an isometric graphics library for HTML5 canvas"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://jdan.github.io/isomer/"
+      -
+        title: "dygraphs.com"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://dygraphs.com/"
+      -
+        title: "Labelmask | Brad Frost"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://bradfrost.com/blog/post/labelmask/"
+      -
+        title: "Seven JavaScript Quirks I Wish I'd Known About - Telerik Developer NetworkTelerik Developer Network"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://developer.telerik.com/featured/seven-javascript-quirks-i-wish-id-known-about/"
+      -
+        title: "Flexplorer"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://bennettfeely.com/flexplorer/"
+      -
+        title: "jimbojsb/launchrocket"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/jimbojsb/launchrocket"
+      -
+        title: "Outdated UX patterns and alternatives"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://sideproject.io/outdated-ux-patterns/"
+      -
+        title: "How to Learn AngularJS - Your AngularJS Sherpa | ng-newsletter"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.ng-newsletter.com/posts/how-to-learn-angular.html"
+      -
+        title: "Why you should move that button 3px to the left | Google Ventures"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.gv.com/lib/design-details"
+      -
+        title: "madgex/lazy-ads"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/madgex/lazy-ads"
+      -
+        title: "CSS Shake"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://elrumordelaluz.github.io/csshake/"
+      -
+        title: "flexbox in the real world"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.planningforaliens.com/blog/2014/03/11/real-world-flexbox/"
+      -
+        title: "My Current CSS and Sass Styleguide"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.sitepoint.com/css-sass-styleguide/"
+        title: titletitle:" "
+
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://geelen.github.io/x-gif/#/http://i.imgur.com/RY2vTBQ.gif"
+      -
+        title: "uberVU/grid"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/ubervu/grid"
+      -
+        title: "Framework7 - Full Featured HTML Framework For Building iOS Apps"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.idangero.us/framework7/#.VKPa-4p-pRl"
+      -
+        title: "Advanced animation path » legomushroom"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://blog.legomushroom.com/2014/03/defining-advanced-animation-path/"
+      -
+        title: "Velocity.js"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://julian.com/research/velocity/"
+      -
+        title: "Sidebar Transitions"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://tympanus.net/Development/SidebarTransitions/"
+      -
+        title: "Open Iconic, a free and open icon set"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://useiconic.com/open"
+      -
+        title: "Web Fundamentals — Google Developers"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://developers.google.com/web/fundamentals/"
+      -
+        title: "Eight Bit Color Picker"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://bilalq.github.io/eight-bit-color-picker/"
+      -
+        title: "From Google Ventures: 5 Rules For Writing Great Interface Copy | Co.Design | business + design"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.fastcodesign.com/3026463/from-google-ventures-5-rules-for-writing-great-interface-copy"
+      -
+        title: "NYTimes/ice"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/NYTimes/ice"
+      -
+        title: "Creating Style Guides · An A List Apart Article"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://alistapart.com/article/creating-style-guides"
+      -
+        title: "Ratchet"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://goratchet.com/"
+      -
+        title: "Magic Animations CSS3"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.minimamente.com/example/magic_animations/"
+      -
+        title: "tiimgreen/github-cheat-sheet"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/tiimgreen/github-cheat-sheet"
+      -
+        title: "vis.js | a dynamic, browser-based visualization library"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://visjs.org/"
+      -
+        title: "MixItUp"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://mixitup.kunkalabs.com/"
+      -
+        title: "Bootflat"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://bootflat.github.io/index.html"
+      -
+        title: "Getting started with Grunticon"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://blog.iconfinder.com/get-started-with-grunticon/"
+      -
+        title: "uberVU/grid"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/ubervu/grid"
+      -
+        title: "something?"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.idangero.us/framework7/#.VKPbDYp-pRl"
+      -
+        title: "AngularJS Data Models: $url: http VS $resource VS Restangular | Selenium Testing? Do Cross Browser Testing with Sauce Labs"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://sauceio.com/index.php/2014/07/angularjs-data-models-http-vs-resource-vs-restangular/?utm_source=ng-newsletter&utm_campaign=a23834faa2-AngularJS_Newsletter_7_22_147_22_2014&utm_medium=email&utm_term=0_fa61364f13-a23834faa2-96636073"
+      -
+        title: "Angular’s dependency injection annotation process"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://toddmotto.com/angular-js-dependency-injection-annotation-process/?utm_source=ng-newsletter&utm_campaign=a23834faa2-AngularJS_Newsletter_7_22_147_22_2014&utm_medium=email&utm_term=0_fa61364f13-a23834faa2-96636073"
+      -
+        title: "C#er : IMage: AngularJS Quick Tip: Counting Watches"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://csharperimage.jeremylikness.com/2014/07/angularjs-quick-tip-counting-watches.html?utm_source=ng-newsletter&utm_campaign=a23834faa2-AngularJS_Newsletter_7_22_147_22_2014&utm_medium=email&utm_term=0_fa61364f13-a23834faa2-96636073"
+      -
+        title: "Mark Collins - 8 Things I wish I knew about AngularJs"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://markwillcollins.silvrback.com/7-things-i-wish-i-knew-about-angularjs?utm_source=ng-newsletter&utm_campaign=a23834faa2-AngularJS_Newsletter_7_22_147_22_2014&utm_medium=email&utm_term=0_fa61364f13-a23834faa2-96636073"
+      -
+        title: "Leverage Scope Creep! An in-depth tutorial on Angular.js Scope - Modern Web"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://modernweb.com/2014/07/14/leverage-scope-creep-depth-tutorial-angular-js-scope/?utm_source=ng-newsletter&utm_campaign=a23834faa2-AngularJS_Newsletter_7_22_147_22_2014&utm_medium=email&utm_term=0_fa61364f13-a23834faa2-96636073"
+      -
+        title: "Most Common Mistakes On Legacy Rails Apps"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://edelpero.svbtle.com/most-common-mistakes-on-legacy-rails-apps?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "High-Low Testing :: Mike Pack Development"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://mikepackdev.com/blog_posts/39-high-low-testing?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Rails 4 and PostgreSQL Arrays « Plataformatec Blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://blog.plataformatec.com.br/2014/07/rails-4-and-postgresql-arrays/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Why we use React.js in our Rails projects - Arkency Blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://blog.arkency.com/2014/07/why-we-use-react-js-in-our-rails-projects/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "The life and times of the angular provider"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.garabagne.io/2014/06/08/the-life-and-times-of-the-angular-provider/?utm_source=ng-newsletter&utm_campaign=bfce08935f-AngularJS_Newsletter_7_15_147_13_2014&utm_medium=email&utm_term=0_fa61364f13-bfce08935f-96636073"
+      -
+        title: "Best Practices for Building Angular.js Apps — Medium"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917"
+      -
+        title: "LingoHub Blog - Software localization for developers & translators, best practice for mobile app translation"
+        body: ''
+        tag: untagged
+
+        date: ''
+        url: "http://blog.lingohub.com/?utm_source=ng-newsletter&utm_campaign=bfce08935f-AngularJS_Newsletter_7_15_147_13_2014&utm_medium=email&utm_term=0_fa61364f13-bfce08935f-96636073"
+      -
+        title: "Vim for Rubyist: 10 useful vim plugins for Ruby"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://masteruby.github.io/productivity-booster/2014/05/02/vim-plugins-for-ruby.html#.U9EyLCtdXbk?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "3 New JavaScript APIs You May Want to Follow"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.sitepoint.com/3-new-javascript-apis-may-want-follow/?utm_source=html5weekly&utm_medium=email"
+      -
+        title: "GitHub's CSS · @mdo"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://markdotto.com/2014/07/23/githubs-css/?utm_source=html5weekly&utm_medium=email"
+      -
+        title: "Front-end Developer - Lullabot - Job Board"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://lullabot.theresumator.com/apply/wdmm2D/Frontend-Developer.html?source=Email&channel=email&referrer=sean+html5wkly716@lullabot.com"
+      -
+        title: "View DOM Events in Firefox Developer Tools"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://flailingmonkey.com/view-dom-events-in-firefox-developer-tools/?utm_source=html5weekly&utm_medium=email"
+      -
+        title: "How to Wire Up Ruby on Rails and AngularJS as a Single-Page Application - Angular on Rails"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.angularonrails.com/ruby-on-rails-angularjs-single-page-application/?utm_source=ng-newsletter&utm_campaign=4709eb30a4-AngularJS_Newsletter_7_29_147_27_2014&utm_medium=email&utm_term=0_fa61364f13-4709eb30a4-96636073"
+      -
+        title: "Opinionated AngularJS styleguide for teams"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/?utm_source=ng-newsletter&utm_campaign=4709eb30a4-AngularJS_Newsletter_7_29_147_27_2014&utm_medium=email&utm_term=0_fa61364f13-4709eb30a4-96636073"
+      -
+        title: "angular-debaser Index"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://decipherinc.github.io/angular-debaser/?utm_source=ng-newsletter&utm_campaign=4709eb30a4-AngularJS_Newsletter_7_29_147_27_2014&utm_medium=email&utm_term=0_fa61364f13-4709eb30a4-96636073"
+      -
+        title: "AngularJS Unit Testing - For Real, Though - Quick Left Boulder Colorado"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://quickleft.com/blog/angularjs-unit-testing-for-real-though?utm_source=ng-newsletter&utm_campaign=4709eb30a4-AngularJS_Newsletter_7_29_147_27_2014&utm_medium=email&utm_term=0_fa61364f13-4709eb30a4-96636073"
+      -
+        title: "Creating a YouTube AngularJS Directive - by Phil Oxrud"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://blog.oxrud.com/posts/creating-youtube-directive/?utm_source=ng-newsletter&utm_campaign=4709eb30a4-AngularJS_Newsletter_7_29_147_27_2014&utm_medium=email&utm_term=0_fa61364f13-4709eb30a4-96636073"
+      -
+        title: "generator-angulpify"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.npmjs.com/package/generator-angulpify?utm_source=ng-newsletter&utm_campaign=4709eb30a4-AngularJS_Newsletter_7_29_147_27_2014&utm_medium=email&utm_term=0_fa61364f13-4709eb30a4-96636073"
+      -
+        title: "Ruby 2 Keyword Arguments"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://robots.thoughtbot.com/ruby-2-keyword-arguments?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Know Ruby: clone and dup"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://aaronlasseigne.com/2014/07/20/know-ruby-clone-and-dup/"
+      -
+        title: "RedDotRuby 2014 - Shipping Ruby Apps with Docker by Bryan Helmkamp - YouTube"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.youtube.com/watch?v=mVN7aTqr550&list=UUWnPjmqvljcafA0z2U1fwKQ"
+      -
+        title: "3 Ways to Create Classes in Ruby — theScore Tech Blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://techblog.thescore.com/2014/07/19/3-ways-to-create-classes-in-ruby/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Ruby Socket: An Introduction to Ruby Sockets and Socket Programming"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.udemy.com/blog/ruby-socket/"
+      -
+        title: "Networking 101: Understanding IP Addresses - Mastering the Fundamentals - Tutorials - LinuxPlanet"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.linuxplanet.com/linuxplanet/tutorials/6504/1"
+      -
+        title: "Internet Protocol Tutorial"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://compnetworking.about.com/od/tcpiptutorials/a/ipaddrnotation.htm"
+      -
+        title: "sjl/gundo.vim"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/sjl/gundo.vim"
+      -
+        title: "Ruby Socket Programming and Threads: Ruby Study Notes - Best Ruby Tutorial"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://rubylearning.com/satishtalim/ruby_socket_programming.html"
+      -
+        title: "Ruby File I/O, Directories"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.tutorialspoint.com/ruby/ruby_input_output.htm"
+      -
+        title: "Most Common Mistakes On Legacy Rails Apps"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://edelpero.svbtle.com/most-common-mistakes-on-legacy-rails-apps?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Best Practices for Building Angular.js Apps — Medium"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917"
+      -
+        title: "generator-angulpify"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.npmjs.com/package/generator-angulpify?utm_source=ng-newsletter&utm_campaign=4709eb30a4-AngularJS_Newsletter_7_29_147_27_2014&utm_medium=email&utm_term=0_fa61364f13-4709eb30a4-96636073"
+
+      -
+        title: "Code Project: Create a web server in Ruby | TuxRadar Linux"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://tuxradar.com/content/code-project-create-web-server-ruby"
+      -
+        title: "Chapter 1: Introduction | APIs on Rails | Softcover.io"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://apionrails.icalialabs.com/book/chapter_one"
+      -
+        title: "Building Awesome Rails APIs: Part 1 // Collective Idea | Crafting web and mobile software based in Holland, Michigan"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://collectiveidea.com/blog/archives/2013/06/13/building-awesome-rails-apis-part-1/"
+      -
+        title: "Building a tested, documented and versioned JSON API using Rails 4 - Emil Soman's blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.emilsoman.com/blog/2013/05/18/building-a-tested/"
+      -
+        title: "api-with-ruby-on-rails-useful-tricks"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://railsware.com/blog/2013/04/08/api-with-ruby-on-rails-useful-tricks/"
+      -
+        title: "How to Make an API for a Rails App"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://whatcodecraves.com/posts/2008/11/25/how-to-make-an-api-for-a-rails-app"
+      -
+        title: "bbcrd/REST-API-example"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/bbcrd/REST-API-example"
+      -
+        title: "Rest Service with Ruby + Sinatra + Datamapper - CodeProject"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.codeproject.com/Tips/668655/Rest-Service-with-Ruby-plus-Sinatra-plus-Datamappe"
+      -
+        title: "Internet: Lots More Information - HowStuffWorks"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://computer.howstuffworks.com/internet/basics/internet3.htm"
+      -
+        title: "How Web Servers Work - HowStuffWorks"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://computer.howstuffworks.com/web-server.htm"
+      -
+        title: "What is a network packet? - HowStuffWorks"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://computer.howstuffworks.com/question525.htm"
+      -
+        title: "How does the Internet work?"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/internet.html"
+      -
+        title: "How does the Internet work - W3C Wiki"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.w3.org/wiki/How_does_the_Internet_work"
+      -
+        title: "Testing Your Ruby Code With Guard, RSpec & Pry - Tuts+ Code Tutorial"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/tutorials/testing-your-ruby-code-with-guard-rspec-pry--cms-19974"
+      -
+        title: "Writing Robust Web Applications - The Lost Art of Exception Handling - Tuts+ Code Article"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/articles/writing-robust-web-applications-the-lost-art-of-exception-handling--net-36395"
+      -
+        title: "Exploring Rack - Tuts+ Code Article"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/articles/exploring-rack--net-32976"
+      -
+        title: "Mass Assignment, Rails, and You - Tuts+ Code Tutorial"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/tutorials/mass-assignment-rails-and-you--net-31695"
+      -
+        title: "Ruby on Rails Study Guide: Blocks, Procs, and Lambdas - Tuts+ Code Tutorial"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/tutorials/ruby-on-rails-study-guide-blocks-procs-and-lambdas--net-29811"
+      -
+        title: "Ruby on Rails Study Guide: The History of Rails - Tuts+ Code Article"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/articles/ruby-on-rails-study-guide-the-history-of-rails--net-29439"
+      -
+        title: "How I Test - Tuts+ Code Article"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/articles/how-i-test--net-28870"
+      -
+        title: "Why Rails? - Tuts+ Code Tutorial"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/tutorials/why-rails--net-28658"
+      -
+        title: "Building Single Page Web Apps With Sinatra: Part 2 - Tuts+ Code Tutorial"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/tutorials/building-single-page-web-apps-with-sinatra-part-2--net-28129"
+      -
+        title: "Building Single Page Web Apps with Sinatra: Part 1 - Tuts+ Code Tutorial"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/tutorials/building-single-page-web-apps-with-sinatra-part-1--net-27911"
+      -
+        title: "Gem Creation with Bundler - Tuts+ Code Tutorial"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/tutorials/gem-creation-with-bundler--net-25281"
+      -
+        title: "Writing an API Wrapper in Ruby with TDD - Tuts+ Code Article"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875"
+      -
+        title: "Higher-Order Functions :: Eloquent JavaScript"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://eloquentjavascript.net/05_higher_order.html#p_us9qn7N69P"
+      -
+        title: "I Spent 3 Days With Sandi Metz – Here’s What I Learned - Red Badger"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://red-badger.com/blog/2014/08/20/i-spent-3-days-with-sandi-metz-heres-what-i-learned/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Hidden features of Ruby you may not know about - Arkency Blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://blog.arkency.com/2014/07/hidden-features-of-ruby-you-may-dont-know-about/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "javascript - Why do you need to invoke an anonymous function on the same line? - Stack Overflow"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://stackoverflow.com/questions/1140089/why-do-you-need-to-invoke-an-anonymous-function-on-the-same-line"
+      -
+        title: "javascript - Why define anonymous function and pass jQuery as the argument? - Stack Overflow"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://stackoverflow.com/questions/10371539/why-define-anonymous-function-and-pass-jquery-as-the-argument"
+      -
+        title: "jquery - How can I pass arguments to anonymous functions in JavaScript? - Stack Overflow"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://stackoverflow.com/questions/224820/how-can-i-pass-arguments-to-anonymous-functions-in-javascript"
+      -
+        title: "callback - Passing anonymous function to custom event trigger in Javascript/jQuery - Stack Overflow"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://stackoverflow.com/questions/6391957/passing-anonymous-function-to-custom-event-trigger-in-javascript-jquery"
+      -
+        title: "Tutorial: JavaScript - Passing Arguments to Anonymous Functions Without Firing the Function | Jaypan | Japan Tokyo Yokohama Japan Drupal web design and development"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.jaypan.com/tutorial/javascript-passing-arguments-anonymous-functions-without-firing-function"
+      -
+        title: "dotenv-rails | RubyGems.org | your community gem host"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://rubygems.org/gems/dotenv-rails"
+      -
+        title: "85 YAML Configuration (revised) - RailsCasts"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://railscasts.com/episodes/85-yaml-configuration-revised?view=comments"
+      -
+        title: "ddollar/heroku-config"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/ddollar/heroku-config"
+      -
+        title: "bkeepers/dotenv"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/bkeepers/dotenv"
+      -
+        title: "ddollar/foreman"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/ddollar/foreman"
+
+      -
+        title: "Why The JavaScript World Is Still Waiting For Node.js 1.0 - ReadWrite"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://readwrite.com/2014/08/22/nodejs-node-js-tj-fontaine-version-10?utm_source=nodeweekly&utm_medium=email"
+      -
+        title: "Get the door, Javes! Understanding Sync & Async in JavaScript - Discover Meteor"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.discovermeteor.com/blog/understanding-sync-async-javascript-node/?utm_source=nodeweekly&utm_medium=email"
+      -
+        title: "-"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://blog.siami.fr/diving-in-rails-the-request-handling?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Introducing url: Http::Exceptions by @smathieu - Rainforest QA Blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://blog.rainforestqa.com/2014-08-15-introducing-http-exceptions/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Unveiling Praxis - RightScale Engineering Blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://eng.rightscale.com/2014/08/22/unveiling_praxis.html?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Cerebris :: Introducing JSONAPI::Resources"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.cerebris.com/blog/2014/08/22/introducing-jsonapi-resources/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Representable 2.0 With Better Inheritance, Filters And Automatic Collections! ¶ Nicksda"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://nicksda.apotomo.de/2014/07/representable-2-0-with-better-inheritance-filters-and-automatic-collections/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "How to use Ruby’s English and/or operators without going nuts | Virtuous Code"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://devblog.avdi.org/2014/08/26/how-to-use-rubys-english-andor-operators-without-going-nuts/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "Cascadia Ruby 2014- Programming in the Small - Teaching my 5 Year Old Ruby - YouTube"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.youtube.com/watch?v=jAnSsNga5Nk"
+      -
+        title: "shoes/shoes4"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://github.com/shoes/shoes4"
+      -
+        title: "Pry, Ruby, and Fun With the Hash Constructor - Rails on Maui"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.railsonmaui.com/blog/2014/08/17/pry-ruby-and-fun-with-the-hash-constructor/?utm_source=rubyweekly&utm_medium=email"
+      -
+        title: "www.sidehustlenation.com/wp-content/uploads/2014/05/53-Takeaways-from-the-Worlds-Best-Business-Books-Giveaway.pdf"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.sidehustlenation.com/wp-content/uploads/2014/05/53-Takeaways-from-the-Worlds-Best-Business-Books-Giveaway.pdf"
+      -
+        title: "Owning Rails Preview - Coded Inc."
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://codedinc.wistia.com/medias/o7zyfih4ju"
+      -
+        title: "Building Interactive HTML5 Videos ✩ Mozilla Hacks – the Web developer blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://hacks.mozilla.org/2014/08/building-interactive-html5-videos/?utm_source=html5weekly&utm_medium=email"
+      -
+        title: "Coming Soon: CSS Feature Queries | Web Platform Team Blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://blogs.adobe.com/webplatform/2014/08/21/coming-soon-css-feature-queries/?utm_source=html5weekly&utm_medium=email"
+      -
+        title: "CSS Guidelines (2.2.2) – High-level advice and guidelines for writing sane, manageable, scalable CSS"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://cssguidelin.es/?utm_source=html5weekly&utm_medium=email"
+      -
+        title: "Contact - Liquid Media"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://liquidmedia.org/contact/"
+      -
+        title: "How To Add Page Transitions with CSS and smoothState.js | CSS-Tricks"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://css-tricks.com/add-page-transitions-css-smoothstate-js/?utm_source=html5weekly&utm_medium=email"
+      -
+        title: "Living with Web Apps - Tales of a Developer Advocate"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://paul.kinlan.me/living-with-web-apps/?utm_source=html5weekly&utm_medium=email"
+      -
+        title: "JavaScript Memory Management Masterclass // Speaker Deck"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass"
+      -
+        title: "Javascript: Object Prototypes"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://doctrina.org/Javascript-Objects-Prototypes.html"
+      -
+        title: "Using Prototype Property in JavaScript | Packt"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.packtpub.com/books/content/using-prototype-property-javascript"
+      -
+        title: "Javascript object prototype – Helephant.com"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://helephant.com/2009/01/18/javascript-object-prototype/"
+      -
+        title: "Function.prototype.apply() - JavaScript | MDN"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"
+      -
+        title: "Function.prototype.call() - JavaScript | MDN"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call"
+      -
+        title: "JavaScript constructors, prototypes, and the `new` keyword - Pivotal Labs"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://pivotallabs.com/javascript-constructors-prototypes-and-the-new-keyword/"
+      -
+        title: "HTML DOM Style minWidth Property"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.w3schools.com/jsref/prop_style_minwidth.asp"
+      -
+        title: "object get set javascript - Google Search"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&es_th=1&ie=UTF-8#q=object%20get%20set%20javascript"
+      -
+        title: "John Resig - JavaScript Getters and Setters"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://ejohn.org/blog/javascript-getters-and-setters/"
+      -
+        title: "Working with objects - JavaScript | MDN"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects"
+      -
+        title: "getter - JavaScript | MDN"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get"
+      -
+        title: "PostgreSQL awesomeness for Rails developers"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://www.amberbit.com/blog/2014/2/4/postgresql-awesomeness-for-rails-developers/"
+      -
+        title: "postgresql - how to set up postgres database for local rails project - Stack Overflow"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://stackoverflow.com/questions/19953653/how-to-set-up-postgres-database-for-local-rails-project"
+      -
+        title: "database - How do you easily change from SQLite to PostgreSQL in Rails - Stack Overflow"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://stackoverflow.com/questions/6710654/how-do-you-easily-change-from-sqlite-to-postgresql-in-rails"
+      -
+        title: "Setting up PostgreSQL for Ruby on Rails development on OS X | Will writes"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://blog.willj.net/2011/05/31/setting-up-postgresql-for-ruby-on-rails-development-on-os-x/"
+      -
+        title: "Setting up postgreSQL for RoR development | Ruby on Rails Blog"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.idyllic-software.com/blog/setting-up-postgresql-for-ror-development/"
+      -
+        title: "How to Install and Use Postgres On OS X For Ruby and Rails Development"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.rubyinside.com/how-to-install-and-use-postgres-on-os-x-for-ruby-and-rails-development-4999.html"
+      -
+        title: "Rails and PostgreSQL | Linux Journal"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "http://www.linuxjournal.com/content/rails-and-postgresql"
+      -
+        title: "coderwall.com : establishing geek cred since 1305712800"
+        body: ''
+        tag: untagged
+        date: ''
+        url: "https://coderwall.com/p/cpmdvg/rails-3-development-switch-from-sqlite3-to-pg-postgresql"
