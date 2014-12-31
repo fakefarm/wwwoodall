@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: How do I have blog page move to top on a tag click?
+        body: ''
+        tag: jquery
+        url: ''
+        date: 2014-12-31
+      -
         title: How do I rename a list of files?
         body: ''
         tag: bash
