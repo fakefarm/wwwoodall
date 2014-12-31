@@ -18,6 +18,18 @@ html
         p.date= current_article.date.strftime("%h %d, %Y")
         = yield
 
+        hr
+
+        - if blog.tags[current_article.tags[0]].count > 1
+          .intro-text
+            h2 More from
+            h3=current_article.tags[0]
+
+        - blog.tags[current_article.tags[0]][0..2].each do |article|
+          - next if article.title == current_article.title
+          h2= link_to article.title, article.url
+          p= article.summary
+
   = render_partial 'shared/footer/main'
   = render_partial 'shared/footer/stuff'
 
