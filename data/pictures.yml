@@ -3,6 +3,151 @@ page:
   subtitle: click.
 collections:
   -
+    title: December 2014
+    caption: "Oscar started public school. New car! I designed a sticker. Christmas at hom. My doodles have turned into a new company. <a href=''>feather</a>"
+    date: 2014-12-31
+    entries:
+      -
+        url: 'pictures/christmas_2014/1.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: 'Oscar absolutely loves school!'
+      -
+        url: 'pictures/christmas_2014/2.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: 'With stickers everywhere, I wanted to leave my mark.'
+      -
+        url: 'pictures/christmas_2014/19.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: 'New Car! The trooper was good to us for 7 years. Mom and Dad were wonderful to help us get a 2005 Lexus GX 470. Quite the upgrade!'
+      -
+        url: 'pictures/christmas_2014/20.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: 'Danae makes the coziest Christmas home!'
+      -
+        url: 'pictures/christmas_2014/3.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: "First time visiting Nederland's carousel."
+      -
+        url: 'pictures/christmas_2014/4.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ''
+      -
+        url: 'pictures/christmas_2014/5.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ''
+      -
+        url: 'pictures/christmas_2014/6.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ''
+      -
+        url: 'pictures/christmas_2014/7.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ''
+      -
+        url: 'pictures/christmas_2014/8.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: 'I joked that 4 candy canes from whole foods would cost $7. I was wrong. They cost $10!'
+      -
+        url: 'pictures/christmas_2014/9.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: 'I invented a marriage game.'
+      -
+        url: 'pictures/christmas_2014/10.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: "I kinda of knew what Danae wanted for Christmas, but not really. I wanted to give her cash but that's kind of boring. So I drew these and wrapped them in funny weighted boxes. Her response was so great that it got me wondering if that combo of gift wrapped, greeting card, gift card would be something other people would enjoy. So, I started <a href=''>feather</a>"
+      -
+        url: 'pictures/christmas_2014/11.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ""
+      -
+        url: 'pictures/christmas_2014/12.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: 'Danae helping Wells open a stocking stuffer'
+      -
+        url: 'pictures/christmas_2014/13.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ''
+      -
+        url: 'pictures/christmas_2014/14.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ''
+      -
+        url: 'pictures/christmas_2014/15.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: 'Beers with Dad.'
+      -
+        url: 'pictures/christmas_2014/16.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ''
+      -
+        url: 'pictures/christmas_2014/17.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ''
+      -
+        url: 'pictures/christmas_2014/18.jpg'
+        video: ''
+        tag: ''
+        date: 2014-12-31
+        classes: ''
+        caption: ''
+  -
     title: Wells visits Oscar
     caption: "Danae started volunteering at Oscar's school and Wells gets to tag along. Oscar was excited to show Wells the ropes."
     date: 2014-12-15
@@ -10,7 +155,7 @@ collections:
         -
           url: 'pictures/wells_visit_oscar/1.jpeg'
           video: ''
-          tag: boys'
+          tag: boys
           date: 08-12-2014
           classes: big
           caption: ''

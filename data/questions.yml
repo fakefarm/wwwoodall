@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: How do I rename a list of files?
+        body: ''
+        tag: bash
+        url: 'https://www.debian-administration.org/article/150/Easily_renaming_multiple_files.'
+        date: 2014-12-31
+      -
         date: 2014-12-22
         tag: life
         title: "What is the Gap Theory all about?"
