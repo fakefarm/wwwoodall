@@ -112,6 +112,7 @@ end
 activate :directory_indexes
 activate :livereload
 activate :syntax
+activate :emoji
 
 set :markdown_engine, :kramdown
 

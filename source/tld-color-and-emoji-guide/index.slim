@@ -1,0 +1,20 @@
+---
+title: "TLD official color and emoji guide"
+---
+
+.tld-guide
+  h3 Top Level Domain Official Color and Emoji Guide
+  p Did you know there are over 100 new Top Level Domains? Here is a list with an accompanying color and emoji to give them some digital character. This is a work in progress.
+
+  - data.tlds.list.each do |tld|
+      span style="background:#{tld.hex}; width: 50%; display: inline-block; padding: 0.5em; margin-right:1em;" = tld.tld
+      span style="color:#{tld.hex}" = tld.tld
+      p
+        i= tld.color
+        '
+        = tld.hex
+      p
+        = tld.emoji
+        = tld.name
+      hr
+

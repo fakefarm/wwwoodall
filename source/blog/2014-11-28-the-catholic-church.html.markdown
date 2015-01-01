@@ -21,8 +21,7 @@ I totally got sucked into a land grab mentality and ended up buying about 10 or 
 So I wonder how does one go about selling a gem like this. Other than listing them in auction sites, I came up with another idea. What if I create a site called **The TLD official color guide**. It will be a list of TLD's like `.church`, `.life`, `.biz` and some accompanying color. Why is it the official color? Because I say so and nobody else is making a site that says otherwise :-)
 
 Then, at the bottom I can have my list of domains for sell.
-
-Think it could work?
+I've [started a page](/tld-color-and-emoji-guide) to see if I can make it work.
 
 **Others I have for sale**
 

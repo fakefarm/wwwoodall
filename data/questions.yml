@@ -8,8 +8,14 @@ collections:
     date: 2014-12-15
     entries:
       -
-        title: "How, when, and where do I use BEGIN/RESCUE, including testing them?"
+        title: "what do '=' and '@' do in directives?"
         body: ''
+        tag: Angular
+        url: ''
+        date: 2015-01-01
+      -
+        title: "How, when, and where do I use BEGIN/RESCUE, including testing them?"
+        body: "Seems to use these when doing remote calls with 'out of process code' Helps architecture and long longs can send messages. Consider a background job."
         tag: Ruby
         url: ''
         date: 2015-01-01
