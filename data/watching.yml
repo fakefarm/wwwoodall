@@ -1,7 +1,23 @@
 page:
-  title: videos
-  subtitle: movies
+  title: Watching
+  subtitle: "Anything with a pause button."
 collections:
+  -
+    title: Movies
+    caption: 'My favorites'
+    date: ''
+    entries:
+      -
+        url: ''
+        title: 'The Grand Budapest Hotel'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/2bTbW70umbQ?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: wes anderson
+        date: 2015-01-01
+        classes: big
+        caption: 'The adventures of Gustave H, a legendary concierge at a famous European hotel between the wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.'
+        social:
+          name: youTube
+          url: <iframe width="560" height="415" src="//www.youtube.com/embed/2bTbW70umbQ?rel=0" frameborder="0" allowfullscreen></iframe>
   -
     title: Business
     caption: 'How people work.'
