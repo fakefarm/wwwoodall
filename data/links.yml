@@ -8,6 +8,48 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Practical TDD in Rails"
+        body: "Practical advice for adding reliable tests to your Rails apps with RSpec. Includes expanded, exclusive content and a complete sample Rails application. - See more at: http://everydayrails.com/#sthash.QozGqznt.dpuf"
+        tag: Book
+        url: http://everydayrails.com/
+        date: 2015-01-01
+      -
+        title: Hashie
+        body: 'Hashie is a collection of classes and mixins that make hashes more powerful.'
+        tag: Gem
+        url: 'https://github.com/intridea/hashie'
+        date: 2015-01-01
+      -
+        title: JWT
+        body: 'JSON Web Token implementation in Ruby'
+        tag: Gem
+        url: 'https://github.com/progrium/ruby-jwt'
+        date: 2015-01-01
+      -
+        title: Rails Remember me and password reset
+        body: ''
+        tag: rails
+        url: "http://railscasts.com/episodes/274-remember-me-reset-password"
+        date: 2015-01-01
+      -
+        title: Wintellect
+        body: "Mastering Angular Course"
+        tag: course
+        url: 'https://www.wintellectnow.com/'
+        date: 2014-08-01
+      -
+        title: Fullstack
+        body: "Build a complete app using AngularJS and Rails - from empty folder to deployment. By the end of this video, you'll be creating awesome AngularJS apps."
+        tag: course
+        url: 'https://www.fullstackedu.com/products/ng-rails'
+        date: 2014-08-01
+      -
+        title: tealeaf
+        body: course on TDD
+        tag: course
+        url: 'https://www.gotealeaf.com/'
+        date: 2014-08-01
+      -
         title: Understanding placeholder selectors
         body: ''
         tag: css

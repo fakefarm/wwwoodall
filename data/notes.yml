@@ -8,6 +8,35 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: prune pr
+        body: TODO - get this
+        tag: git
+        url: ''
+        date: 2015-01-01
+      -
+        title: "304 means cached Asset"
+        body: ''
+        tag: HTTP
+        url: ''
+        date: 2015-01-01
+      -
+        title: "JavaScript posts I'd like to write."
+        body: "
+            - live binding<br>
+            - return gotchas<br>
+            - top 20 events you should know<br>
+            - top 10 javascript quirks<br>
+            - object creation patterns"
+        tag: JavaScript
+        url: ''
+        date: 2015-01-01
+      -
+        title: nil management is an iterative process
+        body: ask questions about the data
+        tag: craftmanship
+        url: ''
+        date: 2015-01-01
+      -
         title: $httpBackend needs an afterEach()
         body: relates to testing Angular
         tag: Angular
