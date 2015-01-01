@@ -3,10 +3,100 @@ page:
   subtitle: Things I learn from the real programmers.
 collections:
   -
-    title: Wells visits Oscar
-    caption: "Danae started volunteering at Oscar's school and Wells gets to tag along. Oscar was excited to show Wells the ropes."
+    title: All my notes
+    caption: ""
     date: 2014-12-15
     entries:
+      -
+        title: $httpBackend needs an afterEach()
+        body: relates to testing Angular
+        tag: Angular
+        url: ''
+        date: 2015-01-01
+      -
+        title: "Add IP address to Windows IE"
+        body: "
+        - :c windows<br>
+        - System 32<br>
+        - drives<br>
+        - etc<br>
+        - hosts<br>
+        - note pad<br>
+        - run notepad as an admin<br>
+        - open open notepad<br>
+        - in terminal, run ifconfig -a and look for 10:36:... to find IP address
+        "
+        tag: IE
+        url: ''
+        date: 2015-01-01
+      -
+        title: Defensive Coding
+        body: "Experience will teach a level of nil checks and type checkings. Depending on the level of uncertainty and confidence in the data set you're dealing with."
+        tag: craftmanship
+        url: ''
+        date: 2015-01-01
+      -
+        title: git co -T foo/branch
+        body: "after you fetch all, you can jump onto a branch you haven't used yet."
+        tag: git
+        url: ''
+        date: 2015-01-01
+      -
+        title: nth & last-child
+        body: "<code>li:last-child</code>&nbsp; I tend to confuse last child's use and put it on the last child of the parent, but you actually use the pseudo class :last-child on the child element.<br>
+          <code>li:nth-child(3n)</code>&nbsp; Doing some cool calculations.<br>
+          TODO: Talk with Steve Dugas about the site he uses for some help.
+          "
+        tag: CSS
+        url: ''
+        date: 2015-01-01
+      -
+        title:  Jquery methods
+        body: "
+          <code>.offset()</code>&nbsp; top left of the window.<br>
+          <code>.position()</code>&nbsp; Relative to the container.<br>
+          <code>.scrollTop(45)</code>&nbsp; a number without pixels.<br>
+          <code>.closest()</code>&nbsp; Walis up the dom rather than doing .parent().parent<br>
+          "
+        tag: JQuery
+        url: ''
+        date: 2015-01-01
+      -
+        title: .initialize
+        body: "This was the first method that helped me see that various words had extra power and unique roles in the process. This method has been written to begin a new object with certain content. A powerful role in an object's life cycle."
+        tag: ruby
+        url: ''
+        date: 2015-01-01
+      -
+        title: .push
+        body: An array method to push people in the stuff of the line.
+        tag: ruby
+        url: ''
+        date: 2015-01-01
+      -
+        title: .method_missing
+        body: A key to meta programming
+        tag: ruby
+        url: ''
+        date: 2015-01-01
+      -
+        title: .find
+        body: TODO look into this one
+        tag: ruby
+        url: ''
+        date: 2015-01-01
+      -
+        title: .map
+        body: the return value of an array is the new array
+        tag: ruby
+        url: ''
+        date: 2015-01-01
+      -
+        title: .inject
+        body: start with a value
+        tag: ruby
+        url: ''
+        date: 2015-01-01
       -
         title: Traversing
         body: "This is about finding code by following the trail. You don't just hunt and peck but you take a method and see who calls it then you go to the next place until you find what you need to do."
@@ -143,7 +233,7 @@ collections:
         url: ''
         date: 2014-12-23
       -
-        tag: css
+        tag: CSS
         title: add a class to the parent
         body: Promote reuse by adding classes to parent nodes.
         url: ''
@@ -157,21 +247,21 @@ collections:
         url: 'http://api.rubyonrails.org/classes/ActionDispatch/Assertions/SelectorAssertions.html#method-i-assert_select'
       -
         date: 2014-12-17
-        tag: jquery
+        tag: JQuery
         title: "$(\"a[href*='travel']\")"
         sub-title: ''
         body: 'find a tags that href has travel in it.'
         url: ''
       -
         date: 2014-12-17
-        tag: scss
+        tag: CSS
         title: 'display: table-cell'
         sub-title: ''
         body: 'Gives table rules, like vertical height.'
         url: ''
       -
         date: 2014-12-08
-        tag: scss
+        tag: CSS
         title: 'css strategy'
         sub-title: ''
         body: 'Think of classes as cousins and be more generic enough to be reused. They are more similar than I realize.'
