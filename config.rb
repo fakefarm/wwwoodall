@@ -69,7 +69,7 @@ end
 [
   "gifs",
   'pictures',
-  'videos'
+  'watching'
 ].each do |name|
   proxy "/#{name}.html", "/templates/grid/grid.html", :locals => { :file_name => name }, :ignore => true
 end

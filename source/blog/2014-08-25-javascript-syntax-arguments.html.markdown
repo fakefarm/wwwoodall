@@ -1,9 +1,7 @@
 ---
 title: 'JS syntax: Arguments'
-layout: blog_post
 snip: Developing intuition
-image: 'heros/joke.png'
-caption: ''
+layout: blog_post
 date: 2014-08-25 14:53 UTC
 tags: Learning to Code
 ---

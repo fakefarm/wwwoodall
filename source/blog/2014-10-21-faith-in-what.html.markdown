@@ -3,7 +3,6 @@ title: 'Faith in what'
 date: 2014-10-21 15:24 UTC
 tags: What I think about after work.
 layout: blog_post
-image: 'pictures/IMG_1121.JPG'
 ---
 
 [@dottedt](https://twitter.com/DottedT) recently called me a 'man of faith'. I take it as a complement. And I'm not normally one to mince words but that phrase feels a bit short-sighted. 

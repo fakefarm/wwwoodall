@@ -1,15 +1,12 @@
 ---
 title: starter league completed now what
 snip: 'sub-title'
-tags: HTML is the new English
+tags: DRAFT
 type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
 format: 'video, text, image, interactive, course'
 date: 2014-12-19 15:58 UTC
 layout: blog_post
 blog: notes
-published: false
-image: 'heros/joke.png'
-caption: 'a photo caption goes here'
 ---
 
 “Hacker Academies” like Code Academy and Dev Bootcamp introduce web development to a new a group of students who enlist for primarily one of three reasons; 

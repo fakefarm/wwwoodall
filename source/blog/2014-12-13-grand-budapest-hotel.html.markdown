@@ -1,6 +1,6 @@
 ---
 title: grand budapest hotel
-tags: Too random to be tagged.
+tags: DRAFT
 date: 2014-12-13 04:15 UTC
 layout: blog_post
 published: false
