@@ -25,6 +25,13 @@ collections:
     entries:
       -
         url: ''
+        title: 'GoRuCo 2014 - How to Debug Anything by James Golick'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/VV7b7fs4VI8?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: collaboration
+        date: 2014-09-19
+        caption: "Does your code work? Probably not. The libraries you're using probably don't work either. If you're lucky, the OS does, but even then you'll probably find something wrong if you look hard enough."
+      -
+        url: ''
         title: 'Google design sprints'
         video: <iframe width="560" height="415" src="//www.youtube.com/embed/137XnWlUTKY?rel=0" frameborder="0" allowfullscreen></iframe>
         tag: collaboration

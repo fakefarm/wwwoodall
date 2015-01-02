@@ -8,6 +8,54 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Go Rails
+        body: 'Video lessons so you can keep learning how to be a better developer.'
+        tag: ScreenCasts
+        url: 'https://gorails.com/'
+        date: 2015-01-02
+      -
+        title: Confreaks
+        body: 'Expert recording services for conferences, seminars, and workshops.'
+        tag: ScreenCasts
+        url: 'http://confreaks.com/'
+        date: 2015-01-02
+      -
+        title: Destroy All Software
+        body: 'SCREENCASTS FOR SERIOUS DEVELOPERS. Destroy All Software screencasts are short: 10 to 15 minutes, but dense with information.'
+        tag: ScreenCasts
+        url: 'http://www.destroyallSoftware.com'
+        date: 2015-01-02
+      -
+        title: Ruby Off Rails
+        body: ''
+        tag: Course
+        url: 'https://rubyoffrails.com/'
+        date: 2015-01-02
+      -
+        title: Learning Advanced JavaScript
+        body: 'great interactive lessons'
+        tag: Practice
+        url: 'http://ejohn.org/apps/learn/'
+        date: 2015-01-02
+      -
+        title: Ruby Quizes
+        body: body
+        tag: Practice
+        url: 'http://rubyquiz.com/quiz67.html'
+        date: 2015-01-02
+      -
+        title: Project Euler
+        body: practice your thinking
+        tag: Practice
+        url: 'https://projecteuler.net/'
+        date: 2015-01-02
+      -
+        title: Ruby Koans
+        body: practice your ruby
+        tag: Practice
+        url: 'http://rubykoans.com/'
+        date: 2015-01-02
+      -
         title: "Practical TDD in Rails"
         body: "Practical advice for adding reliable tests to your Rails apps with RSpec. Includes expanded, exclusive content and a complete sample Rails application. - See more at: http://everydayrails.com/#sthash.QozGqznt.dpuf"
         tag: Book
