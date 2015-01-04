@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "why are emoji's not working on middleman"
+        body: ''
+        tag: middleman
+        url: ''
+        date: 2015-01-02
+      -
         title: "what do '=' and '@' do in directives?"
         body: ''
         tag: Angular

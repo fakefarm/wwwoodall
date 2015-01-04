@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: I love doodle
+        body: 'Awesome art'
+        tag: Artist
+        url: 'http://www.ilovedoodle.com/'
+        date: 2015-01-02
+      -
         title: Go Rails
         body: 'Video lessons so you can keep learning how to be a better developer.'
         tag: ScreenCasts
