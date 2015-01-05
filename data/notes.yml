@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "The query String"
+        body: "The URL can add details with ? and &. More details about this later..."
+        tag: Web
+        url: ''
+        date: 2015-01-05
+      -
         title: "Insert a line break using CSS"
         body: "<code>.foo:before { content: '\\A'; }</code>"
         tag: CSS

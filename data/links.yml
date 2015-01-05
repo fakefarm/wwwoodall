@@ -8,6 +8,18 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "A MiniTest::Spec Tutorial: Elegant Spec-Style Testing That Comes With Ruby"
+        body: ''
+        tag: Testing
+        url: http://www.rubyinside.com/a-minitestspec-tutorial-elegant-spec-style-testing-that-comes-with-ruby-5354.html
+        date: 2015-01-05
+      -
+        title: You Don't know JS
+        body: 'A JavaScript book series.'
+        tag: Javascript
+        url: 'https://github.com/getify/You-Dont-Know-JS'
+        date: 2015-01-05
+      -
         title: I love doodle
         body: 'Awesome art'
         tag: Artist
