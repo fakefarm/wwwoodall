@@ -3,6 +3,12 @@ page:
   subtitle: click.
 collections:
   -
+    title: San Diego
+    caption: "I went to CA for RubyConf. Brother Mike lives there so we had some fun."
+    date: 2014-11-20
+    entries:
+
+  -
     title: December 2014
     caption: "Oscar started Kindergarten at public school. We got a new car! I designed a sticker. I turned my doodles into a new company."
     date: 2014-12-31

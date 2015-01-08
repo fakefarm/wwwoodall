@@ -8,9 +8,21 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Redis is not an HTTP call
+        body: "Redis runs on it's own port and has it's own language."
+        tag: Databases
+        url: 'http://redis.io/documentation'
+        date: 2015-01-06
+      -
+        title: "<code>parseInt()</code>"
+        body: "Get just the number"
+        tag: JavaScript
+        url: ''
+        date: 2015-01-05
+      -
         title: "The query String"
         body: "The URL can add details with ? and &. More details about this later..."
-        tag: Web
+        tag: Browsers
         url: ''
         date: 2015-01-05
       -

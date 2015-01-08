@@ -8,6 +8,18 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "When and how should I use <code>Super</code>?"
+        body: ''
+        tag: Ruby
+        url: ''
+        date: 2015-01-02
+      -
+        title: "How can I learn about Headers?"
+        body: 'For example, what does the <code>X-</code> do?<br>And, how is the header content consumed?'
+        tag: HTTP
+        url: ''
+        date: 2015-01-02
+      -
         title: "why are emoji's not working on middleman"
         body: ''
         tag: middleman

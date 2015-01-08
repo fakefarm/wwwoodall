@@ -8,6 +8,48 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Masonry
+        body: "Cascading grid layout library"
+        tag: Library
+        url: http://masonry.desandro.com/
+        date: 2015-01-07
+      -
+        title: Isotope
+        body: "Filter & sort magical layouts"
+        tag: Library
+        url: http://isotope.metafizzy.co/
+        date: 2015-01-07
+      -
+        title: Packery
+        body: "Packery makes your crazy & clever layout a real thing. Be clever. Get crazy."
+        tag: Library
+        url: http://packery.metafizzy.co
+        date: 2015-01-07
+      -
+        title: Meta Fizzy Blog
+        body:
+        tag: demos
+        url: http://metafizzy.co/blog/
+        date: 2015-01-07
+      -
+        title: Telnet
+        body: "Telnet is a both a network protocol and an application that uses that protocol. Most often, telnet is used to connect to remote computers and issue commands on those computers. It's like a remote control for the internet!"
+        tag: TOOL
+        url: 'http://www.telnet.org/'
+        date: 2015-01-06
+      -
+        title: Flatfoot
+        body: 'Discover dead view files in your app. Track view layer render usage'
+        tag: GEM
+        url: 'https://github.com/livingsocial/flatfoot'
+        date: 2015-01-06
+      -
+        title: "Rego"
+        body: 'Run arbitrary commands easily when files change.<br>Make sure your path is correct.<br>If you check multiple files then there can be no space between them.<br>Example: <code>{app,test,foo}</code>'
+        tag: GEM
+        url: https://github.com/ahoward/rego
+        date: 2015-01-06
+      -
         title: "A MiniTest::Spec Tutorial: Elegant Spec-Style Testing That Comes With Ruby"
         body: ''
         tag: Testing
