@@ -8,6 +8,24 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: '<code>head -10 data.csv<code>'
+        body: 'check the first 10 lines of an import'
+        tag: Bash
+        url: ''
+        date: 2015-01-08
+      -
+        title: '<code>grep foo development.log<code>'
+        body: 'look for the instances where foo was in the logs.'
+        tag: Bash
+        url: ''
+        date: 2015-01-08
+      -
+        title: 'Make sure to check that the data set you are working with is accurate.'
+        body: 'Example; CSV file columns in the wrong order.'
+        tag: craftsmanship
+        url: ''
+        date: 2015-01-08
+      -
         title: Redis is not an HTTP call
         body: "Redis runs on it's own port and has it's own language."
         tag: Databases

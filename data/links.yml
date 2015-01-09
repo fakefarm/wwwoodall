@@ -8,6 +8,24 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Redis Documentation"
+        body: "the docs"
+        tag: Databases
+        url: 'http://redis.io/documentation'
+        date: 2015-01-08
+      -
+        title: 'Seven Reasons I Love Minitest'
+        body: "A look at why Minitest remains a powerful and popular choice for testing Ruby code."
+        tag: Testing
+        url: "https://blog.engineyard.com/2014/seven-reasons-i-love-minitest"
+        date: 2015-01-08
+      -
+        title: 'Nginx for Developers: An Introduction'
+        body: "If you are a web developer, you've probably heard of nginx (pronounced engine-x). Nginx is a fast and extremely powerful http and reverse proxy server that can be used to quickly and easily serve webpages.<br>Unfortunately, like many sysops tools, there is very little documentation and very few tutorials that explain how it works and how to get up and running. There is a wiki, which is extensive and confusing - showing you all possible options rather than presenting the important ones as you need them. After struggling with it myself for a bit, I finally got down the basics of how to work with nginx, and wanted to share it so that other developers would have an easier time picking it up."
+        tag: server
+        url: 'http://carrot.is/coding/nginx_introduction'
+        date: 2015-01-08
+      -
         title: Masonry
         body: "Cascading grid layout library"
         tag: Library

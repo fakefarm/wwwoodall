@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: How does caching work?
+        body: ''
+        tag: browser
+        url: ''
+        date: 2015-01-08
+      -
         title: "When and how should I use <code>Super</code>?"
         body: ''
         tag: Ruby
