@@ -14,13 +14,13 @@ collections:
         url: "https://github.com/ahoward/rego"
         date: 2015-01-09
       -
-        title: '<code>head -10 data.csv<code>'
+        title: '<code>head -10 data.csv</code>'
         body: 'check the first 10 lines of an import'
         tag: Bash
         url: ''
         date: 2015-01-08
       -
-        title: '<code>grep foo development.log<code>'
+        title: '<code>grep foo development.log</code>'
         body: 'look for the instances where foo was in the logs.'
         tag: Bash
         url: ''
