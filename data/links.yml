@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Little Big Details
+        body: 'Your daily dose of design inspiration.'
+        tag: design
+        url: 'http://littlebigdetails.com/'
+        date: 2015-01-09
+      -
         title: "Redis Documentation"
         body: "the docs"
         tag: Databases
