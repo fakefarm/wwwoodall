@@ -92,7 +92,8 @@ end
 
 # Note pages.
 [
-  "notes"
+  "notes",
+  "grammar"
 ].each do |name|
   proxy "/#{name}.html", "/templates/note/note.html", :locals => { :file_name => name }, :ignore => true
 end
