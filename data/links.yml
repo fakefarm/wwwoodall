@@ -8,6 +8,48 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Velocity.js
+        body: "Velocity is an animation engine with the same API as jQuery's $.animate(). It works with and without jQuery. It's incredibly fast, and it features color animation, transforms, loops, easings, SVG support, and scrolling. It is the best of jQuery and CSS transitions combined."
+        tag: javascript
+        url: 'http://julian.com/research/velocity/'
+        date: 2015-01-10
+      -
+        title: JavaScript Cookies
+        body: 'Cookies let you store user information in web pages.'
+        tag: javascript
+        url: 'http://www.w3schools.com/js/js_cookies.asp'
+        date: 2015-01-10
+      -
+        title: Browser Object Model
+        body: 'Since modern browsers have implemented (almost) the same methods and properties for JavaScript interactivity, it is often referred to, as methods and properties of the BOM.'
+        tag: javascript
+        url: 'http://www.w3schools.com/js/js_window.asp'
+        date: 2015-01-10
+      -
+        title: "Thoughtbot Suspenders"
+        body: "A Rails template with our standard defaults, ready to deploy to Heroku."
+        tag: Gem
+        url: https://github.com/thoughtbot/suspenders
+        date: 2015-01-10
+      -
+        title: Pea.rs
+        body: "Common patterns of markup and style"
+        tag: CSS
+        url: http://pea.rs/
+        date: 2015-01-10
+      -
+        title: CSS Selector Reference
+        body: "Selectors are patterns used to select the element(s) you want to style"
+        tag: CSS
+        url: http://www.w3schools.com/cssref/css_selectors.asp
+        date: 2015-01-10
+      -
+        title: Can I Use
+        body: "'Can I use' provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers."
+        tag: Browser
+        url: http://caniuse.com/
+        date: 2015-01-10
+      -
         title: Little Big Details
         body: 'Your daily dose of design inspiration.'
         tag: design
@@ -64,13 +106,13 @@ collections:
       -
         title: Flatfoot
         body: 'Discover dead view files in your app. Track view layer render usage'
-        tag: GEM
+        tag: Gem
         url: 'https://github.com/livingsocial/flatfoot'
         date: 2015-01-06
       -
         title: "Rego"
         body: 'Run arbitrary commands easily when files change.<br>Make sure your path is correct.<br>If you check multiple files then there can be no space between them.<br>Example: <code>{app,test,foo}</code>'
-        tag: GEM
+        tag: Gem
         url: https://github.com/ahoward/rego
         date: 2015-01-06
       -

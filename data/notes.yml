@@ -8,6 +8,145 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "<code>.on('click', '.filter > span', () ->)</code>"
+        body: 'adding the second argument to the click function will keep the event as live update.'
+        tag: what already exists?
+        url: url
+        date: use auto complete
+      -
+        title: "Coffeescript's fat arrow <code>=></code>"
+        body: 'Pushes <code>this</code> into next function.'
+        tag: javascript
+        url: ''
+        date: 2015-01-10
+      -
+        title: "Underscore's <code>_.template</code> uses the 'erb' (<code><%= %></code>)syntax as template."
+        body: ''
+        tag: javascript
+        url: ''
+        date: 2015-01-10
+      -
+        title: 'make background fill element put<br>top:0<br>bottom:0'
+        body: body
+        tag: what already exists?
+        url: url
+        date: 2015-01-10
+      -
+        title: "typeof foo != 'undefined'"
+        body: the nil check of JavaScript
+        tag: javascript
+        url: ''
+        date: 2015-01-10
+      -
+        title: "background-size: 100% 100%"
+        body: 'stretches property to fit the container'
+        tag: what already exists?
+        url: url
+        date: 2015-01-10
+      -
+        title: "<code>window.screen</code> methods"
+        body: "<code>.width</code><br> <code>.height</code><br> <code>.availWidth</code><br> <code>.availHeight</code><br> <code>.colorDepth</code><br> <code>.pixelDepth</code><br>"
+        tag: javascript
+        url: 'http://www.w3schools.com/js/js_window_screen.asp'
+        date: 2015-01-10
+      -
+        title: "<code>window.navigator</code> methods"
+        body: "
+          <code>.appName</code> return the name of the browse<br>
+          IE11, Chrome, Firefox, and Safari return appName 'Netscape'.<br>
+          <code>.appCodeName</code> return the name of the browse<br>
+          Chrome, Firefox, IE, Safari, and Opera all return appCodeName 'Mozilla'<br>
+          <code>.platform</code> returns the browser platform (operating system)<br>
+          <h2>Warning !!!</h2><br>
+The information from the navigator object can often be misleading, and should not be used to detect browser versions because:<br>
+Different browsers can use the same name<br>
+The navigator data can be changed by the browser owner<br>
+Some browsers misidentify themselves to bypass site tests<br>
+Browsers cannot report new operating systems, released later than the browser<br>
+          <code>.cookieEnabled</code> returns true if cookies are enabled, otherwise false<br>
+          <code>.language</code> returns the browser's language.<br>
+          <code>.javaEnabled()</code><br> returns true if Java is enabled"
+        tag: javascript
+        url: 'http://www.w3schools.com/js/js_window_navigator.asp'
+        date: 2015-01-10
+      -
+        title: "<code>window.history</code> methods"
+        body: "<code>history.back()</code> same as clicking back in the browser<br> <code>history.forward()</code> same as clicking forward in the browser"
+        tag: javascript
+        url: 'http://www.w3schools.com/js/js_window_history.asp'
+        date: 2015-01-10
+      -
+        title: "<code>window.location</code> methods"
+        body: "
+          <code>.href</code> returns the href (URL) of the current page<br>
+          <code>.hostname</code> returns the domain name of the web host<br>
+          <code>.pathname</code> returns the path and filename of the current page<br>
+          <code>.protocol</code> returns the web protocol used (http:// or https://)<br>
+          <code>.assign</code> loads a new document."
+        tag: javascript
+        url: 'http://www.w3schools.com/js/js_window_location.asp'
+        date: 2015-01-10
+      -
+        title: '<code>isNaN()</code'
+        body: 'check to see if a calculation resulted in Not a number.'
+        tag: javascript
+        url: ''
+        date: 2015-01-10
+      -
+        title: 'history | grep -curl'
+        body: 'look at last time used -curl in history.'
+        tag: git
+        url: ''
+        date: 2015-01-10
+      -
+        title: git reset -hard
+        body: 'starts over'
+        tag: git
+        url: ''
+        date: 2015-01-10
+      -
+        title: "Controllers have <code>before_action</code><br>Models have <code>before_save</code> and <code>before_validation</code>."
+        body: ''
+        tag: Rails
+        url: ''
+        date: 2015-01-10
+      -
+        title: How to debug anything
+        body: "Notes from a <a href='https://www.youtube.com/watch?v=VV7b7fs4VI8' target='_blank'>James Golic's talk</a>.(RIP)<br> Use strace<br> System trace<br> System call<br> Learn about it in the <code>man 2</code><br> <h2>Steps</h2><br> 1. formulate a hypothesis<br> 2. Test it<br> 3. Fix it.<br><br> <h2>Tips</h2><br> 1. Forget everything you think you know<br> 2. Get a third party opinion<br> 3. Locat the correct source code.<br> 4. Identify hard coded string to grep for.<br> 5. Stare at the code until it makes sense.<br> 6. Fix whatever is broken."
+        tag: craftsmanship
+        url: ''
+        date: 2015-01-10
+      -
+        title: "has a vs. is a vs. behaves like a"
+        body: 'has a - composition<br>is a - inheritance<br>behaves like a - modules with duck typing.'
+        tag: OOD
+        url: ''
+        date: 2015-01-10
+      -
+        title: Single Responsibility Principal
+        body: 'TODO put it here.'
+        tag: OOD
+        url: ''
+        date: 2015-01-10
+      -
+        title: composition
+        body: 'TODO put it here.'
+        tag: OOD
+        url: ''
+        date: 2015-01-10
+      -
+        title: "Test the interface, not the implementation"
+        body: ''
+        tag: Testing
+        url: ''
+        date: 2015-01-10
+      -
+        title: List of SCSS goodies to know.
+        body: "@extend<br>$variables<br>@mixin<br>@include<br>@if<br>@else<br>@for<br>@each<br>@mixin<br>@content"
+        tag: CSS
+        url: ''
+        date: 2015-01-10
+      -
         title: "rego {./lib/path/to/file.rb,./another/path/to/file.rb} -- bundle exec ruby -Itest test/this_test.rb -n /yyy/"
         body: "Rego Example with a specific file highlighted using ruby's regex flad (-n)"
         tag: GEM
@@ -38,9 +177,9 @@ collections:
         url: 'http://redis.io/documentation'
         date: 2015-01-06
       -
-        title: "<code>parseInt()</code>"
-        body: "Get just the number"
-        tag: JavaScript
+        title: "<code>parseInt(#, 10)</code>"
+        body: "Get just the number. Make sure to add the 10 to get the right number."
+        tag: javascript
         url: ''
         date: 2015-01-05
       -
@@ -87,7 +226,7 @@ collections:
             - top 20 events you should know<br>
             - top 10 javascript quirks<br>
             - object creation patterns"
-        tag: JavaScript
+        tag: javascript
         url: ''
         date: 2015-01-01
       -
@@ -228,30 +367,14 @@ collections:
         date: 2014-12-27
       -
         title: The get and set methods
-        body: "<code>var pile = {<br>
-          &nbsp;&nbsp;elements: ['eggshell', 'orange peel', 'worm'],<br>
-          &nbsp;&nbsp;get height() {<br>
-          return this.elements.length;<br>
-          &nbsp;},<br>
-          &nbsp;&nbsp;set height(value) {<br>
-          &nbsp;console.log('Ignoring attempt to set height to', value);<br>
-          &nbsp;&nbsp;}<br>
-          };<br>
-          <br>
-          console.log(pile.height);<br>
-          // → 3<br>
-          pile.height = 100;<br>
-          // → Ignoring attempt to set height to 100<br>
-          </code>
-          <cite>In object literal, the `get` or `set` notation for properties allows you to specify a function to be run when the property is read or written.</cite>
-          "
+        body: "<code>var pile = {<br> &nbsp;&nbsp;elements: ['eggshell', 'orange peel', 'worm'],<br> &nbsp;&nbsp;get height() {<br> return this.elements.length;<br> &nbsp;},<br> &nbsp;&nbsp;set height(value) {<br> &nbsp;console.log('Ignoring attempt to set height to', value);<br> &nbsp;&nbsp;}<br> };<br> <br> console.log(pile.height);<br> // → 3<br> pile.height = 100;<br> // → Ignoring attempt to set height to 100<br> </code> <cite>In object literal, the `get` or `set` notation for properties allows you to specify a function to be run when the property is read or written.</cite>"
         tag: javascript
         url: 'http://www.eloquentjavascript.net/'
         date: 2014-12-27
       -
         title: Object.keys()
         body: Returns an array of property names in the object
-        tag: jav
+        tag: javascript
         url: ''
         date: 2014-12-27
       -
