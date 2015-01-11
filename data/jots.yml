@@ -8,15 +8,15 @@ collections:
     date: 2014-12-15
     entries:
       -
-        img: 'jots/treasure.jpg'
-        title: "The darkness hides valuable treasure"
-        body: "People naturally avoid the painful and sad places of life. <br>But in those times, God shows Himself to those who seek for him."
-        date: 2014-12-02
-      -
         img: 'jots/creator.jpg'
         date: 2014-12-10
         title: 'Everything begins with the Creator'
         body: "Look through a microscope or telescope and be filled with awe. <br>'Awe' is not an attribute of chaos but a word we ascribe to the work of a Designer."
+      -
+        img: 'jots/treasure.jpg'
+        title: "The darkness hides valuable treasure"
+        body: "People naturally avoid the painful and sad places of life. <br>But in those times, God shows Himself to those who seek for him."
+        date: 2014-12-02
       -
         img: 'jots/heart.png'
         date: 2014-12-13
