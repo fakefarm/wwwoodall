@@ -8,13 +8,14 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Regular Expressions
+        body: "Regular Expressions is a language designed to help manage the English language.It concerns itself with for topics: Selecting text, the position of text, grouping text, and whitespace."
+        tag: Regex
+        url: ''
+        date: 2015-01-11
+      -
         title: "Some things to study..."
-        body: "
-        sinatra<br>
-        rack<br>
-        warden<br>
-        puma
-        "
+        body: "sinatra<br> rack<br> warden<br> puma"
         tag: progress
         url: ''
         date: 2015-01-10
