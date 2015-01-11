@@ -8,9 +8,80 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Some things to study..."
+        body: "
+        sinatra<br>
+        rack<br>
+        warden<br>
+        puma
+        "
+        tag: progress
+        url: ''
+        date: 2015-01-10
+      -
+        title: create methods to use instead of working with data
+        body: "example<br>
+        <code>def cog</code><br>
+        &nbsp;<code>@cog</code><br>
+        <code>end</code><br>
+        Insted of just calling<code>@cog</code> directly.
+        "
+        tag: craftsmanship
+        url: ''
+        date: 2015-01-10
+      -
+        title: Design Patterns
+        body: "Encapsulate what varies<br> Favor composition over inheritance<br> Program to an interface. (Not to an implementation.)<br> strive for loosly coupled designs<br> Classes should be open to extension, but closed for modification<br> a class should have only one reason to change.<br> <h2>Study these patterns</h2> strategy<br> observer<br> decorator<br> singleton<br> state<br> iterator<br>factory"
+        tag: craftsmanship
+        url: ''
+        date: 2015-01-10
+      -
+        title: "Ruby's Include vs. Extend"
+        body: "<b>Include</b> makes methods instance methods.<br> <b>Extend</b> makes class methods. "
+        tag: ruby
+        url: ''
+        date: 2015-01-10
+      -
+        title: Variables in Bash
+        body: "<code>export NAME='Dave'</code><br>"
+        body: "<code>echo $NAME</code>"
+        tag: bash
+        url: ''
+        date: 2015-01-10
+      -
+        title: Ruby Method Definitions
+        body: "<b>Signature</b> is the name of the method and parameters it defines.<br> <b>Parameters</b> are the placeholders for arguments.<br> <b>Arguments</b> are the actual values that get passed into the parameters.<br>"
+        tag: ruby
+        url: ''
+        date: 2015-01-10
+      -
+        title: Ruby Structs
+        body: "<code>drink = Struct.new(:size, :temp)</code><br><code>coffee = drink.new('tall', 'cold')</code><br>"
+        tag: ruby
+        url: ''
+        date: 2015-01-10
+      -
+        title: helpful ruby methods
+        body: "<code>is_a?()</code><br> <code>instance_of()</code><br> <code>ancestors</code><br>"
+        tag: ruby
+        url: ''
+        date: 2015-01-10
+      -
+        title: git shortlog
+        body: 'TODO'
+        tag: git
+        url: ''
+        date: 2015-01-10
+      -
+        title: "Methods with redundant arguments should be moved into the initializer"
+        body: ''
+        tag: ruby
+        url: ''
+        date: 2015-01-10
+      -
         title: "<code>.on('click', '.filter > span', () ->)</code>"
         body: 'adding the second argument to the click function will keep the event as live update.'
-        tag: jQuery
+        tag: JQuery
         url: ''
         date: 2015-01-10
       -
@@ -28,7 +99,7 @@ collections:
       -
         title: 'make background fill element put<br>top:0<br>bottom:0'
         body: body
-        tag: what already exists?
+        tag: CSS
         url: ''
         date: 2015-01-10
       -
@@ -40,7 +111,7 @@ collections:
       -
         title: "background-size: 100% 100%"
         body: 'stretches property to fit the container'
-        tag: what already exists?
+        tag: CSS
         url: ''
         date: 2015-01-10
       -
@@ -73,7 +144,7 @@ collections:
         url: 'http://www.w3schools.com/js/js_window_location.asp'
         date: 2015-01-10
       -
-        title: '<code>isNaN()</code'
+        title: '<code>isNaN()</code>'
         body: 'check to see if a calculation resulted in Not a number.'
         tag: javascript
         url: ''
@@ -98,7 +169,7 @@ collections:
         date: 2015-01-10
       -
         title: How to debug anything
-        body: "Notes from a <a href='https://www.youtube.com/watch?v=VV7b7fs4VI8' target='_blank'>James Golic's talk</a>.(RIP)<br> Use strace<br> System trace<br> System call<br> Learn about it in the <code>man 2</code><br> <h2>Steps</h2><br> 1. formulate a hypothesis<br> 2. Test it<br> 3. Fix it.<br><br> <h2>Tips</h2><br> 1. Forget everything you think you know<br> 2. Get a third party opinion<br> 3. Locat the correct source code.<br> 4. Identify hard coded string to grep for.<br> 5. Stare at the code until it makes sense.<br> 6. Fix whatever is broken."
+        body: "Notes from a <a href='https://www.youtube.com/watch?v=VV7b7fs4VI8' target='_blank'>James Golic's talk</a> (RIP)<br> Use strace<br> System trace<br> System call<br> Learn about it in the <code>man 2</code><br> <h2>Steps</h2><br> 1. formulate a hypothesis<br> 2. Test it<br> 3. Fix it.<br><br> <h2>Tips</h2><br> 1. Forget everything you think you know<br> 2. Get a third party opinion<br> 3. Locat the correct source code.<br> 4. Identify hard coded string to grep for.<br> 5. Stare at the code until it makes sense.<br> 6. Fix whatever is broken."
         tag: craftsmanship
         url: ''
         date: 2015-01-10
@@ -123,7 +194,7 @@ collections:
       -
         title: "Test the interface, not the implementation"
         body: ''
-        tag: Testing
+        tag: testing
         url: ''
         date: 2015-01-10
       -
@@ -141,13 +212,13 @@ collections:
       -
         title: '<code>head -10 data.csv</code>'
         body: 'check the first 10 lines of an import'
-        tag: Bash
+        tag: bash
         url: ''
         date: 2015-01-08
       -
         title: '<code>grep foo development.log</code>'
         body: 'look for the instances where foo was in the logs.'
-        tag: Bash
+        tag: bash
         url: ''
         date: 2015-01-08
       -
@@ -218,7 +289,7 @@ collections:
       -
         title: nil management is an iterative process
         body: ask questions about the data
-        tag: craftmanship
+        tag: craftsmanship
         url: ''
         date: 2015-01-01
       -
@@ -246,7 +317,7 @@ collections:
       -
         title: Defensive Coding
         body: "Experience will teach a level of nil checks and type checkings. Depending on the level of uncertainty and confidence in the data set you're dealing with."
-        tag: craftmanship
+        tag: craftsmanship
         url: ''
         date: 2015-01-01
       -
@@ -509,7 +580,7 @@ collections:
         tag: code
       -
         tag: testing
-        title: 'ruby -Itest test/models/name_of_file_controller_test.rb  -n /zz/'
+        title: '<code>ruby -Itest test/models/file_test.rb  -n /zz/</code>'
         subtitle: ''
         body: "Run a single test with the -n flag and an reg expression"
         url: ''
@@ -525,7 +596,7 @@ collections:
         state: ''
       -
         tag: bash
-        title: 'tar cfvz [name_of_zipped_version_of_file.tgz] [file that you are zipping]'
+        title: '<code>tar cfvz [name_of_zipped_version_of_file.tgz] [file that you are zipping]</code>'
         subtitle: ''
         body: "Zip a file from the terminal </br>The Zipped file needs to end with .tgz </br><b>Example;</b> 'tar cfvz myZippedFile.tgz BigFile' </br>cfvz stands for: create file verbose zip"
         url: ''
@@ -533,7 +604,7 @@ collections:
         state: ''
       -
         tag: bash
-        title: 'tail -f development.log | grep user'
+        title: '<code>tail -f development.log | grep user</code>'
         subtitle: ''
         body: 'live read of the file in question, ex- development.log. Using grep I can look for log enteries that only have user in them.'
         url: ''
@@ -541,7 +612,7 @@ collections:
         state: ''
       -
         tag: bash
-        title: 'find ./source/notes ./source/blog -type f -print0 | xargs -0 stat -f "%m %N" | sort -rn | head -3 | cut -f2- -d" "'
+        title: '<code>find ./source/notes ./source/blog -type f -print0 | xargs -0 stat -f "%m %N" | sort -rn | head -3 | cut -f2- -d" "</code>'
         subtitle: ''
         body: 'Recursively find the last updated files'
         url: ''
@@ -552,14 +623,6 @@ collections:
         title: 'alias gpom="git pull origin master"'
         subtitle: ''
         body: save yourself from typing sooo much
-        url: ''
-        date: 2014-12-02
-        state: ''
-      -
-        tag: bash
-        title: copr
-        subtitle: ''
-        body: 'this'
         url: ''
         date: 2014-12-02
         state: ''

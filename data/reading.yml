@@ -49,13 +49,13 @@ collections:
       -
         title: Clean Code
         body: ''
-        tag: Craftmanship
+        tag: Code
         url: ''
         date: 2014-10-01
       -
         title: Practical Object Oriented Design in Ruby
         body: ''
-        tag: Ruby
+        tag: Code
         url: ''
         date: 2014-12-31
       -
@@ -116,19 +116,19 @@ collections:
       -
         title: Eloquent JavaScript
         body: ''
-        tag: JavaScript
+        tag: Code
         url: ''
         date: 2014-10-01
       -
         title: "Secrets of a Millionaire Real Estate Developer"
         body: ''
-        tag: Career
+        tag: Business
         url: ''
         date: ''
       -
         title: "Kaplan GMAT Advanced 2009-2010 Edition: Intensive Prep for Top Students"
         body: ''
-        tag: Business School
+        tag: Business
         url: ''
         date: ''
       -
@@ -152,37 +152,37 @@ collections:
       -
         title: "The Well Grounded Rubyist"
         body: ''
-        tag: Ruby
+        tag: Code
         url: ''
         date: ''
       -
         title: "Test-Driven Development by Example"
         body: ''
-        tag: Craftmanship
+        tag: Code
         url: ''
         date: ''
       -
         title: "Everyday Scripting"
         body: ''
-        tag: Ruby
+        tag: Code
         url: ''
         date: ''
       -
         title: "Secrets of the JavaScript Ninja"
         body: ''
-        tag: JavaScript
+        tag: Code
         url: ''
         date: ''
       -
         title: "The Art &amp; Science of CSS"
         body: ''
-        tag: CSS
+        tag: Code
         url: ''
         date: ''
       -
         title: "Learn to Program"
         body: ''
-        tag: Ruby
+        tag: Code
         url: ''
         date: ''
       -
@@ -200,7 +200,7 @@ collections:
       -
         title: "Commercial Real Estate Investing: 12 Easy Steps to Getting Started"
         body: ''
-        tag: Career
+        tag: Business
         url: ''
         date: ''
       -
@@ -212,7 +212,7 @@ collections:
       -
         title: "Last Harvest: From Cornfield to New Town: Real Estate Development"
         body: ''
-        tag: Career
+        tag: Business
         url: ''
         date: ''
       -
@@ -224,13 +224,13 @@ collections:
       -
         title: "The 80/20 Principle: The Secret to Achieving More with Less"
         body: ''
-        tag: Perspective
+        tag: Management
         url: ''
         date: ''
       -
         title: "The On-Purpose Person: Making Your Life Make Sense : A Modern Parable"
         body: ''
-        tag: Goal setting
+        tag: Self-help
         url: ''
         date: ''
       -
@@ -242,7 +242,7 @@ collections:
       -
         title: "How to Become CEO: The Rules for Rising to the Top of Any Organization"
         body: ''
-        tag: Career
+        tag: Business
         url: ''
         date: ''
       -
@@ -279,7 +279,7 @@ collections:
       -
         title: "Rightly Dividing the Word of Truth (2 Timothy 2:15): Ten Outline Studies of the More Important Divisions of Scripture"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -303,7 +303,7 @@ collections:
       -
         title: "The Indwelling Life of Christ: All of Him in All of Me"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -315,7 +315,7 @@ collections:
       -
         title: "Reaching for the Invisible God: What Can We Expect to Find?"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -327,7 +327,7 @@ collections:
       -
         title: "The Screwtape Letters"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -343,12 +343,6 @@ collections:
         url: ''
         date: ''
       -
-        title: "Into the Wild"
-        body: ''
-        tag: Self-help
-        url: ''
-        date: ''
-      -
         title: "Under the Banner of Heaven: A Story of Violent Faith"
         body: ''
         tag: Non-fiction
@@ -357,7 +351,7 @@ collections:
       -
         title: "The Case for Christ Evangelism"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -375,13 +369,13 @@ collections:
       -
         title: "God Was in This Place and I, I Did Not Know: Finding Self, Spirituality and Ultimate Meaning"
         body: ''
-        tag: Essay
+        tag: Spiritual
         url: ''
         date: ''
       -
         title: "The E-Myth Revisited"
         body: ''
-        tag: Startup
+        tag: Business
         url: ''
         date: ''
       -
@@ -411,7 +405,7 @@ collections:
       -
         title: "What Color Is Your Parachute? 2003: A Practical Manual for Job-Hunters and Career Changers"
         body: ''
-        tag: Career
+        tag: Business
         url: ''
         date: ''
       -
@@ -441,13 +435,13 @@ collections:
       -
         title: "Build Your Own Ruby on Rails Web Applications"
         body: ''
-        tag: Rails
+        tag: Code
         url: ''
         date: ''
       -
         title: "The Art of War"
         body: ''
-        tag: Perspective
+        tag: Management
         url: ''
         date: ''
       -
@@ -519,7 +513,7 @@ collections:
       -
         title: "The Experience Economy: Work is Theatre &amp; Every Business a Stage"
         body: ''
-        tag: User Experience
+        tag: Business
         url: ''
         date: ''
       -
@@ -597,7 +591,7 @@ collections:
       -
         title: "Experiencing the Depths of Jesus Christ"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -633,14 +627,14 @@ collections:
       -
         title: "Secrets of a Millionaire Landlord: Maximize Profits and Minimize Hassles"
         body: ''
-        tag: Career
+        tag: Business
         url: ''
         date: ''
 
       -
         title: "Buffettology: The Previously Unexplained Techniques that Have Made Warren Buffett the World&apos;s Most Famous Invest"
         body: ''
-        tag: finance
+        tag: Finance
         url: ''
         date: ''
       -
@@ -682,13 +676,13 @@ collections:
       -
         title: "The Pursuit of God: With Study Guide"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
         title: "Case for Faith"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -748,13 +742,13 @@ collections:
       -
         title: "Woodworking For Dummies"
         body: ''
-        tag: Hobby
+        tag: General
         url: ''
         date: ''
       -
         title: "The Life You&apos;ve Always Wanted: Spiritual Disciplines for Ordinary People"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -766,7 +760,7 @@ collections:
       -
         title: "The Prayer of Jabez: Breaking Through to the Blessed Life"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -850,7 +844,7 @@ collections:
       -
         title: "Velvet Elvis: Repainting the Christian Faith"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -862,7 +856,7 @@ collections:
       -
         title: "The Cry of the Soul: How Our Emotions Reveal Our Deepest Questions about God"
         body: ''
-        tag: Theology
+        tag: Spiritual
         url: ''
         date: ''
       -
@@ -922,13 +916,13 @@ collections:
       -
         title: "Purpose Driven Youth Ministry"
         body: ''
-        tag: career
+        tag: Leadership
         url: ''
         date: ''
       -
         title: "How I Raised Myself From Failure"
         body: ''
-        tag: sales
+        tag: Sales
         url: ''
         date: ''
       -
@@ -940,13 +934,13 @@ collections:
       -
         title: "The Sun Also Rises"
         body: ''
-        tag: fiction
+        tag: Fiction
         url: ''
         date: ''
       -
         title: "Trump: The Art of the Deal"
         body: ''
-        tag: business
+        tag: Business
         url: ''
         date: ''
       -
@@ -959,12 +953,6 @@ collections:
         title: "Gung Ho!"
         body: ''
         tag: Management
-        url: ''
-        date: ''
-      -
-        title: "The Master Plan of Evangelism"
-        body: ''
-        tag: tag
         url: ''
         date: ''
       -
@@ -1024,25 +1012,25 @@ collections:
       -
         title: "Learning Ruby"
         body: ''
-        tag: Ruby
+        tag: Code
         url: ''
         date: ''
       -
         title: "The Passionate Programmer: Creating a Remarkable Career in Software Development"
         body: ''
-        tag: Career
+        tag: Business
         url: ''
         date: ''
       -
         title: "Beginning Ruby: From Novice to Professional"
         body: ''
-        tag: Ruby
+        tag: Code
         url: ''
         date: ''
       -
         title: "Build Your Own Web Site the Right Way Using HTML &amp; CSS"
         body: ''
-        tag: Front-end
+        tag: Code
         url: ''
         date: ''
       -
@@ -1054,14 +1042,20 @@ collections:
       -
         title: "Ruby on Rails 3 Tutorial: Learn Rails by Example"
         body: ''
-        tag: Rails
+        tag: Code
         url: ''
         date: ''
       -
         title: "Reality Check: The Irreverent Guide to Outsmarting, Outmanaging, and Outmarketing Your Competition"
         body: ''
-        tag: Startup
+        tag: Business
         url: ''
+        date: ''
+      -
+        title: "The End of Fashion"
+        body: ''
+        tag: Apparel
+        url: 'http://www.amazon.com/The-End-Fashion-Marketing-Clothing/dp/0060958200'
         date: ''
       -
         title: "Stealing MySpace: The Battle to Control the Most Popular Website in America"
@@ -1072,6 +1066,6 @@ collections:
       -
         title: "Beginning Rails 3"
         body: ''
-        tag: Rails
+        tag: Code
         url: ''
         date: ''

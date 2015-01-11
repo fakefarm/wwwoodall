@@ -8,6 +8,42 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Douglas Crockford: Monads and Gonads (YUIConf Evening Keynote)"
+        body: "Legendary JavaScript architect Douglas Crockford discusses one of the most elusive of all programming concepts: the monads. With this talk, Crockford attempts to break the long-standing Monad tutorial curse by explaining the concept and applications of monads in a way that is actually understandable to the audience."
+        tag: video
+        url: https://www.youtube.com/watch?v=dkZFtimgAcM
+        date: 2015-01-10
+      -
+        title:  8 Patterns to Refactor Fat Models
+        body: ''
+        tag: rails
+        url: http://davidraffauf.com/2014/07/28/using-7-8-patterns-to-refactor-fat-models/
+        date: 2015-01-10
+      -
+        title: '7 Patterns to Refactor Fat ActiveRecord Models'
+        body: ''
+        tag: rails
+        url: 'http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/'
+        date: 2015-01-10
+      -
+        title: "Ruby Conf 12 - Y Not- Adventures in Functional Programming by Jim Weirich"
+        body: "One of the deepest mysteries in the functional programming world is the Y-Combinator. Many have heard of it, but few have mastered its mysteries. Although fairly useless in real world software, understanding how the Y-Combinator works and why it is important gives the student an important insight into the nature of functional programming.<br> Join with us on this journey of understanding. Be prepared to curry your functions and bind your lambdas as we delve into the whys and wherefores of this paragon of functional programming. Although you will probably never have a need for the combinator, the effort put forth to understand it will improve your functional programming chops. This talk is not for the faint of heart, but the successful student will be richly rewarded.<br> Also, you will understand why 'Y-Combinator' is the perfect name for Paul Graham's start-up funding company."
+        tag: functional
+        url: 'https://www.youtube.com/watch?v=FITJMJjASUs'
+        date: 2015-01-10
+      -
+        title: Refactor out helper methods
+        body: "If you have complex view logic, this can easily lead to helper methods which call each other. See how to refactor this out into another object in this episode. This is also known as the presenter pattern."
+        tag: rails
+        url: 'http://railscasts.com/episodes/101-refactoring-out-helper-object'
+        date: 2015-01-10
+      -
+        title: Presenters in rails
+        body: 'Clean up complex view logic with the help of presenters, and doing this from scratch gives you a lot of flexibility. Here I show not only how to create presenters, but how to test them using Test Unit and RSpec.'
+        tag: rails
+        url: 'http://railscasts.com/episodes/287-presenters-from-scratch'
+        date: 2015-01-10
+      -
         title: Velocity.js
         body: "Velocity is an animation engine with the same API as jQuery's $.animate(). It works with and without jQuery. It's incredibly fast, and it features color animation, transforms, loops, easings, SVG support, and scrolling. It is the best of jQuery and CSS transitions combined."
         tag: javascript
