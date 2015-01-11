@@ -10,9 +10,9 @@ collections:
       -
         title: "<code>.on('click', '.filter > span', () ->)</code>"
         body: 'adding the second argument to the click function will keep the event as live update.'
-        tag: what already exists?
-        url: url
-        date: use auto complete
+        tag: jQuery
+        url: ''
+        date: 2015-01-10
       -
         title: "Coffeescript's fat arrow <code>=></code>"
         body: 'Pushes <code>this</code> into next function.'
@@ -29,7 +29,7 @@ collections:
         title: 'make background fill element put<br>top:0<br>bottom:0'
         body: body
         tag: what already exists?
-        url: url
+        url: ''
         date: 2015-01-10
       -
         title: "typeof foo != 'undefined'"
@@ -41,7 +41,7 @@ collections:
         title: "background-size: 100% 100%"
         body: 'stretches property to fit the container'
         tag: what already exists?
-        url: url
+        url: ''
         date: 2015-01-10
       -
         title: "<code>window.screen</code> methods"
@@ -51,21 +51,7 @@ collections:
         date: 2015-01-10
       -
         title: "<code>window.navigator</code> methods"
-        body: "
-          <code>.appName</code> return the name of the browse<br>
-          IE11, Chrome, Firefox, and Safari return appName 'Netscape'.<br>
-          <code>.appCodeName</code> return the name of the browse<br>
-          Chrome, Firefox, IE, Safari, and Opera all return appCodeName 'Mozilla'<br>
-          <code>.platform</code> returns the browser platform (operating system)<br>
-          <h2>Warning !!!</h2><br>
-The information from the navigator object can often be misleading, and should not be used to detect browser versions because:<br>
-Different browsers can use the same name<br>
-The navigator data can be changed by the browser owner<br>
-Some browsers misidentify themselves to bypass site tests<br>
-Browsers cannot report new operating systems, released later than the browser<br>
-          <code>.cookieEnabled</code> returns true if cookies are enabled, otherwise false<br>
-          <code>.language</code> returns the browser's language.<br>
-          <code>.javaEnabled()</code><br> returns true if Java is enabled"
+        body: "<code>.appName</code> return the name of the browse<br> IE11, Chrome, Firefox, and Safari return appName 'Netscape'.<br> <code>.appCodeName</code> return the name of the browse<br> Chrome, Firefox, IE, Safari, and Opera all return appCodeName 'Mozilla'<br> <code>.platform</code> returns the browser platform (operating system)<br> <h2>Warning !!!</h2><br> The information from the navigator object can often be misleading, and should not be used to detect browser versions because:<br> Different browsers can use the same name<br> The navigator data can be changed by the browser owner<br> Some browsers misidentify themselves to bypass site tests<br> Browsers cannot report new operating systems, released later than the browser<br> <code>.cookieEnabled</code> returns true if cookies are enabled, otherwise false<br> <code>.language</code> returns the browser's language.<br> <code>.javaEnabled()</code><br> returns true if Java is enabled"
         tag: javascript
         url: 'http://www.w3schools.com/js/js_window_navigator.asp'
         date: 2015-01-10
