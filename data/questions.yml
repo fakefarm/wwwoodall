@@ -69,38 +69,38 @@ collections:
         body: ""
       -
         date: 2014-12-02
-        tag: 'code'
+        tag: Code
         title: "How does one monitor the 99% of that app that's below the surface?"
         url: ''
         body: ""
       -
         date: 2014-12-02
-        tag: 'code'
+        tag: Code
         title: "How to best learn test_unit"
+        url: ''
+        body: ""
+      -
+        date: 2014-12-02
+        tag: Code
+        title: 'What is nginx?'
         url: ''
         body: ""
       # -
       #   date: 2014-12-02
-      #   tag: 'code'
+      #   tag: Code
       #   img: 'jots/creator.jpg'
       #   title: "What is SysOps?"
       #   url: ''
       #   body: "what happense here?"
       # -
       #   date: 2014-12-02
-      #   tag: 'code'
+      #   tag: Code
       #   title: "What is TechOps?"
       #   url: ''
       #   body: ""
       # -
       #   date: 2014-12-02
-      #   tag: 'code'
-      #   title: 'What is nginx?'
-      #   url: ''
-      #   body: ""
-      # -
-      #   date: 2014-12-02
-      #   tag: 'code'
+      #   tag: Code
       #   title: 'What are Cron jobs?'
       #   url: ''
       #   body: "Scheduled background jobs."
