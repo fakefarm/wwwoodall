@@ -8,6 +8,47 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Re-Read these books in 2015
+        body: "I want catch things I missed the first time I read these books. I want to start with fundamental language after spending to pick up basic language constructs and other minor details. Then, move into suggestions for application. Lastly look at the most abstract topics and see if they make sense now :-)<br>
+          <br><h2>Fundamentals</h2>
+          Programming Ruby<br>
+          Rails Recipes<br>
+          Agile Web Development With Rails<br>
+          Ruby Cookbook<br>
+          Eloquent Ruby<br>
+          Pragmatic Programmer<br>
+          Rails 3 Way<br>
+          Well Grounded Rubyist<br>
+          Simply Javascript<br>
+          Javascript Definitive Guide<br>
+          Javascript Ninja<br>
+          Learning Jquery<br>
+          Ng-book<br>
+          Linux Command Line<br>
+
+          <br><h2>Application</h2>
+          Everday Scripting With Ruby<br>
+          Metaprogramming Ruby<br>
+          Crafting Rails Apps<br>
+          Hight Performance Javascript<br>
+          Hight Performance Web Sites<br>
+          Rails Antipatterns<br>
+
+          <br><h2>Design & Development</h2>
+          Design Patterns In Ruby<br>
+          Practical Object Oriented Design In Ruby<br>
+          Javascript Patterns<br>
+          Working With Unix Processes<br>
+          Design Patterns<br>
+          Algorithms<br>
+          Test Driven Development By Example<br>
+          Don't Make Me Think<br>
+          Extreme Programming
+        "
+        tag: Craftsmanship
+        url: ''
+        date: 2015-01-12
+      -
         title: Regular Expressions
         body: "Regular Expressions is a language designed to help manage the English language.It concerns itself with for topics: Selecting text, the position of text, grouping text, and whitespace."
         tag: Regex

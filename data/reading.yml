@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Intermediate Accounting
+        body: ''
+        tag: Accounting
+        url: 'http://www.amazon.com/Intermediate-Accounting-Donald-E-Kieso/dp/1118147294'
+        date: 2018-08-12
+      -
         url: 'http://www.amazon.com/dp/0804139296/?tag=googhydr-20&hvadid=50410872996&hvpos=1t1&hvexid=&hvnetw=g&hvrand=3396129756002425689&hvpone=16.20&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_6s5y8hlzk_b'
         title: 'Zero to One'
         sub-title: ''
