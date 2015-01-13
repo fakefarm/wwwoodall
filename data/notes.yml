@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Mocking minitest
+        body: "two errors, one success<br>unexpected invocation - happens when my method is called with the wrong content.<br>Expected invocation was not called - happens when a method I expected to fire, doesn't.<br>Third is success where a method and proper data are both called and the test passes. Yay."
+        tag: ''
+        url: ''
+        date: 2015-01-13
+      -
         title: Re-Read these books in 2015
         body: "I want catch things I missed the first time I read these books. I want to start with fundamental language after spending to pick up basic language constructs and other minor details. Then, move into suggestions for application. Lastly look at the most abstract topics and see if they make sense now :-)<br>
           <br><h2>Fundamentals</h2>
