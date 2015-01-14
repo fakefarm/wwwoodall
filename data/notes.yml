@@ -8,9 +8,21 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Testing Tips
+        body: "Comment out all but the test in focus<br> use pry to compare expectations and assertions<br> time is tricky - use something like Timecop<br> Timecop is like an environment when time is part of the test<br> assertions and expectations are two different...<br> assertions fail immediately<br> expectation failures happen down the road when you call / don't call something.<br> Mocha is mock framework for minitest.<br> refer to source code to setup tests.<br> "
+        tag: Testing
+        url: ''
+        date: 2015-01-13
+      -
+        title: TimeCop
+        body: 'Timecop.freeze<br>Time.use_zone("Paris")<br>'
+        tag: Testing
+        url: 'https://github.com/travisjeffery/timecop'
+        date: 2015-01-13
+      -
         title: Mocking minitest
-        body: "two errors, one success<br>unexpected invocation - happens when my method is called with the wrong content.<br>Expected invocation was not called - happens when a method I expected to fire, doesn't.<br>Third is success where a method and proper data are both called and the test passes. Yay."
-        tag: ''
+        body: "<b>unexpected invocation</b> - happens when my method is called with the wrong content.<br><b>unsatisfied expectations</b> - happens when a method I expected to fire, doesn't.<br>Success when a method and proper data are both called correctly"
+        tag: Testing
         url: ''
         date: 2015-01-13
       -
@@ -242,7 +254,7 @@ collections:
       -
         title: "Test the interface, not the implementation"
         body: ''
-        tag: testing
+        tag: Testing
         url: ''
         date: 2015-01-10
       -
@@ -627,7 +639,7 @@ collections:
         url: ''
         tag: code
       -
-        tag: testing
+        tag: Testing
         title: '<code>ruby -Itest test/models/file_test.rb  -n /zz/</code>'
         subtitle: ''
         body: "Run a single test with the -n flag and an reg expression"

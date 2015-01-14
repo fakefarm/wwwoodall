@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "A Guide to Testing Rails Applications"
+        body: "This guide covers built-in mechanisms in Rails for testing your application."
+        tag: Testing
+        url: http://guides.rubyonrails.org/testing.html
+        date: 2015-01-13
+      -
         title: "Douglas Crockford: Monads and Gonads (YUIConf Evening Keynote)"
         body: "Legendary JavaScript architect Douglas Crockford discusses one of the most elusive of all programming concepts: the monads. With this talk, Crockford attempts to break the long-standing Monad tutorial curse by explaining the concept and applications of monads in a way that is actually understandable to the audience."
         tag: Learn
