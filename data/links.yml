@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Daniel Haire
+        body: 'He Fearlessly Constructs Designs That Are An Amalgam Of Historically Successful Visual Execution, Tasteful Experimentation, And A Touch Of Visual Wizardry.'
+        tag: Design
+        url: 'http://www.danielhaire.com/'
+        date: 2015-01-14
+      -
         title: "A Guide to Testing Rails Applications"
         body: "This guide covers built-in mechanisms in Rails for testing your application."
         tag: Testing
