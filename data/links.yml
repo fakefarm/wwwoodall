@@ -8,6 +8,24 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Lonely Planet Style Guide
+        body: <a hr 'images/notes/lonely.png' %>
+        tag: Design
+        url: 'http://rizzo.lonelyplanet.com/styleguide/design-elements/colours'
+        date: 2015-01-16
+      -
+        title: "The Quiet Society | Brian Hurst"
+        body: "Brian Hurst, a freelance graphic designer and illustrator. I live with my wife in Irvine, CA.<br> I love my work...this work consists of: logo design, print design, illustration, infographics and various graphics for web and mobile applications. Sometimes I dabble in motion graphics, web design and photography. I dig a good brainstorming session. This website serves as a place for me to showcase some of my work. I am always drawing, sketching, designing and looking for creative people to collaborate with. "
+        tag: Design
+        url: http://cargocollective.com/bhurst
+        date: 2015-01-15
+      -
+        title: "Let's code JavaScript"
+        body: "The JavaScript Screencast for Professionals Automation, test-driven development, refactoring, and much more! James Shore presents a fascinating screencast on rigorous, professional JavaScript development"
+        tag: JavaScript
+        url: http://www.letscodejavascript.com/
+        date: 2015-01-14
+      -
         title: Daniel Haire
         body: 'He Fearlessly Constructs Designs That Are An Amalgam Of Historically Successful Visual Execution, Tasteful Experimentation, And A Touch Of Visual Wizardry.'
         tag: Design

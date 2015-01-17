@@ -8,6 +8,18 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: VCR vs. Factories vs. Fixtures
+        body: "Each of these is used for different purposes. "
+        tag: Testing
+        url: ''
+        date: 2015-01-17
+      -
+        title: "VCR bug issues"
+        body: "Hit a bug when VCR cassette was not recording. So, we<br>- opened rails console<br>- require 'vcr'<br>- ran the vcr setup helper<br>- and ran command to get the record command.<br>- This added the cassette but it had one more issue with the URL being off.<br>- Updated the url and the test passed. "
+        tag: Testing
+        url: ''
+        date: 2015-01-15
+      -
         title: Testing Tips
         body: "Comment out all but the test in focus<br> use pry to compare expectations and assertions<br> time is tricky - use something like Timecop<br> Timecop is like an environment when time is part of the test<br> assertions and expectations are two different...<br> assertions fail immediately<br> expectation failures happen down the road when you call / don't call something.<br> Mocha is mock framework for minitest.<br> refer to source code to setup tests.<br> "
         tag: Testing
