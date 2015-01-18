@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'Angular ui-router'
+        body: 'This In-Depth Guide will take you through all aspects of the UI-Router and its components and options. '
+        tag: Angular
+        url: 'https://github.com/angular-ui/ui-router/wiki'
+        date: 2015-01-17
+      -
         title: Lonely Planet Style Guide
         body: <a hr 'images/notes/lonely.png' %>
         tag: Design
