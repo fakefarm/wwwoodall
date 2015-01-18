@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Lessons Learned Building A Productized Service
+        body: "It’s been three years since I launched my productized service. And, boy, did I do a lot of things wrong!"
+        tag: SAAS
+        url: http://www.smashingmagazine.com/2015/01/16/lessons-learned-building-a-productized-service/
+        date: 2015-01-18
+      -
         title: 'Angular ui-router'
         body: 'This In-Depth Guide will take you through all aspects of the UI-Router and its components and options. '
         tag: Angular
