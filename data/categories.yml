@@ -4,7 +4,7 @@ page:
 collections:
   -
     title: 'about Dave'
-    body: "I assume you'd like to learn something about me since you're on my site. :thumbsup:"
+    body: "<img src='images/dave_phone.png'>"
     tag: ''
     date: 2014-12-13
   -
