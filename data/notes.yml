@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Concerns
+        body: 'DHH use is the way of injecting both instance and class methods at the same time.'
+        tag: rails
+        url: ''
+        date: 2015-01-20
+      -
         title: VCR vs. Factories vs. Fixtures
         body: "Each of these is used for different purposes. "
         tag: Testing

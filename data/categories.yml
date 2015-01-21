@@ -4,7 +4,7 @@ page:
 collections:
   -
     title: 'about Dave'
-    body: "<img src='images/dave_phone.png'>"
+    body: "<img src='./images/dave_phone.png'>"
     tag: ''
     date: 2014-12-13
   -
