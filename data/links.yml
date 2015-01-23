@@ -8,6 +8,18 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Why does Ruby have blocks?
+        body: "Ruby’s blocks are easily the biggest hurdle most newbies to the language have to overcome. Even for people with years of experience in other languages, the the concept of blocks is often an elusive one at first."
+        tag: Ruby
+        url: "http://devblog.avdi.org/2015/01/16/why-does-ruby-have-blocks/"
+        date: 2015-01-23
+      -
+        title: Middleman Snippets
+        body: 'Snippets for your middleman project'
+        tag: middleman
+        url: 'https://github.com/flexbox/middleman-snippets'
+        date: 2015-01-23
+      -
         title: Rails Goat
         body: 'A vulnerable version of Rails that follows the OWASP Top 10'
         tag: security
