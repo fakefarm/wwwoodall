@@ -8,6 +8,18 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Simply Javascript"
+        body: "I bought this book in 2011. Funny thing is I've tried to read it a few times but it's been over my head for various reasons. I started reading yesterday and while it's 8 years old, it covers many of the core fundamentals in a very cohesive way. I would recommend this book to anyone."
+        tag: JavaScript
+        url: 'http://www.amazon.com/Simply-JavaScript-Kevin-Yank/dp/0980285801'
+        date: 2015-01-25
+      -
+        title: Programming Ruby
+        body: "AKA the Pick Axe book. Starting my fourth read because I learn something new each time."
+        tag: Code
+        url: 'https://pragprog.com/book/ruby/programming-ruby'
+        date: 2015-01-23
+      -
         title: Intermediate Accounting
         body: ''
         tag: Accounting

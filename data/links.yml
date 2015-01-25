@@ -8,6 +8,180 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "boilerplate/_grid.scss"
+        body: ''
+        tag: 'CSS'
+        url: "https://github.com/jaredcunha/boilerplate/blob/master/css/scss/modules/_grid.scss"
+        date: 2015-01-25
+      -
+        title: "#85 YAML Configuration (revised) - RailsCasts"
+        body: ''
+        tag: 'Rails'
+        url: "http://railscasts.com/episodes/85-yaml-configuration-revised?view=comments"
+        date: 2015-01-25
+      -
+        title: "jaredcunha/Lessons-Overview"
+        body: ''
+        tag: 'Learn'
+        url: "https://github.com/jaredcunha/Lessons-Overview"
+        date: 2015-01-25
+      -
+        title: "Atomic Design | Brad Frost"
+        body: 'CSS'
+        tag: 'what already exists?'
+        url: "http://bradfrost.com/blog/post/atomic-web-design/"
+        date: 2015-01-25
+      -
+        title: "A Guide to Testing Rails Applications — Ruby on Rails Guides"
+        body: ''
+        tag: 'Testing'
+        url: "http://guides.rubyonrails.org/testing.html"
+        date: 2015-01-25
+      -
+        title: "ActiveRecord::FixtureSet"
+        body: ''
+        tag: 'Rails'
+        url: "http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html"
+        date: 2015-01-25
+      -
+        title: "travisjeffery/timecop"
+        body: ''
+        tag: 'Testing'
+        url: "https://github.com/travisjeffery/timecop"
+        date: 2015-01-25
+      -
+        title: "learning timecop"
+        body: ''
+        tag: 'Testing'
+        url: "http://www.kavinder.com/blog/2014-03-29-get-to-know-a-gem-timecop/"
+        date: 2015-01-25
+      -
+        title: "Get to Know a Gem: Timecop"
+        body: ''
+        tag: 'Testing'
+        url: "http://www.kavinder.com/blog/2014-03-29-get-to-know-a-gem-timecop/"
+        date: 2015-01-25
+      -
+        title: "2015 trends"
+        body: ''
+        tag: 'Report'
+        url: "http://www.slideshare.net/socialogilvy/2015-trends?utm_campaign=PostBeyond&utm_medium=%231870&utm_term=Awesome+SlideShare+from+Social%40Ogilvy&ref=https%3A%2F%2Ftwitter.com%2Fi%2Fcards%2Ftfw%2Fv1%2F546305548099264513%3Fcardname%3Dplayer&utm_source=LinkedIn&autoplay=true"
+        date: 2015-01-25
+      -
+        title: "#276 Testing Time & Web Requests"
+        body: ''
+        tag: 'Testing'
+        url: "http://railscasts.com/episodes/276-testing-time-web-requests"
+        date: 2015-01-25
+      -
+        title: Rescue StandardError, Not 'Exception'"
+        body: ''
+        tag: 'Ruby'
+        url: "http://robots.thoughtbot.com/rescue-standarderror-not-exception"
+        date: 2015-01-25
+      -
+        title: "Why is it bad style to `rescue Exception => e` in Ruby?"
+        body: ''
+        tag: 'Ruby'
+        url: "http://stackoverflow.com/questions/10048173/why-is-it-bad-style-to-rescue-exception-e-in-ruby"
+        date: 2015-01-25
+      -
+        title: "Why You Should Never Rescue Exception in Ruby - Daniel Fone"
+        body: ''
+        tag: 'Ruby'
+        url: "http://daniel.fone.net.nz/blog/2013/05/28/why-you-should-never-rescue-exception-in-ruby/"
+        date: 2015-01-25
+      -
+        title: "Class: Mocha::Mock — Documentation for floehopper/mocha (master)"
+        body: ''
+        tag: 'Testing'
+        url: "http://www.rubydoc.info/github/floehopper/mocha/Mocha/Mock"
+        date: 2015-01-25
+      -
+        title: "Seven Reasons I Love Minitest"
+        body: ''
+        tag: 'Testing'
+        url: "https://blog.engineyard.com/2014/seven-reasons-i-love-minitest"
+        date: 2015-01-25
+      -
+        title: "A MiniTest::Spec Tutorial: Elegant Spec-Style Testing That Comes With Ruby"
+        body: ''
+        tag: 'Testing'
+        url: "http://www.rubyinside.com/a-minitestspec-tutorial-elegant-spec-style-testing-that-comes-with-ruby-5354.html"
+        date: 2015-01-25
+      -
+        title: "Using MiniTest::Spec With Rails - Ken Collins @MetaSkills.net"
+        body: ''
+        tag: 'Testing'
+        url: "http://metaskills.net/2011/03/26/using-minitest-spec-with-rails/"
+        date: 2015-01-25
+      -
+        title: "From Test::Unit & Shoulda To MiniTest::Spec & MiniShoulda"
+        body: ''
+        tag: 'Testing'
+        url: "http://metaskills.net/2011/01/25/from-test-unit-shoulda-to-minitest-spec-minishoulda/"
+        date: 2015-01-25
+      -
+        title: "15 Best Free Stock Photo Websites"
+        body: ''
+        tag: 'photos'
+        url: "http://despreneur.com/15-best-free-stock-photo-websites/"
+        date: 2015-01-25
+      -
+        title: "Free photos for creative use - Death to the Stock Photo"
+        body: ''
+        tag: 'photos'
+        url: "http://join.deathtothestockphoto.com/"
+        date: 2015-01-25
+      -
+        title: "Little Visuals - Sign up to get 7 hi-res images zipped up in your inbox every 7 days. Use them anyway you want."
+        body: ''
+        tag: 'photos'
+        url: "http://littlevisuals.co/"
+        date: 2015-01-25
+      -
+        title: "Superfamous - Folkert Gorter"
+        body: ''
+        tag: 'photos'
+        url: "http://superfamous.com/"
+        date: 2015-01-25
+      -
+        title: "Gratisography: Free, use as you please, high-resolution pictures."
+        body: ''
+        tag: 'photos'
+        url: "http://www.gratisography.com/"
+        date: 2015-01-25
+      -
+        title: "SplitShire - Free stock photos"
+        body: ''
+        tag: 'photos'
+        url: "http://splitshire.com/"
+        date: 2015-01-25
+      -
+        title: "New Old Stock"
+        body: ''
+        tag: 'photos'
+        url: "http://nos.twnsnd.co/"
+        date: 2015-01-25
+      -
+        title: "8 Unique Places to Find Quality Free Photos – Function"
+        body: ''
+        tag: 'photos'
+        url: "http://wefunction.com/8-unique-places-to-find-quality-free-photos/"
+        date: 2015-01-25
+      -
+        title: "Unsplash | Free High-Resolution Photos"
+        body: ''
+        tag: 'photos'
+        url: "https://unsplash.com/"
+        date: 2015-01-25
+      -
+        title: "Free High-Resolution Photos / Paul Jarvis"
+        body: ''
+        tag: 'photos'
+        url: "http://pjrvs.com/a/photos"
+        date: 2015-01-25
+      -
         title: Why does Ruby have blocks?
         body: "Ruby’s blocks are easily the biggest hurdle most newbies to the language have to overcome. Even for people with years of experience in other languages, the the concept of blocks is often an elusive one at first."
         tag: Ruby
