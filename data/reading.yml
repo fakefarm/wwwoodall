@@ -29,7 +29,7 @@ collections:
         url: 'http://www.amazon.com/dp/0804139296/?tag=googhydr-20&hvadid=50410872996&hvpos=1t1&hvexid=&hvnetw=g&hvrand=3396129756002425689&hvpone=16.20&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_6s5y8hlzk_b'
         title: 'Zero to One'
         sub-title: ''
-        tag:  'Currently Reading'
+        tag:  'Business'
         body: "Thanks <a href='http://www.twitter.com/dhassler' target='_blank'>Dave Hassler</a> for the Christmas gift!"
         date: 2014-12-06
         state: false
@@ -37,14 +37,14 @@ collections:
         url: 'http://www.amazon.com/The-Alchemist-Paulo-Coelho/dp/0061122416'
         title: 'The Alchemist'
         sub-title: ''
-        tag:  'Currently Reading'
+        tag:  'Fiction'
         body: "Andrew Hunter gave it to me. It's made for some good bathroom reading  <i>(Too much information??)</i>"
         date: 2014-12-06
         state: false
       -
         url: 'http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742'
         title: 'JavaSrcipt: Good Parts'
-        tag:  'Currently Reading'
+        tag:  'JavaScript'
         body: "A lean but compact book. I'm on my 4th pass and picking up something new each time."
         date: 2014-12-06
         state: false
@@ -52,7 +52,7 @@ collections:
         url: 'http://www.amazon.com/Launch-Internet-Millionaires-Anything-Business/dp/1630470171'
         title: 'Launch'
         sub-title: ''
-        tag:  'Currently Reading'
+        tag:  'Marketing'
         body: "Michael Williams met the author and gave me a signed copy. It's better than I expected it to be. I hope to apply what I'm learning to <a href='www.twitter.com/catmathdo' target='_blank'>Cat Math Do</a>"
         date: 2014-12-06
         state: false
