@@ -1,0 +1,10 @@
+.album {
+  @include row();
+  position: relative;
+}
+
+.pic {
+  @include span-columns(4);
+  @include omega(3n);
+  margin-bottom: 2em;
+}

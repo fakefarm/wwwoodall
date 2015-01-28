@@ -74,6 +74,15 @@ end
   proxy "/#{name}.html", "/templates/grid/grid.html", :locals => { :file_name => name }, :ignore => true
 end
 
+[
+  'ruby-conf',
+  'december-2014',
+  'wells-school',
+  'fathers-day'
+].each do |album|
+  proxy "/#{album}.html", "/templates/album/album.html", :locals => { :album => album }, :ignore => true
+end
+
 # Post pages.
 [
   "jots"
