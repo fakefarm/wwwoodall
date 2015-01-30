@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Rails Diff
+        body: "RailsDiff is about what you'd have to change about your app's configuration when upgrading Rails versions, not about what Rails has changed internally."
+        tag: Rails
+        url: 'http://railsdiff.org/'
+        date: 2015-01-29
+      -
         title: "boilerplate/_grid.scss"
         body: ''
         tag: 'CSS'
