@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: How do I use postgres in my development environment?
+        body: ''
+        tag: Rails
+        url: ''
+        date: 2015-01-30
+      -
         title: How do I incorporate SOLID into my code?
         body: ""
         tag: Code
