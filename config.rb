@@ -65,6 +65,11 @@ helpers do
   end
 end
 
+# Notes as pages _dw TODO make this into show page for notes, jots, questions.
+data.notes.collections[0]['entries'].each do |note|
+  proxy "/notes/#{note.title.parameterize}.html", "/templates/note/show.html", :locals => { :note => note }, :ignore => true
+end
+
 # Card pages
 [
   "pictures"

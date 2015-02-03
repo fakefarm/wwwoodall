@@ -8,7 +8,7 @@ collections:
     date: 2014-12-15
     entries:
       -
-        title: "Testing first is the cheapest and best way to code."
+        title: "Testing first is the cheapest way to code."
         body: "
         <img src='/images/notes/test_cost.png'>
         <p>Testing software is not an optional aspect to writing software. Your software will be tested (read 'used') by you, your boss, and your customers. Your task is to ensure that your code, used by other people, works. When a bug arises it will be your job to fix it. You can fix it now or you can fix it long after you have forgotten how you implemented the feature in the first place.</p>
