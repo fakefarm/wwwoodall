@@ -65,10 +65,17 @@ helpers do
   end
 end
 
+# Card pages
+[
+  "pictures"
+].each do |name|
+  proxy "/#{name}.html", "/templates/cards/card.html", :locals => { :file_name => name }, :ignore => true
+end
+
+
 # Grid pages.
 [
   "gifs",
-  'pictures',
   'watching'
 ].each do |name|
   proxy "/#{name}.html", "/templates/grid/grid.html", :locals => { :file_name => name }, :ignore => true

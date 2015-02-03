@@ -1,6 +1,6 @@
 page:
   title: Watching
-  subtitle: "Anything with a pause button."
+  subtitle: "On the rare occasions I am not parenting, reading, or sleeping."
 collections:
   -
     title: Movies
@@ -10,7 +10,7 @@ collections:
       -
         url: ''
         title: 'The Grand Budapest Hotel'
-        video: <iframe width="560" height="415" src="//www.youtube.com/embed/2bTbW70umbQ?rel=0" frameborder="0" allowfullscreen></iframe>
+        video: <iframe width="740" height="415" src="//www.youtube.com/embed/2bTbW70umbQ?rel=0" frameborder="0" allowfullscreen></iframe>
         tag: wes anderson
         date: 2015-01-01
         classes: big
