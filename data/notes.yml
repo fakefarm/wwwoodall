@@ -8,6 +8,41 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Testing first is the cheapest and best way to code."
+        body: "
+        <img src='/images/notes/test_cost.png'>
+        <p>Testing software is not an optional aspect to writing software. Your software will be tested (read 'used') by you, your boss, and your customers. Your task is to ensure that your code, used by other people, works. When a bug arises it will be your job to fix it. You can fix it now or you can fix it long after you have forgotten how you implemented the feature in the first place.</p>
+        <br><h3>Proactive vs. Reactive workflows</h3>
+        <img src='/images/notes/test_vs.png'>
+        <p>It's not a matter of <em>if</em> you'll test, but a matter of <em>when</em>. You can either test pro-actively or reactively.</p>
+        <br>
+        <h3>Testing first is the cheapest route</h3>
+          <img src='/images/notes/test_flow.png'>
+          <h5>Communication</h5>
+            <p>This flow is also the best way to communicate back to stakeholders. Your tests are summaries of the work you have completed and the problems you have solved.</p>
+          <h5>Feature Documentation</h5>
+          <p>Take advantage of all the contextual meetings and brain juice invested into understanding this feature and let your first response be writing a failing assertion. You will receive immediate feedback of failure and progress. Tests are a great place to document the new features. You will know the feature is complete when the tests pass.</p>
+          <h5>Bug Spotting</h5>
+          <p>Tests flush out bugs.</p>
+          <h5>Technical Debt / Legacy Code</h5>
+          <p>You might have technical debt when you hear these comments;</p>
+          <cite>Does anyone know what this does?</cite><br>
+          <cite>Why does X break when I change Z?</cite>
+          <h5>Improves Quality</h5>
+          <p>Quality is improved because code has to be indicative, measurable, and tested.</p>
+          <p>You might think that you can't write a test for it, but you can just use it. Well, that is a short lived does of happiness. Because either that will end up breaking or you will need to modify it in some way. You are not going to write any code more complex than you will be able to test so you should write tests at the outset.</p>
+        <br><h3>Things to test</h3>
+        <h5>Return values</h5>
+        <p>Make sure you get what you expect.</p>
+        <h5>Output</h5>
+        <p>Do you get a 200? Does the page contain the information you expect?</p>
+        <h5>Side Effects</h5>
+        <p>Is the product available for sale once you activate it?</p>
+        "
+        tag: 'Testing'
+        url: 'http://www.slideshare.net/Skud/test-driven-development-tutorial'
+        date: 2015-02-03
+      -
         title: Concerns
         body: 'DHH use is the way of injecting both instance and class methods at the same time.'
         tag: rails
