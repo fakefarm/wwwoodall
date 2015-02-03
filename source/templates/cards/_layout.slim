@@ -3,6 +3,6 @@
     .card
       .card-image
         img alt="" src="#{item['entries'][0].url}"
-      .card-header= link_to item.title, item.slug
+      .card-header= link_to item.title, "/#{item.slug}"
       .card-copy
         p= item.caption
