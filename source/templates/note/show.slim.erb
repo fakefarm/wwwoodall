@@ -1,2 +1,3 @@
 h1 = note.title
-= note.body
+p = note.body
+p = link_to 'visit link', note.url if note.url.present?
