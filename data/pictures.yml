@@ -1,13 +1,18 @@
 page:
   title: pictures
-  subtitle: Albums.
+  subtitle: Good times.
 collections:
   -
     title: San Diego
-    slug: ruby-conf
+    slug: bro-conf
     caption: "I went to CA for RubyConf. Brother Mike lives there so we had some fun."
     date: 2014-11-20
     entries:
+      -
+        video: ''
+        url: '/images/pictures/sandiego/sd_210.jpg'
+        date: 2015-01-08
+        caption: sd_210.jpg
       -
         video: ''
         url: '/images/pictures/sandiego/sd_233.png'
@@ -848,11 +853,6 @@ collections:
         url: '/images/pictures/sandiego/sd_209.jpg'
         date: 2015-01-08
         caption: sd_209.jpg
-      -
-        video: ''
-        url: '/images/pictures/sandiego/sd_210.jpg'
-        date: 2015-01-08
-        caption: sd_210.jpg
       -
         video: ''
         url: '/images/pictures/sandiego/sd_211.jpg'

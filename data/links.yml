@@ -8,6 +8,60 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Using The CSS :target Selector To Create JavaScript-less UI Effects : Adobe Dreamweaver Team Blog"
+        body: ''
+        tag: CSS
+        url: "http://blogs.adobe.com/dreamweaver/2015/01/using-the-css-target-selector-to-create-javascript-less-ui-effects.html#.VNJ1ZlVXQtY"
+        date: 2015-02-04
+      -
+        title: "A Guide to Testing Rails Applications — Ruby on Rails Guides"
+        body: ''
+        tag: Testing
+        url: "http://guides.rubyonrails.org/testing.html#the-low-down-on-fixtures"
+        date: 2015-02-04
+      -
+        title: "Matt Sears | Minitest Quick Reference"
+        body: ''
+        tag: Testing
+        url: "http://www.mattsears.com/articles/2011/12/10/minitest-quick-reference"
+        date: 2015-02-04
+      -
+        title: "Matt Sears | Ruby Blocks as Dynamic Callbacks"
+        body: ''
+        tag: Ruby
+        url: "http://www.mattsears.com/articles/2011/11/27/ruby-blocks-as-dynamic-callbacks"
+        date: 2015-02-04
+      -
+        title: "HTML5DevConf Christian Heilmann, Mozilla: Write less, achieve Meh - YouTube"
+        body: ''
+        tag: Video
+        url: "https://www.youtube.com/watch?v=enIautN3_tI"
+        date: 2015-02-04
+      -
+        title: "Ractive.js | The diamond age of web development"
+        body: ''
+        tag: JavaScript
+        url: "http://www.ractivejs.org/"
+        date: 2015-02-04
+      -
+        title: "PixelBuddha Digest #14"
+        body: ''
+        tag: Resource
+        url: "http://pixelbuddha.net/digest/pixelbuddha-digest-14"
+        date: 2015-02-04
+      -
+        title: "HTML5DevConf & IoTaconf - YouTube"
+        body: ''
+        tag: Video
+        url: "https://www.youtube.com/user/HTML5DevConf/videos"
+        date: 2015-02-04
+      -
+        title: Simple Cov
+        body: "Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites"
+        tag: Gem
+        url: 'https://github.com/colszowka/simplecov'
+        date: 2015-02-04
+      -
         title: Rails Diff
         body: "RailsDiff is about what you'd have to change about your app's configuration when upgrading Rails versions, not about what Rails has changed internally."
         tag: Rails

@@ -7,6 +7,38 @@ collections:
     date: 2014-12-13
     entries:
       -
+        title: welcome
+        body: ''
+        tag: 'welcome'
+        video: ''
+        caption: ''
+        url: http://i.imgur.com/l8Db3uk.gif
+        date: 2015-01-27
+      -
+        title: whoa
+        body: ''
+        tag: 'whoa'
+        video: ''
+        caption: ''
+        url: http://i.imgur.com/Rjpzo0g.gif
+        date: 2015-01-27
+      -
+        title: happy
+        body: ''
+        tag: 'happy'
+        video: ''
+        caption: ''
+        url: http://media4.giphy.com/media/mIZ9rPeMKefm0/giphy.gif
+        date: 2015-01-27
+      -
+        title: bam
+        body: ''
+        tag: 'bam'
+        video: ''
+        caption: ''
+        url: http://media.giphy.com/media/dWkTxGMlSPGda/giphy.gif
+        date: 2015-01-27
+      -
         title: gulp
         body: ''
         tag: 'gulp'
