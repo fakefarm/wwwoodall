@@ -92,7 +92,7 @@ end
 end
 
 [
-  'ruby-conf',
+  'bro-conf',
   'december-2014',
   'wells-school',
   'fathers-day'

@@ -21,7 +21,7 @@ collections:
         date: 2015-02-04
       -
         title: "Matt Sears | Minitest Quick Reference"
-        body: ''
+        body: "This quick reference aims to demonstrate MiniTest's main concepts and provide real world examples to get you acquainted quickly. Let's start with MiniTest::Spec."
         tag: Testing
         url: "http://www.mattsears.com/articles/2011/12/10/minitest-quick-reference"
         date: 2015-02-04

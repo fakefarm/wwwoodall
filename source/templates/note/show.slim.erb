@@ -1,3 +1,10 @@
 h1 = note.title
-p = note.body
-p = link_to 'visit link', note.url if note.url.present?
+- if note.body.present?
+  p = note.body
+- else
+  p I've found #{note.title} to be worth bookmarking.
+
+- if note.url.present?
+  p
+    = link_to 'visit it', note.url, target: '_blank'
+    | or, feel free to look around at what else I have around here...
