@@ -19,7 +19,7 @@
       p= link_to "all #{file_name}", "/#{file_name}"
 
   / grid template - managed in config.rb
-  - ['gifs', 'watching' ].each do |file_name|
+  - ['gifs' ].each do |file_name|
     span id=file_name
     = render_partial 'shared/page_titles',  locals: { file_name: file_name }
 

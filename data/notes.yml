@@ -10,19 +10,19 @@ collections:
       -
         title: "Don't forget to mock the method you expect to call."
         body: "Testing with VCR"
-        tag: testing
+        tag: Testing
         url: ''
         date: 2015-02-04
       -
         title: "response method"
         body: "During testing, the response is available with nice methods like <code>response.body</code> and <code>response.header</code>"
-        tag: testing
+        tag: Testing
         url: ''
         date: 2015-02-04
       -
         title: 'Stop using -Itest flag'
         body: "Remove the need to use the -Itest flag when running tests with minitest.<br>Add <code>export RUBYOPT=-Itest</code> to your .bash_profile. Now you can run tests with simply <code>(bundle exec) ruby test/path</code>"
-        tag: Testings
+        tag: Testing
         url: ''
         date: 2015-02-04
       -
