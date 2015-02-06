@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "c.debug_logger = File.open('debug_output.txt', 'w')"
+        body: "When the VCR tape isn't cooperating"
+        tag: Testing
+        url: ''
+        date: 2015-02-05
+      -
         title: "Don't forget to mock the method you expect to call."
         body: "Testing with VCR"
         tag: Testing

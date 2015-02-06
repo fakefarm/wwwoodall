@@ -8,6 +8,30 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: Kate Bingaman-Burt
+        body: '<img src="http://c3.staticflickr.com/3/2809/12163358126_f0a09f3775_h.jpg">'
+        tag: Design
+        url: 'http://katebingamanburt.com/'
+        date: 2015-02-06
+      -
+        title: Mike Burton
+        body: '<img src="http://static1.squarespace.com/static/5112cfd8e4b007d14096e37e/t/5445d2cfe4b06ae79338a6f7/1413862098260/?format=1000w">'
+        tag: Design
+        url: 'http://www.mikeyburton.com/'
+        date: 2015-02-06
+      -
+        title: CMYKaren
+        body: '<img src="http://41.media.tumblr.com/619cdec4e7f3802851a1ce304dc5921b/tumblr_n0e1xyqXAX1qfjfz9o1_1280.jpg">'
+        tag: Design
+        url: 'http://cmykaren.com/'
+        date: 2015-02-06
+      -
+        title: "How to Use Link TITLE Attribute Correctly"
+        body: "The title is not meant to be a duplication of the anchor text"
+        tag: SEO
+        url: "http://www.searchenginejournal.com/how-to-use-link-title-attribute-correctly/"
+        date: 2015-02-06
+      -
         title: "Using The CSS :target Selector To Create JavaScript-less UI Effects : Adobe Dreamweaver Team Blog"
         body: ''
         tag: CSS
@@ -285,7 +309,7 @@ collections:
         date: 2015-01-16
       -
         title: "The Quiet Society | Brian Hurst"
-        body: "Brian Hurst, a freelance graphic designer and illustrator. I live with my wife in Irvine, CA.<br> I love my work...this work consists of: logo design, print design, illustration, infographics and various graphics for web and mobile applications. Sometimes I dabble in motion graphics, web design and photography. I dig a good brainstorming session. This website serves as a place for me to showcase some of my work. I am always drawing, sketching, designing and looking for creative people to collaborate with. "
+        body: "<img src='http://payload255.cargocollective.com/1/0/30315/7401430/Giraffe.png'> Brian Hurst, a freelance graphic designer and illustrator. I live with my wife in Irvine, CA.<br> I love my work...this work consists of: logo design, print design, illustration, infographics and various graphics for web and mobile applications. Sometimes I dabble in motion graphics, web design and photography. I dig a good brainstorming session. This website serves as a place for me to showcase some of my work. I am always drawing, sketching, designing and looking for creative people to collaborate with. "
         tag: Design
         url: http://cargocollective.com/bhurst
         date: 2015-01-15
@@ -297,7 +321,7 @@ collections:
         date: 2015-01-14
       -
         title: Daniel Haire
-        body: 'He Fearlessly Constructs Designs That Are An Amalgam Of Historically Successful Visual Execution, Tasteful Experimentation, And A Touch Of Visual Wizardry.'
+        body: "<img src='http://static1.squarespace.com/static/5346f433e4b06a4afe12aa1b/534dfdefe4b0126cce83dcbd/53eb84d8e4b0da30800ce404/1407943938061/?format=1000w'>He Fearlessly Constructs Designs That Are An Amalgam Of Historically Successful Visual Execution, Tasteful Experimentation, And A Touch Of Visual Wizardry."
         tag: Design
         url: 'http://www.danielhaire.com/'
         date: 2015-01-14
