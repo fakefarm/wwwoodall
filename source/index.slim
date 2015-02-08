@@ -1,10 +1,5 @@
-.logo.animated.fadeInDownBig
-  = image_tag 'logo2.png'
 .index
   span#jots
-  .intro-text
-    h3#tag-title= data.jots.page.title
-    p.date= data.jots.page.subtitle
   = render_partial 'templates/jot/layout', locals: { file_name: 'jots', limit: 0 }
   .sectional
       p= link_to "all jots", "/jots"

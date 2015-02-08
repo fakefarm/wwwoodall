@@ -1,7 +1,7 @@
 nav.left-nav
   .bio-pic
     =image_tag 'dave_woodall.jpg'
-  p Dave Woodall
+  p= link_to 'Dave Woodall', '/about-dave'
   .bio Christian, Husband, Dad, Developer, Designer, Drawer, Inventor, INTJ, Reader, Writer, French press Snowboard then beers.
   .location Boulder, CO
   = render_partial 'shared/nav_links'
