@@ -1,0 +1,8 @@
+html
+  = render_partial 'shared/meta'
+  = stylesheet_link_tag 'application'
+
+  body class="#{page_classes}"
+    .l-container
+      = yield
+  = render_partial 'shared/footer/stuff'

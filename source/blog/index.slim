@@ -14,22 +14,9 @@ layout: layout
 
 .l-container
   .l-blog
-    .fade-in-element
-      .scroll-on-page
-        aside#scroll-on-page-top
-          .blog-tags
-            p Tags
-            ul
-              - blog_tags.each do |tag|
-                li= tag
     .l-copy#container
+      h2 Topics
+      p I like to break down blogs into smaller, similar posts.
       #blog
-        - blog.articles.each do |post|
-          article.type-system-traditional#article data-tag="#{post.tags.first}"
-            .post
-              h1= post.title
-              p= post.summary
-              .link=link_to post.url, class: 'read-more' do
-                ' continue reading
-                |
-                  &rsaquo;
+        - blog_tags.each do |tag|
+              h3= link_to tag, "/#{tag.parameterize}"
