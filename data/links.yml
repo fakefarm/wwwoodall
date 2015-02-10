@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'COLORRRS | rgb and hex converter'
+        body: 'Nice color converter. Press the space bar for random colors. <br> Good find <a href="https://twitter.com/dotsara">Sara</a>!'
+        tag: CSS
+        url: 'http://hex.colorrrs.com/'
+        date: 2015-02-09
+      -
         title: Kate Bingaman-Burt
         body: '<img src="http://c3.staticflickr.com/3/2809/12163358126_f0a09f3775_h.jpg">'
         tag: Design

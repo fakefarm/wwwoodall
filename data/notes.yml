@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "To much reduce()"
+        body: "Working on a story that was missing data. I followed the path and discovered that <code>map()</code> was being used and removing everything but an <b>id</b>. It was an easy fix to simply return a hash instead of an integer. That helped me see how reduce can cut out more info than it should. Not a bug but a change in code requirements. It was the first time I had seen <code>map</code>, over reducing."
+        tag: Craftsmanship
+        url: ''
+        date: 2015-02-09
+      -
         title: "c.debug_logger = File.open('debug_output.txt', 'w')"
         body: "When the VCR tape isn't cooperating"
         tag: Testing
