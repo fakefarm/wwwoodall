@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Matthew 6:24"
+        body: "No one can serve two masters. Either you will hate the one and love the other, or you will be devoted to the one and despise the other. You cannot serve both God and money."
+        tag: Money
+        url: ''
+        date: 2015-02-10
+      -
         date: 2014-12-02
         tag: Genesis
         title: '1:5'

@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Web Mock & VCR Testing Presentation"
+        body: "Nice slideshow"
+        tag: Testing
+        url: 'http://marnen.github.io/webmock-presentation/webmock.html#(1)'
+        date: 2015-02-11
+      -
         title: 'COLORRRS | rgb and hex converter'
         body: 'Nice color converter. Press the space bar for random colors. <br> Good find <a href="https://twitter.com/dotsara">Sara</a>!'
         tag: CSS
