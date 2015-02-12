@@ -8,15 +8,18 @@ layout: layout
   .intro-text
     h3#tag-title blog
     p.date
-      | Read
-      '
-      = link_to 'How I blog', '/blog/how-i-blog/'
+      | I typically write about 300 words at a time.
+      br
+      | I created topics because I usually have more to say.
+
 
 .l-container
   .l-blog
     .l-copy#container
-      h2 Topics
-      p I like to break down blogs into smaller, similar posts.
       #blog
-        - blog_tags.each do |tag|
-              h3= link_to tag, "/#{tag.parameterize}"
+        - data.categories.collections.each do |cat|
+          article.type-system-traditional.post
+            h1= link_to cat.title, "/#{cat.title.parameterize}"
+            p.type = pluralize(post_count(cat.title), 'post')
+            p= cat.body
+

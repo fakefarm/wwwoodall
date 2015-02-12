@@ -3,22 +3,20 @@ page:
   subtitle: things I've made along the way.
 collections:
   -
-    title: 'about Dave'
-    body: "<img src='/images/dave_phone.png'>"
-    tag: ''
-    date: 2014-12-13
-  -
-    title: 'Business Idea...'
-    body: 'Some things I think about during the day.'
-    tag: ''
-    date: 2014-12-13
-  -
+    image: ''
     title: 'Learning to Code'
     body: "There is a rite of passage you must go through. It's the path of being a bad coder. The purpose of this time is to learn to become comfortable in ignorance and incompetence yet still prevail. Software will build your faith and resolve as you begin to see that time, patience, and determination will break through the unknown."
     tag: ''
     date: 2014-12-13
   -
+    image: ''
     title: 'HTML is the new English'
     body: "I didn't learn to code until my early 30's. These posts describe my views and reasoning why I took the plunge into a long and difficult path."
+    tag: ''
+    date: 2014-12-13
+  -
+    image: 'dave_phone.png'
+    title: 'about Dave'
+    body: "Things I'd tell you over beers"
     tag: ''
     date: 2014-12-13
