@@ -7,6 +7,10 @@ helpers do
     end
   end
 
+  def post_count(tag)
+    blog.articles.map { |b| b.tags.include?(tag) }.inject(0) { |c,d| if d == true; c+=1; end; c}
+  end
+
   def blog_tags
     tags = blog.articles.map do |tag|
       tag.tags.first
