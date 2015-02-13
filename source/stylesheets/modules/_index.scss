@@ -72,7 +72,7 @@
 
   p {
     margin: auto;
-    font-size: .8em;
+    font-size: .95em;
 
     @include media($large-screen) {
       width: $intro-text-width;
@@ -92,7 +92,7 @@
 }
 
 .jot-blurb {
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 22px;
   text-align: center;
 }
@@ -119,7 +119,7 @@
       text-transform: uppercase;
     }
     text-align: left;
-    font-size: 0.9em;
+    font-size: 1em;
     position: fixed;
     right: 2em;
     top: 2em;

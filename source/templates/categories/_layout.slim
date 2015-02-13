@@ -8,9 +8,9 @@
 
 .categories
   article.type-system-traditional.categories
-    - data.categories.collections.each do |cat|
+    - data.blog.collections.each do |cat|
       - if cat.title == category
-        h3.blurb= cat.body
+        p.blurb= cat.body
     - pages.reverse.each do |s|
       .post
         h1= link_to s.title, s.url

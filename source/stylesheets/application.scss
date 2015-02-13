@@ -26,7 +26,6 @@
 @import 'modules/nav';
 @import 'modules/footer';
 
-@import 'modules/blog/blog_index';
 @import 'modules/blog/blog_post';
 
 // Templates & overrides
@@ -34,6 +33,7 @@
 @import 'modules/lists/links';
 @import 'modules/lists/questions';
 @import 'modules/lists/shortcuts';
+@import 'modules/landing';
 
 @import 'modules/grid/grid';
 @import 'modules/grid/cards';

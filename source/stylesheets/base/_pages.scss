@@ -24,7 +24,7 @@ body {
 // About
 .about {
   h1, h2, h3, h4, li { color: white; }
-  h2, h3, h4, li { font-family: $fat; }
+  h2, h3, h4, li { font-family: $serif; }
   p { color: $light-yellow; }
   li { font-size: 1.2em; }
 }
@@ -53,7 +53,7 @@ body {
 // _dw TODO - change from portfolio to sites
 .portfolio {
   h1, h2, h3, h4, li { color: $slate; }
-  h2, h3, h4, li { font-family: $fat; }
+  h2, h3, h4, li { font-family: $serif; }
   p { color: $bird-light-green; }
   li { font-size: 1.2em; }
 }

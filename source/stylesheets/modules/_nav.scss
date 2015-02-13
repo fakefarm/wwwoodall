@@ -22,13 +22,13 @@
     }
     .active { background: $light-green; }
     .bio, .location {
-      font-size: 0.7em;
+      font-size: 0.85em;
       color: #aaa;
       text-align: right;
     }
     .location  {
       font-style: italic;
-      font-size: 0.9em;
+      font-size: 1em;
       margin-bottom: 1em;
     }
 
@@ -212,7 +212,7 @@
 
 // .overlay ul li a {
 //   position: relative;
-//   font-family: $fat;
+//   font-family: $serif;
 //   text-transform: lowercase;
 //   font-size: 18px;
 //   font-weight: 300;
