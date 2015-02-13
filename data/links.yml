@@ -8,6 +8,18 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "colorable | Color combination contrast tester"
+        body: '<img src="/images/notes/colrable.png">'
+        tag: TOOL
+        url: 'http://jxnblk.com/colorable/'
+        date: 2015-02-12
+      -
+        title: "shade | Mathematically derived gradient explorer"
+        body: '<img src="/images/notes/shade.png">'
+        tag: TOOL
+        url: 'http://jxnblk.com/shade/'
+        date: 2015-02-12
+      -
         title: "Web Mock & VCR Testing Presentation"
         body: "Nice slideshow"
         tag: Testing
@@ -15,8 +27,8 @@ collections:
         date: 2015-02-11
       -
         title: 'COLORRRS | rgb and hex converter'
-        body: 'Nice color converter. Press the space bar for random colors. <br> Good find <a href="https://twitter.com/dotsara">Sara</a>!'
-        tag: CSS
+        body: '<img src="/images/notes/colorrrs.png">'
+        tag: TOOL
         url: 'http://hex.colorrrs.com/'
         date: 2015-02-09
       -

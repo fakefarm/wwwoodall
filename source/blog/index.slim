@@ -17,7 +17,7 @@ layout: layout
   .l-blog
     .l-copy#container
       #blog
-        - data.categories.collections.each do |cat|
+        - data.blog.collections.each do |cat|
           article.type-system-traditional.post
             h1= link_to cat.title, "/#{cat.title.parameterize}"
             p.type = pluralize(post_count(cat.title), 'post')
