@@ -40,12 +40,6 @@ layout: layout
   .sectional
       p= link_to "all notes", "/notes"
 
-  span#grammar
-  = render_partial 'shared/page_titles',  locals: { file_name: 'grammar' }
-  = render_partial 'templates/note/layout', locals: { file_name: 'grammar', limit: 2 }
-  .sectional
-      p= link_to "all grammar", "/grammar"
-
   / list template - managed in config.rb
   - ['links', 'reading', 'questions' ].each do |file_name|
     span id=file_name
