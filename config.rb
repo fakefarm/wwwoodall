@@ -161,10 +161,14 @@ end
 ignore   '/blog/drafts/*'
 
 ready do
+  # TODO
+  # Trying to do the 'right way' of tagging
+  # https://middlemanapp.com/basics/blogging/#tags
+  # but wont work so this is my hack.
   t = sitemap.resources.group_by { |p| p.data['tags'] }
   tags = t.reject{ |k,v| k.nil? || v.nil? }
   tags.each do |category, pages|
-      proxy "/#{category.parameterize}.html", "/templates/categories/list.html",
+      proxy "#{category.parameterize}.html", "/templates/categories/list.html",
         :locals => { :category => category, :pages => pages }, :ignore => true
   end
 end
