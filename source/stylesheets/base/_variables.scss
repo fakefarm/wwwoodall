@@ -1,13 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Montserrat);
-
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic|Radley:400,400italic);
 
 
 // Typography
-$montserrat: 'Montserrat', sans-serif;
-$cond: 'Oswald', sans-serif;
-$fat: $montserrat, sans-serif;
-$sans-serif: $montserrat, $helvetica;
-$serif: $georgia;
+$sans-serif: 'Noto Sans', $helvetica;
+$serif: 'Radley', $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
 
