@@ -1,14 +1,11 @@
 ---
 layout: landing
 ---
-
-= image_tag 'logo2.png'
-h1 Dave Woodall
-p Available for small freelance projects
-p I love building things. Be it <a href="">Art</a>, <a href="">Businesses</a>, <a href="">Board Games</a>, or <a href="">Web Sites</a>.
-
-h3 Personal Life
-p See a <a href="/feed">Feed</a> of everything. Or, view <a href="">Photos</a>, <a href="">Blog</a>, and <a href="">Gifs</a>.
-
-h3 Work life
-p <a href="">Art</a>, <a href="">Business</a>, and <a href="">Code</a> projects
+.col1
+  .section.animated2.wobble
+    = image_tag 'bird.svg'
+.col2
+  h1 Dave Woodall
+  p I'm a designer for fun and coder for food. I'm open to work on interesting side projects. Contact me if you need some help. This site is where I collect and write all sorts of things.
+  .ball.animated.fadeInRightBig
+    = link_to 'Enter', '/feed', class: 'personal-circle'

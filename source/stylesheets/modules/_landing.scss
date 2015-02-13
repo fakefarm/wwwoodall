@@ -1,0 +1,72 @@
+.l-container {
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 1em;
+  @include row();
+  @include media($medium-screen) {
+    margin-top: 3em;
+  }
+}
+
+.landing {
+}
+
+.col1 {
+  img {
+    width: 100px;
+    margin-left:3.25em;
+  }
+  @include media($medium-screen) {
+    @include span-columns(4);
+    img {
+      margin-left:1em;
+      width: 200px;
+    }
+  }
+}
+.col2 {
+  @include media($medium-screen) {
+    @include span-columns(8);
+  }
+  a {
+    display: block;
+    padding: 1.85em 0 0 1.6em;
+    font-size: 1.5em;
+    color: white;
+    &:hover {
+      color: #FFDE17;
+      text-decoration: underline;
+    }
+  }
+}
+
+.personal-circle {
+  width: 140px;
+  height: 140px;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  border-radius: 70px;
+  background: white;
+  @include animation-name(breath);
+  @include animation-duration(5s);
+  @include animation-iteration-count(infinite, 1);
+  @include animation-direction(alternate, normal);
+  @include animation-delay(2s, 1.5s);
+  @include animation-fill-mode(both);
+}
+
+.ball {
+  padding-left: 3em;
+  @include media ($medium-screen) {
+    padding-left: 0em;
+  }
+}
+
+@-webkit-keyframes breath {
+  0%   { background-color: #000; }
+  20%  { background-color: #009444; }
+  40%  { background-color: #39B54A; }
+  60%  { background-color: #FFDE17; }
+  80%  { background-color: #39B54A; }
+  100% { background-color: #000; }
+}
