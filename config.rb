@@ -81,15 +81,18 @@ end
 
 # Card pages
 [
-  "pictures"
+  "pictures",
+  "art"
 ].each do |name|
   proxy "/#{name}.html", "/templates/cards/card.html", :locals => { :file_name => name }, :ignore => true
 end
 
 # work
-
-data.work.page.each do |name|
-  proxy "/#{name.title}.html", "/templates/work_pages/work_page.html", :locals => { :file_name => name }, :ignore => true
+[
+  "code",
+  "business"
+].each do |name|
+  proxy "/#{name}.html", "/templates/work_pages/work_page.html", :locals => { :file_name => name }, :ignore => true
 end
 
 
@@ -108,6 +111,13 @@ end
   'fathers-day'
 ].each do |album|
   proxy "/#{album}.html", "/templates/album/album.html", :locals => { :album => album }, :ignore => true
+end
+
+[
+  'animores',
+  'cat-math-do'
+].each do |album|
+  proxy "/#{album}.html", "/templates/art/album.html", :locals => { :album => album }, :ignore => true
 end
 
 # Post pages.

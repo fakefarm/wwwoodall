@@ -51,6 +51,9 @@
 
   li a {
     color: $footer-link-color;
+    @include media($medium-screen) {
+      font-size: 1.2em;
+    };
 
     &:hover {
       color: transparentize($footer-color, 0);
