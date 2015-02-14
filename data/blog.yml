@@ -21,12 +21,25 @@ collections:
     tag: ''
     date: 2014-12-13
 
-featured:
-  -
-    title: 'about Dave'
-    body: "Things I'd tell you over beers"
-    slug: ''
-  -
-    title: 'about Dave'
-    body: "Things I'd tell you over beers"
-    slug: ''
+    # Tags
+    # "What I think about after work.",
+    # "Fake Farming",
+    # "How I made this site.",
+    # "List form",
+    # "DRAFT - Project notes",
+    # "Womb 2",
+    # "notes",
+    # "Views and hues",
+    # "Mike wants a rebrand",
+    # "Startup"
+
+# IDEA - show a post at the top?
+# featured:
+#   -
+#     title: 'about Dave'
+#     body: "Things I'd tell you over beers"
+#     slug: ''
+#   -
+#     title: 'about Dave'
+#     body: "Things I'd tell you over beers"
+#     slug: ''

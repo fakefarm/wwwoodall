@@ -2,25 +2,15 @@ footer.footer
   .footer-links
     ul
       li
-        h3 Dave Woodall
-      li= link_to 'about me', '/about-dave'
-    ul
+        h4 wwwoodall
+      li by Dave Woodall
+      li Boulder, CO
       li
-        h3 Pages
-      = render_partial 'shared/nav_links'
-    ul
-      li
-        h3 Interests
-      li= nav_link('What I think about after work', '/what-i-think-about-after-work/')
-      li= nav_link('Learning to Code', '/learning-to-code/')
-      li= nav_link('How I made this site', '/how-i-made-this-site/')
-      li= nav_link('HTML is the new English', '/html-is-the-new-english/')
-      li= nav_link('List form', '/list-form/')
+        h3.fa.fa-phone
+          '
+          | Contact
+      li= mail_to 'dave@woodalls.me', ' email', class: 'fa fa-envelope-o'
 
-
-    ul
-      li
-        h3 Social
       li= link_to 'http://www.github.com/woodall', target: '_blank' do
         .fa.fa-github
         '
@@ -37,12 +27,18 @@ footer.footer
         .fa.fa-linkedin
         '
         span linkedIn
-
-
-  hr/
-  p
-    ' Built by Dave with
-    = link_to 'middleman', 'http://www.middlemanapp.com', target: '_blank'
-    '  & thoughtbot's
-    = link_to 'front-end', 'http://thoughtbot.com/open-source', target: '_blank'
-    '  goodies.
+    ul
+      li
+        h3.fa.fa-wrench
+          '
+          | work
+      li= link_to 'summary', '/summary'
+      li= link_to 'art', '/art'
+      li= link_to 'code', '/code'
+      li= link_to 'business', '/business'
+    ul
+      li
+        h3.fa.fa-flask
+          '
+          | fun
+      = render_partial 'shared/nav_links'
