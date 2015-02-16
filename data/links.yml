@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Ryan Bigg's blog"
+        body: ''
+        tag: blog
+        url: 'http://ryanbigg.com/'
+        date: 2015-02-16
+      -
         title: "Weird stuff with hashes"
         body: "Ok, so this isn’t really weird stuff, I don’t think. But maybe people don’t know about it so I thought I would post."
         tag: Ruby
