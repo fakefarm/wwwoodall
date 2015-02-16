@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: How do I test drive an API call?
+        body: "Building a little tool that makes calls to twitter and I'm trying to setup the test suite. "
+        tag: Testing
+        url: ''
+        date: 2015-02-16
+      -
         title: How do I use postgres in my development environment?
         body: ''
         tag: Rails

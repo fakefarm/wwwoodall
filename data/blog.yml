@@ -4,6 +4,12 @@ page:
 collections:
   -
     image: ''
+    title: 'HashPage'
+    body: "I recently revived my first hackathon project from 3 years ago. These posts are more like journal entries about the project."
+    tag: ''
+    date: 2015-02-16
+  -
+    image: ''
     title: 'Learning to Code'
     body: "There is a rite of passage you must go through. It's the path of being a bad coder. The purpose of this time is to learn to become comfortable in ignorance and incompetence yet still prevail. Software will build your faith and resolve as you begin to see that time, patience, and determination will break through the unknown."
     tag: ''

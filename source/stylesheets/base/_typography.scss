@@ -10,7 +10,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
   line-height: $header-line-height;
-  margin: 0;
+  margin: 1.25em 0 0 0;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
@@ -24,14 +24,19 @@ h2 {
 
 h3 {
   font-size: $base-font-size * 1.75; // 16 * 1.75 = 28px
+  font-family: $serif;
 }
 
 h4 {
-  font-size: $base-font-size * 1.5; // 16 * 1.5 = 24px
+  font-size: $base-font-size * 1.25; // 16 * 1.5 = 24px
+  font-weight: normal;
+  border-bottom: 1px solid $light-gray;
+  padding: 0 0 0.25em 0;
+  margin: 0 0 0.25em 0;
 }
 
 h5 {
-  font-size: $base-font-size * 1.25; // 16 * 1.25 = 20px
+  font-size: $base-font-size * 1; // 16 * 1.25 = 20px
 }
 
 h6 {
