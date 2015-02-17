@@ -22,6 +22,7 @@ article.type-system-traditional {
     }
   }
 
+
   @include clearfix;
   text-align: left;
 
@@ -133,6 +134,24 @@ article.type-system-traditional {
   }
 }
 
+// Blog post list view override
+
+#blog-posts {
+  display: none;
+}
+
+.blog-post-list-view {
+  article { padding: 0;
+    p {
+      margin: 0;
+      margin-bottom: 0;
+    }
+    a {
+      display: block;
+      padding: 0.25em 0;
+    }
+  }
+}
 
 .blog-footer {
   background: #56A599;

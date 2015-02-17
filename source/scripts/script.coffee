@@ -1,18 +1,19 @@
 $(document).ready ->
   element = document.getElementById("js-fadeInElement")
   $(element).addClass "js-fade-element-hide"
-  $(window).scroll ->
-    elementTopToPageTop = $(element).offset().top
-    windowTopToPageTop = $(window).scrollTop()
-    windowInnerHeight = window.innerHeight
-    elementTopToWindowTop = elementTopToPageTop - windowTopToPageTop
-    elementTopToWindowBottom = windowInnerHeight - elementTopToWindowTop
-    distanceFromBottomToAppear = 10
-    if elementTopToWindowBottom > distanceFromBottomToAppear
-     $(element).addClass "js-fade-element-show"
-    else if elementTopToWindowBottom < 570
-     $(element).removeClass "js-fade-element-show"
-     $(element).addClass "js-fade-element-hide"
+  if location.pathname == '/feed'
+    $(window).scroll ->
+      elementTopToPageTop = $(element).offset().top
+      windowTopToPageTop = $(window).scrollTop()
+      windowInnerHeight = window.innerHeight
+      elementTopToWindowTop = elementTopToPageTop - windowTopToPageTop
+      elementTopToWindowBottom = windowInnerHeight - elementTopToWindowTop
+      distanceFromBottomToAppear = 10
+      if elementTopToWindowBottom > distanceFromBottomToAppear
+       $(element).addClass "js-fade-element-show"
+      else if elementTopToWindowBottom < 570
+       $(element).removeClass "js-fade-element-show"
+       $(element).addClass "js-fade-element-hide"
 
 
   $('#gifs').click ->
@@ -73,9 +74,19 @@ $(document).ready ->
       e.preventDefault()
       return
 
-
-
 jQuery ->
   jQuery.mark.jump()
   return
+
+jQuery ->
+  $('#sort-topic').click (e) ->
+      e.stopPropagation()
+      e.preventDefault()
+      $('#blog-posts').hide()
+      $('#blog-topics').show()
+  $('#sort-post').click (e) ->
+      e.stopPropagation()
+      e.preventDefault()
+      $('#blog-topics').hide()
+      $('#blog-posts').show()
 

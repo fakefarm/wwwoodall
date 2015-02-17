@@ -11,15 +11,30 @@ layout: layout
       | I typically write about 300 words at a time.
       br
       | I created topics because I usually have more to say.
+    #blog-sort
+      | view
+      '
+      = link_to 'topics', '', id: 'sort-topic'
+      '
+      ' |
+      '
+      = link_to 'all posts', '', id: 'sort-post'
 
 
 .l-container
   .l-blog
     .l-copy#container
-      #blog
+      #blog-topics
+        h2 Topics
         - data.blog.collections.each do |cat|
           article.type-system-traditional.post
             h1= link_to cat.title, "/#{cat.title.parameterize}"
             p.type = pluralize(post_count(cat.title), 'post')
             p= cat.body
+
+      #blog-posts.blog-post-list-view
+        h2 All posts
+        - blog.articles.each do |cat|
+          article.type-system-traditional.post
+            p= link_to cat.title, "/#{cat.title.parameterize}"
 
