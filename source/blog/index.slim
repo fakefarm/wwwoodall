@@ -34,7 +34,7 @@ layout: layout
 
       #blog-posts.blog-post-list-view
         h2 All posts
-        - blog.articles.each do |cat|
+        - blog.articles.each do |post|
           article.type-system-traditional.post
-            p= link_to cat.title, "/#{cat.title.parameterize}"
+            p= link_to post.title, post.url
 
