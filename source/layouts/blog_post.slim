@@ -28,6 +28,7 @@ html
           h2= link_to article.title, article.url
           p= article.summary
 
+  = render_partial 'shared/disqus'
   = render_partial 'shared/footer/main'
   = render_partial 'shared/footer/stuff'
 
