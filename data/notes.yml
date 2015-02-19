@@ -8,6 +8,18 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'break on Attribute Modification'
+        body: "<img src='/images/notes/break.png'>"
+        tag: Dev Tools
+        url: ''
+        date: 2015-02-18
+      -
+        title: 'p pry'
+        body: "my pry wasn't working until Eldar showed me to 'print it' "
+        tag: Ruby
+        url: ''
+        date: 2015-02-18
+      -
         title: "Mustache partials can't call other mustache partials"
         body: "Working with mustache and finally realized that partials can't call other mustache partials. Both were in the shared directory but wouldn't play well with one another"
         tag: mustche
