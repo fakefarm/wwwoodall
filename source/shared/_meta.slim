@@ -20,9 +20,9 @@ head
   meta content="summary_large_image" name="twitter:card"
   meta content="@wwwoodall" name="twitter:site"
   meta content="@wwwoodall" name="twitter:creator"
-  meta property="og:description" content="#{current_page.data.meta_desc}"
 
   - if current_page.data.layout == 'blog_post'
+    meta property="og:description" content="#{current_article.data.snip}"
     meta content="#{current_article.data.snip}" name="twitter:description"
 
   / TODO - convert these to grid
