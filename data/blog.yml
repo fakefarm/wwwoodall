@@ -16,8 +16,32 @@ collections:
     date: 2014-12-13
   -
     image: ''
+    title: "Correct me if I'm wrong"
+    body: "These are my random opinions."
+    tag: ''
+    date: 2014-12-13
+  -
+    image: ''
+    title: 'List form'
+    body: "Top 10 so on and so forth"
+    tag: ''
+    date: 2014-12-13
+  -
+    image: ''
+    title: 'Startup'
+    body: "Various experiences in small business"
+    tag: ''
+    date: 2014-12-13
+  -
+    image: ''
     title: 'HTML is the new English'
     body: "I didn't learn to code until my early 30's. These posts describe my views and reasoning why I took the plunge into a long and difficult path."
+    tag: ''
+    date: 2014-12-13
+  -
+    image: ''
+    title: 'Mike wants a re-brand'
+    body: "Mike has a consulting business with a brand name he grew tired of. His text; <br><cite> looking for something less cutsie and more generic to bring a level of comfort to the fat cats in the finance and ops world.  would love to find something around the ideas of light, shed light on, clarity, clarify, simplify, clean, clear, open, easy. I haven’t come up with anything unique enough to not be taken up in a domain.</cite>"
     tag: ''
     date: 2014-12-13
   -
@@ -26,16 +50,22 @@ collections:
     body: "Things I'd tell you over beers"
     tag: ''
     date: 2014-12-13
+  -
+    image: ''
+    title: 'How I made this site'
+    body: "This is a middleman site."
+    tag: ''
+    date: 2014-12-13
 
     # Tags
-    # "What I think about after work.",
+    # "Correct me if I'm wrong.",
     # "Fake Farming",
     # "How I made this site.",
     # "List form",
     # "DRAFT - Project notes",
     # "Womb 2",
     # "notes",
-    # "Views and hues",
+    # "Correct me if I'm wrong",
     # "Mike wants a rebrand",
     # "Startup"
 
