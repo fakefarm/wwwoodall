@@ -1,18 +1,14 @@
 ---
 title: the non-chaotic pyramid
 snip: 'sub-title'
-tags: Womb 2
-type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
-format: 'video, text, image, interactive, course'
+tags: The pyramid vs. the Cross
 date: 2014-12-19 15:54 UTC
 layout: blog_post
-blog: notes
-published: false
-image: 'heros/joke.png'
-caption: 'a photo caption goes here'
 ---
 
-My brother Mike and I were having some laughs over beers when we started talkign about tastes. From those 5 tastes, we went to 4 seasons, 3 parts of the being, 2 people, and 1 God. Then we upped it to 12 months and created a personal challenge to do all 12. Here's what we came up with
+_DRAFT_
+
+My brother Mike and I were having some laughs over beers when we started talking about tastes. From those 5 tastes, we went to 4 seasons, 3 parts of the being, 2 people, and 1 God. Then we upped it to 12 months and created a personal challenge to do all 12. Here's what we came up with
 
 1  God †
 2  people Male female
@@ -24,5 +20,5 @@ My brother Mike and I were having some laughs over beers when we started talkign
 8  planets
 9  months for gestation
 10 integers 0123456789
-11 is prime
+11 is (???)
 12 months
