@@ -1,6 +1,6 @@
 ---
 title: 2000 hours a year
-tags: What I think about after work.
+tags: Correct me if I'm wrong
 date: 2014-12-19 15:57 UTC
 layout: blog_post
 ---

@@ -1,7 +1,7 @@
 ---
 title: the non-chaotic pyramid
 snip: 'sub-title'
-tags: DRAFT
+tags: Womb 2
 type: 'tutorial, tool, quote, photo, reference, asset, shortcut'
 format: 'video, text, image, interactive, course'
 date: 2014-12-19 15:54 UTC

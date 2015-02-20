@@ -4,7 +4,7 @@ snip: 'I wonder how does one go about selling a gem like this.'
 date: 2014-11-28 23:26 UTC
 layout: blog_post
 category: code
-tags: What I think about after work.
+tags: Correct me if I'm wrong
 ---
 
 Top Level Domains (TLDs) are the end of domain names like; `.com` and`.net`. But relatively new development are the [hundreds](http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains#ICANN-era_generic_top-level_domains) of new TLDs that were released. Domains like;

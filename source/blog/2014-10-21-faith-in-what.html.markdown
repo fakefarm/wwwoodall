@@ -1,7 +1,7 @@
 ---
 title: 'Faith in what'
 date: 2014-10-21 15:24 UTC
-tags: What I think about after work.
+tags: Correct me if I'm wrong
 layout: blog_post
 ---
 
