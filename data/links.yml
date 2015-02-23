@@ -8,10 +8,16 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: "Pointer Events"
+        body: "The pointer-events property allows for control over how HTML elements respond to mouse/touch events – including CSS hover/active states, click/tap events in Javascript, and whether or not the cursor is visible."
+        tag: CSS
+        url: "http://www.css-tricks.com/almanac/properties/p/pointer-events/"
+        date: 2015-02-22
+      -
         title: Framer JS
         body: "It's Photoshop for animation, written in Coffeescript."
         tag: Animation
-        url: 'http://framerjs.com'
+        url: 'http://www.framerjs.com'
         date: 2015-02-20
       -
         title: '12 basic principles of animation'
@@ -23,7 +29,7 @@ collections:
         title: "Ryan Bigg's blog"
         body: ''
         tag: blog
-        url: 'http://ryanbigg.com/'
+        url: 'http://www.ryanbigg.com/'
         date: 2015-02-16
       -
         title: "Weird stuff with hashes"
