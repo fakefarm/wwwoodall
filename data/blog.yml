@@ -10,6 +10,12 @@ collections:
     date: 2015-02-16
   -
     image: ''
+    title: 'Tuesdays with Tom'
+    body: "I have the privilege of pairing with <a href='http://www.twitter.com/tcopeland' target='_blank'>Tom Copeland</a> once a week. He's the winner of a <a href='http://rubyheroes.com/' target='_blank'>Ruby Hero Award</a> and a senior developer at LivingSocial. He's also a Christian so we get talk faith while the test suite runs."
+    tag: ''
+    date: 2015-02-25
+  -
+    image: ''
     title: 'Learning Animation'
     body: "I want to turn my boring hover states into apps that look like <a href='https://www.youtube.com/watch?v=8deYjcgVgm8' target='_blank'>Minority Report</a>."
     tag: ''
