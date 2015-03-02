@@ -1,11 +1,91 @@
 page:
   title: gifs
-  subtitle: My favorites.
+  subtitle: "'all gifs' loads slow b/c of so much awesomeness"
 collections:
   -
     title: foo
     date: 2014-12-13
     entries:
+      -
+        title: hmmm
+        body: ''
+        tag: hmmm
+        url: http://www.ufunk.net/wp-content/uploads/2012/11/Erdal-Inci-5.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://www.gifbin.com/bin/042012/1333652502_elephant_waves_goodbye.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://images3.wikia.nocookie.net/__cb20130123232761/nickfanon/images/4/45/Funny-gif-bears-waving-saying-goodbye.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://www.animateit.net/data/media/april2014/adios.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://www.reactiongifs.com/r/cya.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://media0.giphy.com/media/cYA2ClBxQZuiQ/200.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://oddstuffmagazine.com/wp-content/uploads/2011/10/o1ZL4.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://media.giphy.com/media/2t9sDPrlvFpdK/giphy.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://catstreamer.herokuapp.com/images/anigif_enhanced-buzz-3021-1323296390-36.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://i.imgur.com/cw773nD.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
       -
         title: welcome
         body: ''

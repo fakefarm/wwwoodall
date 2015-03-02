@@ -8,6 +8,11 @@ collections:
     date: 2014-12-15
     entries:
       -
+        img: ''
+        date: 2014-12-10
+        title: 'If the love of money is the root of all evil, <br>Is the love of God the root of all good?'
+        body: ""
+      -
         img: 'jots/creator.jpg'
         date: 2014-12-10
         title: 'Everything begins with the Creator'
