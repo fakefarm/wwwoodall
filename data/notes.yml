@@ -8,6 +8,24 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: JQuery get class
+        body: "<code>var className = $('.myclass').attr('class');</code>"
+        tag: JQuery
+        url: http://stackoverflow.com/a/2400396/935322
+        date: 2015-03-02
+      -
+        title: "Craft CMS for Rails Developers"
+        body: "Chat with <a href='http://www.twitter.com/iamlacroix' target='_blank'>Michael Lacroix</a> About Craft CMS<br>
+          <p>I'm not a fan of PHP either...but these guys know their stuff...don't group it with shit like WordPress. It's built on a Rails-like framework. It's 'plugins' are all organized into model, controller, services, etc. that take advantage established API's within the CMS. But it's content architecture capabilities/flexibility is amazing.</p><br>
+          <p>They have a free version which allows for one channel content-type (blog or similar feed), plus 5 pages.</p><br>
+          <p>I've tried to avoid anything PHP-related for sooo long...but this one was way too good to ignore. </p><br>
+          <p>You don't need to write any PHP either, except for your initial config...but it's super simple & is just an array you edit with database info, etc. So, no PHP really All the template files are Twig (think Ruby Liquid)</p><br>
+          <p>I'm also using Forge to manage any PHP/Craft servers for clients – https://forge.laravel.com/</p><br>
+          <p>You could always use Heroku though too. ...but not Heroku with the free version (the $299 version includes the Amazon S3 upload feature) Anyway, with Forge you can have it manage your Digital Ocean server(s). But for something like clov3r, you could just create 1 server and have it manage a multitude of sites for you. Then just git push to your GitHub repo and it deploys. I have it track a 'production' branch so that it only deploys when I push it to that one, as oposed to 'master'</p><br>"
+        tag: Rails
+        url: https://demo.buildwithcraft.com/
+        date: 2015-03-02
+      -
         title: "Always check for JavaScript errors"
         body: "JavaScript is fluid but also brittle. As soon as you have an error in one script, it breaks the rest. So, make sure to test a few On pages that load and run multiple scripts "
         tag: what already exists?
