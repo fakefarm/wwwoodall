@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'WTF, HTML and CSS?'
+        body: 'A curated list of commonly frustrating HTML and CSS quandaries, miscues, and dilemmas.'
+        tag: HTML
+        url: http://wtfhtmlcss.com/
+        date: 2015-03-05
+      -
         title: "Pointer Events"
         body: "The pointer-events property allows for control over how HTML elements respond to mouse/touch events – including CSS hover/active states, click/tap events in Javascript, and whether or not the cursor is visible."
         tag: CSS
