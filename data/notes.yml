@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'bearings'
+        body: 'the read write and request response directions can be confusing for me. I need to figure out what makes that disorenting for me.'
+        tag: craftsmanship
+        url: ''
+        date: 2015-03-06
+      -
         title: JQuery get class
         body: "<code>var className = $('.myclass').attr('class');</code>"
         tag: JQuery

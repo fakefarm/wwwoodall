@@ -8,6 +8,18 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'cssn animations'
+        body: 'cool tuts'
+        tag: CSS
+        url: https://cssanimation.rocks/
+        date: 2015-03-09
+      -
+        title: 'Intro to RequreJS'
+        body: ''
+        tag: JavaScript
+        url: "http://javascriptplayground.com/blog/2012/07/requirejs-amd-tutorial-introduction/"
+        date: 2015-03-09
+      -
         title: 'WTF, HTML and CSS?'
         body: 'A curated list of commonly frustrating HTML and CSS quandaries, miscues, and dilemmas.'
         tag: HTML
