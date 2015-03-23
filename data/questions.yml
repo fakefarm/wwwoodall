@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'what are the power features of git to know?'
+        body: ''
+        tag: git
+        url: ''
+        date: 2015-03-21
+      -
         title: How do I test drive an API call?
         body: "Building a little tool that makes calls to twitter and I'm trying to setup the test suite. "
         tag: Testing

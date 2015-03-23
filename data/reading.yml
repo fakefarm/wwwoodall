@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'Rails Recipes: Rails 3 Edition'
+        body: "Written for novice to intermediate Rails developers, Rails Recipes: Rails 3 Edition is packed with solutions to 70 of the most vexing problems you're likely to face on the job. From building custom forms and powering pages with JQuery to integrating with legacy databases, it's all here. Each recipe has been updated to reflect the latest features of Rails 3.1 and each lays out a distinctive solution to a problem you may be facing today or could well encounter tomorrow. In addition, you'll find half the book is stocked with new eye-opening solutions to such common problems as how to extend Rails, test and deploy your sites, or add a web service to your actions. And each recipe not only lays out a succinct solution, but explains its rationale and the technologies that make it work."
+        tag: Rails
+        url: 'http://www.amazon.com/Rails-Recipes-3-Chad-Fowler/dp/1934356778/ref=sr_1_1?ie=UTF8&qid=1426438739&sr=8-1&keywords=rails+3+recipes'
+        date: 2015-03-15
+      -
         title: "Simply Javascript"
         body: "I bought this book in 2011. Funny thing is I've tried to read it a few times but it's been over my head for various reasons. I started reading yesterday and while it's 8 years old, it covers many of the core fundamentals in a very cohesive way. I would recommend this book to anyone."
         tag: JavaScript

@@ -8,6 +8,30 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'Calendar Icon'
+        body: ''
+        tag: Design
+        url: http://www.materialup.com/
+        date: 2015-03-13
+      -
+        title: 'Material Design Input Text'
+        body: ''
+        tag: Design
+        url: http://codepen.io/mildrenben/pen/gbddEj?editors=110
+        date: 2015-03-13
+      -
+        title: 'CSS Gooey Menu (Version 1)'
+        body: ''
+        tag: Design
+        url: http://codepen.io/lbebber/pen/LELBEo?editors=110
+        date: 2015-03-13
+      -
+        title: "Create a Daft Punk GIF Animation Using Illustrator and Photoshop"
+        body: "<img src='https://cdn.tutsplus.com/vector/uploads/2013/07/bert_51.gif'>"
+        tag: Design
+        url: "http://design.tutsplus.com/tutorials/create-a-daft-punk-gif-animation-using-illustrator-and-photoshop--vector-13506"
+        date: 2015-03-11
+      -
         title: 'cssn animations'
         body: 'cool tuts'
         tag: CSS

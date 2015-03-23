@@ -8,6 +8,11 @@ collections:
     date: 2014-12-15
     entries:
       -
+        img: 'http://animores.wwwoodall.com/bird.gif'
+        date: 2015-03-15
+        title: 'Learning Animation'
+        body: "I finally figured out an animation workflow that is easy."
+      -
         img: ''
         date: 2014-12-10
         title: 'If the love of money is the root of all evil, <br>Is the love of God the root of all good?'

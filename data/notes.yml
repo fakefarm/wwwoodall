@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'git flags for searching'
+        body: 'Couple of helpful flags for searching. <br><code>git log -S foo</code> and <code>git log --grep foo</code><br>'
+        tag: gith
+        url: ''
+        date: 2015-03-20
+      -
         title: 'bearings'
         body: 'the read write and request response directions can be confusing for me. I need to figure out what makes that disorenting for me.'
         tag: craftsmanship
