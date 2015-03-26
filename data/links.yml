@@ -8,8 +8,14 @@ collections:
     date: 2014-12-15
     entries:
       -
-        title: 'Calendar Icon'
-        body: ''
+        title: 'deJong'
+        body: "<img src='images/dejong.png'>"
+        tag: CoffeeScript
+        url: 'http://www.ashkenas.com/docs/deJong.html'
+        date: 2015-03-26
+      -
+        title: 'material up'
+        body: 'Daily showcase of the best Material Design concepts, apps and tools!'
         tag: Design
         url: http://www.materialup.com/
         date: 2015-03-13
@@ -64,7 +70,7 @@ collections:
       -
         title: '12 basic principles of animation'
         body: "Disney's Twelve Basic Principles of Animation is a set of principles of animation introduced by the Disney animators Ollie Johnston and Frank Thomas in their 1981 book The Illusion of Life: Disney Animation.[a][1] Johnston and Thomas in turn based their book on the work of the leading Disney animators from the 1930s onwards, and their effort to produce more realistic animations. The main purpose of the principles was to produce an illusion of characters adhering to the basic laws of physics, but they also dealt with more abstract issues, such as emotional timing and character appeal."
-        tag: Annimation
+        tag: Animation
         url: "http://en.wikipedia.org/wiki/12_basic_principles_of_animation"
         date: 2015-02-20
       -
