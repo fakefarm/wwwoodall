@@ -11,7 +11,7 @@ collections:
         title: 'deJong'
         body: "<img src='images/dejong.png'>"
         tag: CoffeeScript
-        url: 'http://www.ashkenas.com/docs/deJong.html'
+        url: 'http://www.ashkenas.com/'
         date: 2015-03-26
       -
         title: 'material up'
