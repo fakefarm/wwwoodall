@@ -1,6 +1,6 @@
 ---
 title: the non-chaotic pyramid
-snip: 'sub-title'
+snip: "A writing by Dave Woodall at wwwooodall.com"
 tags: The pyramid vs. the Cross
 date: 2014-12-19 15:54 UTC
 layout: blog_post

@@ -34,8 +34,8 @@ collections:
     date: 2014-12-13
   -
     image: ''
-    title: 'How I made this site'
-    body: "This is a static site built on <a href='http://www.middlemanapp.com' target='_blank'>Middleman</a>. I think it feels like <i>Rails lite</i>."
+    title: 'on blogging'
+    body: "From coding this site to the kind of things I think about as a blogger. This is a <i>meta</i> section about blogging."
     tag: ''
     date: 2014-12-13
   -
@@ -62,17 +62,12 @@ collections:
     body: "Various experiences in small business"
     tag: ''
     date: 2014-12-13
-  -
-    image: ''
-    title: 'Mike wants a re-brand'
-    body: "Mike has a consulting business with a brand name he grew tired of. His text; <br><cite> looking for something less cutsie and more generic to bring a level of comfort to the fat cats in the finance and ops world.  would love to find something around the ideas of light, shed light on, clarity, clarify, simplify, clean, clear, open, easy. I haven’t come up with anything unique enough to not be taken up in a domain.</cite>"
-    tag: ''
-    date: 2014-12-13
+
 
     # Tags
     # "Correct me if I'm wrong.",
     # "Fake Farming",
-    # "How I made this site.",
+    # "on blogging.",
     # "List form",
     # "DRAFT - Project notes",
     # "The pyramid vs. the Cross",
