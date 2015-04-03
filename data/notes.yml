@@ -10,7 +10,7 @@ collections:
       -
         title: 'git flags for searching'
         body: 'Couple of helpful flags for searching. <br><code>git log -S foo</code> and <code>git log --grep foo</code><br>'
-        tag: gith
+        tag: git
         url: ''
         date: 2015-03-20
       -
