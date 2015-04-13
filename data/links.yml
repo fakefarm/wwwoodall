@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'Large Scale HTML5 Apps'
+        body: "The closest thing I've seen to info about the ARM stack"
+        tag: 'web-book'
+        url: 'http://tech.pollev.com/books/html5-apps/'
+        date: 2015-04-13
+      -
         title: 'deJong'
         body: "<img src='images/dejong.png'>"
         tag: CoffeeScript
