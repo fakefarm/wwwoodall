@@ -1,13 +1,74 @@
 ---
 layout: landing
 ---
-.col1
-  .section.animated2.wobble
-    = image_tag 'bird.gif'
-.col2
-  article.type-system-traditional.post
-    p.type wwwoodall
-    h1 Dave Woodall
-    p Web developer at <a href="http://www.livingsocial.com" target="_blank">LivingSocial</a> in Boulder, CO. Before coding, I spent 17 years in the t-shirt industry as a graphic designer, sales rep, art director, and business owner. I <a href='/blog/' title="All my thoughts about everything.">blog</a>, <a href='/jots/' title="more than a tweet but less than a post.">doodle</a>, and <a href='/feed/' title="see the timeline feed">collect stuff</a> on this site.
-    .ball.animated.fadeInRightBig
-      = link_to 'Enter', '/feed', class: 'personal-circle'
+
+section.hero
+  = image_tag 'us_hero.jpg'
+  .copy
+    h1.name Dave Woodall
+    h2.summary Everything begins with the Creator
+
+section.about
+  .logo
+    = image_tag 'bird.svg'
+  .copy
+    h2 About me
+    p I am glad that I'm not a kid anymore. Youth was an amazing experience but it had it's downsides including my arrogant pride, anxiety of life, and giant amounts of selfishness. It took trials and failure before I choose to follow God over temporal health and wealth. I love this new season of life because I've learned that just as my Mother sustained me in her womb, my heavenly Father sustains me in this world.
+
+
+section.content
+  section.summary-of-pages
+
+    h2 The Internet is here to stay
+    p I spent 17 years in the apparel industry working nearly every job. From graphic designer, sales rep, account management, art direction, and owning two companies.
+
+    p In 2007 I discovered <a href='http://www.basecamp.com' target='_blank'>basecamp</a>. It's simplicity, effectiveness, and business model fascinated me. It was the first web app that made me realize the web did not die when the <i>dot com</i> bubble burst. I started to realize that the Internet is here to stay.
+
+    h2 HTML is the New English
+    p I describe the web as a new country called <i>InternetLand</i>.  Consider how difficult it is for people who don't know English in America. In InternetLand, HTML is the new English. I wanted to join that new economy without being bound to a translator because there is more opportunity in InternetLand than in America.
+
+    p  So, in 2012 I sold my old-world business and dove in head-first to learn all things web. I would rather be the tail of a lion than the head of a fox.
+
+  section.pages
+    .page
+      = link_to '/blog' do
+        .title blog
+        .summary Organized as if one day I'll make a book
+    .page
+      = link_to '/feed' do
+        .title news feed
+        .summary The closest thing I have to facebook
+    .page
+      = link_to 'http://www.fakefarm.com' do
+        .title fake farm
+        .summary A code journal to consolidate the various pet projects I've built to practice coding.
+    .page
+      = link_to 'http://www.clov3r.com' do
+        .title clov3r
+        .summary Need a website? I can help
+    .page
+      = link_to 'http://www.feather.cards' do
+        .title feather cards
+        .summary Making gift cards, personal.
+    .page
+      = link_to 'http://todo.wwwoodall.com' do
+        .title todo
+        .summary <i>Inbox Zero</i> for tasks
+
+
+section.social
+  ul
+    li= mail_to 'dave@woodalls.me', ' email', class: 'fa fa-envelope-o'
+
+    li= link_to 'http://www.twitter.com/wwwoodall', target: '_blank' do
+      .fa.fa-twitter
+      '
+      span twitter
+    li= link_to 'http://www.github.com/woodall', target: '_blank' do
+      .fa.fa-github
+      '
+      span github
+    li= link_to 'http://www.dribbble.com/wwwoodall', target: '_blank' do
+      .fa.fa-dribbble
+      '
+      span dribbble

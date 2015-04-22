@@ -1,0 +1,191 @@
+@import 'bourbon';
+@import 'neat';
+
+@import 'base/variables';
+@import 'base/mixins/flash';
+@import 'base/extends/button';
+@import 'base/extends/clearfix';
+@import 'base/extends/hide-text';
+@import 'base/normalize';
+@import 'base/typography';
+@import 'base/forms';
+@import 'base/tables';
+@import 'base/grid-settings';
+@import 'base/lists';
+@import 'base/flashes';
+@import 'base/buttons';
+@import 'base/base';
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  position: relative;
+
+  img { width: 100%; }
+
+
+  .copy {
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 3em;
+
+    @include media($medium-screen) {
+      top: 12em;
+    }
+
+    .name {
+      font-size: 2.5em;
+      margin: 0;
+
+      @include media($medium-screen) {
+        font-size: 5em;
+      }
+    }
+    .summary {
+      font-size: 1em;
+      font-weight: 400;
+
+      @include media($medium-screen) {
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+.about {
+  padding: 1em;
+
+  @include media($medium-screen) {
+    padding: 3em;
+    @include row;
+  }
+
+  .logo {
+    // @include shift(3);
+    // @include span-columns(6);
+    width: 50%;
+    margin: 0 auto;
+
+    @include media($medium-screen) {
+      @include shift(1);
+      @include span-columns(2);
+    }
+  }
+
+  .copy {
+
+    // @include span-columns(12);
+
+    @include media($medium-screen) {
+      line-height: 30px;
+      padding: 0 3em;
+      @include span-columns(8);
+    }
+
+    h2 {
+      margin: 0; padding: 0;
+      font-size: 1.6em;
+
+      @include media($medium-screen) {
+        font-size: 3em;
+      }
+    }
+  }
+}
+
+.content {
+  @include row();
+  @include media($medium-screen) {
+    @include shift(1);
+  }
+}
+
+.summary-of-pages {
+  padding: 1em;
+
+  @include media($medium-screen) {
+    @include span-columns(6.5);
+    padding: 1em 2em 2em;
+    line-height: 30px;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    &:first-child { margin-top: 0; }
+
+    @include media($medium-screen) {
+      font-size: 2em;
+    }
+  }
+}
+.pages {
+  @include outer-container;
+
+  @include media($medium-screen) {
+    @include span-columns(4);
+  }
+
+  .page {
+    // border: 1px solid $medium-gray;
+    // border-radius: 4px;
+    padding: 1em;
+    // margin: 1em 0;
+    // height: 150px;
+    box-sizing: padding-box;
+
+    &:hover {
+      background: $light-gray;
+    }
+
+    @include media($medium-screen) {
+      @include span-columns(12);
+      // @include omega(4n);
+    }
+
+    .title {
+      font-size: 2em;
+      color: $medium-gray;
+
+      @include media($medium-screen) {
+
+      }
+    }
+    .summary {
+      font-size: 0.9em;
+
+      @include media($medium-screen) {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+.social {
+  margin-top: 3em;
+  background: #eee;
+
+  @include media($medium-screen) {
+    text-align: center;
+  }
+
+  li {
+    @include media($medium-screen) {
+      display: inline-block;
+    }
+  }
+
+  a {
+    padding: 1.2em;
+    display: block;
+
+    @include media($medium-screen) {
+      padding: 3em;
+    }
+  }
+}

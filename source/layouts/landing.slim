@@ -1,8 +1,8 @@
 html
   = render_partial 'shared/meta'
-  = stylesheet_link_tag 'application'
+  = stylesheet_link_tag 'landing'
 
   body class="#{page_classes} landing"
-    .l-container
-      = yield
-  = render_partial 'shared/footer/stuff'
+    = yield
+    = render_partial 'shared/footer/stuff'
+
