@@ -168,7 +168,9 @@ body {
 
 .social {
   margin-top: 3em;
-  background: #eee;
+  background-image: -webkit-linear-gradient(135deg,  #bd3b53, #CC7365);
+  background-image: -moz-linear-gradient(135deg,  #bd3b53, #CC7365);
+  background-image: linear-gradient(to bottom,#bd3b53, #CC7365);
 
   @include media($medium-screen) {
     text-align: center;
@@ -183,6 +185,7 @@ body {
   a {
     padding: 1.2em;
     display: block;
+    color: #E3DCCA;
 
     @include media($medium-screen) {
       padding: 3em;
