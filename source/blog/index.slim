@@ -8,33 +8,18 @@ layout: layout
   .intro-text
     h3#tag-title blog
     p.date
-      | I typically write about 300 words at a time.
-      br
-      | I created topics because I usually have more to say.
-    #blog-sort
-      | view
-      '
-      = link_to 'topics', '', id: 'sort-topic'
-      '
-      ' |
-      '
-      = link_to 'all posts', '', id: 'sort-post'
-
+      | Me and this blog are a work in progress.
 
 .l-container
   .l-blog
     .l-copy#container
-      #blog-topics
-        h2 Topics
-        - data.blog.collections.each do |cat|
-          article.type-system-traditional.post
-            h1= link_to cat.title, "/#{cat.title.parameterize}"
-            p.type = pluralize(post_count(cat.title), 'post')
-            p= cat.body
-
       #blog-posts.blog-post-list-view
         h2 All posts
         - blog.articles.each do |post|
           article.type-system-traditional.post
-            p= link_to post.title, post.url
+            span= "DRAFT" if post.data.tags == 'DRAFT'
+            h3= link_to post.title, post.url
+            - if post.data.snip.present?
+              - unless post.data.snip == 'Written by Dave Woodall at wwwooodall.com'
+                p= post.data.snip
 

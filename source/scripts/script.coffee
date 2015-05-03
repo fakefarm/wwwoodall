@@ -77,16 +77,3 @@ $(document).ready ->
 jQuery ->
   jQuery.mark.jump()
   return
-
-jQuery ->
-  $('#sort-topic').click (e) ->
-      e.stopPropagation()
-      e.preventDefault()
-      $('#blog-posts').hide()
-      $('#blog-topics').show()
-  $('#sort-post').click (e) ->
-      e.stopPropagation()
-      e.preventDefault()
-      $('#blog-topics').hide()
-      $('#blog-posts').show()
-
