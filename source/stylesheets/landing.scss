@@ -97,6 +97,25 @@ body {
         font-size: 3em;
       }
     }
+    .copy-more-btn {
+      display: none;
+      @include media($medium-screen) {
+        display: block;
+      }
+    }
+  }
+  .copy-more {
+    @include row();
+    .col {
+      @include media($medium-screen) {
+        @include span-columns(6);
+      }
+    }
+    .more-info {
+      @include media($medium-screen) {
+        display: none;
+      }
+    }
   }
 }
 
@@ -107,8 +126,7 @@ body {
   }
 }
 
-.summary-of-pages {
-  padding: 1em;
+.more-info {
 
   @include media($medium-screen) {
     @include span-columns(6.5);
@@ -224,6 +242,9 @@ body {
       background: #CCCCCC;
       @include media($medium-screen) {
         padding: 3em;
+      }
+      .link-info {
+        display: none;
       }
     }
   }

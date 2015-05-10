@@ -74,6 +74,17 @@ $(document).ready ->
       e.preventDefault()
       return
 
+  $('#copy-more').click (e)->
+    e.preventDefault()
+    e.stopPropagation()
+    $('.more-info').slideToggle()
+
+  $('.copy-more').click (e)->
+    $('.more-info').slideToggle()
+
+
 jQuery ->
   jQuery.mark.jump()
   return
+
+
