@@ -218,7 +218,7 @@ body {
 
   .card-title {
     padding: 2em;
-    font-size: 3em;
+    // font-size: 1em;
     text-align: center;
     @include media($medium-screen) {
       @include span-columns(6);
@@ -226,26 +226,10 @@ body {
       background: #FFFF00;
     }
   }
-  .card-info  {
-    @include span-columns(6);
+}
 
-    .entry {
-      font-size: 1em;
-      @include media($medium-screen) {
-        font-size: 2em;
-        list-style: disc;
-        margin-left: 3em;
-      }
-    }
+// Nav - _dw TODO move to another place
 
-    .summary {
-      background: #CCCCCC;
-      @include media($medium-screen) {
-        padding: 3em;
-      }
-      .link-info {
-        display: none;
-      }
-    }
-  }
+.nav {
+  .inv * { display: none; }
 }

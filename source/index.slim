@@ -2,6 +2,30 @@
 layout: landing
 ---
 
+section.nav
+  ul.vis
+    li personal
+    li practice
+  ul.inv
+    #personal
+      .overview
+        h3 Peronal
+        p These are links that tell you more about me
+      .links
+        ul
+          li= link_to 'blog', '/blog'
+          li= link_to 'feed', '/feed'
+          li= link_to 'photos', '/photos'
+    #practice
+      .overview
+        h3 Peronal
+        p These are links that tell you more about me
+      .links
+        ul
+          li= link_to 'blog', '/blog'
+          li= link_to 'feed', '/feed'
+          li= link_to 'photos', '/photos'
+
 section.hero
   = image_tag 'us_hero.jpg', class: 'fadeIn animated'
   .copy
@@ -30,75 +54,60 @@ section.about.animated.fadeIn
       p  So, in 2012 I sold my t-shirt company and dove in head-first to become a full stack web developer. My specific focus is Angular, Rails, and Middleman (I call it the ARM stack). I work full time at <a href="http://www.livingsocial.com" target="_blank">LivingSocial</a>.  I spend my free time coding side projects, raising my sons, and trying to be the husband my wonderful wife deserves.
 
 
-/ section.content.animated.fadeIn.long-delay
-/   section.summary-of-pages
-
-/     h2 The Internet is here to stay
-/     p I spent 17 years in the apparel industry working nearly every job including: graphic designer, sales rep, account management, art director, and owning two companies.
-
-/     p In 2007 I discovered <a href='http://www.basecamp.com' target='_blank'>basecamp</a>. It's simplicity, effectiveness, and business model fascinated me. It was the first web app that made me realize the web did not die when the <i>dot com</i> bubble burst. The Internet was here to stay.
-
-/     h2 HTML is the New English
-/     p I like describe the web as a new country called <i>InternetLand</i>.  Consider how difficult it is for people who don't know English in America. In InternetLand, <i>HTML is the new English</i>. I wanted to join that new economy without being bound to a translator because there is more opportunity in InternetLand than in America.
-
-/     p  So, in 2012 I sold my t-shirt company and dove in head-first to become a full stack web developer. My specific focus is Angular, Rails, and Middleman (I call it the ARM stack). I work full time at <a href="http://www.livingsocial.com" target="_blank">LivingSocial</a>.  I spend my free time coding side projects, raising my sons, and trying to be the husband my wonderful wife deserves.
-
-/   section.pages
-/     .page
-/       = link_to '/blog' do
-/         .title blog
-/         .summary These posts might turn into a book one day.
-/     .page
-/       = link_to '/feed' do
-/         .title news feed
-/         .summary My version of facebook
-/     .page
-/       = link_to 'http://www.fakefarm.com' do
-/         .title fake farm
-/         .summary Pet projects to practice coding
-/     .page
-/       = link_to 'http://hashpage.me' do
-/         .title hashPage
-/         .summary Build a website from tweets & hashtags.
-/     .page
-/       = link_to 'http://www.clov3r.com' do
-/         .title clov3r
-/         .summary Need a simple website? I can help
-/     .page
-/       = link_to 'http://you.should.hireDave.me' do
-/         .title hire Dave
-/         .summary Art, Business, and Code consulting
-/     .page
-/       = link_to 'http://www.feather.cards' do
-/         .title feather cards
-/         .summary Send thoughtful gift cards
-/     .page
-/       = link_to 'http://www.destroyalltasks.com' do
-/         .title destroy all tasks
-/         .summary <i>Inbox Zero</i> for tasks
-/     .page
-/       = link_to 'http://www.catmathdo.com' do
-/         .title cat math do
-/         .summary Teach toddlers the basics of plus and minus
-/     .page
-/       = link_to 'http://www.lettucebooks.com' do
-/         .title lettuce books
-/         .summary Manage source documents and the questions that follow.
+section.show-cards
+  .card-title
+    .title
+      h3 About Me
+      p Some links about me
+  .pages
+    .page
+      = link_to '/blog' do
+        .title blog
+        .summary Build a website from tweets & hashtags.
+      = link_to '/feed' do
+        .title feed
+        .summary Build a website from tweets & hashtags.
+      = link_to '/blog' do
+        .title blog
+        .summary These posts might turn into a book one day.
+      = link_to '/feed' do
+        .title news feed
+        .summary My version of facebook
+      = link_to 'http://www.fakefarm.com' do
+        .title fake farm
+        .summary Pet projects to practice coding
+      = link_to 'http://hashpage.me' do
+        .title hashPage
+        .summary Build a website from tweets & hashtags.
+      = link_to 'http://www.clov3r.com' do
+        .title clov3r
+        .summary Need a simple website? I can help
+      = link_to 'http://you.should.hireDave.me' do
+        .title hire Dave
+        .summary Art, Business, and Code consulting
+      = link_to 'http://www.feather.cards' do
+        .title feather cards
+        .summary Send thoughtful gift cards
+      = link_to 'http://www.destroyalltasks.com' do
+        .title destroy all tasks
+        .summary <i>Inbox Zero</i> for tasks
+      = link_to 'http://www.catmathdo.com' do
+        .title cat math do
+        .summary Teach toddlers the basics of plus and minus
+      = link_to 'http://www.lettucebooks.com' do
+        .title lettuce books
+        .summary Manage source documents and the questions that follow.
 
 section.show-cards
   .card-title
-    .title Fun
-  .card-info
-    ul.list
-      li.entry#hashPage
-        = link_to 'hashPage'
-      li.entry#dat
-        = link_to 'destroy all tasks'
-    .summary
-      .vis these are the fun things I like to do. yay!
-      .inv
-        span.link-info.hashPage hashpage is awesome!
-        span.link-info.dat hashpage is awesome!
+    .title
+      h3 Fun
+      p these are the fun things I like to do. yay!
+  .pages
+    .page
+      = link_to 'http://hashpage.me' do
+        .title hashPage
+        .summary Build a website from tweets & hashtags.
 
 section.social
   ul
