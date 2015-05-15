@@ -7,6 +7,14 @@ collections:
     date: 2014-12-13
     entries:
       -
+        title: boom
+        body: ''
+        tag: boom
+        url: http://cdn.smosh.com/sites/default/files/ftpuploads/bloguploads/1213/funny-reverse-gif-swing-set.gif
+        video: ''
+        date: 2015-05-14
+        caption: ''
+      -
         title: hmmm
         body: ''
         tag: hmmm
