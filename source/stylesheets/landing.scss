@@ -214,16 +214,17 @@ body {
 
 .show-cards {
   @include row();
+  @include media($medium-screen) {
+    @include shift(1);
+  }
   @include fill-parent();
 
   .card-title {
     padding: 2em;
-    // font-size: 1em;
-    text-align: center;
     @include media($medium-screen) {
       @include span-columns(6);
       @include omega();
-      background: #FFFF00;
+      // background: #CCCCCC;
     }
   }
 }
@@ -231,5 +232,59 @@ body {
 // Nav - _dw TODO move to another place
 
 .nav {
-  .inv * { display: none; }
+  display: none;
+  @include media($medium-screen) {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 100;
+  }
+}
+
+.link-section {
+  .title { z-index: 200; }
+}
+
+.inv {
+  h3, p { color: white; }
+
+  @include media($medium-screen) {
+    @include transition(all, 300ms, ease-in-out);
+    margin-left: -30px;
+    visibility: hidden;
+    opacity: 0;
+    @include row();
+    position: fixed;
+    left: 0;
+    padding: 2em;
+    padding-bottom: 3em;
+    top: 0px;
+    width: 120%;
+    background-image: -webkit-linear-gradient(135deg,  #bd3b53, #CC7365);
+    background-image: -moz-linear-gradient(135deg,  #bd3b53, #CC7365);
+    background-image: linear-gradient(to bottom,#bd3b53, #CC7365);
+  }
+  .overview {
+    @include media($medium-screen) {
+      @include span-columns(4);
+    }
+  }
+  .links {
+    a {
+      color: rgba(255,255,255, 0.7);
+      &:hover { color: white; }
+    }
+    @include media($medium-screen) {
+      @include span-columns(8);
+    }
+  }
+}
+
+.title:hover + ul.inv,
+.inv:hover {
+  @include transition(all, 300ms, ease-in-out);
+  visibility: visible;
+  opacity: 1;
+  margin-left: 0;
 }
