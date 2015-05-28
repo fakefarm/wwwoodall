@@ -4,7 +4,7 @@
        // awesome
        // code 
     });
-</code></pre> <p>Then, I had to implement the same behavior on a different page but this time in a modal and it didn't work. So I showed it to <a href="">@shaunrussel</a> and he immediately spotted the problem. He explained that markup that comes through via AJAX is not in the DOM when the page loads and that I should move my code into a function that I can explicitly fire.</p> <pre class="highlight plaintext"><code>    function runMyCode() {
+</code></pre> <p>Then, I had to implement the same behavior on a different page but this time in a modal and it didn't work. So I showed it to Shaun (<a href="https://twitter.com/shaunrussell">@shaunrussell</a> <a href="https://github.com/shwing">shwing</a>) and he immediately spotted the problem. He explained that markup that comes through via AJAX is not in the DOM when the page loads and that I should move my code into a function that I can explicitly fire.</p> <pre class="highlight plaintext"><code>    function runMyCode() {
        // all
        // my
        // awesome
@@ -14,7 +14,7 @@
    document.ready(function(){
         runMyCode()
     });
-</code></pre> <p>then, for the modal, I add an <code>onClick</code> handler </p> <pre class="highlight plaintext"><code>    $("#my-modal").click(function(){
+</code></pre> <p>then, for the modal, I add an <code>onClick</code> handler</p> <pre class="highlight plaintext"><code>    $("#my-modal").click(function(){
         runMyCode()
     });
 </code></pre> <p>It makes sense now, but the lesson learned is that the DOM changed after <code>$(document).ready()</code> so there was nothing for me to attach to. </p> <p>Shaun also explained another way to approach it. Which is to watch the DOM on an element you know will be there. </p> <pre class="highlight plaintext"><code>$("#some-parent-already-in-the-DOM").on('click', "#my-modal", function(){
