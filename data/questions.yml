@@ -8,6 +8,12 @@ collections:
     date: 2014-12-15
     entries:
       -
+        title: 'What is $el and how does it work with templates?'
+        body: ''
+        tag: backbone
+        url: ''
+        date: 2015-06-26
+      -
         title: 'what are the power features of git to know?'
         body: ''
         tag: git
