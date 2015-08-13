@@ -1,19 +1,6 @@
 ---
 layout: landing
 ---
-section.nav
-  ul
-    li.link-section
-      .title personal
-      ul.inv
-        #personal
-          .overview
-            h3 personal links
-          .links
-            ul
-              li= link_to 'blog', '/blog'
-              li= link_to 'feed', '/feed'
-              li= link_to 'pictures', '/pictures'
 
 section.hero
   = image_tag 'us_hero.jpg', class: 'fadeIn animated'
@@ -47,18 +34,6 @@ section.show-cards
         .title blog
         .summary I hope to organize these thoughts into a book.
     .page
-      = link_to '/feed' do
-        .title feed
-        .summary news feed organized by topic, not time.
-    .page
-      = link_to '/pictures' do
-        .title pictures
-        .summary point click shoot.
-    .page
-      = link_to 'http://proverbs.wwwoodall.com' do
-        .title teach the proverbs
-        .summary memorize proverbs with your kids.
-    .page
       = link_to 'http://www.fakefarm.com' do
         .title fake farm
         .summary pet projects to practice coding
@@ -67,17 +42,13 @@ section.show-cards
         .title hashPage
         .summary build a website from tweets & hashtags.
     .page
+      = link_to 'http://proverbs.wwwoodall.com' do
+        .title teach the proverbs
+        .summary memorize proverbs with your kids.
+    .page
       = link_to 'http://www.clov3r.com' do
         .title clov3r
         .summary need a simple website? I can help
-    .page
-      = link_to 'http://you.should.hireDave.me' do
-        .title hire Dave
-        .summary my dying consulting business
-    .page
-      = link_to 'http://www.feather.cards' do
-        .title feather cards
-        .summary send thoughtful gift cards
     .page
       = link_to 'http://www.destroyalltasks.com' do
         .title destroy all tasks
@@ -86,10 +57,6 @@ section.show-cards
       = link_to 'http://www.catmathdo.com' do
         .title cat math do
         .summary introduce toddlers to plus and minus
-    .page
-      = link_to 'http://www.lettucebooks.com' do
-        .title lettuce books
-        .summary turns 'Bookkeeping, ugh..' into 'Bookkeeping, ahh'
 
 section.social
   ul

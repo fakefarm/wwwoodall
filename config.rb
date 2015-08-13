@@ -156,23 +156,23 @@ activate :deploy do |deploy|
   deploy.method = :git
 end
 
-activate :directory_indexes
-activate :livereload
-activate :syntax
-activate :emoji
-
-set :markdown_engine, :kramdown
-
-set :css_dir, 'stylesheets'
-set :js_dir, 'scripts'
-set :images_dir, 'images'
-
 configure :build do
   activate :minify_css
   activate :minify_html
   activate :minify_javascript
   activate :relative_assets
 end
+
+activate :directory_indexes
+activate :livereload
+activate :syntax
+activate :emoji
+
+set :markdown_engine, :kramdown
+set :css_dir, 'stylesheets'
+set :js_dir, 'scripts'
+set :images_dir, 'images'
+
 
 ignore   '/blog/drafts/*'
 
