@@ -1,0 +1,17 @@
+.l-container {
+  @include outer-container;
+
+}
+
+.l-skinny-col {
+  @include media($medium-screen) {
+    @include span-columns(3);
+  }
+}
+
+.l-fat-col {
+  @include media($medium-screen) {
+    @include span-columns(8);
+  }
+}
+

@@ -1,47 +1,11 @@
-// Import Base Styles', '/about'
 @import 'bourbon';
 @import 'neat';
-
-@import 'base/variables';
-@import 'base/mixins/flash';
-@import 'base/extends/button';
-@import 'base/extends/clearfix';
-@import 'base/extends/hide-text';
-@import 'base/normalize';
-@import 'base/typography';
-@import 'base/forms';
-@import 'base/tables';
-@import 'base/grid-settings';
-@import 'base/lists';
-@import 'base/flashes';
-@import 'base/buttons';
 @import 'base/base';
-@import 'base/animate';
+@import 'layout';
 
-@import 'lib/animate';
+@import 'libs/animate';
+@import 'pages/splash';
+@import 'pages/landing';
 
-@import 'layout/layout';
-
-@import 'modules/index';
-@import 'modules/nav';
-@import 'modules/footer';
-
-@import 'modules/blog/blog_post';
-
-// Templates & overrides
-@import 'modules/lists/lists';
-@import 'modules/lists/links';
-@import 'modules/lists/questions';
-@import 'modules/lists/shortcuts';
-
-@import 'modules/grid/grid';
-@import 'modules/grid/cards';
-@import 'modules/grid/gifs';
-@import 'modules/grid/pictures';
-@import 'modules/summary';
-
-@import 'modules/jots/jots';
-
-@import 'modules/notes/notes';
-
-
+@import 'modules/vertical_tabs';
+@import 'modules/tooltip';

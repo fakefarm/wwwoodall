@@ -1,0 +1,29 @@
+// body {
+//   background: white;
+//   @include media($medium-screen) {
+//     margin-top: 10em;
+//   }
+// }
+// .blurb h4 {
+//   font-weight: 200;
+// }
+
+// .content {
+//   @include media($medium-screen-up) {
+//     vertical-align: middle;
+//     padding: 0 2em 2em;
+//   }
+//   .logo {
+//     @include media($medium-screen-up) {
+//       @include span-columns(3);
+//       @include shift(0.25);
+//     }
+//   }
+// }
+
+// .contact {
+//   border-left: 1px solid $blue;
+//   margin-top: 1em;
+//   padding-left: 1em;
+// }
+

@@ -1,0 +1,213 @@
+body {
+  background: #eee;
+  @include media($medium-screen) {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+.welcome {
+  display: none;
+  @include media($medium-screen) {
+    display: block;
+    position: relative;
+    background: image-url('ap.jpg')  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+
+    h1, h2 {
+      color: white;
+      position: absolute;
+      font-weight: 100;
+      @include media($medium-screen) {
+        font-size: 6em;
+        left: 1em;
+        top: 1em;
+      }
+    }
+    h2 {
+      color: rgba(255,255,255,0.7);
+      @include media($medium-screen) {
+        font-size: 3.25em;
+        top: 3em;
+        left: 2em;
+      }
+    }
+  }
+}
+.content {
+  background: white;
+  box-shadow: 0px 12px 3px #aaa;
+  border-top: 10px solid $blue;
+  @include media($medium-screen) {
+    border-top: 25px solid $blue;
+    padding: 2em;
+    margin-top: 2em;
+  }
+}
+
+.hero {
+  @include row;
+  @include clearfix;
+  @include media($medium-screen) {
+    margin-top: 2em;
+  }
+  img {
+    @include media($medium-screen) {
+      @include shift(3);
+      @include span-columns(6);
+    }
+  }
+}
+
+h2 {
+  text-align: center;
+  padding: 0.25em 0 0;
+  font-weight: 100;
+
+  @include media($medium-screen) {
+    font-size: 2em;
+    padding: 1em 0 0;
+  }
+}
+#case-wrapper {
+  @include row;
+  .col-1, .col-2 {
+    @include media($medium-screen) {
+      @include span-columns(6);
+    }
+  }
+
+  .case {
+    border-left: 1px solid $base-accent-color;
+    padding-left: 0.25em;
+    margin: 1em 0;
+    @include media($medium-screen) {
+      margin: 1.25em 0;
+      line-height: 27px;
+      padding-left: 0.75em;
+    }
+  }
+}
+
+.about {
+  @include row;
+  .image {
+    @include media($medium-screen) {
+      @include span-columns(4);
+      margin-top: 5em;
+    }
+  }
+  .copy {
+    padding: 1em;
+    line-height: 27px;
+    @include media($medium-screen) {
+      line-height: 27px;
+      padding: 0;
+      @include span-columns(8);
+    }
+  }
+}
+
+
+.contact {
+  @include row;
+  background: #eee;
+  @include media($medium-screen) {
+    margin: 4em 0 1em;
+  }
+  h4{
+    background: #aaa;
+    color: white;
+    padding: 0.25em;
+    font-weight: 100;
+    @include media($medium-screen) {
+      padding: 0.25em;
+      text-align: right;
+      letter-spacing: 8px;
+      @include span-columns(2);
+    }
+  }
+  ul {
+    padding-left: 0.5em;
+    background: #eee;
+    @include media($medium-screen) {
+      padding-top: 0.5em;
+      margin-right: 0;
+    }
+  }
+  li {
+    @include media($medium-screen) {
+      display: inline-block;
+      margin-left: 2em;
+      font-size: 1.2em;
+      font-family: $source;
+      font-weight: 100;
+      a {
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+.ending {
+  display: none;
+  @include media($medium-screen) {
+    display: block;
+    position: relative;
+    background: image-url('books.jpg')  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 788px;
+
+    h1, h2 {
+      color: white;
+      position: absolute;
+      font-weight: 100;
+      @include media($medium-screen) {
+        font-size: 6em;
+        left: 1em;
+        top: 1em;
+      }
+    }
+    h2 {
+      color: rgba(255,255,255,0.7);
+      @include media($medium-screen) {
+        font-size: 3.25em;
+        top: 3em;
+        left: 2em;
+      }
+    }
+  }
+}
+
+.collective-sentence {
+  position: relative;
+  top: -10px;
+}
+
+.site-credits {
+  text-align: right;
+  padding: 0.5em 2em;
+}
+
+.signature {
+  @include span-columns(3);
+}
+
+// _nav.erb
+.side-stick-nav {
+  position: fixed;
+  left: 2em;
+  top: 20em;
+  background: white;
+  padding: 2em;
+}

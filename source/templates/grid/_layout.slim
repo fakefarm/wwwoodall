@@ -1,9 +1,0 @@
-div class="#{file_name}"
-  .grid
-    - data.send(file_name).collections[0..album_limit].each do |album|
-      - if file_name == 'pictures' || file_name == 'videos'
-        article.type-system-traditional data-tag="#{album.title}"
-          = render_partial 'templates/grid/album_title', locals: { album: album }
-          = render_partial 'templates/grid/images', locals: { album: album, file_name: file_name, limit: limit }
-      - else
-        = render_partial 'templates/grid/images', locals: { album: album, file_name: file_name, limit: limit }

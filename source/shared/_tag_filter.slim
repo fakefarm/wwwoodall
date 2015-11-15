@@ -1,9 +1,0 @@
-.fade-in-element
-  .scroll-on-page
-    aside#scroll-on-page-top
-      .blog-tags
-        - unless current_page.url == '/pictures/' || current_page.url == '/videos/'
-          p Tags
-          ul
-            - filter_tags_by(option, file_name).each do |item|
-              li= item

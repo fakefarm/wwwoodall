@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title><%= current_page.data.title || "SDG LAW, llc" %></title>
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag  "application" %>
+  </head>
+
+  <body class="<%= page_classes %> animated fadeIn">
+    <%= yield %>
+  </body>
+</html>
