@@ -12,7 +12,7 @@ body {
   @include media($medium-screen) {
     display: block;
     position: relative;
-    background: image-url('ap.jpg')  no-repeat center center fixed;
+    background: image-url('ap.png')  no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,9 +33,9 @@ body {
     h2 {
       color: rgba(255,255,255,0.7);
       @include media($medium-screen) {
-        font-size: 3.25em;
-        top: 3em;
-        left: 2em;
+        font-size: 5em;
+        top: 2em;
+        left: 1em;
       }
     }
   }
@@ -206,7 +206,7 @@ h2 {
 // _nav.erb
 .side-stick-nav {
   position: fixed;
-  left: 2em;
+  right: 2em;
   top: 20em;
   background: white;
   padding: 2em;
