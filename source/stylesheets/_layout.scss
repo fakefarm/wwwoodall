@@ -1,6 +1,8 @@
 .l-container {
-  @include outer-container;
-
+  // @include outer-container;
+  @include media($medium-screen) {
+    width: 64em;
+  }
 }
 
 .l-skinny-col {
