@@ -1,11 +1,10 @@
 ---
 title: Dave Woodall
 ---
-<%= partial 'shared/nav' %>
 <section class='welcome'>
+  <%= image_tag 'ap.png' %>
   <h2 class='animated fadeInDown'>Dave Woodall </h2>
   <h2 class='title'>
-    part-time<br>
     co-founder<br>
     for hire<br>
   </h2>
@@ -14,9 +13,14 @@ title: Dave Woodall
 <header id="header" class="module">
   <%= partial 'shared/nav' %>
 </header>
+<div class="mobile-hero">
+  <h2 class='mobile-hero__title animated fadeInDown'>Dave Woodall</h2>
+  <%= image_tag 'tall.jpg' %>
+</div>
 <section class='l-container content'>
   <section class='salespitch'>
-    <div id='abc'></div>
+    <div id='services'></div>
+    <h1>Services</h1>
     <div class="triangle animated rollIn">
       <%= image_tag 'abc.png' %>
     </div>
@@ -26,25 +30,24 @@ title: Dave Woodall
       <p id='click-abc' class='abc-btn'>SERVICES</p>
       <span class='clearfix'></span>
       <div class="abc-summary">
-        <h2>Jack of all trades with a Masters some</h2>
-        <p>I've spent 20 years building a diversified career. I used to explain it as 'CEO in training' for why I had such a eclectic combination of skills.  <a href="http://www.amazon.com/Autobiography-Benjamin-Franklin-Thrift-Editions/dp/0486290735" title="Benjamin Franklin's Autobiography">Benjamin Franklin</a> who introduced me to the life of a Renaissance Man. Or, a man of many interests. Specifically, three primary categories and their relationship hold my primary interest. That is corporate production of Art (systems), Business (profit), and Code (execution). My contribution is my ability to translate between the separate, yet essential aspects of a modern day Enterprise.</p>
+        <h2 class='abc-summary__sub-titles'>Digital Handyman</h2>
+        <p>I've spent 20 years building a diversified career. I used to explain my eclectic combination of skills as a 'CEO in training'.<a href="http://www.amazon.com/Autobiography-Benjamin-Franklin-Thrift-Editions/dp/0486290735" title="Benjamin Franklin's Autobiography"> Benjamin Franklin</a> introduced me to the life of a Renaissance Man - a man of many interests. <br>The way to grow a business is to understand the relationship of three categories: Art (systems), Business (profit), and Code (execution). My value add is as a translator between the separate, yet essential aspects of a modern day Enterprise.</p>
         <hr>
-        <h2>Artful Systems</h2>
+        <h2 class='abc-summary__sub-titles'>Whiteboard aficionado</h2>
         <h3>Art<br> + Business<br> = Strategy</h3>
         <p>An exciting customer experience must be designed systematically. I take many plays out of <a href="http://www.amazon.com/E-Myth-Revisited-Small-Businesses-About/dp/0887307280/ref=sr_1_1?s=books&ie=UTF8&qid=1448317932&sr=1-1&keywords=emyth" title="e-myth">e-myth</a>, <a href="http://www.amazon.com/The-Experience-Economy-Theater-Business/dp/0875848192" title="experience economy">experience economy</a> and <a href="http://www.amazon.com/Whole-New-Mind-Right-Brainers-Future/dp/1594481717/ref=sr_1_1?s=books&ie=UTF8&qid=1448317872&sr=1-1&keywords=whole+new+mind" title="a whole new mind">a whole new mind</a> to remain competitive in today's marketplace.</p>
         <hr>
-        <h2>Profitable Business</h2>
+        <h2 class='abc-summary__sub-titles'>Code is a natural resource</h2>
         <h3>Business<br> + Code<br> = Profit</h3>
         <p>After my first business went insolvent I realized that ignoring accounting and finance in favor of sales and product design was not smart. This is when I decided to take the time and learn how to manage a sustainable business. I received a Masters in Finance andy applied my new education on a second business, which I sold in after four years and nearly $3M in sales with 3 employees. What we build must serve the customer's need to the end they are willing to pay enough that we make a positive net income on the transaction.</p>
         <hr>
-        <h2>Clean Code</h2>
+        <h2 class='abc-summary__sub-titles'>Fresh products are easy to sell</h2>
         <h3>Code<br> + Art<br> = Growth</h3>
-        <p>In 2007 Code must be presented in such a way that the user experience is so pleasant it creates raving fans who tell their friends about us.</p>
+        <p>Code must be presented in such a way that the user experience is so pleasant it creates raving fans who tell their friends about us. In 2007 I discovered <a href='http://www.basecamp.com' target='_blank'>basecamp</a>. It's simplicity, effectiveness, and business model fascinated me. It was the first web app that made me realize the web did not die when the <i>dot com</i> bubble burst. I started joking with my friends around that time that "I've recently come to the conclusion that the Internet was here to stay". Meaning, I knew how to consume the web but I didn't know how to produce it. Since 2009 I've learned what is actually possible.</p>
         <hr>
         <div class="rate-section">
           <h3 class='rate'>$295 hour</h3>
-          <p class='rate-text'>I am currently available for 5 - 10 hours a week. Please contact me if you'd like to discuss consulting engagements.<br>
-          <i>Long-term contract pricing available.</i></p>
+          <p class='rate-text'>I am currently available for 5 - 10 hours a week at $295 hour or full-time <br>(Boulder, Greenville SC, or Remote) <br>as a Javascript &amp; Rails Developer.</p>
         </div>
       </div>
     </div>
@@ -65,8 +68,8 @@ title: Dave Woodall
 
   <div id='resume'></div>
   <section class='module resume'>
-    <h2>Resume</h2>
-    <p>After reviewing my resume, you should have the confidence to trust that I am more than a consultant. I have the capability of writing, designing, coding, calling, and starting the very plans I am proposing.</p>
+    <h1>Resume</h1>
+    <p>Capable of designing, coding, and implementing proposed plans</p>
     <div class="comment">
       <div class="comment-image">
         <%= image_tag 'animores/turkey.jpg' %>
@@ -75,57 +78,67 @@ title: Dave Woodall
         <span id='living-social'></span>
         <h1>Software Engineer <span class='company'>Jan 2014 - Present</span></h2>
         <p class="comment-detail">livingSocial</p>
-        <p>I've had the privilege to work on three entirely different teams. I was hired to handle some frontend work since my Rails skills. I was honest that I was really weak in two areas; javascript and TDD. I interviewed with @dhassler and @timschmelmer. Tim gave me a Russ Olsen Design Pattern quiz which, since I read the book, I told him I knew the answer. Had I not read the book, I would have been lost. But those guys were great and helped me learn a ton.</p>
-          <h3>Escapes: Retail Vertical</h3>
+        <p>LivingSocial was my first real code base and first job as a developer. I interviewed with <a href="https://twitter.com/dhassler" title="@dhassler">Dave H</a> and <a href="https://twitter.com/twitty_tim" title="@twitty_tim">Tim S</a>. Tim gave me a question from <a href="http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452" title="Russ Olsen Design Patterns">Russ Olsen Design Patterns</a>. I read the book and admitted I only knew the answer because I read it. I also explained I was weak in two areas; javascript and TDD. I got points for honesty :-) They saw that I was committed to learning and growing and I was hired to handle some front end work in Rails views for the Escapes team.</p>
+          <h3>Team 1: Escapes Retail Vertical</h3>
           <div class='ls-examples'>
-          <p>Most of my work was frontend on Rails: HTML, ERB, Partials, CSS, and JavaScript.</p>
+            <div class="ls-examples__copy">
+              <p>Most of my work was frontend on Rails: HTML, ERB, Partials, CSS, and JQuery maintenance.</p>
+              <p>During this time I leveled up my vanilla JavaScript, Jasmine, and MiniTest skills.</p>
+            </div>
           <%= image_tag 'escape.png' %>
           </div>
           <hr>
-          <h3>Personalization: Data Science & UI</h3>
-          <p>This was a very awkward position because it was opperating in Data Science on a Gem. We weren't even in Rails so I had to orient myself with code that had no familiar acheitechutre. ON top of that, Data Sciene use the words <span>test, engine, model</span> in very different ways. As part of this time I founded an Angular Club to try to apply what I was learning from some exploratory work we were doing. I was able to volunteer for Angular because Doug Ramsey called for ANgular's establishment in the LS eco system. That was before the 2.0 debacle. I had also invested about 1,000 hours with @cjgrimes on Angular so I figured I had to know more than the total beginners. That's when I met Eldar, Shauna, and Ian. Those guys are A+ talent and should be treated as such.</p>
+          <h3>Team 2: Personalization Data Science GEM &amp; UI</h3>
+          <p>This is the first time I worked with a Gem instead of Rails. It was for the Data Science teams. It was awkward because without Rails because I had to orient myself with code that had no familiar architecture where Data Scientists use the words <span>test, engine, model</span> in very different ways.</p>
           <h1>Urgency</h1>
           <div class='ls-examples'>
+            <div class="ls-examples__copy">
             <p>we used this to entice people 10%. Much of my work on this project was in JavasScipt debugging and QA testing.</p>
+            </div>
             <%= image_tag 'urgency.png' %>
           </div>
           <h1>Daily Gem</h1>
           <div class='ls-examples'>
+            <div class="ls-examples__copy">
             <p>Yes, we actually hired Robin Leach <%= link_to "for this", "https://vimeo.com/102170193" %>. At the end of the experiment, we realized that people will buy more if the price is cheaper. The experiment was a success.</p>
+            </div>
             <%= link_to image_tag('robin.png'), 'https://vimeo.com/102170193', taget: '_blank' %>
           </div>
           <h1>Save For Later</h1>
           <div class='ls-examples'>
-            <p>
-              The idea of save for later was to let people browse and save deals for later. It worked well on mobile but didn't translate to Desktop. This is a project that had nobody in the role because the lead Front End developer left. So, I volunteered and was way in over my head. Thanks to @shaun for bailing me out!
-            </p>
+            <div class="ls-examples__copy">
+              <p>
+                I volunteered to be lead developer because the former developer quit. I admit I was in over my head but thanks to <a href="http://shaunrussell.com/" title="Shaun Russell">Shaun Russell</a> for bailing me out!
+              </p>
+            </div>
           <%= image_tag 'sponsor.png' %>
           </div>
           <hr>
-          <h3>Internal Tools: Customer Service</h3>
+          <h3>Team 3: Internal Tools, Customer Service</h3>
           <div class='ls-examples'>
-            <p>Working in a tech company can make one forget that there are actual people being serviced from all the code we write. Working on internal tools, specifically for customer service reps means I get to learn first hand what our customer problems are and attempting to come up with solutions to empower customer service reps with the ability to create happy customer experiences.</p>
-            <%= image_tag 'q.svg' %>
+            <div class="ls-examples__copy">
+            <p>Working in a tech company can make one forget that there are actual people being serviced from all this code. But working on internal tools for customer service reps means learning firsthand customer problems and attempting to come up with solutions to empower people with the abilit to create happy customer experiences.</p>
+            </div>
+            <%= image_tag 'q.svg', class: 'small-img' %>
           </div>
           <hr>
           <h3>Volunteer work</h3>
           <%= image_tag 'five_year_plan.png' %>
-          <p>In addition to helping with the code base, I was an active member of the following:</p>
           <ul>
-            <li>Founder, Leader - Angular Club</li>
-            <li>Facilitator - Lightning talks</li>
-            <li>Author of
+            <li>Founder, LS Angular Club <br> A weekly gathering to learn Angular by building internal apps</li>
+            <li><br>Facilitator, Lightning talks<br>Organize internal speakers for 2 - 7 minute talks about anything of interest.</li>
+            <li><br>Author,<br>
               <%= link_to "LivingSocial 2.0 - A vision for the future", "dl.dropboxusercontent.com/u/13563632/xls_draft.pdf", target: '_blank' %>
             </li>
           </ul>
           <hr>
           <h3>Conclusion</h3>
           <p>
-           Working with three different pilots and then speaking with our <i>Business to Consumer</i> customers gave me perspectives on what entices a customer but also how to solve buyer remorse. Some examples of lessons include: Broad understanding of what it takes to work on a massive code base, Increased understanding of micro services, Managing multiple apps at the same time, and a production level design work flows.
+             Working with three different pilots and then speaking with our <i>Business to Consumer</i> customers gave me perspectives on what entices a customer but also how to solve buyer remorse. Some examples include: <br>• Broad understanding of what it takes to work on a massive code base<br>•  Increased understanding of Micro Services<br>• Working on and with multiple apps at the same time<br>• A production level design work flows.
           </p>
       </div>
     </div>
-    <hr>o
+    <hr>
     <div class="comment">
       <div class="comment-image">
         <%= image_tag 'animores/whale.jpg' %>
@@ -133,7 +146,8 @@ title: Dave Woodall
       <div class="comment-content">
         <h1>Web Developer <span class='company'>Feb 2014 - Present</span></h2>
         <p class="comment-detail">FakeFarm</p>
-        <p>fake farm is a digital playground to record my practice as a developer, designer, and father. The site is a collection of random pet projects in a blog format.</p>
+        <p>fake farm is a digital playground to practice as a developer, designer, and father. The site is a collection of random pet projects in a blog format.</p>
+        <p>visit <a href="http://fakefarm.com" title="fake farmi">fake farm</a></p>
       </div>
     </div>
     <hr>
@@ -144,7 +158,7 @@ title: Dave Woodall
       <div class="comment-content">
         <h1>Web Design &amp; Development <span class='company'>March 2013 - Jan 2014</span></h2>
         <p class="comment-detail">hireDave, LLC</p>
-        <p>Web strategy, design, and development employing such technologies as Ruby on Rails, HTML, CSS, JQuery, JavaScript, Angular, Adobe Photoshop. Projects include work for the following clients;</p>
+        <p>Freelance Design and development with Ruby on Rails, HTML, CSS, JQuery, JavaScript, Angular, Adobe Photoshop. Projects include work for the following clients;</p>
         <ul>
           <li>Marshill.com</li>
           <li>3rdRevolution.com</li>
@@ -163,7 +177,7 @@ title: Dave Woodall
       <div class="comment-content">
         <h1>Web Developer <span class='company'>November 2012 - March 2013</span></h2>
         <p class="comment-detail">Factory Design Labs</p>
-        <p>Ruby on rails development guided by great mentors like @mikePack, @JesseTrimble, and @Tony</p>
+        <p>Ruby on rails development guided by great mentors like <a href="https://twitter.com/mikepack_" title="@mikePack_">Mike P</a>, and <a href="https://twitter.com/anthonynavarre" title="Anthony Navarrei">Anthony Navarre</a></p>
       </div>
     </div>
     <hr>
@@ -174,7 +188,7 @@ title: Dave Woodall
       <div class="comment-content">
         <h1>Intern <span class='company'>Sep 2012 - Nov 2012</span></h2>
         <p class="comment-detail">Pivotal Labs</p>
-        <p>fake farm is a digital playground to record my practice as a developer, designer, and father. The site is a collection of random pet projects in a blog format.</p>
+        <p>Even though I wasn't a professional developer yet I wanted to start living like one. So, I asked <a href="http://www.twitter.com/mikegehard" title="@mikegehard">Mike G</a> if I could hangout at their office for a day. That one day turned into an informal, first hand mentoring session from a room full of Pivots.</p>
       </div>
     </div>
     <hr>
@@ -185,7 +199,7 @@ title: Dave Woodall
       <div class="comment-content">
         <h1>Co-Founder &amp; CEO <span class='company'>Apr 2008 - Jul 2012</span></h2>
         <p class="comment-detail">AMB3R custom t-shirts</p>
-        <p>AMB3R was the second clothing company I started. I wanted to focus on the subjects that caused my first company to go out of business. Specifically, Finance and Operations. Before selling my equity, we achieved $1M in annual sales managed by systems I developed that enabled me to sell without any service interruption.</p>
+        <p>Summary: Started company with a vision to become the ‘Starbucks of t-shirts’. Launched business with an innovative product offering and unique approach to custom apparel. Collaborated with vendors to develop a JIT model that responds to orders based on market trends. <br> #TODO rewrite this.</p>
       </div>
     </div>
     <hr>
@@ -208,7 +222,7 @@ title: Dave Woodall
       <div class="comment-content">
         <h1>M.S. Finance <span class='company'>March 2009 - October 2011</span></h2>
         <p class="comment-detail">University of Denver</p>
-        <p>I was doing things cool.</p>
+        <p>I wanted to learn the subjects that caused my first business to go out of business. I was motivated to focus on cash flow management and maintaining a high profit margins to demonstrate growth. I applied the skills I was learning to running AMB3R, which I sold in 2012 after learning how to do so :-)</p>
       </div>
     </div>
     <hr>
@@ -219,7 +233,7 @@ title: Dave Woodall
       <div class="comment-content">
         <h1>BS Communications - Advertising &amp; PR <span class='company'>March 2009 - October 2011</span></h2>
         <p class="comment-detail">Liberty University</p>
-        <p>I was doing things cool.</p>
+        <p>While I have a degree, I feel I learned more from the hobbies I started in school. I started a clothing company, skate team, and other micro clubs that gave me the confidence to try new things.</p>
       </div>
     </div>
     <hr>
@@ -230,7 +244,7 @@ title: Dave Woodall
       <div class="comment-content">
         <h1>Web Development <span class='company'>Summer 2012</span></h2>
         <p class="comment-detail">Starter League</p>
-        <p>I was doing things cool.</p>
+        <p>My wife is the real story behind this. She moved from Denver with our two toddlers to live with my inlaws in Naples, FL while I spent 3 months in Chicago learning how to code! She is amazing.</p>
       </div>
     </div>
     <hr>
@@ -248,7 +262,7 @@ title: Dave Woodall
 
   <span id='about'></span>
   <section class='module about'>
-    <h2>About me</h2>
+    <h1>About me</h1>
     <div class='image'>
       <%= image_tag 'bird.jpg' %>
     </div>
@@ -275,14 +289,14 @@ title: Dave Woodall
   <h1>Hobbies</h1>
   <div class="vertical-tabs-container module">
     <div class="vertical-tabs">
-      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab is-active" rel="tab1">writing</a>
-      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab2">code</a>
-      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab3">movies</a>
-      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab4">photography</a>
-      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab5">design</a>
-      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab6">micro-clubs</a>
-      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab7">pet projects</a>
-      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab8">social profiles</a>
+      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab is-active" rel="tab1">writing my thoughts</a>
+      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab2">learning to code</a>
+      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab3">making movies</a>
+      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab4">clicking my kids</a>
+      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab5">design of all kinds</a>
+      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab6">forming micro-clubs</a>
+      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab7">building pet projects</a>
+      <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab8">managing social profiles</a>
     </div>
 
     <div class="vertical-tab-content-container">
@@ -292,6 +306,7 @@ title: Dave Woodall
         <p>I've recently started writing again on
           <a href="https://medium.com/@wwwoodall" title="">medium</a>.
           I took a break from platforms because I was trying to build my own blogging platform for practice. The problem with that approach is I was always coding rather that writing. So, I've decided to start again and just see what happens.</p>
+          <script async src="https://static.medium.com/embed.js"></script><a class="m-profile" data-width="100%" href="https://medium.com/@wwwoodall">dave woodall</a>
       </div>
 
       <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab2">code</a>
@@ -309,21 +324,21 @@ title: Dave Woodall
 
       <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab3">movies</a>
       <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
-       <h2>Youtube</h2>
+       <h2>Home Movies</h2>
        <p>I enjoy poking around with iMovie and GarageBand but I don't have enough storage to keep those videos so I post them on youtube. Here are a few examples</p>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/49TiJffdYKU?list=PL380UExtqJFdnsNCDGv4pQYDsE2hrwy7O" frameborder="0" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/49TiJffdYKU?list=PL380UExtqJFdnsNCDGv4pQYDsE2hrwy7O" frameborder="0" allowfullscreen></iframe>
 
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/6MTatvsqNMY?rel=0" frameborder="0" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MTatvsqNMY?rel=0" frameborder="0" allowfullscreen></iframe>
 
       </div>
 
       <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab4">photography</a>
       <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
         <h2>Select Albums</h2>
-        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/davewoodall/albums/72157660360680599" title="june gloom"><img src="https://farm1.staticflickr.com/648/22956089845_c7f847f251.jpg" width="500" height="292" alt="june gloom"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/davewoodall/albums/72157660360680599" title="june gloom"><img src="https://farm1.staticflickr.com/648/22956089845_c7f847f251.jpg" width="100%" height="100%" alt="june gloom"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
         <p>June 2015 in San Diego</p>
 
-        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/davewoodall/albums/72157634034325051" title="Great Sand Dunes"><img src="https://farm9.staticflickr.com/8397/9002225626_1a183d41c6.jpg" width="500" height="500" alt="Great Sand Dunes"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/davewoodall/albums/72157634034325051" title="Great Sand Dunes"><img src="https://farm9.staticflickr.com/8397/9002225626_1a183d41c6.jpg" width="100%" height="100%" alt="Great Sand Dunes"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
         <p>June 2013 at the Sand Dunes</p>
       </div>
       <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab5">design</a>
@@ -373,16 +388,14 @@ title: Dave Woodall
       </div>
     </div>
   </div>
-  <footer>
-    <h1>thanks for stopping by!</h1>
-  </footer>
 </section>
 
-<a href="" title="">
+<!-- <a href="" title="">
   <span>stop the party</span>
   <div class='dot-border'>
     <div class="dots-divine" >
-      <%= image_tag "dot2.gif" %>
+      <%#= image_tag "dot2.gif" %>
     </div>
   </div>
 </a>
+ -->

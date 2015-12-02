@@ -20,8 +20,10 @@
 
   .comment-image,
   .comment-content {
-    display: table-cell;
     vertical-align: $comment-image-vert-alignment;
+    @include media($medium-screen) {
+      display: table-cell;
+    }
   }
 
   .comment-image {

@@ -1,7 +1,7 @@
 .l-container {
   // @include outer-container;
   @include media($medium-screen) {
-    width: 64em;
+    max-width: 64em;
   }
 }
 
