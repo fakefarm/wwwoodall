@@ -253,6 +253,7 @@ h2 {
     top: 6em;
     background: white;
     padding: 2em;
+    padding-bottom: 2.5em;
   }
   @include media(min-width 1180px) {
     display: block;
@@ -472,4 +473,30 @@ h2 {
 
 .resume {
   padding: 0.5em 0.5em 0.5em 0.75em;
+}
+
+a.hire-btn {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 1.1em 3em;
+  width: 100%;
+  cursor: pointer;
+  &:hover {
+    background: #eee;
+    color: #aaa;
+    border: none;
+    border: 1px solid #aaa;
+  }
+}
+
+.pdf-icon {
+  color: #0080FF;
+  margin-left: 0.5em;
+  background: #eee;
+  padding: 0.25em 0.5em;
+  font-size: 0.25em;
+}
+
+.resume-link {
+  font-size: 0.8em;
 }
