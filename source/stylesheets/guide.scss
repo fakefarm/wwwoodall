@@ -1,0 +1,86 @@
+// Variables
+
+$limited-space: 0em;
+$default-space: 1em;
+$extra-space: 2em;
+
+$gray: #004080;
+$light-gray: #eee;
+$red: #800080;
+
+$lucida: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+
+$line-weight: 3px;
+$line-type: solid;
+
+// Mixins are allowed to use raw html elements
+
+@mixin text-right {
+  text-align: right;
+}
+
+@mixin paragraph() {
+  color: $gray;
+  font-size: $default-space;
+  font-family: $lucida;
+  padding: $extra-space;
+}
+
+@mixin rounded-background-dark() {
+  background: $light-gray;
+  border-radius: $line-weight;
+}
+
+@mixin container {
+  padding: $extra-space;
+  margin: $extra-space;
+  border: $line-weight $line-type $gray;
+}
+
+@mixin list {
+  ul {
+    color: $red;
+  }
+  li {
+    font-size: $default-space;
+    margin: $default-space $limited-space $limited-space $limited-space;
+  }
+}
+
+
+.reach {
+  &.app{}
+  &.page{}
+  &.collection{}
+  &.unit{} // use specific unit classes
+}
+
+.unit {
+  &.rounded-background-dark { @include rounded-background-dark }
+  &.welcome-title { font-size: 3em; }
+}
+
+.content {
+  &.container{ @include container }
+  &.grid{}
+  &.title{}
+  &.paragraph{ @include paragraph }
+  &.image{}
+  &.list{ @include list }
+}
+
+.responsive {
+  &.col-1 {}
+  &.col-2 {}
+  &.hide  {}
+}
+
+.state {
+  &.active {}
+  &.alarm {}
+  &.dynamic  {}
+}
+
+.overrides {
+  &.text-right { @include text-right; }
+}
