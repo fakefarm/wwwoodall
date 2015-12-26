@@ -21,7 +21,7 @@ layout: guide
 
         declarative html & css
 
-    </div><!-- reach unit  welcome-title-->
+    </div><!-- unit welcome-title-->
 
     <div
       class="
@@ -32,7 +32,7 @@ layout: guide
         overrides">
 
         I've been learning HTML and CSS for the past 6 years. I've read many books and messed around with things like angular and rails. I've started to take some pointers from those and SMACSS, BEM, and other resources to handle two things;
-    </div><!-- reach unit  rounded-background-dark-->
+    </div><!-- unit rounded-background-dark-->
     <div
       class="
         reach unit list-summary
@@ -49,7 +49,38 @@ layout: guide
           <li>remembering to use established styles</li>
           <li>easy to change the entire site</li>
           <li>managing state, alarms, and other animations</li>
+          <li>managing animations</li>
         </ul>
 
-    </div><!-- reach unit  list-summary-->
-</div><!-- reach collection -->
+    </div><!-- unit list-summary-->
+    <div
+      class="
+        reach unit welcome-btn
+        content button
+        responsive col-1
+        state active
+        overrides
+        animated fadeIn
+        "
+
+        data-click="welcome">
+
+        View Dynamic Content
+
+    </div> <!-- unit welcome-btn-->
+
+    <div
+      class="
+        reach unit welcome-message
+        content paragraph
+        responsive col-1
+        state dynamic
+        overrides"
+
+        data-content='welcome'>
+
+        This is a test for something that should start hidden but then is revealed when someone pushes the button
+
+    </div> <!-- unit welcome-message-->
+</div><!-- collection -->
+

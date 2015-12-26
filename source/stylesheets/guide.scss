@@ -1,32 +1,41 @@
-// Variables
+@import 'bourbon';
+@import 'neat';
+
+// padding, pixels, weights
 
 $limited-space: 0em;
 $default-space: 1em;
-$extra-space: 2em;
+$extra-space:   2em;
+$line-weight:   3px;
+$subtle-radius: 3px;
+$line-type:     solid;
 
-$gray: #004080;
+
+// colors
+$gray:       #004080;
 $light-gray: #eee;
-$red: #800080;
+$eggplant:   #800080;
+$green:      #00A050;
 
+// typography
 $lucida: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 
-$line-weight: 3px;
-$line-type: solid;
 
-// Mixins are allowed to use raw html elements
+// Mixins
+// Able to use raw HTML elements
+// Use variables for measurements
 
-@mixin text-right {
-  text-align: right;
-}
+@mixin text-right { text-align: right; }
 
-@mixin paragraph() {
+@mixin paragraph {
   color: $gray;
   font-size: $default-space;
   font-family: $lucida;
   padding: $extra-space;
+  line-height: 25px;
 }
 
-@mixin rounded-background-dark() {
+@mixin rounded-background-dark {
   background: $light-gray;
   border-radius: $line-weight;
 }
@@ -39,7 +48,7 @@ $line-type: solid;
 
 @mixin list {
   ul {
-    color: $red;
+    color: $eggplant;
   }
   li {
     font-size: $default-space;
@@ -47,26 +56,60 @@ $line-type: solid;
   }
 }
 
+@mixin button {
+  background: $green;
+  color: white;
+  border-radius: $subtle-radius;
+  font-size: $default-space;
+  padding: $default-space;
+  display: inline-block;
+  cursor: pointer;
+  &:hover {
+    background: $eggplant;
+  }
+}
+
+@mixin dynamic {
+  opacity: 0;
+}
+@mixin active { opacity: 1 !important; }
+
+
+
+// FIX
+@mixin fadeIn {
+//   margin-left: 0;
+//   @include transition(all 300ms ease-in);
+}
+
+// .animated {
+//   @include transition(all 300ms ease-in);
+// }
+
 
 .reach {
-  &.app{}
-  &.page{}
-  &.collection{}
-  &.unit{} // use specific unit classes
+  &.app {}
+  &.page {}
+  &.collection {}
+  // .unit -> use .unit
 }
+
+.content {
+  &.container { @include container }
+  &.button    { @include button    }
+  &.paragraph { @include paragraph }
+  &.list      { @include list      }
+  &.grid      {}
+  &.title     {}
+  &.image     {}
+}
+
 
 .unit {
   &.rounded-background-dark { @include rounded-background-dark }
   &.welcome-title { font-size: 3em; }
-}
-
-.content {
-  &.container{ @include container }
-  &.grid{}
-  &.title{}
-  &.paragraph{ @include paragraph }
-  &.image{}
-  &.list{ @include list }
+  &.welcome-message { font-size: 1.4em; }
+  &.welcome-btn {}
 }
 
 .responsive {
@@ -76,11 +119,15 @@ $line-type: solid;
 }
 
 .state {
-  &.active {}
-  &.alarm {}
-  &.dynamic  {}
+  &.active  { @include active; }
+  &.dynamic { @include dynamic; }
+  &.alarm   {}
 }
 
 .overrides {
   &.text-right { @include text-right; }
+}
+
+.animated {
+  &.fadeIn{ @include fadeIn; }
 }
