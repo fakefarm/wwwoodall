@@ -3,21 +3,28 @@
 
 // padding, pixels, weights
 
-$limited-space: 0em;
-$default-space: 1em;
-$extra-space:   2em;
-$line-weight:   3px;
-$subtle-radius: 3px;
-$line-type:     solid;
+$limited_space: 0em;
+$default_space: 1em;
+$extra_space:   2em;
+$line_weight:   3px;
+$subtle_radius: 3px;
+$line_type:     solid;
 
+$font_size_4:   4em;
+$font_size_3:   3em;
+$font_size_2:   2em;
+$font_size_1:   1em;
 
 // colors
+$white: rgba(255,255,255,0.5);
 $gray:       #004080;
-$light-gray: #eee;
+$light_gray: #eee;
 $eggplant:   #800080;
+$pink:       #F2DDE6;
 $green:      #00A050;
 
 // typography
+$sanserif: 'helvetica neue', helvetica, arial;
 $lucida: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 
 
@@ -25,43 +32,50 @@ $lucida: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana,
 // Able to use raw HTML elements
 // Use variables for measurements
 
-@mixin text-right { text-align: right; }
+@mixin text_right { text-align: right; }
 
 @mixin paragraph {
-  color: $gray;
-  font-size: $default-space;
+  background: $white;
+  font-size: $default_space;
   font-family: $lucida;
-  padding: $extra-space;
+  padding: $extra_space;
   line-height: 25px;
 }
 
-@mixin rounded-background-dark {
-  background: $light-gray;
-  border-radius: $line-weight;
+@mixin rounded_background_dark {
+  background: $light_gray;
+  border-radius: $line_weight;
 }
 
 @mixin container {
-  padding: $extra-space;
-  margin: $extra-space;
-  border: $line-weight $line-type $gray;
+  padding: $extra_space;
+  background: $light_gray;
+  margin: $extra_space;
+  border: $line_weight $line_type $gray;
 }
 
 @mixin list {
   ul {
     color: $eggplant;
+    background: $pink;
+    padding-top: $default_space;
+    padding-bottom: $default_space;
   }
   li {
-    font-size: $default-space;
-    margin: $default-space $limited-space $limited-space $limited-space;
+    font-size: $default_space;
+    margin: $default_space $limited_space $limited_space $limited_space;
   }
 }
 
 @mixin button {
   background: $green;
   color: white;
-  border-radius: $subtle-radius;
-  font-size: $default-space;
-  padding: $default-space;
+  border-radius: $subtle_radius;
+  font-family: $sanserif;
+  font-size: $font_size_4;
+  font-weight: 100;
+  letter-spacing: 3px;
+  padding: $default_space;
   display: inline-block;
   cursor: pointer;
   &:hover {
@@ -71,30 +85,34 @@ $lucida: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana,
 
 @mixin dynamic {
   opacity: 0;
+  font-size: 0;
 }
-@mixin active { opacity: 1 !important; }
+@mixin active {
+  opacity: 1 !important;
+  font-size: inherit !important;
+}
 
 
 
 // FIX
 @mixin fadeIn {
-//   margin-left: 0;
-//   @include transition(all 300ms ease-in);
+//   margin_left: 0;
+//   @include transition(all 300ms ease_in);
 }
 
 // .animated {
-//   @include transition(all 300ms ease-in);
+//   @include transition(all 300ms ease_in);
 // }
 
 
-.reach {
+._reach_ {
   &.app {}
   &.page {}
   &.collection {}
   // .unit -> use .unit
 }
 
-.content {
+._content_ {
   &.container { @include container }
   &.button    { @include button    }
   &.paragraph { @include paragraph }
@@ -105,29 +123,32 @@ $lucida: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana,
 }
 
 
-.unit {
-  &.rounded-background-dark { @include rounded-background-dark }
-  &.welcome-title { font-size: 3em; }
-  &.welcome-message { font-size: 1.4em; }
+._unit_ {
+  &.rounded_background_dark { @include rounded_background_dark }
+  &.welcome_title { font-size: $font_size_4; }
+  &.welcome_message { font-size: $font_size_2; }
   &.welcome-btn {}
+  &.collection-title {
+    font-size: $font_size_3;
+  }
 }
 
-.responsive {
-  &.col-1 {}
-  &.col-2 {}
+._responsive_ {
+  &.col_1 {}
+  &.col_2 {}
   &.hide  {}
 }
 
-.state {
+._state_ {
   &.active  { @include active; }
   &.dynamic { @include dynamic; }
   &.alarm   {}
 }
 
-.overrides {
-  &.text-right { @include text-right; }
+._overrides_ {
+  &.text_right { @include text_right; }
 }
 
-.animated {
+._animated_ {
   &.fadeIn{ @include fadeIn; }
 }

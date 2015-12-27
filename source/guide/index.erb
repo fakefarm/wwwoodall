@@ -3,84 +3,82 @@ title: Dave Woodall
 layout: guide
 ---
 
+<!--
+  let our tools inspire new paths and thought
+ -->
+
 <div
   class="
-    reach collection
-    content container
-    responsive col-1
-    state active
-    overrides">
+    _reach_ app info_bar
+    _content_ title
+    _responsive_ col-1
+    _state_ active
+    _overrides_
+    _animation_
+    ">
+    <%= data.guide.info_bar %>
+  <div
+    class="
+      _reach_ collection
+      _content_ container
+      _responsive_ col-1
+      _state_ active
+      _overrides_">
 
-    <div
-      class="
-        reach unit welcome-title
-        content title
-        responsive col-1
-        state active
-        overrides">
+      <div
+        class="
+          _reach_ unit welcome-title
+          _content_ title
+          _responsive_ col-1
+          _state_ active
+          _overrides_">
+          <%= data.guide.welcome_title %>
+      </div><!-- unit welcome-title-->
 
-        declarative html & css
+      <div
+        class="
+          _reach_ unit rounded-background-dark
+          _content_ paragraph
+          _responsive_ col-1
+          _state_ active
+          _overrides_">
+          <%= data.guide.rounded_background_dark %>
+      </div><!-- unit rounded-background-dark-->
 
-    </div><!-- unit welcome-title-->
+      <div
+        class="
+          _reach_ unit list-summary
+          _content_ list
+          _responsive_ col-1
+          _state_ active
+          _overrides_">
+          <%= data.guide.list_summary %>
+      </div><!-- unit list-summary-->
 
-    <div
-      class="
-        reach unit rounded-background-dark
-        content paragraph
-        responsive col-1
-        state active
-        overrides">
+      <div
+        class="
+          _reach_ unit welcome_btn
+          _content_ button
+          _responsive_ col-1
+          _state_ active
+          _overrides_
+          _animation_ fadeIn
+          ">
+          <%= data.guide.welcome_btn %>
+      </div> <!-- unit welcome_btn-->
 
-        I've been learning HTML and CSS for the past 6 years. I've read many books and messed around with things like angular and rails. I've started to take some pointers from those and SMACSS, BEM, and other resources to handle two things;
-    </div><!-- unit rounded-background-dark-->
-    <div
-      class="
-        reach unit list-summary
-        content list
-        responsive col-1
-        state active
-        overrides">
+      <div
+        class="
+          _reach_ unit welcome-message
+          _content_ paragraph
+          _responsive_ col-1
+          _state_ dynamic
+          _overrides_"
 
-        <ul>
-          <li>responsive web</li>
-          <li>consistent, reusable styles</li>
-          <li>cross browser friendly</li>
-          <li>managing heirarchy & overrides</li>
-          <li>remembering to use established styles</li>
-          <li>easy to change the entire site</li>
-          <li>managing state, alarms, and other animations</li>
-          <li>managing animations</li>
-        </ul>
+          data-content='welcome'>
 
-    </div><!-- unit list-summary-->
-    <div
-      class="
-        reach unit welcome-btn
-        content button
-        responsive col-1
-        state active
-        overrides
-        animated fadeIn
-        "
+          This is a test for something that should start hidden but then is revealed when someone pushes the button
 
-        data-click="welcome">
-
-        View Dynamic Content
-
-    </div> <!-- unit welcome-btn-->
-
-    <div
-      class="
-        reach unit welcome-message
-        content paragraph
-        responsive col-1
-        state dynamic
-        overrides"
-
-        data-content='welcome'>
-
-        This is a test for something that should start hidden but then is revealed when someone pushes the button
-
-    </div> <!-- unit welcome-message-->
-</div><!-- collection -->
-
+      </div> <!-- unit welcome-message-->
+  </div><!-- collection -->
+</div> <!-- app info_bar-->
